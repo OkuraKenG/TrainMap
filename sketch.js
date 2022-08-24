@@ -1,8 +1,11 @@
 let table, stationList, calendar_dates, routes, stop_times, trips;
 let reformated
+let railroad
+let allTrains
 
 function preload() {
   let abc = "MNRR"
+  railroad = abc
   calendar_dates = loadTable(`./data/${abc}/calendar_dates.txt`, "csv", "header");
   routes = loadTable(`./data/${abc}/routes.txt`, "csv", "header");
   table = loadTable(`./data/${abc}/shapes.txt`, "csv", "header");
@@ -47,13 +50,13 @@ function setup() {
     }
   ).addTo(map);
 
-  // general 
+  // // general 
   // for (let i = 0 ; i < allLatLongs.length ; i++) {
   //   var polyline = L.polyline(allLatLongs[i].latlngs, { color: "black" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
   // }
-  //var polyline = L.polyline(allLatLongs[45].latlngs, { color: "purple" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
+  // //var polyline = L.polyline(allLatLongs[45].latlngs, { color: "purple" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
 
-  //   zoom the map to the polyline
+  //  // zoom the map to the po lyline
   // map.fitBounds(polyline.getBounds());
 
 
@@ -79,7 +82,9 @@ function setup() {
       fillColor: 'white',
       fillOpacity: 0.5,
       radius: 25
-    }).bindPopup(stationName).addTo(map);
+    }).bindPopup(stationName).on('click', function() {
+      displayStoppingTrains(getStopingTrainsAtStop(stationName,false),stationName);
+  }).addTo(map);
   }
 }
 
@@ -118,9 +123,128 @@ function reformat(listOfTrains) {
   let reformat = [] 
   for (let i = 0 ; i < listOfTrains.length ; i++) {
     trip_id = listOfTrains[i].arr[2];
-    trainObject = {overallTrainInfo:   listOfTrains[i].arr,
+    trainObject = {overallTrainInfo:   listOfTrains[i],
                    stops:              stop_times.findRows(trip_id,0)};
     reformat.push(trainObject);
   }
   return reformat;
+}
+
+function getStopingTrainsAtStop(station,asNumber) {
+  if (asNumber == false) {
+    stop_num = stationList.findRow(station,2)
+    if (stop_num == null)
+      return 'Error'
+    else {
+      stop_num = stationList.findRow(station,2).arr[0]
+    }
+  } else {
+    stop_num = station
+  }
+
+  allTrains = []
+  count = 0
+  for (let train of reformated) {
+    stopsArr = train.stops;
+    for (let stop of stopsArr) {
+      stopStats = stop.arr;
+      if (stopStats[3] == stop_num ) {
+        allTrains.push([train,stop])
+        count++;
+      }
+    }
+  }
+
+  allTrains.sort((a,b) => {
+    return a[1].arr[1].localeCompare(b[1].arr[1])
+  });
+
+  // if (railroad == 'MNRR') {
+  //   allTrains = cleanAllTrains(allTrains) 
+  // }
+
+  return allTrains;
+ 
+}
+
+function displayStoppingTrains(allTrains,stationName) {
+  let tablecontainer = document.getElementById('tablecontainer');
+  tablecontainer.innerHTML = '';
+  let overlayinner = document.getElementById('overlayinner');
+  overlayinner.innerHTML = '';
+  let overlay = document.getElementById('overlay');
+
+  let htmlTable = document.createElement('table');
+  let dontmissthetrain = []
+
+  for (train of allTrains) {
+    let depature_time = train[1].obj.departure_time;
+    if (parseInt(depature_time.substring(0,2)) < 4) {
+      depature_time = (parseInt(depature_time.substring(0,2))+24)+depature_time.substring(2)
+    }
+    let line = lineNumToStr(train[0].overallTrainInfo.obj.route_id);
+    let headsign = train[0].overallTrainInfo.obj.trip_headsign;
+    let track = train[1].obj.track;
+    let direction =  train[0].overallTrainInfo.obj.direction_id;
+    if (direction == 0) {
+      direction = 'North'
+    } else {
+      direction = 'South'
+    }
+    let shortname = train[0].overallTrainInfo.obj.trip_short_name;
+    dontmissthetrain.push([depature_time,line,headsign,track,direction,shortname]);
+    // console.log(`${depature_time} ${line} ${headsign} ${track} ${direction} ${shortname}`);
+
+  }
+
+  dontmissthetrain.sort((a,b) => {
+    return a[0].localeCompare(b[0]);
+  });
+
+  let head = ['Arrival/Depature Time','Line','Destination','Track','Direction','Train Number']  
+  let headerRow = document.createElement('thead');
+  let headerTr = document.createElement('tr');
+  for (h of head ) {
+    let th = document.createElement('th');
+    th.innerText = h;
+    headerTr.appendChild(th);
+  }
+  headerRow.appendChild(headerTr);
+
+  htmlTable.appendChild(headerRow);
+
+
+  for (row of dontmissthetrain) {
+    let r = document.createElement('tr');
+    for (col of row) {
+      let c = document.createElement('td');
+      c.innerText = col;
+      r.appendChild(c);
+    }
+    htmlTable.appendChild(r);
+  }
+
+  tablecontainer.appendChild(htmlTable);
+  overlay.style.display = 'grid';
+
+  let station = document.createElement('h1');
+  station.innerText = stationName;
+  overlayinner.appendChild(station);
+  overlayinner.appendChild(htmlTable);
+
+  let newButton = document.createElement('button');
+  newButton.setAttribute('class','buttonExit');
+  newButton.addEventListener('click',close);
+  newButton.innerText = 'Exit';
+  overlayinner.appendChild(newButton);
+  //       <button class="buttonExit" id="exitButton" onclick="close()">Exit</button>
+
+}
+
+function lineNumToStr(num) {
+  return routes.findRow(num,0).arr[3];
+}
+
+function close() {
+  document.getElementById('overlay').style.display = ''
 }

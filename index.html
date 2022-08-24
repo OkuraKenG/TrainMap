@@ -17,7 +17,13 @@
 <body>
   <main>
   </main>
-  <div id="maap" class="leaflet-container"><h1>Loading!!! It might take a few seconds!</h2> I should really make it load faster.</div>
+  <div class="overlay" id="overlay" style="z-index: 1;">
+    <div class="overlayinner" id="overlayinner">
+
+    </div>
+  </div>
+  <div id="maap" class="leaflet-container" style="display: absolute; z-index: 0;"><h1>Loading!!! It might take a few seconds!</h2> I should really make it load faster.</div>
+  <div id="tablecontainer"></div>
   <script src="sketch.js"></script>
 </body>
 
