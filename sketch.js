@@ -18,7 +18,8 @@ function preload() {
 let allLatLongs;
 
 function setup() {
-  reformated = reformat(getTrains(getServices())) 
+  reformated = reformat(getTrains(getServices()));
+  console.log('Ready');
   allLatLongs = [];
   let latlngs = [];
   let rem = table.rows[0].arr[0]; // Gets the the first point
@@ -175,6 +176,7 @@ function displayStoppingTrains(allTrains,stationName) {
   let overlay = document.getElementById('overlay');
 
   let htmlTable = document.createElement('table');
+  htmlTable.setAttribute('id','thetable');
   let dontmissthetrain = []
 
   for (train of allTrains) {
@@ -192,7 +194,9 @@ function displayStoppingTrains(allTrains,stationName) {
       direction = 'South'
     }
     let shortname = train[0].overallTrainInfo.obj.trip_short_name;
-    dontmissthetrain.push([depature_time,line,headsign,track,direction,shortname]);
+    let origin = stopnumToStr(train[0].stops[0].obj.stop_id);
+    
+    dontmissthetrain.push([depature_time,line,origin,headsign,track,direction,shortname]);
     // console.log(`${depature_time} ${line} ${headsign} ${track} ${direction} ${shortname}`);
 
   }
@@ -201,10 +205,10 @@ function displayStoppingTrains(allTrains,stationName) {
     return a[0].localeCompare(b[0]);
   });
 
-  let head = ['Arrival/Depature Time','Line','Destination','Track','Direction','Train Number']  
+  let head = ['Arrival/Depature Time','Line','Origin','Terminus','Track','Direction','Train Number']  
   let headerRow = document.createElement('thead');
   let headerTr = document.createElement('tr');
-  for (h of head ) {
+  for (let h of head ) {
     let th = document.createElement('th');
     th.innerText = h;
     headerTr.appendChild(th);
@@ -214,11 +218,35 @@ function displayStoppingTrains(allTrains,stationName) {
   htmlTable.appendChild(headerRow);
 
 
-  for (row of dontmissthetrain) {
+  for (let row of dontmissthetrain) {
     let r = document.createElement('tr');
-    for (col of row) {
+    r.setAttribute('id',row[row.length-1]);
+
+    for (let [index,col] of row.entries()) {
       let c = document.createElement('td');
       c.innerText = col;
+
+      if (head[index] == 'Line') {      
+        if (col == 'Harlem') {
+        c.style.background =  '#0039A6';
+        c.style.color = '#FFFFFF';
+      } else if (col == 'Hudson') {
+        c.style.background =  '#009B3A';
+        c.style.color = '#FFFFFF';
+      } else if (col == 'Waterbury' || col == 'Danbury' || col == 'New Canaan' || col == 'New Haven') {
+        c.style.background =  '#EE0034';
+        c.style.color = '#FFFFFF';
+      }
+      }
+
+      if (head[index] == 'Train Number') {
+        r.setAttribute('stopsVisible','false');     
+        c.addEventListener('click', () => {
+          displayTrains(findByTrainNumber(col),stationName)
+        });
+      }
+
+
       r.appendChild(c);
     }
     htmlTable.appendChild(r);
@@ -228,7 +256,7 @@ function displayStoppingTrains(allTrains,stationName) {
   overlay.style.display = 'grid';
 
   let station = document.createElement('h1');
-  station.innerText = stationName;
+  station.innerText = `${stationName} (${dontmissthetrain.length} trains)`;
   overlayinner.appendChild(station);
   overlayinner.appendChild(htmlTable);
 
@@ -245,6 +273,87 @@ function lineNumToStr(num) {
   return routes.findRow(num,0).arr[3];
 }
 
+function stopnumToStr(num) {
+  return stationList.findRow(num,0).arr[2];
+}
+
 function close() {
   document.getElementById('overlay').style.display = ''
 }
+function findByTrainNumber(num) {
+  for (let train of reformated) {
+    if (train.overallTrainInfo.obj.trip_short_name == num) {
+      // console.log(train);
+      return train;
+    }
+  }
+  return 'None Found...';
+}
+
+function displayTrains(train,stationName) {
+
+  let stops = train.stops;
+  let trip_short_name = train.overallTrainInfo.obj.trip_short_name;
+
+  let mainRowBool = document.getElementById(trip_short_name).getAttribute('stopsvisible')
+
+  if (mainRowBool != 'false') {
+    let rowToKill = document.getElementsByClassName(`RandomPickels${trip_short_name}`);
+    for (let i = rowToKill.length -1 ; i >= 0 ;i--) {
+        document.getElementById('thetable').removeChild(rowToKill[i]);
+    }
+    document.getElementById(trip_short_name).setAttribute('stopsvisible','false');
+    return;
+  }
+
+  let header = [' ','#','Stop Name','Time','Tk'];
+  let convertedToTable = [];
+  for (let [index,stop] of stops.entries()) {
+    let number = index + 1;
+    let stopName = stopnumToStr(stop.obj.stop_id);
+    let time = stop.obj.arrival_time;
+    let track = stop.obj.track;
+    convertedToTable.push(['',number,stopName,time,track]);
+  }
+  
+  convertedToTable[0][0] = 'Origin';
+  convertedToTable[convertedToTable.length - 1 ][0] = 'Terminus';
+  // console.log(convertedToTable);
+  
+  let newTableHeader = document.createElement('tr');
+
+  for (let h of header ) {
+    let th = document.createElement('th');
+    th.innerText = h;
+    newTableHeader.appendChild(th);
+  }
+  newTableHeader.setAttribute('class',`RandomPickels${trip_short_name}`);
+
+  document.getElementById('thetable').insertBefore(newTableHeader,document.getElementById(trip_short_name).nextSibling);
+  
+  let temp = newTableHeader;
+  for (let row of convertedToTable) {
+    let r = document.createElement('tr');
+    // r.setAttribute('id',row[row.length-1]);
+
+    for (let [index,col] of row.entries()) {
+      let c = document.createElement('td');
+      c.innerText = col;
+      if (index == 0) {
+        c.setAttribute('align','right');
+        c.setAttribute('style','font-weight: bold;');
+
+      }
+      if (col == stationName) {
+        r.style.background = 'black';
+        r.style.color = 'white';
+      }
+
+      r.appendChild(c);
+    }
+    r.setAttribute('class',`RandomPickels${trip_short_name}`);
+    document.getElementById('thetable').insertBefore(r,temp.nextSibling);
+    temp = r;
+  }
+  document.getElementById(trip_short_name).setAttribute('stopsvisible','true');
+} 
