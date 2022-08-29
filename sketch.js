@@ -1,46 +1,53 @@
 let table, stationList, calendar_dates, routes, stop_times, trips;
-let reformated
-let railroad
-let allTrains
+let reformated;
+let railroad;
+let allTrains;
+let allLatLongs;
+let abc;
+
 
 function preload() {
-  let abc = "MNRR"
-  railroad = abc
-  calendar_dates = loadTable(`./data/${abc}/calendar_dates.txt`, "csv", "header");
-  routes = loadTable(`./data/${abc}/routes.txt`, "csv", "header");
-  table = loadTable(`./data/${abc}/shapes.txt`, "csv", "header");
-  stop_times = loadTable(`./data/${abc}/stop_times.txt`, "csv", "header");
-  stationList = loadTable(`./data/${abc}/stops.txt`, "csv", "header");
-  // colors =  loadTable("./data/colors.txt","txt","header");
-  trips = loadTable(`./data/${abc}/trips.txt`, "csv", "header");  
+  abc = loadJSON('./setup.json');
+  railroad = 'MNR';
+  calendar_dates = loadTable(`./data/${railroad}/calendar_dates.txt`, "csv", "header");
+  routes = loadTable(`./data/${railroad}/routes.txt`, "csv", "header");
+  table = loadTable(`./data/${railroad}/shapes.txt`, "csv", "header");
+  stop_times = loadTable(`./data/${railroad}/stop_times.txt`, "csv", "header");
+  stationList = loadTable(`./data/${railroad}/stops.txt`, "csv", "header");
+  trips = loadTable(`./data/${railroad}/trips.txt`, "csv", "header");  
 }
 
-let allLatLongs;
+// https://traintime.mta.info/map?trainId=MNR_9699&code=2NR
 
 function setup() {
+  console.log(abc);
+  // ~ setup ~ //
+  noCanvas();
   reformated = reformat(getTrains(getServices()));
   console.log('Ready');
-  allLatLongs = [];
-  let latlngs = [];
-  let rem = table.rows[0].arr[0]; // Gets the the first point
+
+  // ~ showing all trains stops ~ // 
+  allLatLongs = []; // Stores all the lines
+  let latlngs = []; // Stores all the points to draw a line
+  let rem = table.rows[0].obj.shape_id; // Gets the the first point
 
   // converts csv data to array
   for (let row of table.rows) {
-    let cord = [row.arr[1], row.arr[2], row.arr[3]]; // Gets current cord of row
+    let cord = [row.obj.shape_pt_lat, row.obj.shape_pt_lon, row.obj.shape_pt_sequence]; // Gets current cord of row
     latlngs.push(cord); // Saves to list
-    if (row.arr[0] != rem) { // If it's a diffrent shape ID...
+    if (row.obj.shape_id != rem) { // If it's a diffrent shape ID...
       let newLat = latlngs.pop(); // ...it saves the last collected cord, it's part of next shape
       latlngs.sort(function (a, b) { // sort the list of lat/longs for current shape by it's order (MTA data is out of order)
         return a[2] - b[2];
       });
       allLatLongs.push({ latlngs: latlngs, shapeID: rem }); // add to storage
+
       latlngs = [newLat]; // add to next shape
-      rem = row.arr[0]; // record ID of shape
+      rem = row.obj.shape_id; // record ID of shape
     }
   }
 
-  noCanvas();
-  var map = L.map("maap").setView([0, 0], 13);
+  var map = L.map("maap").setView([0, 0], 14);
 
   var tiles = L.tileLayer(
     "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
@@ -51,32 +58,33 @@ function setup() {
     }
   ).addTo(map);
 
-  // // general 
-  // for (let i = 0 ; i < allLatLongs.length ; i++) {
-  //   var polyline = L.polyline(allLatLongs[i].latlngs, { color: "black" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
-  // }
-  // //var polyline = L.polyline(allLatLongs[45].latlngs, { color: "purple" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
-
-  //  // zoom the map to the po lyline
-  // map.fitBounds(polyline.getBounds());
-
-
-  // Just MNRR
-  let colors = ['#009B3A', '#EE0034', '#EE0034', '#EE0034', '#EE0034', '#0039A6'];
-  let linesToPrint = [1, 8, 10, 11, 5, 3];
-  //let linesToPrint = [  4];
-
-  let i = 0;
-  for (let shape of linesToPrint) {
-    var polyline = L.polyline(allLatLongs.find(({ shapeID }) => shapeID == shape).latlngs, { color: colors[i] }).bindPopup(`${shape}`).addTo(map);
-    i++;
+  // general 
+  for (let i = 0 ; i < allLatLongs.length ; i++) {
+    var polyline = L.polyline(allLatLongs[i].latlngs, { color: "black" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
   }
+  //var polyline = L.polyline(allLatLongs[45].latlngs, { color: "purple" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
+
+   // zoom the map to the po lyline
+  map.fitBounds(polyline.getBounds());
+
+
+  // // Just MNRR
+  // let colors = ['#009B3A', '#EE0034', '#EE0034', '#EE0034', '#EE0034', '#0039A6'];
+  // let linesToPrint = [1, 8, 10, 11, 5, 3];
+  // //let linesToPrint = [  4];
+
+  // let i = 0;
+  // for (let shape of linesToPrint) {
+  //   var polyline = L.polyline(allLatLongs.find(({ shapeID }) => shapeID == shape).latlngs, { color: colors[i] }).bindPopup(`${shape}`).addTo(map);
+  //   i++;
+  // }
 
   // zoom the map to the polyline
   map.fitBounds(polyline.getBounds());
 
+  // ~ shows all the stop ~ //
   for (let x of stationList.rows) {
-    let latlngs = [x.arr[4], x.arr[5]];
+    let latlngs = [x.obj.stop_lat, x.obj.stop_lon];
     let stationName = x.arr[2]
     var circle = L.circle(latlngs, {
       color: '#353535',
@@ -106,16 +114,14 @@ function getTodayDateStr() {
   return year + month + day;
 }
 
-
-
 function getServices() {
-  return calendar_dates.findRows('20220808', 1);
+  return calendar_dates.findRows(getTodayDateStr(), 'date');
 }
 
 function getTrains(listOfServices) {
   listOfTrains = [];
   for (row of listOfServices) {
-    listOfTrains = listOfTrains.concat(trips.findRows(row.arr[0], 1));
+    listOfTrains = listOfTrains.concat(trips.findRows(row.obj.service_id, 'service_id'));
   }
   return listOfTrains;
 }
@@ -123,9 +129,9 @@ function getTrains(listOfServices) {
 function reformat(listOfTrains) {
   let reformat = [] 
   for (let i = 0 ; i < listOfTrains.length ; i++) {
-    trip_id = listOfTrains[i].arr[2];
+    trip_id = listOfTrains[i].obj.trip_id;
     trainObject = {overallTrainInfo:   listOfTrains[i],
-                   stops:              stop_times.findRows(trip_id,0)};
+                   stops:              stop_times.findRows(trip_id,'trip_id')};
     reformat.push(trainObject);
   }
   return reformat;
@@ -133,11 +139,11 @@ function reformat(listOfTrains) {
 
 function getStopingTrainsAtStop(station,asNumber) {
   if (asNumber == false) {
-    stop_num = stationList.findRow(station,2)
+    stop_num = stationList.findRow(station,'stop_name')
     if (stop_num == null)
       return 'Error'
     else {
-      stop_num = stationList.findRow(station,2).arr[0]
+      stop_num = stationList.findRow(station,'stop_name').obj.stop_id;
     }
   } else {
     stop_num = station
@@ -148,16 +154,16 @@ function getStopingTrainsAtStop(station,asNumber) {
   for (let train of reformated) {
     stopsArr = train.stops;
     for (let stop of stopsArr) {
-      stopStats = stop.arr;
-      if (stopStats[3] == stop_num ) {
-        allTrains.push([train,stop])
+      stopStats = stop.obj;
+      if (stopStats.stop_id == stop_num ) {
+        allTrains.push([train,stop]);
         count++;
       }
     }
   }
 
   allTrains.sort((a,b) => {
-    return a[1].arr[1].localeCompare(b[1].arr[1])
+    return a[1].obj.arrival_time.localeCompare(b[1].obj.arrival_time);
   });
 
   // if (railroad == 'MNRR') {
@@ -180,23 +186,29 @@ function displayStoppingTrains(allTrains,stationName) {
   let dontmissthetrain = []
 
   for (train of allTrains) {
-    let depature_time = train[1].obj.departure_time;
-    if (parseInt(depature_time.substring(0,2)) < 4) {
-      depature_time = (parseInt(depature_time.substring(0,2))+24)+depature_time.substring(2)
+    let arrival_time = train[1].obj.arrival_time;
+    if (railroad = 'MNR') { // since MNR starts days at 4...
+      if (parseInt(arrival_time.substring(0,2)) < 4) {
+        arrival_time = (parseInt(arrival_time.substring(0,2))+24)+arrival_time.substring(2);
+      }
     }
     let line = lineNumToStr(train[0].overallTrainInfo.obj.route_id);
     let headsign = train[0].overallTrainInfo.obj.trip_headsign;
     let track = train[1].obj.track;
     let direction =  train[0].overallTrainInfo.obj.direction_id;
-    if (direction == 0) {
-      direction = 'North'
-    } else {
-      direction = 'South'
-    }
+
+
+    
+      if (direction == 0) {
+        direction = abc.meta[abc.railroad.id].direction0;
+      } else {
+        direction = abc.meta[abc.railroad.id].direction1;
+      }
+        
     let shortname = train[0].overallTrainInfo.obj.trip_short_name;
     let origin = stopnumToStr(train[0].stops[0].obj.stop_id);
     
-    dontmissthetrain.push([depature_time,line,origin,headsign,track,direction,shortname]);
+    dontmissthetrain.push([arrival_time,line,origin,headsign,track,direction,shortname]);
     // console.log(`${depature_time} ${line} ${headsign} ${track} ${direction} ${shortname}`);
 
   }
@@ -270,16 +282,17 @@ function displayStoppingTrains(allTrains,stationName) {
 }
 
 function lineNumToStr(num) {
-  return routes.findRow(num,0).arr[3];
+  return routes.findRow(num,'route_id').obj.route_long_name;
 }
 
 function stopnumToStr(num) {
-  return stationList.findRow(num,0).arr[2];
+  return stationList.findRow(num,'stop_id').obj.stop_name;
 }
 
 function close() {
-  document.getElementById('overlay').style.display = ''
+  document.getElementById('overlay').style.display = '';
 }
+
 function findByTrainNumber(num) {
   for (let train of reformated) {
     if (train.overallTrainInfo.obj.trip_short_name == num) {

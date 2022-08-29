@@ -1,0 +1,18 @@
+{
+    "railroad" : {"selected" : "MNR", "id" :0},
+    "meta" : [
+        {
+            "railroad" : "Metro North Railroad",
+            "shortname" : "MNR",
+            "direction0" : "North",
+            "direction1" : "South"
+        },
+        {
+            "railroad" : "Long Island Railroad",
+            "shortname" : "LIRR",
+            "direction0" : "West",
+            "direction1" : "East"
+        }
+    ]
+
+}
