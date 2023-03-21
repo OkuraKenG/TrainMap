@@ -8,7 +8,7 @@ let abc;
 
 function preload() {
   abc = loadJSON('./setup.json');
-  railroad = 'Subway';
+  railroad = 'MNR';
   calendar_dates = loadTable(`./data/${railroad}/calendar_dates.txt`, "csv", "header");
   routes = loadTable(`./data/${railroad}/routes.txt`, "csv", "header");
   table = loadTable(`./data/${railroad}/shapes.txt`, "csv", "header");
