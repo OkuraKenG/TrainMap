@@ -8,7 +8,7 @@ let abc;
 
 function preload() {
   abc = loadJSON('./setup.json');
-  railroad = 'Subway';
+  railroad = 'MNR';
   calendar_dates = loadTable(`./data/${railroad}/calendar_dates.txt`, "csv", "header");
   routes = loadTable(`./data/${railroad}/routes.txt`, "csv", "header");
   table = loadTable(`./data/${railroad}/shapes.txt`, "csv", "header");
@@ -59,25 +59,25 @@ function setup() {
   ).addTo(map);
 
   // general 
-  for (let i = 0 ; i < allLatLongs.length ; i++) {
-    var polyline = L.polyline(allLatLongs[i].latlngs, { color: "black" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
-  }
+  // for (let i = 0 ; i < allLatLongs.length ; i++) {
+  //   var polyline = L.polyline(allLatLongs[i].latlngs, { color: "black" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
+  // }
   //var polyline = L.polyline(allLatLongs[45].latlngs, { color: "purple" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
 
    // zoom the map to the po lyline
-  map.fitBounds(polyline.getBounds());
+  //map.fitBounds(polyline.getBounds());
 
 
-  // // Just MNRR
-  // let colors = ['#009B3A', '#EE0034', '#EE0034', '#EE0034', '#EE0034', '#0039A6'];
-  // let linesToPrint = [1, 8, 10, 11, 5, 3];
-  // //let linesToPrint = [  4];
+  // Just MNRR
+  let colors = ['#009B3A', '#EE0034', '#EE0034', '#EE0034', '#EE0034', '#0039A6'];
+  let linesToPrint = [1, 8, 10, 11, 5, 3];
+  //let linesToPrint = [  4];
 
-  // let i = 0;
-  // for (let shape of linesToPrint) {
-  //   var polyline = L.polyline(allLatLongs.find(({ shapeID }) => shapeID == shape).latlngs, { color: colors[i] }).bindPopup(`${shape}`).addTo(map);
-  //   i++;
-  // }
+  let i = 0;
+  for (let shape of linesToPrint) {
+    var polyline = L.polyline(allLatLongs.find(({ shapeID }) => shapeID == shape).latlngs, { color: colors[i] }).bindPopup(`${shape}`).addTo(map);
+    i++;
+  }
 
   // zoom the map to the polyline
   map.fitBounds(polyline.getBounds());
@@ -128,12 +128,14 @@ function getTrains(listOfServices) {
 
 function reformat(listOfTrains) {
   let reformat = [] 
+  console.log(listOfTrains.length);
   for (let i = 0 ; i < listOfTrains.length ; i++) {
     trip_id = listOfTrains[i].obj.trip_id;
     trainObject = {overallTrainInfo:   listOfTrains[i],
                    stops:              stop_times.findRows(trip_id,'trip_id')};
     reformat.push(trainObject);
   }
+  //console.log(reformat);
   return reformat;
 }
 
@@ -187,7 +189,7 @@ function displayStoppingTrains(allTrains,stationName) {
 
   for (train of allTrains) {
     let arrival_time = train[1].obj.arrival_time;
-    if (railroad = 'MNR') { // since MNR starts days at 4...
+    if (railroad == 'MNR') { // since MNR starts days at 4...
       if (parseInt(arrival_time.substring(0,2)) < 4) {
         arrival_time = (parseInt(arrival_time.substring(0,2))+24)+arrival_time.substring(2);
       }
@@ -319,7 +321,7 @@ function displayTrains(train,stationName) {
     return;
   }
 
-  let header = [' ','#','Stop Name','Time','Tk'];
+  let header = [`Train ${trip_short_name} Stops`,'#','Stop Name','Time','Tk'];
   let convertedToTable = [];
   for (let [index,stop] of stops.entries()) {
     let number = index + 1;
@@ -329,8 +331,8 @@ function displayTrains(train,stationName) {
     convertedToTable.push(['',number,stopName,time,track]);
   }
   
-  convertedToTable[0][0] = 'Origin';
-  convertedToTable[convertedToTable.length - 1 ][0] = 'Terminus';
+  convertedToTable[0][0] = 'Origin Station: ';
+  convertedToTable[convertedToTable.length - 1 ][0] = 'Terminus Station: ';
   // console.log(convertedToTable);
   
   let newTableHeader = document.createElement('tr');
