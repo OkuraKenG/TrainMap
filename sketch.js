@@ -8,14 +8,14 @@ let gridmap;
 let linesmap;
 
 function preload() {
-  // abc = loadJSON('./setup.json');
-  // railroad = 'MNR';
-  // calendar_dates = loadTable(`./data/${railroad}/calendar_dates.txt`, "csv", "header");
-  // routes = loadTable(`./data/${railroad}/routes.txt`, "csv", "header");
-  // table = loadTable(`./data/${railroad}/shapes.txt`, "csv", "header");
-  // stop_times = loadTable(`./data/${railroad}/stop_times.txt`, "csv", "header");
-  // stationList = loadTable(`./data/${railroad}/stops.txt`, "csv", "header");
-  // trips = loadTable(`./data/${railroad}/trips.txt`, "csv", "header");  
+  abc = loadJSON('./setup.json');
+  railroad = 'MNR';
+  calendar_dates = loadTable(`./data/${railroad}/calendar_dates.txt`, "csv", "header");
+  routes = loadTable(`./data/${railroad}/routes.txt`, "csv", "header");
+  table = loadTable(`./data/${railroad}/shapes.txt`, "csv", "header");
+  stop_times = loadTable(`./data/${railroad}/stop_times.txt`, "csv", "header");
+  stationList = loadTable(`./data/${railroad}/stops.txt`, "csv", "header");
+  trips = loadTable(`./data/${railroad}/trips.txt`, "csv", "header");
   gridmap = loadJSON(`./data/stops.json`);
   linesmap = loadJSON(`./data/lines.json`);
 }
@@ -25,114 +25,29 @@ function preload() {
 function setup() {
   pixelDensity(10);
   createCanvas(840, 690);
+  canvasDrawer();
+  buttonGenerator();
   frameRate(1);
-  //   console.log(gridmap);
-  //   for (let i = 0; i < gridmap.getRowCount() ; i++) {
-  //     gridmap.setString(i,4,parseInt(gridmap.getString(i,4))+1);
-  // }
-  // saveTable(gridmap, "stopsfixed.csv");
-
-  // let table1 = [];
-  // for (let i = 1 ; i < gridmap.rows.length ; i ++) {
-  //   let currentRow = gridmap.rows[i].arr;
-
-  //   for (let j = 0 ; j < currentRow.length ; j++ ) {
-  //     if (currentRow[j] == 'T' ) {
-  //       currentRow[j] = `${j},${i}`;
-  //     }
-  //   }
-  //   table1.push(currentRow);
-  // }
-  // console.log(table1);
-
-  if (false) {
-    // ~ setup ~ //
-    //noCanvas();
-    reformated = reformat(getTrains(getServices()));
-    console.log('Ready');
-
-    // ~ showing all trains stops ~ // 
-    allLatLongs = []; // Stores all the lines
-    let latlngs = []; // Stores all the points to draw a line
-    let rem = table.rows[0].obj.shape_id; // Gets the the first point
-
-    // converts csv data to array
-    for (let row of table.rows) {
-      let cord = [row.obj.shape_pt_lat, row.obj.shape_pt_lon, row.obj.shape_pt_sequence]; // Gets current cord of row
-      latlngs.push(cord); // Saves to list
-      if (row.obj.shape_id != rem) { // If it's a diffrent shape ID...
-        let newLat = latlngs.pop(); // ...it saves the last collected cord, it's part of next shape
-        latlngs.sort(function (a, b) { // sort the list of lat/longs for current shape by it's order (MTA data is out of order)
-          return a[2] - b[2];
-        });
-        allLatLongs.push({ latlngs: latlngs, shapeID: rem }); // add to storage
-
-        latlngs = [newLat]; // add to next shape
-        rem = row.obj.shape_id; // record ID of shape
-      }
-    }
-
-    var map = L.map("maap").setView([0, 0], 14);
-
-    var tiles = L.tileLayer(
-      "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-      {
-        maxZoom: 19,
-        attribution:
-          '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      }
-    ).addTo(map);
-
-    // general 
-    // for (let i = 0 ; i < allLatLongs.length ; i++) {
-    //   var polyline = L.polyline(allLatLongs[i].latlngs, { color: "black" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
-    // }
-    //var polyline = L.polyline(allLatLongs[45].latlngs, { color: "purple" /*color(Math.random()*255,Math.random()*255,Math.random()*255)*/ }).addTo(map);
 
 
+  // ~ setup ~ //
+  reformated = reformat(getTrains(getServices()));
+  console.log('Ready');
 
-    // Just MNRR
-    let colors = ['#009B3A', '#EE0034', '#EE0034', '#EE0034', '#EE0034', '#0039A6'];
-    let linesToPrint = [1, 8, 10, 11, 5, 3];
-    //let linesToPrint = [  4];
-
-    let i = 0;
-    for (let shape of linesToPrint) {
-      var polyline = L.polyline(allLatLongs.find(({ shapeID }) => shapeID == shape).latlngs, { color: colors[i] }).bindPopup(`${shape}`).addTo(map);
-      i++;
-    }
-
-    // zoom the map to the polyline
-    map.fitBounds(polyline.getBounds());
-
-    // ~ shows all the stop ~ //
-    for (let x of stationList.rows) {
-      let latlngs = [x.obj.stop_lat, x.obj.stop_lon];
-      let stationName = x.arr[2]
-      var circle = L.circle(latlngs, {
-        color: '#353535',
-        fillColor: 'white',
-        fillOpacity: 0.5,
-        radius: 250
-      }).bindPopup(stationName).on('click', function () {
-        displayStoppingTrains(getStopingTrainsAtStop(stationName, false), stationName);
-      }).addTo(map);
-    }
-  }
 }
 
-function draw() {
+function canvasDrawer() {
   background(35);
-  
+
   // setup
   let overallXOffset = 125;
   let overallYOffset = 15;
   let fsize = 15;
   let diameter = fsize * 2 / 3;
-  
+
   // draws lines
   strokeWeight(3);
-  for (let i = 0 ; i < linesmap.lines.length; i++) {
+  for (let i = 0; i < linesmap.lines.length; i++) {
     let currentLine = linesmap.lines[i];
     let color = currentLine.route_color;
     let x1 = currentLine.x1;
@@ -140,7 +55,7 @@ function draw() {
     let x2 = currentLine.x2;
     let y2 = currentLine.y2;
     stroke(color);
-    line(x1 * fsize + diameter + overallXOffset, y1 * fsize + diameter+overallYOffset, x2 * fsize + diameter + overallXOffset, y2 * fsize + diameter+overallYOffset);
+    line(x1 * fsize + diameter + overallXOffset, y1 * fsize + diameter + overallYOffset, x2 * fsize + diameter + overallXOffset, y2 * fsize + diameter + overallYOffset);
   }
 
   //resets
@@ -154,29 +69,76 @@ function draw() {
     fill(currentStop.color);
     let x = parseInt(currentStop.x);
     let y = parseInt(currentStop.y);
-    ellipse(x * fsize + diameter + overallXOffset, y * fsize + diameter+overallYOffset, diameter, diameter);
-    
+
+    if (Number.isNaN(x) || Number.isNaN(y)) {
+      continue;
+    }
+
+    ellipse(x * fsize + diameter + overallXOffset, y * fsize + diameter + overallYOffset, diameter, diameter);
+
     // handles line endings + special stations
     if (currentStop.stop_id == "LINE") {
       textStyle(BOLDITALIC);
     }
 
-    if (currentStop.color== "#8F8F8F") {
+    if (currentStop.color == "#8F8F8F") {
       textStyle(ITALIC);
     }
 
     // draws the text 
     fill(255);
-    if (currentStop.isRight == "true") // handles the side text is displayed on
-      text(currentStop.stop_name, x * fsize + fsize + overallXOffset + 5, y * fsize + fsize +overallYOffset);
-    else {
-      text(currentStop.stop_name, x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15, y * fsize + fsize +overallYOffset);
+    if (currentStop.isRight == "true") { // handles the side text is displayed on
+      text(currentStop.stop_name, x * fsize + fsize + overallXOffset + 5, y * fsize + fsize + overallYOffset);
+    } else {
+      text(currentStop.stop_name, x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15, y * fsize + fsize + overallYOffset);
     }
 
     // reset style
     textStyle(NORMAL);
   }
-  
+}
+
+function buttonGenerator() {
+  background(35);
+
+  // setup
+  let overallXOffset = 125;
+  let overallYOffset = 15;
+  let fsize = 15;
+
+  // draws the buttons
+  for (let i = 0; i < gridmap.stops.length; i++) {
+    let currentStop = gridmap.stops[i];
+    let x = parseInt(currentStop.x);
+    let y = parseInt(currentStop.y);
+
+    if (Number.isNaN(x) || Number.isNaN(y)) {
+      continue;
+    }
+
+    if (currentStop.isRight == "true") { // handles the side text is displayed on
+      let div = document.createElement("div");
+      div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset + 5 - 16}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 16}px; border: solid; border-color: transparent;`);
+      div.addEventListener("click", function () {
+        displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, false), currentStop.stop_name);
+      }, false);
+      document.body.appendChild(div);
+    } else {
+      let div = document.createElement("div");
+      div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 15}px; border: solid; border-color: transparent;`);
+      div.addEventListener("click", function () {
+        displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, false), currentStop.stop_name);
+      }, false);
+      document.body.appendChild(div);
+    }
+    // reset style
+    textStyle(NORMAL);
+  }
+}
+
+
+function draw() {
+  canvasDrawer();
 }
 
 function getTodayDateStr() {
