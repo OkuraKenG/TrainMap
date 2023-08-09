@@ -23,15 +23,15 @@ function preload() {
 // https://traintime.mta.info/map?trainId=MNR_9699&code=2NR
 
 function setup() {
-  //pixelDensity(10);
+  pixelDensity(3);
   createCanvas(840, 690);
-  //canvasDrawer();
-  //buttonGenerator();
+  canvasDrawer();
+  buttonGenerator();
   frameRate(1);
 
   background(35);
   // ~ setup ~ //
-  // reformated = reformat(getTrains(getServices()));
+  reformated = reformat(getTrains(getServices()));
   console.log('Ready');
 
 }
