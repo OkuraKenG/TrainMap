@@ -23,11 +23,11 @@ function preload() {
 // https://traintime.mta.info/map?trainId=MNR_9699&code=2NR
 
 function setup() {
-  pixelDensity(10);
+  //pixelDensity(10);
   createCanvas(840, 690);
   //canvasDrawer();
   //buttonGenerator();
-  frameRate(1);
+  //frameRate(1);
 
   background(35);
   // ~ setup ~ //
