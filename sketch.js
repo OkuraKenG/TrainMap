@@ -26,12 +26,12 @@ function setup() {
   pixelDensity(10);
   createCanvas(840, 690);
   canvasDrawer();
-  buttonGenerator();
+  // buttonGenerator();
   frameRate(1);
 
 
   // ~ setup ~ //
-  reformated = reformat(getTrains(getServices()));
+  // reformated = reformat(getTrains(getServices()));
   console.log('Ready');
 
 }
