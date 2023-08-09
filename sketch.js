@@ -27,7 +27,7 @@ function setup() {
   createCanvas(840, 690);
   //canvasDrawer();
   //buttonGenerator();
-  //frameRate(1);
+  frameRate(1);
 
   background(35);
   // ~ setup ~ //
