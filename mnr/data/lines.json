@@ -1,0 +1,112 @@
+{
+  "lines": [
+    {
+      "line_id": "30",
+      "route_id": "3",
+      "agency_id": "1",
+      "route_long_name": "New Haven",
+      "route_color": "#EE0034",
+      "route_text_color": "#FFFFFF",
+      "x1": "5",
+      "y1": "34",
+      "x2": "37",
+      "y2": "2"
+    },
+    {
+      "line_id": "40",
+      "route_id": "4",
+      "agency_id": "1",
+      "route_long_name": "New Canaan",
+      "route_color": "#EE0034",
+      "route_text_color": "#FFFFFF",
+      "x1": "19",
+      "y1": "20",
+      "x2": "19",
+      "y2": "16"
+    },
+    {
+      "line_id": "50",
+      "route_id": "5",
+      "agency_id": "1",
+      "route_long_name": "Danbury",
+      "route_color": "#EE0034",
+      "route_text_color": "#FFFFFF",
+      "x1": "24",
+      "y1": "15",
+      "x2": "24",
+      "y2": "8"
+    },
+    {
+      "line_id": "60",
+      "route_id": "6",
+      "agency_id": "1",
+      "route_long_name": "Waterbury",
+      "route_color": "#EE0034",
+      "route_text_color": "#FFFFFF",
+      "x1": "33",
+      "y1": "6",
+      "x2": "33",
+      "y2": "0"
+    },
+    {
+      "line_id": "10",
+      "route_id": "1",
+      "agency_id": "1",
+      "route_long_name": "Hudson",
+      "route_color": "#009B3A",
+      "route_text_color": "#FFFFFF",
+      "x1": "5",
+      "y1": "41",
+      "x2": "0",
+      "y2": "36"
+    },
+    {
+      "line_id": "11",
+      "route_id": "1",
+      "agency_id": "1",
+      "route_long_name": "Hudson",
+      "route_color": "#009B3A",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "36",
+      "x2": "0",
+      "y2": "13"
+    },
+    {
+      "line_id": "20",
+      "route_id": "2",
+      "agency_id": "1",
+      "route_long_name": "Harlem",
+      "route_color": "#0039A6",
+      "route_text_color": "#FFFFFF",
+      "x1": "5",
+      "y1": "42",
+      "x2": "5",
+      "y2": "4"
+    },
+    {
+      "line_id": "70",
+      "route_id": "7",
+      "agency_id": "1",
+      "route_long_name": "Penn Access",
+      "route_color": "#540113",
+      "route_text_color": "#FFFFFF",
+      "x1": "8",
+      "y1": "31",
+      "x2": "15",
+      "y2": "38"
+    },
+    {
+      "line_id": "00",
+      "route_id": "0",
+      "agency_id": "1",
+      "route_long_name": "Park Ave Main",
+      "route_color": "#FFFFFF",
+      "route_text_color": "#FFFFFF",
+      "x1": "5",
+      "y1": "42",
+      "x2": "5",
+      "y2": "43"
+    }
+  ]
+}
