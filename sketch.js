@@ -25,11 +25,11 @@ function preload() {
 function setup() {
   pixelDensity(10);
   createCanvas(840, 690);
-  canvasDrawer();
-  // buttonGenerator();
+  //canvasDrawer();
+  //buttonGenerator();
   frameRate(1);
 
-
+  background(35);
   // ~ setup ~ //
   // reformated = reformat(getTrains(getServices()));
   console.log('Ready');
