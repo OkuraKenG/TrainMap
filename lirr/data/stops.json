@@ -6,7 +6,7 @@
       "stop_name": "stop_name",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -15,7 +15,7 @@
       "stop_name": "Albertson",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -24,7 +24,7 @@
       "stop_name": "Islip",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -33,25 +33,25 @@
       "stop_name": "Inwood",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "102",
       "stop_code": "JAM",
       "stop_name": "Jamaica",
-      "x": "21",
+      "x": "10",
       "y": "30",
-      "isRight": "true",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "107",
       "stop_code": "KGN",
       "stop_name": "Kew Gardens",
-      "x": "14",
+      "x": "9",
       "y": "30",
-      "isRight": "true",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
@@ -60,7 +60,7 @@
       "stop_name": "Broadway",
       "x": "5",
       "y": "26",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -69,7 +69,7 @@
       "stop_name": "Kings Park",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -78,7 +78,7 @@
       "stop_name": "Long Beach",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -87,7 +87,7 @@
       "stop_name": "Lawrence",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -96,7 +96,7 @@
       "stop_name": "Lindenhurst",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -105,7 +105,7 @@
       "stop_name": "Long Island City",
       "x": "0",
       "y": "32",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -114,7 +114,7 @@
       "stop_name": "Locust Manor",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -123,7 +123,7 @@
       "stop_name": "Little Neck",
       "x": "5",
       "y": "22",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -132,7 +132,7 @@
       "stop_name": "Laurelton",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -141,7 +141,7 @@
       "stop_name": "Locust Valley",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -150,7 +150,7 @@
       "stop_name": "Lakeview",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -159,7 +159,7 @@
       "stop_name": "Lynbrook",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -168,7 +168,7 @@
       "stop_name": "Mattituck",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -177,7 +177,7 @@
       "stop_name": "Merillon Avenue",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -186,7 +186,7 @@
       "stop_name": "Medford",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -195,7 +195,7 @@
       "stop_name": "Bridgehampton",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -204,7 +204,7 @@
       "stop_name": "Murray Hill",
       "x": "5",
       "y": "27",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -213,7 +213,7 @@
       "stop_name": "Manhasset",
       "x": "5",
       "y": "20",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -222,7 +222,7 @@
       "stop_name": "Mineola",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -231,7 +231,7 @@
       "stop_name": "Massapequa Park",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -240,7 +240,7 @@
       "stop_name": "Massapequa",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -249,7 +249,7 @@
       "stop_name": "Stony Brook",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -258,7 +258,7 @@
       "stop_name": "Mastic Shirley",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -267,7 +267,7 @@
       "stop_name": "Montauk",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -276,7 +276,7 @@
       "stop_name": "Malverne",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -285,7 +285,7 @@
       "stop_name": "Nostrand Avenue",
       "x": "5",
       "y": "42",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -294,7 +294,7 @@
       "stop_name": "Nassau Boulevard",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -303,7 +303,7 @@
       "stop_name": "New Hyde Park",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -312,7 +312,7 @@
       "stop_name": "Northport",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -321,7 +321,7 @@
       "stop_name": "Oyster Bay",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -330,7 +330,7 @@
       "stop_name": "Oceanside",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -339,7 +339,7 @@
       "stop_name": "Oakdale",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -348,7 +348,7 @@
       "stop_name": "Bellmore",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -357,7 +357,7 @@
       "stop_name": "Plandome",
       "x": "5",
       "y": "19",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -366,7 +366,7 @@
       "stop_name": "Patchogue",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -375,7 +375,7 @@
       "stop_name": "Port Jefferson",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -384,7 +384,7 @@
       "stop_name": "Pinelawn",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -393,7 +393,7 @@
       "stop_name": "Port Washington",
       "x": "5",
       "y": "18",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -402,7 +402,7 @@
       "stop_name": "Queens Village",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -411,7 +411,7 @@
       "stop_name": "Riverhead",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -420,7 +420,7 @@
       "stop_name": "Ronkonkoma",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -429,7 +429,7 @@
       "stop_name": "Rosedale",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -438,7 +438,7 @@
       "stop_name": "Roslyn",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -447,7 +447,7 @@
       "stop_name": "Rockville Centre",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -456,7 +456,7 @@
       "stop_name": "St. Albans",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -465,7 +465,7 @@
       "stop_name": "Sea Cliff",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -474,7 +474,7 @@
       "stop_name": "Seaford",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -483,7 +483,7 @@
       "stop_name": "Southold",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -492,7 +492,7 @@
       "stop_name": "Southampton",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -501,7 +501,7 @@
       "stop_name": "St. James",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -510,7 +510,7 @@
       "stop_name": "Stewart Manor",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -519,7 +519,7 @@
       "stop_name": "Speonk",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -528,7 +528,7 @@
       "stop_name": "Mets-Willets Point",
       "x": "5",
       "y": "29",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -537,7 +537,7 @@
       "stop_name": "Auburndale",
       "x": "5",
       "y": "25",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -546,7 +546,7 @@
       "stop_name": "Bethpage",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -555,7 +555,7 @@
       "stop_name": "Smithtown",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -564,7 +564,7 @@
       "stop_name": "Sayville",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -573,7 +573,7 @@
       "stop_name": "Syosset",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -582,7 +582,7 @@
       "stop_name": "Bellport",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -591,7 +591,7 @@
       "stop_name": "Valley Stream",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -600,7 +600,7 @@
       "stop_name": "Westbury",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -609,7 +609,7 @@
       "stop_name": "Woodside",
       "x": "3",
       "y": "30",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -618,7 +618,7 @@
       "stop_name": "Wantagh",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -627,7 +627,7 @@
       "stop_name": "West Hempstead",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -636,7 +636,7 @@
       "stop_name": "Woodmere",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -645,7 +645,7 @@
       "stop_name": "Westwood",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -654,7 +654,7 @@
       "stop_name": "Wyandanch",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -663,7 +663,7 @@
       "stop_name": "Yaphank",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -672,7 +672,7 @@
       "stop_name": "Baldwin",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -681,7 +681,7 @@
       "stop_name": "Merrick",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -690,7 +690,7 @@
       "stop_name": "Bellerose",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -699,7 +699,7 @@
       "stop_name": "Westhampton",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -708,7 +708,7 @@
       "stop_name": "Penn Station",
       "x": "0",
       "y": "31",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -717,7 +717,7 @@
       "stop_name": "Belmont Park",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -726,7 +726,7 @@
       "stop_name": "Atlantic Terminal",
       "x": "4",
       "y": "43",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -735,7 +735,7 @@
       "stop_name": "Bayside",
       "x": "5",
       "y": "24",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -744,7 +744,7 @@
       "stop_name": "Bay Shore",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -753,7 +753,7 @@
       "stop_name": "Babylon",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -762,7 +762,7 @@
       "stop_name": "Brentwood",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -771,7 +771,7 @@
       "stop_name": "Centre Avenue",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -780,7 +780,7 @@
       "stop_name": "Cedarhurst",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -789,7 +789,7 @@
       "stop_name": "Central Islip",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -798,7 +798,7 @@
       "stop_name": "Grand Central",
       "x": "0",
       "y": "30",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -807,7 +807,7 @@
       "stop_name": "Elmont-UBS Arena",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -816,7 +816,7 @@
       "stop_name": "Country Life Press",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -825,7 +825,7 @@
       "stop_name": "Copiague",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -834,7 +834,7 @@
       "stop_name": "Carle Place",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -843,7 +843,7 @@
       "stop_name": "Amagansett",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -852,7 +852,7 @@
       "stop_name": "Cold Spring Harbor",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -861,7 +861,7 @@
       "stop_name": "Douglaston",
       "x": "5",
       "y": "23",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -870,7 +870,7 @@
       "stop_name": "Deer Park",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -879,7 +879,7 @@
       "stop_name": "East Hampton",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -888,7 +888,7 @@
       "stop_name": "East New York",
       "x": "6",
       "y": "41",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -897,7 +897,7 @@
       "stop_name": "East Rockaway",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -906,7 +906,7 @@
       "stop_name": "East Williston",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -915,7 +915,7 @@
       "stop_name": "Forest Hills",
       "x": "8",
       "y": "30",
-      "isRight": "true",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
@@ -924,7 +924,7 @@
       "stop_name": "Flushing Main Street",
       "x": "5",
       "y": "28",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -933,7 +933,7 @@
       "stop_name": "Farmingdale",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -942,7 +942,7 @@
       "stop_name": "Floral Park",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -951,7 +951,7 @@
       "stop_name": "Freeport",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -960,7 +960,7 @@
       "stop_name": "Far Rockaway",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -969,7 +969,7 @@
       "stop_name": "Gibson",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -978,7 +978,7 @@
       "stop_name": "Glen Cove",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -987,7 +987,7 @@
       "stop_name": "Garden City",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -996,7 +996,7 @@
       "stop_name": "Glen Head",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1005,7 +1005,7 @@
       "stop_name": "Great Neck",
       "x": "5",
       "y": "21",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -1014,7 +1014,7 @@
       "stop_name": "Greenport",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1023,7 +1023,7 @@
       "stop_name": "Great River",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1032,7 +1032,7 @@
       "stop_name": "Glen Street",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1041,7 +1041,7 @@
       "stop_name": "Greenvale",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1050,7 +1050,7 @@
       "stop_name": "Greenlawn",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1059,7 +1059,7 @@
       "stop_name": "Amityville",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1068,7 +1068,7 @@
       "stop_name": "Hampton Bays",
       "x": "0",
       "y": "0",
-      "isRight": "false",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -1077,7 +1077,7 @@
       "stop_name": "Hempstead",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1086,7 +1086,7 @@
       "stop_name": "Hempstead Gardens",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1095,7 +1095,7 @@
       "stop_name": "Hillside Facility",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1104,7 +1104,7 @@
       "stop_name": "Hollis",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1113,7 +1113,7 @@
       "stop_name": "Hunterspoint Avenue",
       "x": "1",
       "y": "31",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1122,7 +1122,7 @@
       "stop_name": "Huntington",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1131,7 +1131,7 @@
       "stop_name": "Hicksville",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1140,7 +1140,7 @@
       "stop_name": "Hewlett",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1149,7 +1149,7 @@
       "stop_name": "Island Park",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "location": "right",
       "color": "#FFFFFF"
     }
   ]

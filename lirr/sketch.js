@@ -25,7 +25,8 @@ function setup() {
   createCanvas(840, 690);
   canvasDrawer();
   buttonGenerator();
-  frameRate(1);
+  //frameRate(1);
+  noLoop();
   // ~ setup ~ //
   reformated = reformat(getTrains(getServices()));
   console.log('Ready');
