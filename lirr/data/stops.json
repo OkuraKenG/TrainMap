@@ -40,8 +40,8 @@
       "stop_id": "102",
       "stop_code": "JAM",
       "stop_name": "Jamaica",
-      "x": "0",
-      "y": "0",
+      "x": "21",
+      "y": "30",
       "isRight": "true",
       "color": "#FFFFFF"
     },
@@ -49,8 +49,8 @@
       "stop_id": "107",
       "stop_code": "KGN",
       "stop_name": "Kew Gardens",
-      "x": "0",
-      "y": "0",
+      "x": "14",
+      "y": "30",
       "isRight": "true",
       "color": "#FFFFFF"
     },
@@ -58,9 +58,9 @@
       "stop_id": "11",
       "stop_code": "BDY",
       "stop_name": "Broadway",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "26",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -104,7 +104,7 @@
       "stop_code": "LIC",
       "stop_name": "Long Island City",
       "x": "0",
-      "y": "0",
+      "y": "32",
       "isRight": "true",
       "color": "#FFFFFF"
     },
@@ -121,9 +121,9 @@
       "stop_id": "120",
       "stop_code": "LNK",
       "stop_name": "Little Neck",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "22",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -202,18 +202,18 @@
       "stop_id": "130",
       "stop_code": "MHL",
       "stop_name": "Murray Hill",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "27",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "131",
       "stop_code": "MHT",
       "stop_name": "Manhasset",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "20",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -283,9 +283,9 @@
       "stop_id": "148",
       "stop_code": "NAV",
       "stop_name": "Nostrand Avenue",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "42",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -355,9 +355,9 @@
       "stop_id": "162",
       "stop_code": "PDM",
       "stop_name": "Plandome",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "19",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -391,9 +391,9 @@
       "stop_id": "171",
       "stop_code": "PWS",
       "stop_name": "Port Washington",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "18",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -526,18 +526,18 @@
       "stop_id": "199",
       "stop_code": "SSM",
       "stop_name": "Mets-Willets Point",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "29",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "2",
       "stop_code": "ADL",
       "stop_name": "Auburndale",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "25",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -607,8 +607,8 @@
       "stop_id": "214",
       "stop_code": "WDD",
       "stop_name": "Woodside",
-      "x": "0",
-      "y": "0",
+      "x": "3",
+      "y": "30",
       "isRight": "true",
       "color": "#FFFFFF"
     },
@@ -707,8 +707,8 @@
       "stop_code": "NYK",
       "stop_name": "Penn Station",
       "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "y": "31",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -724,18 +724,18 @@
       "stop_id": "241",
       "stop_code": "ATL",
       "stop_name": "Atlantic Terminal",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "4",
+      "y": "43",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "25",
       "stop_code": "BSD",
       "stop_name": "Bayside",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "24",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -797,8 +797,8 @@
       "stop_code": "GCT",
       "stop_name": "Grand Central",
       "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "y": "30",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -859,9 +859,9 @@
       "stop_id": "42",
       "stop_code": "DGL",
       "stop_name": "Douglaston",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "23",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -886,9 +886,9 @@
       "stop_id": "50",
       "stop_code": "ENY",
       "stop_name": "East New York",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "6",
+      "y": "41",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -913,8 +913,8 @@
       "stop_id": "55",
       "stop_code": "FHL",
       "stop_name": "Forest Hills",
-      "x": "0",
-      "y": "0",
+      "x": "8",
+      "y": "30",
       "isRight": "true",
       "color": "#FFFFFF"
     },
@@ -922,9 +922,9 @@
       "stop_id": "56",
       "stop_code": "FLS",
       "stop_name": "Flushing Main Street",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "28",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -1003,9 +1003,9 @@
       "stop_id": "72",
       "stop_code": "GNK",
       "stop_name": "Great Neck",
-      "x": "0",
-      "y": "0",
-      "isRight": "true",
+      "x": "5",
+      "y": "21",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -1068,7 +1068,7 @@
       "stop_name": "Hampton Bays",
       "x": "0",
       "y": "0",
-      "isRight": "true",
+      "isRight": "false",
       "color": "#FFFFFF"
     },
     {
@@ -1111,8 +1111,8 @@
       "stop_id": "90",
       "stop_code": "HPA",
       "stop_name": "Hunterspoint Avenue",
-      "x": "0",
-      "y": "0",
+      "x": "1",
+      "y": "31",
       "isRight": "true",
       "color": "#FFFFFF"
     },
