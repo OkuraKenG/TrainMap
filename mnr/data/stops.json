@@ -6,7 +6,7 @@
       "stop_name": "Grand Central",
       "x": "5",
       "y": "43",
-      "location": "right",
+      "location": "left",
       "color": "#8F8F8F"
     },
     {
@@ -15,7 +15,7 @@
       "stop_name": "Harlem-125 St",
       "x": "5",
       "y": "42",
-      "location": "right",
+      "location": "left",
       "color": "#8F8F8F"
     },
     {
@@ -1129,10 +1129,28 @@
       "stop_id": "LINE",
       "stop_code": "LINE",
       "stop_name": "Hell's Gate Line/Penn Station Access (Proposed)",
-      "x": "16",
-      "y": "39",
+      "x": "22",
+      "y": "38",
       "location": "right",
       "color": "#540113"
+    },
+    {
+      "stop_id": "LINE",
+      "stop_code": "LINE",
+      "stop_name": "East Side Access (LIRR)",
+      "x": "8",
+      "y": "43",
+      "location": "right",
+      "color": "#FFFFFF1A"
+    },
+    {
+      "stop_id": "LINE",
+      "stop_code": "LINE",
+      "stop_name": "LIRR/NJT/ATK Connections",
+      "x": "15",
+      "y": "41",
+      "location": "right",
+      "color": "#FFFFFF1A"
     }
   ]
 }

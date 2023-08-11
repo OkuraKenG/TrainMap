@@ -87,30 +87,31 @@ function buttonGenerator() {
             continue;
         }
 
+        let bordercolor = "transparent";
         if (currentStop.location == "right") { // handles the side text is displayed on
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset + 5 - 16}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 16}px; border: solid; border-color: red;`);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset + 5 - 16}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 16}px; border: solid; border-color: ${bordercolor};`);
             div.addEventListener("click", function () {
                 displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, false), currentStop.stop_name);
             }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "left") {
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 15}px; border: solid; border-color: red;`);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 15}px; border: solid; border-color: ${bordercolor};`);
             div.addEventListener("click", function () {
                 displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, false), currentStop.stop_name);
             }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "up") {
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3 }px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: red;  `);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3 }px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             div.addEventListener("click", function () {
                 displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, false), currentStop.stop_name);
             }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "down") {
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3 }px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: red;  `);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3 }px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             div.addEventListener("click", function () {
                 displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, false), currentStop.stop_name);
             }, false);

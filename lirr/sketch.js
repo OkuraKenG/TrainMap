@@ -22,7 +22,7 @@ function preload() {
 
 function setup() {
   pixelDensity(3); // keep it low or else slower browsers may struggle
-  createCanvas(840, 690);
+  createCanvas(1300, 690);
   canvasDrawer();
   buttonGenerator();
   //frameRate(1);

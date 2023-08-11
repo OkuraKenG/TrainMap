@@ -85,18 +85,6 @@
       "y2": "4"
     },
     {
-      "line_id": "70",
-      "route_id": "7",
-      "agency_id": "1",
-      "route_long_name": "Penn Access",
-      "route_color": "#540113",
-      "route_text_color": "#FFFFFF",
-      "x1": "8",
-      "y1": "31",
-      "x2": "15",
-      "y2": "38"
-    },
-    {
       "line_id": "00",
       "route_id": "0",
       "agency_id": "1",
@@ -107,6 +95,42 @@
       "y1": "42",
       "x2": "5",
       "y2": "43"
+    },
+    {
+      "line_id": "01",
+      "route_id": "0",
+      "agency_id": "2",
+      "route_long_name": "East Side Access",
+      "route_color": "#FFFFFF1A",
+      "route_text_color": "#EEEEEE",
+      "x1": "5",
+      "y1": "43",
+      "x2": "8",
+      "y2": "43"
+    },
+    {
+      "line_id": "80",
+      "route_id": "8",
+      "agency_id": "2",
+      "route_long_name": "LIRR/NJT",
+      "route_color": "#FFFFFF1A",
+      "route_text_color": "#EEEEEE",
+      "x1": "15",
+      "y1": "38",
+      "x2": "15",
+      "y2": "41"
+    },
+    {
+      "line_id": "70",
+      "route_id": "7",
+      "agency_id": "1",
+      "route_long_name": "Penn Access",
+      "route_color": "#540113",
+      "route_text_color": "#FFFFFF",
+      "x1": "8",
+      "y1": "31",
+      "x2": "15",
+      "y2": "38"
     }
   ]
 }
