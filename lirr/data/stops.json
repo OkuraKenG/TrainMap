@@ -4,8 +4,8 @@
       "stop_id": "1",
       "stop_code": "ABT",
       "stop_name": "Albertson",
-      "x": "0",
-      "y": "2",
+      "x": "37",
+      "y": "9",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -13,9 +13,9 @@
       "stop_id": "100",
       "stop_code": "ISP",
       "stop_name": "Islip",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "46",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -23,7 +23,7 @@
       "stop_code": "IWD",
       "stop_name": "Inwood",
       "x": "21",
-      "y": "41",
+      "y": "32",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -32,7 +32,7 @@
       "stop_code": "JAM",
       "stop_name": "Jamaica",
       "x": "9",
-      "y": "28",
+      "y": "16",
       "location": "up",
       "color": "#FFFFFF"
     },
@@ -41,7 +41,7 @@
       "stop_code": "KGN",
       "stop_name": "Kew Gardens",
       "x": "7",
-      "y": "28",
+      "y": "16",
       "location": "up",
       "color": "#FFFFFF"
     },
@@ -50,7 +50,7 @@
       "stop_code": "BDY",
       "stop_name": "Broadway",
       "x": "5",
-      "y": "24",
+      "y": "12",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -58,8 +58,8 @@
       "stop_id": "111",
       "stop_code": "KPK",
       "stop_name": "Kings Park",
-      "x": "0",
-      "y": "2",
+      "x": "47",
+      "y": "10",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -68,7 +68,7 @@
       "stop_code": "LBH",
       "stop_name": "Long Beach",
       "x": "24",
-      "y": "42",
+      "y": "33",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -77,7 +77,7 @@
       "stop_code": "LCE",
       "stop_name": "Lawrence",
       "x": "21",
-      "y": "40",
+      "y": "31",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -85,9 +85,9 @@
       "stop_id": "117",
       "stop_code": "LHT",
       "stop_name": "Lindenhurst",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "42",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -95,8 +95,8 @@
       "stop_code": "LIC",
       "stop_name": "Long Island City",
       "x": "0",
-      "y": "30",
-      "location": "down",
+      "y": "18",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -104,7 +104,7 @@
       "stop_code": "LMR",
       "stop_name": "Locust Manor",
       "x": "13",
-      "y": "31",
+      "y": "22",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -113,7 +113,7 @@
       "stop_code": "LNK",
       "stop_name": "Little Neck",
       "x": "5",
-      "y": "20",
+      "y": "8",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -122,7 +122,7 @@
       "stop_code": "LTN",
       "stop_name": "Laurelton",
       "x": "15",
-      "y": "33",
+      "y": "24",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -130,7 +130,7 @@
       "stop_id": "123",
       "stop_code": "LVL",
       "stop_name": "Locust Valley",
-      "x": "0",
+      "x": "37",
       "y": "2",
       "location": "right",
       "color": "#FFFFFF"
@@ -140,7 +140,7 @@
       "stop_code": "LVW",
       "stop_name": "Lakeview",
       "x": "22",
-      "y": "32",
+      "y": "23",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -149,7 +149,7 @@
       "stop_code": "LYN",
       "stop_name": "Lynbrook",
       "x": "23",
-      "y": "35",
+      "y": "26",
       "location": "down",
       "color": "#FFFFFF"
     },
@@ -157,36 +157,36 @@
       "stop_id": "126",
       "stop_code": "MAK",
       "stop_name": "Mattituck",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "57",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "127",
       "stop_code": "MAV",
       "stop_name": "Merillon Avenue",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "35",
+      "y": "16",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "129",
       "stop_code": "MFD",
       "stop_name": "Medford",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "54",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "13",
       "stop_code": "BHN",
       "stop_name": "Bridgehampton",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "57",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -194,7 +194,7 @@
       "stop_code": "MHL",
       "stop_name": "Murray Hill",
       "x": "5",
-      "y": "25",
+      "y": "13",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -203,7 +203,7 @@
       "stop_code": "MHT",
       "stop_name": "Manhasset",
       "x": "5",
-      "y": "18",
+      "y": "6",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -211,35 +211,35 @@
       "stop_id": "132",
       "stop_code": "MIN",
       "stop_name": "Mineola",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "36",
+      "y": "16",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "135",
       "stop_code": "MPK",
       "stop_name": "Massapequa Park",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "39",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "136",
       "stop_code": "MQA",
       "stop_name": "Massapequa",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "38",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "14",
       "stop_code": "BK",
       "stop_name": "Stony Brook",
-      "x": "0",
-      "y": "2",
+      "x": "50",
+      "y": "7",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -247,18 +247,18 @@
       "stop_id": "140",
       "stop_code": "MSY",
       "stop_name": "Mastic Shirley",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "52",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "141",
       "stop_code": "MTK",
       "stop_name": "Montauk",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "60",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -266,7 +266,7 @@
       "stop_code": "MVN",
       "stop_name": "Malverne",
       "x": "22",
-      "y": "33",
+      "y": "24",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -275,7 +275,7 @@
       "stop_code": "NAV",
       "stop_name": "Nostrand Avenue",
       "x": "7",
-      "y": "29",
+      "y": "17",
       "location": "down",
       "color": "#FFFFFF"
     },
@@ -284,7 +284,7 @@
       "stop_code": "NBD",
       "stop_name": "Nassau Boulevard",
       "x": "33",
-      "y": "30",
+      "y": "18",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -292,17 +292,17 @@
       "stop_id": "152",
       "stop_code": "NHP",
       "stop_name": "New Hyde Park",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "34",
+      "y": "16",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "153",
       "stop_code": "NPT",
       "stop_name": "Northport",
-      "x": "0",
-      "y": "2",
+      "x": "46",
+      "y": "11",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -310,8 +310,8 @@
       "stop_id": "154",
       "stop_code": "OBY",
       "stop_name": "Oyster Bay",
-      "x": "0",
-      "y": "2",
+      "x": "37",
+      "y": "1",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -320,7 +320,7 @@
       "stop_code": "ODE",
       "stop_name": "Oceanside",
       "x": "24",
-      "y": "40",
+      "y": "31",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -328,18 +328,18 @@
       "stop_id": "157",
       "stop_code": "ODL",
       "stop_name": "Oakdale",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "48",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "16",
       "stop_code": "BMR",
       "stop_name": "Bellmore",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "35",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -347,7 +347,7 @@
       "stop_code": "PDM",
       "stop_name": "Plandome",
       "x": "5",
-      "y": "17",
+      "y": "5",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -355,17 +355,17 @@
       "stop_id": "163",
       "stop_code": "PGE",
       "stop_name": "Patchogue",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "50",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "164",
       "stop_code": "PJN",
       "stop_name": "Port Jefferson",
-      "x": "0",
-      "y": "2",
+      "x": "51",
+      "y": "6",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -373,9 +373,9 @@
       "stop_id": "165",
       "stop_code": "PLN",
       "stop_name": "Pinelawn",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "48",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
@@ -383,7 +383,7 @@
       "stop_code": "PWS",
       "stop_name": "Port Washington",
       "x": "5",
-      "y": "16",
+      "y": "4",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -391,8 +391,8 @@
       "stop_id": "175",
       "stop_code": "QVG",
       "stop_name": "Queens Village",
-      "x": "14",
-      "y": "28",
+      "x": "17",
+      "y": "16",
       "location": "up",
       "color": "#FFFFFF"
     },
@@ -400,18 +400,18 @@
       "stop_id": "176",
       "stop_code": "RHD",
       "stop_name": "Riverhead",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "56",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "179",
       "stop_code": "RON",
       "stop_name": "Ronkonkoma",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "53",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
@@ -419,7 +419,7 @@
       "stop_code": "ROS",
       "stop_name": "Rosedale",
       "x": "19",
-      "y": "35",
+      "y": "26",
       "location": "up",
       "color": "#FFFFFF"
     },
@@ -427,8 +427,8 @@
       "stop_id": "182",
       "stop_code": "RSN",
       "stop_name": "Roslyn",
-      "x": "0",
-      "y": "2",
+      "x": "37",
+      "y": "8",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -437,7 +437,7 @@
       "stop_code": "RVC",
       "stop_name": "Rockville Centre",
       "x": "31",
-      "y": "35",
+      "y": "26",
       "location": "down",
       "color": "#FFFFFF"
     },
@@ -445,17 +445,17 @@
       "stop_id": "184",
       "stop_code": "SAB",
       "stop_name": "St. Albans",
-      "x": "17",
-      "y": "34",
-      "location": "up",
+      "x": "14",
+      "y": "22",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "185",
       "stop_code": "SCF",
       "stop_name": "Sea Cliff",
-      "x": "0",
-      "y": "2",
+      "x": "37",
+      "y": "5",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -463,35 +463,35 @@
       "stop_id": "187",
       "stop_code": "SFD",
       "stop_name": "Seaford",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "37",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "190",
       "stop_code": "SHD",
       "stop_name": "Southold",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "58",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "191",
       "stop_code": "SHN",
       "stop_name": "Southampton",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "56",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "193",
       "stop_code": "SJM",
       "stop_name": "St. James",
-      "x": "0",
-      "y": "2",
+      "x": "49",
+      "y": "8",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -500,7 +500,7 @@
       "stop_code": "SMR",
       "stop_name": "Stewart Manor",
       "x": "33",
-      "y": "29",
+      "y": "17",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -508,9 +508,9 @@
       "stop_id": "198",
       "stop_code": "SPK",
       "stop_name": "Speonk",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "53",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -518,7 +518,7 @@
       "stop_code": "SSM",
       "stop_name": "Mets-Willets Point",
       "x": "5",
-      "y": "27",
+      "y": "15",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -527,7 +527,7 @@
       "stop_code": "ADL",
       "stop_name": "Auburndale",
       "x": "5",
-      "y": "23",
+      "y": "11",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -535,8 +535,8 @@
       "stop_id": "20",
       "stop_code": "BPG",
       "stop_name": "Bethpage",
-      "x": "0",
-      "y": "2",
+      "x": "42",
+      "y": "17",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -544,8 +544,8 @@
       "stop_id": "202",
       "stop_code": "STN",
       "stop_name": "Smithtown",
-      "x": "0",
-      "y": "2",
+      "x": "48",
+      "y": "9",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -553,17 +553,17 @@
       "stop_id": "204",
       "stop_code": "SVL",
       "stop_name": "Sayville",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "49",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "205",
       "stop_code": "SYT",
       "stop_name": "Syosset",
-      "x": "0",
-      "y": "2",
+      "x": "42",
+      "y": "15",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -571,9 +571,9 @@
       "stop_id": "21",
       "stop_code": "BPT",
       "stop_name": "Bellport",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "51",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -581,7 +581,7 @@
       "stop_code": "VSM",
       "stop_name": "Valley Stream",
       "x": "20",
-      "y": "35",
+      "y": "26",
       "location": "up",
       "color": "#FFFFFF"
     },
@@ -589,9 +589,9 @@
       "stop_id": "213",
       "stop_code": "WBY",
       "stop_name": "Westbury",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "39",
+      "y": "16",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
@@ -599,7 +599,7 @@
       "stop_code": "WDD",
       "stop_name": "Woodside",
       "x": "3",
-      "y": "28",
+      "y": "16",
       "location": "down",
       "color": "#FFFFFF"
     },
@@ -607,9 +607,9 @@
       "stop_id": "215",
       "stop_code": "WGH",
       "stop_name": "Wantagh",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "36",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -617,7 +617,7 @@
       "stop_code": "WHD",
       "stop_name": "West Hempstead",
       "x": "22",
-      "y": "30",
+      "y": "21",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -626,7 +626,7 @@
       "stop_code": "WMR",
       "stop_name": "Woodmere",
       "x": "21",
-      "y": "38",
+      "y": "29",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -635,7 +635,7 @@
       "stop_code": "WWD",
       "stop_name": "Westwood",
       "x": "22",
-      "y": "34",
+      "y": "25",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -643,44 +643,44 @@
       "stop_id": "220",
       "stop_code": "WYD",
       "stop_name": "Wyandanch",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "49",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "223",
       "stop_code": "YPK",
       "stop_name": "Yaphank",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "55",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "225",
       "stop_code": "BWN",
       "stop_name": "Baldwin",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "32",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "226",
       "stop_code": "MRK",
       "stop_name": "Merrick",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "34",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "23",
       "stop_code": "BRS",
       "stop_name": "Bellerose",
-      "x": "24",
-      "y": "28",
+      "x": "26",
+      "y": "16",
       "location": "up",
       "color": "#FFFFFF"
     },
@@ -688,9 +688,9 @@
       "stop_id": "233",
       "stop_code": "WHN",
       "stop_name": "Westhampton",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "54",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -698,7 +698,7 @@
       "stop_code": "NYK",
       "stop_name": "Penn Station",
       "x": "0",
-      "y": "29",
+      "y": "17",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -706,8 +706,8 @@
       "stop_id": "24",
       "stop_code": "BRT",
       "stop_name": "Belmont Park",
-      "x": "16",
-      "y": "29",
+      "x": "20",
+      "y": "17",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -716,7 +716,7 @@
       "stop_code": "ATL",
       "stop_name": "Atlantic Terminal",
       "x": "5",
-      "y": "31",
+      "y": "19",
       "location": "down",
       "color": "#FFFFFF"
     },
@@ -725,7 +725,7 @@
       "stop_code": "BSD",
       "stop_name": "Bayside",
       "x": "5",
-      "y": "22",
+      "y": "10",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -733,27 +733,27 @@
       "stop_id": "26",
       "stop_code": "BSR",
       "stop_name": "Bay Shore",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "45",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "27",
       "stop_code": "BTA",
       "stop_name": "Babylon",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "44",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "29",
       "stop_code": "BWD",
       "stop_name": "Brentwood",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "51",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
@@ -761,7 +761,7 @@
       "stop_code": "CAV",
       "stop_name": "Centre Avenue",
       "x": "24",
-      "y": "38",
+      "y": "29",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -770,7 +770,7 @@
       "stop_code": "CHT",
       "stop_name": "Cedarhurst",
       "x": "21",
-      "y": "39",
+      "y": "30",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -778,9 +778,9 @@
       "stop_id": "33",
       "stop_code": "CI",
       "stop_name": "Central Islip",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "52",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
@@ -788,7 +788,7 @@
       "stop_code": "GCT",
       "stop_name": "Grand Central",
       "x": "0",
-      "y": "28",
+      "y": "16",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -796,8 +796,8 @@
       "stop_id": "359",
       "stop_code": "EMT",
       "stop_name": "Elmont-UBS Arena",
-      "x": "20",
-      "y": "28",
+      "x": "23",
+      "y": "16",
       "location": "up",
       "color": "#FFFFFF"
     },
@@ -806,7 +806,7 @@
       "stop_code": "CLP",
       "stop_name": "Country Life Press",
       "x": "33",
-      "y": "32",
+      "y": "20",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -814,35 +814,35 @@
       "stop_id": "38",
       "stop_code": "CPG",
       "stop_name": "Copiague",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "41",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "39",
       "stop_code": "CPL",
       "stop_name": "Carle Place",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "38",
+      "y": "16",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "4",
       "stop_code": "AGT",
       "stop_name": "Amagansett",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "59",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "40",
       "stop_code": "CSH",
       "stop_name": "Cold Spring Harbor",
-      "x": "0",
-      "y": "2",
+      "x": "43",
+      "y": "14",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -851,7 +851,7 @@
       "stop_code": "DGL",
       "stop_name": "Douglaston",
       "x": "5",
-      "y": "21",
+      "y": "9",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -859,18 +859,18 @@
       "stop_id": "44",
       "stop_code": "DPK",
       "stop_name": "Deer Park",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "50",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "48",
       "stop_code": "EHN",
       "stop_name": "East Hampton",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "58",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -878,7 +878,7 @@
       "stop_code": "ENY",
       "stop_name": "East New York",
       "x": "6",
-      "y": "30",
+      "y": "18",
       "location": "down",
       "color": "#FFFFFF"
     },
@@ -887,7 +887,7 @@
       "stop_code": "ERY",
       "stop_name": "East Rockaway",
       "x": "24",
-      "y": "39",
+      "y": "30",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -895,8 +895,8 @@
       "stop_id": "52",
       "stop_code": "EWN",
       "stop_name": "East Williston",
-      "x": "0",
-      "y": "2",
+      "x": "37",
+      "y": "10",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -905,7 +905,7 @@
       "stop_code": "FHL",
       "stop_name": "Forest Hills",
       "x": "6",
-      "y": "28",
+      "y": "16",
       "location": "up",
       "color": "#FFFFFF"
     },
@@ -914,7 +914,7 @@
       "stop_code": "FLS",
       "stop_name": "Flushing Main Street",
       "x": "5",
-      "y": "26",
+      "y": "14",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -922,17 +922,17 @@
       "stop_id": "59",
       "stop_code": "FMD",
       "stop_name": "Farmingdale",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "47",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "63",
       "stop_code": "FPK",
       "stop_name": "Floral Park",
-      "x": "28",
-      "y": "28",
+      "x": "29",
+      "y": "16",
       "location": "up",
       "color": "#FFFFFF"
     },
@@ -940,9 +940,9 @@
       "stop_id": "64",
       "stop_code": "FPT",
       "stop_name": "Freeport",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "33",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -950,7 +950,7 @@
       "stop_code": "FRY",
       "stop_name": "Far Rockaway",
       "x": "21",
-      "y": "42",
+      "y": "33",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -959,7 +959,7 @@
       "stop_code": "GBN",
       "stop_name": "Gibson",
       "x": "21",
-      "y": "36",
+      "y": "27",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -967,8 +967,8 @@
       "stop_id": "67",
       "stop_code": "GCV",
       "stop_name": "Glen Cove",
-      "x": "0",
-      "y": "2",
+      "x": "37",
+      "y": "3",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -977,7 +977,7 @@
       "stop_code": "GCY",
       "stop_name": "Garden City",
       "x": "33",
-      "y": "31",
+      "y": "19",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -985,8 +985,8 @@
       "stop_id": "71",
       "stop_code": "GHD",
       "stop_name": "Glen Head",
-      "x": "0",
-      "y": "2",
+      "x": "37",
+      "y": "6",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -995,7 +995,7 @@
       "stop_code": "GNK",
       "stop_name": "Great Neck",
       "x": "5",
-      "y": "19",
+      "y": "7",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -1003,26 +1003,26 @@
       "stop_id": "73",
       "stop_code": "GPT",
       "stop_name": "Greenport",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "59",
+      "y": "21",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "74",
       "stop_code": "GRV",
       "stop_name": "Great River",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "47",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "76",
       "stop_code": "GST",
       "stop_name": "Glen Street",
-      "x": "0",
-      "y": "2",
+      "x": "37",
+      "y": "4",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -1030,8 +1030,8 @@
       "stop_id": "77",
       "stop_code": "GVL",
       "stop_name": "Greenvale",
-      "x": "0",
-      "y": "2",
+      "x": "37",
+      "y": "7",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -1039,8 +1039,8 @@
       "stop_id": "78",
       "stop_code": "GWN",
       "stop_name": "Greenlawn",
-      "x": "0",
-      "y": "2",
+      "x": "45",
+      "y": "12",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -1048,18 +1048,18 @@
       "stop_id": "8",
       "stop_code": "AVL",
       "stop_name": "Amityville",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "40",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "83",
       "stop_code": "HBY",
       "stop_name": "Hampton Bays",
-      "x": "0",
-      "y": "2",
-      "location": "left",
+      "x": "55",
+      "y": "26",
+      "location": "down",
       "color": "#FFFFFF"
     },
     {
@@ -1067,7 +1067,7 @@
       "stop_code": "HEM",
       "stop_name": "Hempstead",
       "x": "33",
-      "y": "33",
+      "y": "21",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -1076,7 +1076,7 @@
       "stop_code": "HGN",
       "stop_name": "Hempstead Gardens",
       "x": "22",
-      "y": "31",
+      "y": "22",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -1084,8 +1084,8 @@
       "stop_id": "86",
       "stop_code": "HIL",
       "stop_name": "Hillside Facility",
-      "x": "0",
-      "y": "2",
+      "x": "x",
+      "y": "y",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -1093,8 +1093,8 @@
       "stop_id": "89",
       "stop_code": "HOL",
       "stop_name": "Hollis",
-      "x": "13",
-      "y": "28",
+      "x": "14",
+      "y": "16",
       "location": "up",
       "color": "#FFFFFF"
     },
@@ -1103,7 +1103,7 @@
       "stop_code": "HPA",
       "stop_name": "Hunterspoint Avenue",
       "x": "1",
-      "y": "29",
+      "y": "17",
       "location": "down",
       "color": "#FFFFFF"
     },
@@ -1111,8 +1111,8 @@
       "stop_id": "91",
       "stop_code": "HUN",
       "stop_name": "Huntington",
-      "x": "0",
-      "y": "2",
+      "x": "44",
+      "y": "13",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -1120,9 +1120,9 @@
       "stop_id": "92",
       "stop_code": "HVL",
       "stop_name": "Hicksville",
-      "x": "0",
-      "y": "2",
-      "location": "right",
+      "x": "40",
+      "y": "16",
+      "location": "up",
       "color": "#FFFFFF"
     },
     {
@@ -1130,7 +1130,7 @@
       "stop_code": "HWT",
       "stop_name": "Hewlett",
       "x": "21",
-      "y": "37",
+      "y": "28",
       "location": "left",
       "color": "#FFFFFF"
     },
@@ -1139,7 +1139,7 @@
       "stop_code": "IPK",
       "stop_name": "Island Park",
       "x": "24",
-      "y": "41",
+      "y": "32",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -1148,7 +1148,7 @@
       "stop_code": "LINE",
       "stop_name": "Far Rockaway Branch",
       "x": "21",
-      "y": "43",
+      "y": "34",
       "location": "left",
       "color": "#6E3219"
     },
@@ -1157,7 +1157,7 @@
       "stop_code": "LINE",
       "stop_name": "West Hempstead Branch",
       "x": "22",
-      "y": "29",
+      "y": "20",
       "location": "right",
       "color": "#00A1DE"
     },
@@ -1166,7 +1166,7 @@
       "stop_code": "LINE",
       "stop_name": "Long Beach Branch",
       "x": "24",
-      "y": "43",
+      "y": "34",
       "location": "right",
       "color": "#FF6319"
     },
@@ -1175,9 +1175,81 @@
       "stop_code": "LINE",
       "stop_name": "Hempstead Branch",
       "x": "33",
-      "y": "34",
+      "y": "22",
       "location": "right",
       "color": "#CE8E00"
+    },
+    {
+      "stop_id": "LINE",
+      "stop_code": "LINE",
+      "stop_name": "Port Washington Branch",
+      "x": "5",
+      "y": "3",
+      "location": "right",
+      "color": "#C60C30"
+    },
+    {
+      "stop_id": "LINE",
+      "stop_code": "LINE",
+      "stop_name": "Oyster Bay Branch",
+      "x": "37",
+      "y": "0",
+      "location": "right",
+      "color": "#00AF3F"
+    },
+    {
+      "stop_id": "LINE",
+      "stop_code": "LINE",
+      "stop_name": "Port Jefferson Branch",
+      "x": "52",
+      "y": "5",
+      "location": "right",
+      "color": "#006EC7"
+    },
+    {
+      "stop_id": "LINE",
+      "stop_code": "LINE",
+      "stop_name": "Ronkonkoma Branch",
+      "x": "60",
+      "y": "21",
+      "location": "right",
+      "color": "#A626AA"
+    },
+    {
+      "stop_id": "LINE",
+      "stop_code": "LINE",
+      "stop_name": "Montauk Branch",
+      "x": "61",
+      "y": "26",
+      "location": "right",
+      "color": "#00B2A9"
+    },
+    {
+      "stop_id": "LINE",
+      "stop_code": "LINE",
+      "stop_name": "Babylon Branch",
+      "x": "42",
+      "y": "25",
+      "location": "left",
+      "color": "#00985F"
+    },
+    {
+      "stop_id": "LINE",
+      "stop_code": "LINE",
+      "stop_name": "Belmont Park",
+      "x": "20",
+      "y": "18",
+      "location": "right",
+      "color": "#60269E"
+    },
+    {
+      "stop_id": "LINE",
+      "stop_code": "LINE",
+      "stop_name": "City Terminal Zone",
+      "x": "0",
+      "y": "26",
+      "location": "right",
+      "color": "#4D5357"
     }
   ]
 }
