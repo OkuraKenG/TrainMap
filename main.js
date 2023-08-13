@@ -235,7 +235,7 @@ function displayStoppingTrains(allTrains, stationName) {
         let line = lineNumToStr(train[0].overallTrainInfo.obj.route_id);
         let headsign = train[0].overallTrainInfo.obj.trip_headsign;
         let track = train[1].obj.track;
-        if (typeof myVar === 'undefined')
+        if (typeof track === 'undefined')
             track = "N/A";
         let direction = "N/A";
         // let direction = train[0].overallTrainInfo.obj.direction_id;
@@ -375,6 +375,8 @@ function displayTrains(train, stationName) {
         let stopName = stopnumToStr(stop.obj.stop_id);
         let time = stop.obj.arrival_time;
         let track = stop.obj.track;
+        if (typeof track === 'undefined')
+            track = "N/A";
         convertedToTable.push(['', number, stopName, time, track]);
     }
 
