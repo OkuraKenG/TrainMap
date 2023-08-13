@@ -1,0 +1,191 @@
+{
+  "lines": [
+    {
+      "line_id": "1",
+      "route_id": "ATLC",
+      "route_long_name": "Atlantic City Rail Line",
+      "route_color": "#075AAA",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "2",
+      "route_id": "BMGM",
+      "route_long_name": "BetMGM Meadowlands Rail Line",
+      "route_color": "#000000",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "3",
+      "route_id": "BNTN",
+      "route_long_name": "Montclair-Boonton Line",
+      "route_color": "#E66859",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "4",
+      "route_id": "BNTNM",
+      "route_long_name": "Montclair-Boonton Line",
+      "route_color": "#E66859",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "5",
+      "route_id": "HBLR",
+      "route_long_name": "Hudson-Bergen Light Rail",
+      "route_color": "#008080",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "6",
+      "route_id": "MNBN",
+      "route_long_name": "Main/Bergen County Line",
+      "route_color": "#FFD411",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "7",
+      "route_id": "MNBNP",
+      "route_long_name": "Port Jervis Line",
+      "route_color": "#FFD411",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "8",
+      "route_id": "MNE",
+      "route_long_name": "Morris & Essex Line",
+      "route_color": "#08A652",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "9",
+      "route_id": "MNEG",
+      "route_long_name": "Gladstone Branch",
+      "route_color": "#A4C9AA",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "10",
+      "route_id": "NEC",
+      "route_long_name": "Northeast Corridor",
+      "route_color": "#DD3439",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "11",
+      "route_id": "NJCL",
+      "route_long_name": "North Jersey Coast Line",
+      "route_color": "#03A3DF",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "12",
+      "route_id": "NJCLL",
+      "route_long_name": "North Jersey Coast Line",
+      "route_color": "#03A3DF",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "13",
+      "route_id": "NLR",
+      "route_long_name": "Newark Light Rail",
+      "route_color": "#009AD1",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "14",
+      "route_id": "PASC",
+      "route_long_name": "Pascack Valley Line",
+      "route_color": "#94219A",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "15",
+      "route_id": "PRIN",
+      "route_long_name": "Princeton Shuttle",
+      "route_color": "#DD3439",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "16",
+      "route_id": "RARV",
+      "route_long_name": "Raritan Valley Line",
+      "route_color": "#F2A537",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "17",
+      "route_id": "RVLN",
+      "route_long_name": "Riverline Light Rail",
+      "route_color": "#00008B",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    }
+  ]
+}
