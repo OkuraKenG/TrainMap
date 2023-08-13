@@ -18,7 +18,17 @@ function canvasDrawer() {
         let x2 = currentLine.x2;
         let y2 = currentLine.y2;
         stroke(color);
-        line(x1 * fsize + diameter + overallXOffset, y1 * fsize + diameter + overallYOffset, x2 * fsize + diameter + overallXOffset, y2 * fsize + diameter + overallYOffset);
+
+        if (currentLine.line_id == 'ARROW') {
+            strokeWeight(1);
+            fill("#000000");
+            line(x1 * fsize + diameter + overallXOffset, y1 * fsize + diameter + overallYOffset, x2 * fsize + diameter + overallXOffset, y2 * fsize + diameter + overallYOffset);
+            ellipse(x1 * fsize + diameter + overallXOffset, y1 * fsize + diameter + overallYOffset, 4, 4);
+            fill("#FFFFFF");
+            strokeWeight(3);
+        } else {
+            line(x1 * fsize + diameter + overallXOffset, y1 * fsize + diameter + overallYOffset, x2 * fsize + diameter + overallXOffset, y2 * fsize + diameter + overallYOffset);
+        }
     }
    // rotate(PI/2)
     //resets

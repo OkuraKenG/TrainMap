@@ -8,8 +8,8 @@
       "route_text_color": "121212",
       "x1": "43",
       "y1": "18",
-      "x2": "43",
-      "y2": "26"
+      "x2": "46",
+      "y2": "30"
     },
     {
       "line_id": "a",
@@ -17,10 +17,21 @@
       "route_long_name": "Montauk Branch",
       "route_color": "#00B2A9",
       "route_text_color": "121212",
-      "x1": "44",
-      "y1": "26",
-      "x2": "60",
-      "y2": "26"
+      "x1": "47",
+      "y1": "30",
+      "x2": "48",
+      "y2": "30"
+    },
+    {
+      "line_id": "a",
+      "route_id": "5",
+      "route_long_name": "Montauk Branch",
+      "route_color": "#00B2A9",
+      "route_text_color": "121212",
+      "x1": "48",
+      "y1": "30",
+      "x2": "63",
+      "y2": "15"
     },
     {
       "line_id": "a",
@@ -28,10 +39,10 @@
       "route_long_name": "Babylon Branch",
       "route_color": "#00985F",
       "route_text_color": "FFFFFF",
-      "x1": "24",
-      "y1": "26",
-      "x2": "44",
-      "y2": "26"
+      "x1": "26",
+      "y1": "30",
+      "x2": "47",
+      "y2": "30"
     },
     {
       "line_id": "a",
@@ -39,10 +50,10 @@
       "route_long_name": "Oyster Bay Branch",
       "route_color": "#00AF3F",
       "route_text_color": "FFFFFF",
-      "x1": "37",
+      "x1": "31",
       "y1": "16",
-      "x2": "37",
-      "y2": "1"
+      "x2": "45",
+      "y2": "2"
     },
     {
       "line_id": "a",
@@ -52,6 +63,17 @@
       "route_text_color": "FFFFFF",
       "x1": "41",
       "y1": "16",
+      "x2": "43",
+      "y2": "18"
+    },
+    {
+      "line_id": "a",
+      "route_id": "4",
+      "route_long_name": "Ronkonkoma Branch",
+      "route_color": "#A626AA",
+      "route_text_color": "FFFFFF",
+      "x1": "43",
+      "y1": "18",
       "x2": "46",
       "y2": "21"
     },
@@ -63,19 +85,8 @@
       "route_text_color": "FFFFFF",
       "x1": "46",
       "y1": "21",
-      "x2": "59",
-      "y2": "21"
-    },
-    {
-      "line_id": "a",
-      "route_id": "6",
-      "route_long_name": "Long Beach Branch",
-      "route_color": "#FF6319",
-      "route_text_color": "FFFFFF",
-      "x1": "22",
-      "y1": "26",
-      "x2": "24",
-      "y2": "26"
+      "x2": "58",
+      "y2": "9"
     },
     {
       "line_id": "a",
@@ -84,9 +95,20 @@
       "route_color": "#FF6319",
       "route_text_color": "FFFFFF",
       "x1": "24",
-      "y1": "26",
-      "x2": "24",
-      "y2": "33"
+      "y1": "30",
+      "x2": "26",
+      "y2": "30"
+    },
+    {
+      "line_id": "a",
+      "route_id": "6",
+      "route_long_name": "Long Beach Branch",
+      "route_color": "#FF6319",
+      "route_text_color": "FFFFFF",
+      "x1": "26",
+      "y1": "30",
+      "x2": "26",
+      "y2": "37"
     },
     {
       "line_id": "a",
@@ -94,10 +116,10 @@
       "route_long_name": "West Hempstead Branch",
       "route_color": "#00A1DE",
       "route_text_color": "121212",
-      "x1": "11",
+      "x1": "16",
       "y1": "16",
-      "x2": "11",
-      "y2": "19"
+      "x2": "16",
+      "y2": "28"
     },
     {
       "line_id": "a",
@@ -105,10 +127,10 @@
       "route_long_name": "West Hempstead Branch",
       "route_color": "#00A1DE",
       "route_text_color": "121212",
-      "x1": "11",
-      "y1": "19",
+      "x1": "16",
+      "y1": "28",
       "x2": "18",
-      "y2": "26"
+      "y2": "30"
     },
     {
       "line_id": "a",
@@ -116,10 +138,10 @@
       "route_long_name": "West Hempstead Branch",
       "route_color": "#00A1DE",
       "route_text_color": "121212",
-      "x1": "21",
-      "y1": "26",
-      "x2": "22",
-      "y2": "26"
+      "x1": "23",
+      "y1": "30",
+      "x2": "24",
+      "y2": "30"
     },
     {
       "line_id": "a",
@@ -127,10 +149,10 @@
       "route_long_name": "West Hempstead Branch",
       "route_color": "#00A1DE",
       "route_text_color": "121212",
-      "x1": "22",
-      "y1": "26",
-      "x2": "22",
-      "y2": "21"
+      "x1": "24",
+      "y1": "30",
+      "x2": "29",
+      "y2": "25"
     },
     {
       "line_id": "a",
@@ -138,10 +160,10 @@
       "route_long_name": "Far Rockaway Branch",
       "route_color": "#6E3219",
       "route_text_color": "FFFFFF",
-      "x1": "10",
+      "x1": "15",
       "y1": "16",
-      "x2": "10",
-      "y2": "19"
+      "x2": "15",
+      "y2": "28"
     },
     {
       "line_id": "a",
@@ -149,10 +171,10 @@
       "route_long_name": "Far Rockaway Branch",
       "route_color": "#6E3219",
       "route_text_color": "FFFFFF",
-      "x1": "10",
-      "y1": "19",
+      "x1": "15",
+      "y1": "28",
       "x2": "17",
-      "y2": "26"
+      "y2": "30"
     },
     {
       "line_id": "a",
@@ -161,9 +183,9 @@
       "route_color": "#6E3219",
       "route_text_color": "FFFFFF",
       "x1": "17",
-      "y1": "26",
-      "x2": "21",
-      "y2": "26"
+      "y1": "30",
+      "x2": "23",
+      "y2": "30"
     },
     {
       "line_id": "a",
@@ -171,10 +193,10 @@
       "route_long_name": "Far Rockaway Branch",
       "route_color": "#6E3219",
       "route_text_color": "FFFFFF",
-      "x1": "21",
-      "y1": "26",
-      "x2": "21",
-      "y2": "33"
+      "x1": "23",
+      "y1": "30",
+      "x2": "23",
+      "y2": "37"
     },
     {
       "line_id": "a",
@@ -193,7 +215,7 @@
       "route_long_name": "Port Jefferson Branch",
       "route_color": "#006EC7",
       "route_text_color": "FFFFFF",
-      "x1": "33",
+      "x1": "25",
       "y1": "16",
       "x2": "41",
       "y2": "16"
@@ -215,9 +237,9 @@
       "route_long_name": "Belmont Park",
       "route_color": "#60269E",
       "route_text_color": "FFFFFF",
-      "x1": "20",
+      "x1": "19",
       "y1": "16",
-      "x2": "20",
+      "x2": "19",
       "y2": "17"
     },
     {
@@ -226,9 +248,9 @@
       "route_long_name": "Hempstead Branch",
       "route_color": "#CE8E00",
       "route_text_color": "121212",
-      "x1": "9",
+      "x1": "11",
       "y1": "16",
-      "x2": "33",
+      "x2": "25",
       "y2": "16"
     },
     {
@@ -237,9 +259,9 @@
       "route_long_name": "Hempstead Branch",
       "route_color": "#CE8E00",
       "route_text_color": "121212",
-      "x1": "33",
+      "x1": "25",
       "y1": "16",
-      "x2": "33",
+      "x2": "30",
       "y2": "21"
     },
     {
@@ -250,7 +272,7 @@
       "route_text_color": "FFFFFF",
       "x1": "0",
       "y1": "16",
-      "x2": "9",
+      "x2": "11",
       "y2": "16"
     },
     {
@@ -285,6 +307,61 @@
       "y1": "19",
       "x2": "8",
       "y2": "16"
+    },
+    {
+      "line_id": "ARROW",
+      "route_id": "ARROW",
+      "route_long_name": "Long Island City",
+      "route_color": "#000000",
+      "route_text_color": "FFFFFF",
+      "x1": "1",
+      "y1": "17",
+      "x2": "1",
+      "y2": "20"
+    },
+    {
+      "line_id": "ARROW",
+      "route_id": "ARROW",
+      "route_long_name": "Hunterspoint Ave",
+      "route_color": "#000000",
+      "route_text_color": "FFFFFF",
+      "x1": "3",
+      "y1": "16",
+      "x2": "3",
+      "y2": "21"
+    },
+    {
+      "line_id": "ARROW",
+      "route_id": "ARROW",
+      "route_long_name": "Forest Hills",
+      "route_color": "#000000",
+      "route_text_color": "FFFFFF",
+      "x1": "6",
+      "y1": "16",
+      "x2": "6",
+      "y2": "12"
+    },
+    {
+      "line_id": "ARROW",
+      "route_id": "ARROW",
+      "route_long_name": "Kew Gardens",
+      "route_color": "#000000",
+      "route_text_color": "FFFFFF",
+      "x1": "7",
+      "y1": "16",
+      "x2": "7",
+      "y2": "13"
+    },
+    {
+      "line_id": "ARROW",
+      "route_id": "ARROW",
+      "route_long_name": "Jamaica",
+      "route_color": "#000000",
+      "route_text_color": "FFFFFF",
+      "x1": "11",
+      "y1": "16",
+      "x2": "11",
+      "y2": "14"
     }
   ]
 }
