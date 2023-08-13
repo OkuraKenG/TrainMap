@@ -86,8 +86,8 @@
       "stop_code": "LHT",
       "stop_name": "Lindenhurst",
       "x": "45",
-      "y": "30",
-      "location": "down",
+      "y": "32",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -149,8 +149,8 @@
       "stop_code": "LYN",
       "stop_name": "Lynbrook",
       "x": "25",
-      "y": "30",
-      "location": "down",
+      "y": "40",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -167,8 +167,8 @@
       "stop_code": "MAV",
       "stop_name": "Merillon Avenue",
       "x": "29",
-      "y": "16",
-      "location": "up",
+      "y": "9",
+      "location": "left",
       "color": "#FFFFFFF"
     },
     {
@@ -212,8 +212,8 @@
       "stop_code": "MIN",
       "stop_name": "Mineola",
       "x": "30",
-      "y": "16",
-      "location": "up",
+      "y": "8",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -221,8 +221,8 @@
       "stop_code": "MPK",
       "stop_name": "Massapequa Park",
       "x": "42",
-      "y": "30",
-      "location": "down",
+      "y": "35",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -230,8 +230,8 @@
       "stop_code": "MQA",
       "stop_name": "Massapequa",
       "x": "41",
-      "y": "30",
-      "location": "down",
+      "y": "36",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -293,8 +293,8 @@
       "stop_code": "NHP",
       "stop_name": "New Hyde Park",
       "x": "28",
-      "y": "16",
-      "location": "up",
+      "y": "10",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -338,8 +338,8 @@
       "stop_code": "BMR",
       "stop_name": "Bellmore",
       "x": "38",
-      "y": "30",
-      "location": "down",
+      "y": "39",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -392,8 +392,8 @@
       "stop_code": "QVG",
       "stop_name": "Queens Village",
       "x": "18",
-      "y": "16",
-      "location": "up",
+      "y": "11",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -419,8 +419,8 @@
       "stop_code": "ROS",
       "stop_name": "Rosedale",
       "x": "21",
-      "y": "30",
-      "location": "up",
+      "y": "27",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -437,8 +437,8 @@
       "stop_code": "RVC",
       "stop_name": "Rockville Centre",
       "x": "34",
-      "y": "30",
-      "location": "down",
+      "y": "31",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -464,8 +464,8 @@
       "stop_code": "SFD",
       "stop_name": "Seaford",
       "x": "40",
-      "y": "30",
-      "location": "down",
+      "y": "37",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -581,8 +581,8 @@
       "stop_code": "VSM",
       "stop_name": "Valley Stream",
       "x": "22",
-      "y": "30",
-      "location": "up",
+      "y": "23",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -590,8 +590,8 @@
       "stop_code": "WBY",
       "stop_name": "Westbury",
       "x": "39",
-      "y": "16",
-      "location": "up",
+      "y": "14",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -608,8 +608,8 @@
       "stop_code": "WGH",
       "stop_name": "Wantagh",
       "x": "39",
-      "y": "30",
-      "location": "down",
+      "y": "38",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -662,8 +662,8 @@
       "stop_code": "BWN",
       "stop_name": "Baldwin",
       "x": "35",
-      "y": "30",
-      "location": "down",
+      "y": "42",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -671,17 +671,17 @@
       "stop_code": "MRK",
       "stop_name": "Merrick",
       "x": "37",
-      "y": "30",
-      "location": "down",
+      "y": "40",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
       "stop_id": "23",
       "stop_code": "BRS",
       "stop_name": "Bellerose",
-      "x": "22",
-      "y": "16",
-      "location": "up",
+      "x": "21",
+      "y": "13",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -743,8 +743,8 @@
       "stop_code": "BTA",
       "stop_name": "Babylon",
       "x": "47",
-      "y": "30",
-      "location": "down",
+      "y": "25",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -797,8 +797,8 @@
       "stop_code": "EMT",
       "stop_name": "Elmont-UBS Arena",
       "x": "20",
-      "y": "16",
-      "location": "up",
+      "y": "12",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -815,8 +815,8 @@
       "stop_code": "CPG",
       "stop_name": "Copiague",
       "x": "44",
-      "y": "30",
-      "location": "down",
+      "y": "33",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -824,8 +824,8 @@
       "stop_code": "CPL",
       "stop_name": "Carle Place",
       "x": "38",
-      "y": "16",
-      "location": "up",
+      "y": "15",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -931,9 +931,9 @@
       "stop_id": "63",
       "stop_code": "FPK",
       "stop_name": "Floral Park",
-      "x": "21",
-      "y": "16",
-      "location": "up",
+      "x": "22",
+      "y": "14",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -941,8 +941,8 @@
       "stop_code": "FPT",
       "stop_name": "Freeport",
       "x": "36",
-      "y": "30",
-      "location": "down",
+      "y": "41",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1049,8 +1049,8 @@
       "stop_code": "AVL",
       "stop_name": "Amityville",
       "x": "43",
-      "y": "30",
-      "location": "down",
+      "y": "34",
+      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1094,8 +1094,8 @@
       "stop_code": "HOL",
       "stop_name": "Hollis",
       "x": "17",
-      "y": "16",
-      "location": "up",
+      "y": "12",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {
@@ -1121,8 +1121,8 @@
       "stop_code": "HVL",
       "stop_name": "Hicksville",
       "x": "40",
-      "y": "16",
-      "location": "up",
+      "y": "13",
+      "location": "left",
       "color": "#FFFFFF"
     },
     {

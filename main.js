@@ -235,17 +235,21 @@ function displayStoppingTrains(allTrains, stationName) {
         let line = lineNumToStr(train[0].overallTrainInfo.obj.route_id);
         let headsign = train[0].overallTrainInfo.obj.trip_headsign;
         let track = train[1].obj.track;
-        let direction = train[0].overallTrainInfo.obj.direction_id;
+        if (typeof myVar === 'undefined')
+            track = "N/A";
+        let direction = "N/A";
+        // let direction = train[0].overallTrainInfo.obj.direction_id;
 
-
-
-        if (direction == 0) {
-            direction = abc.meta[abc.railroad.id].direction0;
-        } else {
-            direction = abc.meta[abc.railroad.id].direction1;
-        }
+        // if (direction == 0) {
+        //     direction = abc.meta[abc.railroad.id].direction0;
+        // } else {
+        //     direction = abc.meta[abc.railroad.id].direction1;
+        // }
 
         let shortname = train[0].overallTrainInfo.obj.trip_short_name;
+        if (typeof shortname === "undefined") {
+            shortname = train[0].overallTrainInfo.obj.block_id;
+        }
         let origin = stopnumToStr(train[0].stops[0].obj.stop_id);
 
         dontmissthetrain.push([arrival_time, line, origin, headsign, track, direction, shortname]);
@@ -279,16 +283,12 @@ function displayStoppingTrains(allTrains, stationName) {
             c.innerText = col;
 
             if (head[index] == 'Line') {
-                if (col == 'Harlem') {
-                    c.style.background = '#0039A6';
-                    c.style.color = '#FFFFFF';
-                } else if (col == 'Hudson') {
-                    c.style.background = '#009B3A';
-                    c.style.color = '#FFFFFF';
-                } else if (col == 'Waterbury' || col == 'Danbury' || col == 'New Canaan' || col == 'New Haven') {
-                    c.style.background = '#EE0034';
-                    c.style.color = '#FFFFFF';
-                }
+                c.style.background = "#"+lineNameToColor(col);
+                if (typeof lineNameToTextColor(col) !== "undefined")
+                    c.style.color = "#"+lineNameToTextColor(col);
+                else 
+                    c.style.color = "white";
+                
             }
 
             if (head[index] == 'Train Number') {
@@ -325,6 +325,14 @@ function lineNumToStr(num) {
     return routes.findRow(num, 'route_id').obj.route_long_name;
 }
 
+function lineNameToColor(name) {
+    return routes.findRow(name, 'route_long_name').obj.route_color;
+}
+
+function lineNameToTextColor(name) {
+    return routes.findRow(name, 'route_long_name').obj.route_text_color;
+}
+
 function stopnumToStr(num) {
     return stationList.findRow(num, 'stop_id').obj.stop_name;
 }
@@ -343,6 +351,7 @@ function findByTrainNumber(num) {
     return 'None Found...';
 }
 
+// displays stops 
 function displayTrains(train, stationName) {
 
     let stops = train.stops;
