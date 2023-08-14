@@ -6,10 +6,10 @@
       "route_long_name": "Atlantic City Rail Line",
       "route_color": "#075AAA",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
+      "x1": "73",
+      "y1": "43",
+      "x2": "65",
+      "y2": "43"
     },
     {
       "line_id": "2",
@@ -17,10 +17,43 @@
       "route_long_name": "BetMGM Meadowlands Rail Line",
       "route_color": "#000000",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
+      "x1": "50",
+      "y1": "21",
+      "x2": "51",
+      "y2": "21"
+    },
+    {
+      "line_id": "9",
+      "route_id": "MNEG",
+      "route_long_name": "Gladstone Branch",
+      "route_color": "#A4C9AA",
+      "route_text_color": "#FFFFFF",
+      "x1": "24",
+      "y1": "27",
+      "x2": "12",
+      "y2": "27"
+    },
+    {
+      "line_id": "8",
+      "route_id": "MNE",
+      "route_long_name": "Morris & Essex Line",
+      "route_color": "#08A652",
+      "route_text_color": "#FFFFFF",
+      "x1": "35",
+      "y1": "27",
+      "x2": "24",
+      "y2": "27"
+    },
+    {
+      "line_id": "8",
+      "route_id": "MNE",
+      "route_long_name": "Morris & Essex Line",
+      "route_color": "#08A652",
+      "route_text_color": "#FFFFFF",
+      "x1": "24",
+      "y1": "27",
+      "x2": "7",
+      "y2": "10"
     },
     {
       "line_id": "3",
@@ -28,10 +61,32 @@
       "route_long_name": "Montclair-Boonton Line",
       "route_color": "#E66859",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
+      "x1": "53",
+      "y1": "27",
+      "x2": "35",
+      "y2": "27"
+    },
+    {
+      "line_id": "3",
+      "route_id": "BNTN",
+      "route_long_name": "Montclair-Boonton Line",
+      "route_color": "#E66859",
+      "route_text_color": "#FFFFFF",
+      "x1": "35",
+      "y1": "27",
+      "x2": "18",
+      "y2": "10"
+    },
+    {
+      "line_id": "3",
+      "route_id": "BNTN",
+      "route_long_name": "Montclair-Boonton Line",
+      "route_color": "#E66859",
+      "route_text_color": "#FFFFFF",
+      "x1": "18",
+      "y1": "10",
       "x2": "0",
-      "y2": "0"
+      "y2": "10"
     },
     {
       "line_id": "4",
@@ -61,9 +116,108 @@
       "route_long_name": "Main/Bergen County Line",
       "route_color": "#FFD411",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
+      "x1": "53",
+      "y1": "27",
+      "x2": "50",
+      "y2": "25"
+    },
+    {
+      "line_id": "6",
+      "route_id": "MNBN",
+      "route_long_name": "Main/Bergen County Line",
+      "route_color": "#FFD411",
+      "route_text_color": "#FFFFFF",
+      "x1": "50",
+      "y1": "25",
+      "x2": "50",
+      "y2": "23"
+    },
+    {
+      "line_id": "6",
+      "route_id": "MNBN",
+      "route_long_name": "Main/Bergen County Line",
+      "route_color": "#FFD411",
+      "route_text_color": "#FFFFFF",
+      "x1": "43",
+      "y1": "20",
+      "x2": "35",
+      "y2": "12"
+    },
+    {
+      "line_id": "6",
+      "route_id": "MNBN",
+      "route_long_name": "Main/Bergen County Line",
+      "route_color": "#FFD411",
+      "route_text_color": "#FFFFFF",
+      "x1": "43",
+      "y1": "20",
+      "x2": "50",
+      "y2": "20"
+    },
+    {
+      "line_id": "6",
+      "route_id": "MNBN",
+      "route_long_name": "Main/Bergen County Line",
+      "route_color": "#FFD411",
+      "route_text_color": "#FFFFFF",
+      "x1": "35",
+      "y1": "16",
+      "x2": "42",
+      "y2": "23"
+    },
+    {
+      "line_id": "14",
+      "route_id": "PASC",
+      "route_long_name": "Pascack Valley Line",
+      "route_color": "#94219A",
+      "route_text_color": "#FFFFFF",
+      "x1": "50",
+      "y1": "23",
+      "x2": "50",
+      "y2": "0"
+    },
+    {
+      "line_id": "6",
+      "route_id": "MNBN",
+      "route_long_name": "Main/Bergen County Line",
+      "route_color": "#FFD411",
+      "route_text_color": "#FFFFFF",
+      "x1": "35",
+      "y1": "16",
+      "x2": "35",
+      "y2": "0"
+    },
+    {
+      "line_id": "6",
+      "route_id": "MNBN",
+      "route_long_name": "Main/Bergen County Line",
+      "route_color": "#FFD411",
+      "route_text_color": "#FFFFFF",
+      "x1": "42",
+      "y1": "23",
+      "x2": "50",
+      "y2": "23"
+    },
+    {
+      "line_id": "11",
+      "route_id": "NJCL",
+      "route_long_name": "North Jersey Coast Line",
+      "route_color": "#03A3DF",
+      "route_text_color": "#FFFFFF",
+      "x1": "39",
+      "y1": "35",
+      "x2": "64",
+      "y2": "35"
+    },
+    {
+      "line_id": "7",
+      "route_id": "MNBNP",
+      "route_long_name": "Port Jervis Line",
+      "route_color": "#FFD411",
+      "route_text_color": "#FFFFFF",
+      "x1": "35",
       "y1": "0",
-      "x2": "0",
+      "x2": "31",
       "y2": "0"
     },
     {
@@ -72,31 +226,9 @@
       "route_long_name": "Port Jervis Line",
       "route_color": "#FFD411",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
-    },
-    {
-      "line_id": "8",
-      "route_id": "MNE",
-      "route_long_name": "Morris & Essex Line",
-      "route_color": "#08A652",
-      "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
-    },
-    {
-      "line_id": "9",
-      "route_id": "MNEG",
-      "route_long_name": "Gladstone Branch",
-      "route_color": "#A4C9AA",
-      "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
+      "x1": "30",
+      "y1": "1",
+      "x2": "31",
       "y2": "0"
     },
     {
@@ -105,21 +237,21 @@
       "route_long_name": "Northeast Corridor",
       "route_color": "#DD3439",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
+      "x1": "50",
+      "y1": "24",
+      "x2": "55",
+      "y2": "24"
     },
     {
-      "line_id": "11",
-      "route_id": "NJCL",
-      "route_long_name": "North Jersey Coast Line",
-      "route_color": "#03A3DF",
+      "line_id": "10",
+      "route_id": "NEC",
+      "route_long_name": "Northeast Corridor",
+      "route_color": "#DD3439",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
+      "x1": "50",
+      "y1": "24",
+      "x2": "31",
+      "y2": "43"
     },
     {
       "line_id": "12",
@@ -144,26 +276,15 @@
       "y2": "0"
     },
     {
-      "line_id": "14",
-      "route_id": "PASC",
-      "route_long_name": "Pascack Valley Line",
-      "route_color": "#94219A",
-      "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
-    },
-    {
       "line_id": "15",
       "route_id": "PRIN",
       "route_long_name": "Princeton Shuttle",
       "route_color": "#DD3439",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
+      "x1": "33",
+      "y1": "41",
+      "x2": "32",
+      "y2": "40"
     },
     {
       "line_id": "16",
@@ -171,10 +292,32 @@
       "route_long_name": "Raritan Valley Line",
       "route_color": "#F2A537",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
+      "x1": "45",
+      "y1": "29",
+      "x2": "44",
+      "y2": "29"
+    },
+    {
+      "line_id": "16",
+      "route_id": "RARV",
+      "route_long_name": "Raritan Valley Line",
+      "route_color": "#F2A537",
+      "route_text_color": "#FFFFFF",
+      "x1": "44",
+      "y1": "29",
+      "x2": "36",
+      "y2": "37"
+    },
+    {
+      "line_id": "16",
+      "route_id": "RARV",
+      "route_long_name": "Raritan Valley Line",
+      "route_color": "#F2A537",
+      "route_text_color": "#FFFFFF",
+      "x1": "36",
+      "y1": "37",
+      "x2": "9",
+      "y2": "37"
     },
     {
       "line_id": "17",
@@ -186,6 +329,28 @@
       "y1": "0",
       "x2": "0",
       "y2": "0"
+    },
+    {
+      "line_id": "ARROW",
+      "route_id": "ARROW",
+      "route_long_name": "SECAUCUSUpper",
+      "route_color": "#000000",
+      "route_text_color": "#FFFFFF",
+      "x1": "50",
+      "y1": "24",
+      "x2": "51",
+      "y2": "22"
+    },
+    {
+      "line_id": "ARROW",
+      "route_id": "ARROW",
+      "route_long_name": "SECAUCUSLower",
+      "route_color": "#000000",
+      "route_text_color": "#FFFFFF",
+      "x1": "50",
+      "y1": "24",
+      "x2": "51",
+      "y2": "23"
     }
   ]
 }
