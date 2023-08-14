@@ -89,28 +89,6 @@
       "y2": "10"
     },
     {
-      "line_id": "4",
-      "route_id": "BNTNM",
-      "route_long_name": "Montclair-Boonton Line",
-      "route_color": "#E66859",
-      "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
-    },
-    {
-      "line_id": "5",
-      "route_id": "HBLR",
-      "route_long_name": "Hudson-Bergen Light Rail",
-      "route_color": "#008080",
-      "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
-    },
-    {
       "line_id": "6",
       "route_id": "MNBN",
       "route_long_name": "Main/Bergen County Line",
@@ -254,28 +232,6 @@
       "y2": "43"
     },
     {
-      "line_id": "12",
-      "route_id": "NJCLL",
-      "route_long_name": "North Jersey Coast Line",
-      "route_color": "#03A3DF",
-      "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
-    },
-    {
-      "line_id": "13",
-      "route_id": "NLR",
-      "route_long_name": "Newark Light Rail",
-      "route_color": "#009AD1",
-      "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
-    },
-    {
       "line_id": "15",
       "route_id": "PRIN",
       "route_long_name": "Princeton Shuttle",
@@ -318,17 +274,6 @@
       "y1": "37",
       "x2": "9",
       "y2": "37"
-    },
-    {
-      "line_id": "17",
-      "route_id": "RVLN",
-      "route_long_name": "Riverline Light Rail",
-      "route_color": "#00008B",
-      "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
     },
     {
       "line_id": "ARROW",

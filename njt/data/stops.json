@@ -1138,7 +1138,7 @@
       "stop_id": "135",
       "stop_code": "95135",
       "stop_name": "SALISBURY MILLS-CORNWALL",
-      "x": "33",
+      "x": "34",
       "y": "0",
       "location": "down",
       "color": "#FFFFFF"
@@ -1369,114 +1369,6 @@
       "color": "#FFFFFF"
     },
     {
-      "stop_id": "6900",
-      "stop_code": "30770",
-      "stop_name": "MILITARY PARK LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "6907",
-      "stop_code": "30763",
-      "stop_name": "DAVENPORT AVENUE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "6957",
-      "stop_code": "30767",
-      "stop_name": "NORFOLK STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "6966",
-      "stop_code": "30765",
-      "stop_name": "PARK AVENUE NEWARK LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "6995",
-      "stop_code": "30768",
-      "stop_name": "WARREN STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "6997",
-      "stop_code": "30769",
-      "stop_name": "WASHINGTON STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "9878",
-      "stop_code": "30825",
-      "stop_name": "PORT IMPERIAL HBLR STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "14984",
-      "stop_code": "30764",
-      "stop_name": "BLOOMFIELD AVENUE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "14986",
-      "stop_code": "30766",
-      "stop_name": "ORANGE STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "17699",
-      "stop_code": "30826",
-      "stop_name": "LINCOLN HARBOR LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "26316",
-      "stop_code": "30762",
-      "stop_name": "BRANCH BROOK PARK LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "26326",
-      "stop_code": "30771",
-      "stop_name": "PENN STATION LIGHT RAIL DEPARTURE",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
       "stop_id": "31696",
       "stop_code": "95162",
       "stop_name": "MONMOUTH PARK",
@@ -1504,174 +1396,12 @@
       "color": "#FFFFFF"
     },
     {
-      "stop_id": "36994",
-      "stop_code": "30833",
-      "stop_name": "EXCHANGE PLACE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "36995",
-      "stop_code": "30834",
-      "stop_name": "ESSEX STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "36996",
-      "stop_code": "30835",
-      "stop_name": "MARIN BOULEVARD LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "36997",
-      "stop_code": "30836",
-      "stop_name": "JERSEY AVENUE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "36998",
-      "stop_code": "30837",
-      "stop_name": "LIBERTY STATE PARK-RIDE LIGHT RAIL STA",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "36999",
-      "stop_code": "30838",
-      "stop_name": "GARFIELD AVENUE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "37000",
-      "stop_code": "30839",
-      "stop_name": "MLK DRIVE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "37001",
-      "stop_code": "30840",
-      "stop_name": "WEST SIDE AVENUE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "37002",
-      "stop_code": "30841",
-      "stop_name": "RICHARD STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "37003",
-      "stop_code": "30842",
-      "stop_name": "DANFORTH AVENUE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "37004",
-      "stop_code": "30843",
-      "stop_name": "45TH STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "37005",
-      "stop_code": "30844",
-      "stop_name": "34TH STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
       "stop_id": "37169",
       "stop_code": "95082",
       "stop_name": "ABERDEEN-MATAWAN",
       "x": "49",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "37376",
-      "stop_code": "30832",
-      "stop_name": "HARBORSIDE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "37377",
-      "stop_code": "30831",
-      "stop_name": "HARSIMUS COVE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "37378",
-      "stop_code": "30830",
-      "stop_name": "NEWPORT LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "37953",
-      "stop_code": "95164",
-      "stop_name": "NEWARK AIRPORT RAILROAD STATION",
-      "x": "44",
-      "y": "30",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38064",
-      "stop_code": "30540",
-      "stop_name": "SILVER LAKE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38065",
-      "stop_code": "30539",
-      "stop_name": "GROVE STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
       "color": "#FFFFFF"
     },
     {
@@ -1711,290 +1441,11 @@
       "color": "#FFFFFF"
     },
     {
-      "stop_id": "38229",
-      "stop_code": "30845",
-      "stop_name": "22ND STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38291",
-      "stop_code": "30855",
-      "stop_name": "TRENTON TRANSIT CENTER LIGHT RAIL STA",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38292",
-      "stop_code": "30856",
-      "stop_name": "HAMILTON AVENUE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38293",
-      "stop_code": "30857",
-      "stop_name": "CASS STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38294",
-      "stop_code": "30858",
-      "stop_name": "BORDENTOWN LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38295",
-      "stop_code": "30859",
-      "stop_name": "ROEBLING LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38296",
-      "stop_code": "30860",
-      "stop_name": "FLORENCE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38297",
-      "stop_code": "30861",
-      "stop_name": "BURLINGTON TOWNE CTR LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38298",
-      "stop_code": "30862",
-      "stop_name": "BURLINGTON SOUTH LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38299",
-      "stop_code": "30863",
-      "stop_name": "BEVERLY/EDGEWATER PARK LIGHT RAIL STA",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38300",
-      "stop_code": "30864",
-      "stop_name": "DELANCO LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38301",
-      "stop_code": "30865",
-      "stop_name": "RIVERSIDE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38302",
-      "stop_code": "30866",
-      "stop_name": "CINNAMINSON LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38303",
-      "stop_code": "30867",
-      "stop_name": "RIVERTON LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38304",
-      "stop_code": "30868",
-      "stop_name": "PALMYRA LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38305",
-      "stop_code": "30869",
-      "stop_name": "ROUTE 73/PENNSAUKEN LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38306",
-      "stop_code": "30870",
-      "stop_name": "36TH STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38307",
-      "stop_code": "30871",
-      "stop_name": "WALTER RAND TRANSPORTATION CTR",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38308",
-      "stop_code": "30872",
-      "stop_name": "COOPER STREET/RUTGERS LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38309",
-      "stop_code": "30873",
-      "stop_name": "AQUARIUM LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38310",
-      "stop_code": "30874",
-      "stop_name": "ENTERTAINMENT CENTER LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
       "stop_id": "38417",
       "stop_code": "95170",
       "stop_name": "RAMSEY ROUTE 17 STATION",
       "x": "35",
       "y": "6",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38441",
-      "stop_code": "30828",
-      "stop_name": "2ND STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38442",
-      "stop_code": "30827",
-      "stop_name": "9TH STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38578",
-      "stop_code": "30824",
-      "stop_name": "BERGENLINE AVE",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "38579",
-      "stop_code": "30823",
-      "stop_name": "TONNELLE AVENUE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "39130",
-      "stop_code": "30775",
-      "stop_name": "BROAD STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "39131",
-      "stop_code": "30774",
-      "stop_name": "RIVERFRONT STADIUM LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "39132",
-      "stop_code": "30776",
-      "stop_name": "HARRIET TUBMAN SQUARE LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "39133",
-      "stop_code": "30773",
-      "stop_name": "ATLANTIC STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "39134",
-      "stop_code": "30772",
-      "stop_name": "NJPAC/CENTRE STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "39348",
-      "stop_code": "30829",
-      "stop_name": "HOBOKEN TERMINAL LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
       "location": "right",
       "color": "#FFFFFF"
     },
@@ -2026,33 +1477,6 @@
       "color": "#FFFFFF"
     },
     {
-      "stop_id": "42545",
-      "stop_code": "31061",
-      "stop_name": "PENN STATION LIGHT RAIL ARRIVAL",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "42673",
-      "stop_code": "31145",
-      "stop_name": "8TH STREET LIGHT RAIL STATION",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
-      "stop_id": "43288",
-      "stop_code": "31898",
-      "stop_name": "PENNSAUKEN TRANSIT CENTER LIGHT RAIL STA",
-      "x": "-9",
-      "y": "-1",
-      "location": "right",
-      "color": "#FFFFFF"
-    },
-    {
       "stop_id": "43298",
       "stop_code": "95183",
       "stop_name": "PENNSAUKEN TRANSIT CENTER",
@@ -2069,6 +1493,114 @@
       "y": "18",
       "location": "right",
       "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "ATLC",
+      "stop_name": "Atlantic City Rail Line",
+      "x": "74",
+      "y": "43",
+      "location": "up",
+      "color": "#075AAA"
+    },
+    {
+      "stop_id": "2",
+      "stop_code": "BMGM",
+      "stop_name": "BetMGM Meadowlands Rail Line",
+      "x": "52",
+      "y": "20",
+      "location": "right",
+      "color": "#000000"
+    },
+    {
+      "stop_id": "9",
+      "stop_code": "MNEG",
+      "stop_name": "Gladstone Branch",
+      "x": "11",
+      "y": "27",
+      "location": "left",
+      "color": "#A4C9AA"
+    },
+    {
+      "stop_id": "8",
+      "stop_code": "MNE",
+      "stop_name": "Morris & Essex Line",
+      "x": "16",
+      "y": "20",
+      "location": "left",
+      "color": "#08A652"
+    },
+    {
+      "stop_id": "3",
+      "stop_code": "BNTN",
+      "stop_name": "Montclair-Boonton Line",
+      "x": "0",
+      "y": "11",
+      "location": "left",
+      "color": "#E66859"
+    },
+    {
+      "stop_id": "6",
+      "stop_code": "MNBN",
+      "stop_name": "Main/Bergen County Line",
+      "x": "43",
+      "y": "24",
+      "location": "left",
+      "color": "#FFD411"
+    },
+    {
+      "stop_id": "14",
+      "stop_code": "PASC",
+      "stop_name": "Pascack Valley Line",
+      "x": "49",
+      "y": "0",
+      "location": "left",
+      "color": "#94219A"
+    },
+    {
+      "stop_id": "11",
+      "stop_code": "NJCL",
+      "stop_name": "North Jersey Coast Line",
+      "x": "52",
+      "y": "34",
+      "location": "right",
+      "color": "#03A3DF"
+    },
+    {
+      "stop_id": "7",
+      "stop_code": "MNBNP",
+      "stop_name": "Port Jervis Line",
+      "x": "30",
+      "y": "0",
+      "location": "left",
+      "color": "#FFD411"
+    },
+    {
+      "stop_id": "10",
+      "stop_code": "NEC",
+      "stop_name": "Northeast Corridor",
+      "x": "54",
+      "y": "25",
+      "location": "right",
+      "color": "#DD3439"
+    },
+    {
+      "stop_id": "15",
+      "stop_code": "PRIN",
+      "stop_name": "Princeton Shuttle",
+      "x": "33",
+      "y": "39",
+      "location": "left",
+      "color": "#DD3439"
+    },
+    {
+      "stop_id": "16",
+      "stop_code": "RARV",
+      "stop_name": "Raritan Valley Line",
+      "x": "8",
+      "y": "37",
+      "location": "left",
+      "color": "#F2A537"
     },
     {
       "stop_id": "a",
