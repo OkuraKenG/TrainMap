@@ -291,13 +291,6 @@ function displayStoppingTrains(allTrains, stationName) {
                 
             }
 
-            // if (head[index] == 'Train Number' && true) {
-            //     r.setAttribute('stopsVisible', 'false');
-            //     c.addEventListener('click', () => {
-            //         displayTrains(findByTrainBlockNumber(col), stationName)
-            //     });
-                
-            // } else 
             if (head[index] == 'Train Number') {
                 r.setAttribute('stopsVisible', 'false');
                 c.addEventListener('click', () => {
@@ -357,7 +350,7 @@ function findByTrainNumber(num) {
             return train;
         }
     }
-    return 'None Found...';
+    return findByTrainBlockNumber(num);
 }
 
 function findByTrainBlockNumber(num) {
@@ -375,6 +368,8 @@ function displayTrains(train, stationName) {
 
     let stops = train.stops;
     let trip_short_name = train.overallTrainInfo.obj.trip_short_name;
+    if (typeof trip_short_name === "undefined")
+        trip_short_name = train.overallTrainInfo.obj.block_id
 
     let mainRowBool = document.getElementById(trip_short_name).getAttribute('stopsvisible')
 
