@@ -1,0 +1,238 @@
+{
+  "stops": [
+    {
+      "stop_id": "1",
+      "stop_code": "NHV",
+      "stop_name": "New Haven Union Station",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "ST",
+      "stop_name": "New Haven State Street Station",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "BRN",
+      "stop_name": "Branford",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "GUIL",
+      "stop_name": "Guilford",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "MAD",
+      "stop_name": "Madison",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "CLIN",
+      "stop_name": "Clinton",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "WES",
+      "stop_name": "Westbrook",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "OSB",
+      "stop_name": "Old Saybrook",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "NLC",
+      "stop_name": "New London",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "GCS",
+      "stop_name": "Grand Central Station",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "GW",
+      "stop_name": "Greenwich",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "STM",
+      "stop_name": "Stamford",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "SN",
+      "stop_name": "South Norwalk",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "BRP",
+      "stop_name": "Bridgeport",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "STR",
+      "stop_name": "Stratford",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "MIL",
+      "stop_name": "Milford",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "WH",
+      "stop_name": "West Haven",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "100",
+      "stop_name": "NEW HAVEN UNION STATION",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "2",
+      "stop_code": "101",
+      "stop_name": "STATE STREET STATION",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "3",
+      "stop_code": "102",
+      "stop_name": "WALLINGFORD",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "4",
+      "stop_code": "103",
+      "stop_name": "MERIDEN",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "5",
+      "stop_code": "104",
+      "stop_name": "BERLIN",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "6",
+      "stop_code": "105",
+      "stop_name": "HARTFORD",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "7",
+      "stop_code": "106",
+      "stop_name": "WINDSOR",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "8",
+      "stop_code": "107",
+      "stop_name": "WINDSOR LOCKS",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "9",
+      "stop_code": "108",
+      "stop_name": "SPRINGFIELD",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    }
+  ]
+}

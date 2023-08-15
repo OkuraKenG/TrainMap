@@ -1,0 +1,3 @@
+route_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
+SLET,"",Shore Line East Train,"Shore Line East trains run seven days a week including holidays, making stops at New London, Old Saybrook, Westbrook, Clinton, Madison, Guilford, Branford, and New Haven at State Street and Union Station, with limited express service to/from West Haven, Bridgeport and Stamford. Connecting service is available at Union Station, New Haven.",2,EF3E42,FFFFFF
+SLEB,"",Shore Line East Bus Substitution,"Due to scheduled Amtrak rail construction in progress, Shore Line East has replaced a number of trains with buses. More information can be found on www.shorelineeast.com.",3,EF3E42,FFFFFF

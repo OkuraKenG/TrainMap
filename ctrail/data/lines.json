@@ -1,0 +1,37 @@
+{
+  "lines": [
+    {
+      "line_id": "LET",
+      "route_id": "",
+      "route_long_name": "Shore Line East Train",
+      "route_color": "#EF3E42",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "SLEB",
+      "route_id": "",
+      "route_long_name": "Shore Line East Bus Substitution",
+      "route_color": "#EF3E42",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "HART",
+      "route_id": "1",
+      "route_long_name": "Hartford Line",
+      "route_color": "#ea0d2a",
+      "route_text_color": "#ffffff",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    }
+  ]
+}
