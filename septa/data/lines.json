@@ -1,0 +1,147 @@
+{
+  "lines": [
+    {
+      "line_id": "AIR",
+      "route_id": "Airport Line",
+      "route_long_name": "Airport Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "CHE",
+      "route_id": "Chestnut Hill East Line",
+      "route_long_name": "Chestnut Hill East Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "CHW",
+      "route_id": "Chestnut Hill West Line",
+      "route_long_name": "Chestnut Hill West Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "LAN",
+      "route_id": "Lansdale/Doylestown Line",
+      "route_long_name": "Lansdale/Doylestown Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "MED",
+      "route_id": "Media/Wawa Line",
+      "route_long_name": "Media/Wawa Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "FOX",
+      "route_id": "Fox Chase Line",
+      "route_long_name": "Fox Chase Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "NOR",
+      "route_id": "Manayunk/Norristown Line",
+      "route_long_name": "Manayunk/Norristown Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "PAO",
+      "route_id": "Paoli/Thorndale Line",
+      "route_long_name": "Paoli/Thorndale Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "CYN",
+      "route_id": "Cynwyd Line",
+      "route_long_name": "Cynwyd Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "TRE",
+      "route_id": "Trenton Line",
+      "route_long_name": "Trenton Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "WAR",
+      "route_id": "Warminster Line",
+      "route_long_name": "Warminster Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "WIL",
+      "route_id": "Wilmington/Newark Line",
+      "route_long_name": "Wilmington/Newark Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "WTR",
+      "route_id": "West Trenton Line",
+      "route_long_name": "West Trenton Line",
+      "route_color": "45637A",
+      "route_text_color": "FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    }
+  ]
+}
