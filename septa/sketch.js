@@ -54,7 +54,7 @@ function canvasDrawer() {
     let y1 = currentLine.y1;
     let x2 = currentLine.x2;
     let y2 = currentLine.y2;
-    stroke(color);
+    stroke("#"+color);
 
     if (currentLine.line_id == 'ARROW') {
       strokeWeight(1);
