@@ -331,7 +331,7 @@ function displayStoppingTrains(allTrains, stationName, routesthis, stationListth
   htmlTable.appendChild(headerRow);
 
 
-  for (let row of dontmissthetrain) {
+  for (let [index0,row] of dontmissthetrain.entries()) {
     let r = document.createElement('tr');
     r.setAttribute('id', row[row.length - 1]);
 
@@ -351,7 +351,8 @@ function displayStoppingTrains(allTrains, stationName, routesthis, stationListth
       if (head[index] == 'Train Number') {
         r.setAttribute('stopsVisible', 'false');
         c.addEventListener('click', () => {
-          displayTrains(findByTrainNumber(col, reformatedthis), stationName, stationListthis)
+          //displayTrains(findByTrainNumber(col, reformatedthis), stationName, stationListthis)
+          displayTrains(allTrains[index0][0], stationName, stationListthis)
         });
       }
 

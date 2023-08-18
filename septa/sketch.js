@@ -269,7 +269,7 @@ function displayStoppingTrains(allTrains, stationName, routesthis, stationListth
   let dontmissthetrain = []
 
   for (train of allTrains) {
-    console.log(train)
+    // console.log(train)
     let arrival_time = train[1].obj.arrival_time;
 
     let line = lineNumToStr(train[0].overallTrainInfo.obj.route_id, routesthis);
@@ -290,17 +290,17 @@ function displayStoppingTrains(allTrains, stationName, routesthis, stationListth
 
   }
 
-  dontmissthetrain.sort((a, b) => {
-    //console.log(a[0], b[0]);
-    let timeA = a[0];
-    if (timeA.search("[0-9]:") == 0)
-      timeA = "0" + timeA;
-    let timeB = b[0];
-    if (timeB.search("[0-9]:") == 0)
-      timeB = "0" + timeB;
-    //console.log(timeA,timeB,timeA.localeCompare(timeB));
-    return timeA.localeCompare(timeB);
-  });
+  // dontmissthetrain.sort((a, b) => {
+  //   console.log(a[0], b[0]);
+  //   let timeA = a[0];
+  //   if (timeA.search("[0-9]:") == 0)
+  //     timeA = "0" + timeA;
+  //   let timeB = b[0];
+  //   if (timeB.search("[0-9]:") == 0)
+  //     timeB = "0" + timeB;
+  //   //console.log(timeA,timeB,timeA.localeCompare(timeB));
+  //   return timeA.localeCompare(timeB);
+  // });
 
   let head = ['Arrival/Depature Time', 'Line', 'Origin', 'Terminus (Headsign)', 'Track', 'Direction', 'Train Number']
   let headerRow = document.createElement('thead');
@@ -315,10 +315,10 @@ function displayStoppingTrains(allTrains, stationName, routesthis, stationListth
   htmlTable.appendChild(headerRow);
 
 
-  for (let row of dontmissthetrain) {
+  for (let [index0,row] of dontmissthetrain.entries()) {
     let r = document.createElement('tr');
     r.setAttribute('id', row[row.length - 1]);
-    console.log(row);
+    console.log(allTrains[index0][0]);
 
     for (let [index, col] of row.entries()) {
       let c = document.createElement('td');
@@ -336,7 +336,8 @@ function displayStoppingTrains(allTrains, stationName, routesthis, stationListth
       if (head[index] == 'Train Number') {
         r.setAttribute('stopsVisible', 'false');
         c.addEventListener('click', () => {
-          displayTrains(findByTrainNumber(col, reformatedthis), stationName, stationListthis)
+          //allTrains[index0]
+          displayTrains(allTrains[index0][0], stationName, stationListthis)
         });
       }
 
@@ -390,7 +391,7 @@ function close() {
 function findByTrainNumber(num, reformatedthis) {
   for (let train of reformatedthis) {
     if (train.overallTrainInfo.obj.trip_short_name == num) {
-      // console.log(train);
+      console.log(train);
       return train;
     }
   }
