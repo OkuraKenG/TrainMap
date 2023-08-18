@@ -139,11 +139,9 @@ function buttonGenerator() {
       let div = document.createElement("div");
       div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset + 5 - 16}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 16}px; border: solid; border-color: ${bordercolor};`);
 
-
       div.addEventListener("click", function () {
         displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, stationList, reformated, false), currentStop.stop_name, routes, stationList, reformated);
       }, false);
-
 
       document.body.appendChild(div);
     } else if (currentStop.location == "left") {
@@ -271,6 +269,7 @@ function displayStoppingTrains(allTrains, stationName, routesthis, stationListth
   let dontmissthetrain = []
 
   for (train of allTrains) {
+    console.log(train)
     let arrival_time = train[1].obj.arrival_time;
 
     let line = lineNumToStr(train[0].overallTrainInfo.obj.route_id, routesthis);
@@ -319,6 +318,7 @@ function displayStoppingTrains(allTrains, stationName, routesthis, stationListth
   for (let row of dontmissthetrain) {
     let r = document.createElement('tr');
     r.setAttribute('id', row[row.length - 1]);
+    console.log(row);
 
     for (let [index, col] of row.entries()) {
       let c = document.createElement('td');
