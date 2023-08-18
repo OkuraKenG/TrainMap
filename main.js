@@ -30,7 +30,7 @@ function canvasDrawer() {
             line(x1 * fsize + diameter + overallXOffset, y1 * fsize + diameter + overallYOffset, x2 * fsize + diameter + overallXOffset, y2 * fsize + diameter + overallYOffset);
         }
     }
-   // rotate(PI/2)
+    // rotate(PI/2)
     //resets
     stroke(0);
     strokeWeight(1);
@@ -66,11 +66,11 @@ function canvasDrawer() {
             text(currentStop.stop_name, x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15, y * fsize + fsize + overallYOffset);
         } else if (currentStop.location == "up") {
             rotate(-(PI / 2.0));
-            text(currentStop.stop_name, -1*(y * fsize + fsize + overallYOffset-15), (x * fsize + fsize + overallXOffset ));
+            text(currentStop.stop_name, -1 * (y * fsize + fsize + overallYOffset - 15), (x * fsize + fsize + overallXOffset));
             rotate((PI / 2.0));
         } else if (currentStop.location == "down") {
             rotate(-(PI / 2.0));
-            text(currentStop.stop_name, -1*(y * fsize + fsize + overallYOffset+textWidth(currentStop.stop_name)+5), (x * fsize + fsize + overallXOffset - 2 ));
+            text(currentStop.stop_name, -1 * (y * fsize + fsize + overallYOffset + textWidth(currentStop.stop_name) + 5), (x * fsize + fsize + overallXOffset - 2));
             rotate((PI / 2.0));
         }
 
@@ -114,14 +114,14 @@ function buttonGenerator() {
             document.body.appendChild(div);
         } else if (currentStop.location == "up") {
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3 }px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3}px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             div.addEventListener("click", function () {
                 displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, false), currentStop.stop_name);
             }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "down") {
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3 }px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3}px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             div.addEventListener("click", function () {
                 displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, false), currentStop.stop_name);
             }, false);
@@ -258,9 +258,9 @@ function displayStoppingTrains(allTrains, stationName) {
 
     }
 
-    dontmissthetrain.sort((a, b) => {
-        return a[0].localeCompare(b[0]);
-    });
+    // dontmissthetrain.sort((a, b) => {
+    //     return a[0].localeCompare(b[0]);
+    // });
 
     let head = ['Arrival/Depature Time', 'Line', 'Origin', 'Terminus', 'Track', 'Direction', 'Train Number']
     let headerRow = document.createElement('thead');
@@ -275,7 +275,7 @@ function displayStoppingTrains(allTrains, stationName) {
     htmlTable.appendChild(headerRow);
 
 
-    for (let row of dontmissthetrain) {
+    for (let [index0, row] of dontmissthetrain.entries()) {
         let r = document.createElement('tr');
         r.setAttribute('id', row[row.length - 1]);
 
@@ -284,22 +284,23 @@ function displayStoppingTrains(allTrains, stationName) {
             c.innerText = col;
 
             if (head[index] == 'Line') {
-                c.style.background = "#"+lineNameToColor(col);
+                c.style.background = "#" + lineNameToColor(col);
                 if (typeof lineNameToTextColor(col) !== "undefined")
-                    c.style.color = "#"+lineNameToTextColor(col);
-                else 
+                    c.style.color = "#" + lineNameToTextColor(col);
+                else
                     c.style.color = "white";
-                
+
             }
 
             if (head[index] == 'Train Number') {
                 r.setAttribute('stopsVisible', 'false');
                 c.addEventListener('click', () => {
-                    displayTrains(findByTrainNumber(col), stationName)
+                    //displayTrains(findByTrainNumber(col), stationName)
+                    displayTrains(allTrains[index0][0], stationName)
                 });
             }
 
-            
+
 
 
             r.appendChild(c);
