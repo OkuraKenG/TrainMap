@@ -1,0 +1,9 @@
+service_id,date,exception_type
+Summer,20230904,2
+Summer,20231009,2
+Summer,20231110,2
+Day After Thanksgiving,20231124,1
+S Schedule,20231226,1
+S Schedule,20231227,1
+S Schedule,20231228,1
+S Schedule,20231229,1

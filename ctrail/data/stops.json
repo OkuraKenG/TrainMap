@@ -1,7 +1,7 @@
 {
   "stops": [
     {
-      "stop_id": "1",
+      "stop_id": "NHV",
       "stop_code": "NHV",
       "stop_name": "New Haven Union Station",
       "x": "0",
@@ -11,7 +11,7 @@
       "agency": "0"
     },
     {
-      "stop_id": "1",
+      "stop_id": "ST",
       "stop_code": "ST",
       "stop_name": "New Haven State Street Station",
       "x": "1",
@@ -21,7 +21,7 @@
       "agency": "0"
     },
     {
-      "stop_id": "1",
+      "stop_id": "BRN",
       "stop_code": "BRN",
       "stop_name": "Branford",
       "x": "3",
@@ -31,7 +31,7 @@
       "agency": "0"
     },
     {
-      "stop_id": "1",
+      "stop_id": "GUIL",
       "stop_code": "GUIL",
       "stop_name": "Guilford",
       "x": "4",
@@ -41,7 +41,7 @@
       "agency": "0"
     },
     {
-      "stop_id": "1",
+      "stop_id": "MAD",
       "stop_code": "MAD",
       "stop_name": "Madison",
       "x": "5",
@@ -51,7 +51,7 @@
       "agency": "0"
     },
     {
-      "stop_id": "1",
+      "stop_id": "CLIN",
       "stop_code": "CLIN",
       "stop_name": "Clinton",
       "x": "6",
@@ -61,7 +61,7 @@
       "agency": "0"
     },
     {
-      "stop_id": "1",
+      "stop_id": "WES",
       "stop_code": "WES",
       "stop_name": "Westbrook",
       "x": "7",
@@ -71,7 +71,7 @@
       "agency": "0"
     },
     {
-      "stop_id": "1",
+      "stop_id": "OSB",
       "stop_code": "OSB",
       "stop_name": "Old Saybrook",
       "x": "8",
@@ -81,7 +81,7 @@
       "agency": "0"
     },
     {
-      "stop_id": "1",
+      "stop_id": "NLC",
       "stop_code": "NLC",
       "stop_name": "New London",
       "x": "9",

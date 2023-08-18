@@ -102,28 +102,28 @@ function buttonGenerator() {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset + 5 - 16}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 16}px; border: solid; border-color: ${bordercolor};`);
             div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, false), currentStop.stop_name);
+                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, false), currentStop.stop_name);
             }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "left") {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 15}px; border: solid; border-color: ${bordercolor};`);
             div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, false), currentStop.stop_name);
+                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, false), currentStop.stop_name);
             }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "up") {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3 }px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, false), currentStop.stop_name);
+                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, false), currentStop.stop_name);
             }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "down") {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3 }px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, false), currentStop.stop_name);
+                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, false), currentStop.stop_name);
             }, false);
             document.body.appendChild(div);
         }
@@ -177,17 +177,17 @@ function reformat(listOfTrains) {
     return reformat;
 }
 
-function getStopingTrainsAtStop(station, asNumber) {
-    if (asNumber == false) {
-        stop_num = stationList.findRow(station, 'stop_name')
-        if (stop_num == null)
-            return 'Error'
-        else {
-            stop_num = stationList.findRow(station, 'stop_name').obj.stop_id;
-        }
-    } else {
-        stop_num = station
-    }
+function getStopingTrainsAtStop(stop_num, asNumber) {
+    // if (asNumber == false) {
+    //     stop_num = stationList.findRow(station, 'stop_name')
+    //     if (stop_num == null)
+    //         return 'Error'
+    //     else {
+    //         stop_num = stationList.findRow(station, 'stop_name').obj.stop_id;
+    //     }
+    // } else {
+    //     stop_num = station
+    // }
 
     allTrains = []
     count = 0
@@ -196,6 +196,7 @@ function getStopingTrainsAtStop(station, asNumber) {
         for (let stop of stopsArr) {
             stopStats = stop.obj;
             if (stopStats.stop_id == stop_num) {
+                //console.log(stopStats);
                 allTrains.push([train, stop]);
                 count++;
             }
@@ -227,11 +228,11 @@ function displayStoppingTrains(allTrains, stationName) {
 
     for (train of allTrains) {
         let arrival_time = train[1].obj.arrival_time;
-        if (railroad == 'MNR') { // since MNR starts days at 4...
-            if (parseInt(arrival_time.substring(0, 2)) < 4) {
-                arrival_time = (parseInt(arrival_time.substring(0, 2)) + 24) + arrival_time.substring(2);
-            }
-        }
+        // if (railroad == 'MNR') { // since MNR starts days at 4...
+        //     if (parseInt(arrival_time.substring(0, 2)) < 4) {
+        //         arrival_time = (parseInt(arrival_time.substring(0, 2)) + 24) + arrival_time.substring(2);
+        //     }
+        // }
         let line = lineNumToStr(train[0].overallTrainInfo.obj.route_id);
         let headsign = train[0].overallTrainInfo.obj.trip_headsign;
         let track = train[1].obj.track;

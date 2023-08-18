@@ -1,0 +1,1624 @@
+{
+  "stops": [
+    {
+      "stop_id": "1",
+      "stop_code": "95001",
+      "stop_name": "Ballardvale",
+      "x": "65",
+      "y": "43",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "2",
+      "stop_code": "95002",
+      "stop_name": "ABSECON",
+      "x": "72",
+      "y": "43",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "3",
+      "stop_code": "95003",
+      "stop_name": "ALLENDALE",
+      "x": "35",
+      "y": "8",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "4",
+      "stop_code": "95004",
+      "stop_name": "ALLENHURST",
+      "x": "57",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "5",
+      "stop_code": "95005",
+      "stop_name": "ANDERSON STREET",
+      "x": "50",
+      "y": "12",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "6",
+      "stop_code": "95006",
+      "stop_name": "ANNANDALE",
+      "x": "10",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "8",
+      "stop_code": "95008",
+      "stop_name": "ASBURY PARK",
+      "x": "58",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "9",
+      "stop_code": "95009",
+      "stop_name": "ATCO",
+      "x": "69",
+      "y": "43",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "10",
+      "stop_code": "95010",
+      "stop_name": "ATLANTIC CITY",
+      "x": "73",
+      "y": "43",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "11",
+      "stop_code": "95011",
+      "stop_name": "AVENEL",
+      "x": "45",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "12",
+      "stop_code": "95012",
+      "stop_name": "BASKING RIDGE",
+      "x": "16",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "13",
+      "stop_code": "95013",
+      "stop_name": "BAY HEAD",
+      "x": "64",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "14",
+      "stop_code": "95014",
+      "stop_name": "BAY STREET",
+      "x": "21",
+      "y": "13",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "15",
+      "stop_code": "95015",
+      "stop_name": "BELMAR",
+      "x": "60",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "17",
+      "stop_code": "95017",
+      "stop_name": "BERKELEY HEIGHTS",
+      "x": "21",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "18",
+      "stop_code": "95018",
+      "stop_name": "BERNARDSVILLE",
+      "x": "15",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "19",
+      "stop_code": "95019",
+      "stop_name": "BLOOMFIELD",
+      "x": "23",
+      "y": "15",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "20",
+      "stop_code": "95020",
+      "stop_name": "BOONTON",
+      "x": "9",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "21",
+      "stop_code": "95021",
+      "stop_name": "BOUND BROOK",
+      "x": "17",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "22",
+      "stop_code": "95022",
+      "stop_name": "BRADLEY BEACH",
+      "x": "59",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "23",
+      "stop_code": "95023",
+      "stop_name": "BRICK CHURCH",
+      "x": "33",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "24",
+      "stop_code": "95024",
+      "stop_name": "BRIDGEWATER",
+      "x": "16",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "25",
+      "stop_code": "95025",
+      "stop_name": "BROADWAY",
+      "x": "38",
+      "y": "15",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "26",
+      "stop_code": "95026",
+      "stop_name": "CAMPBELL HALL",
+      "x": "33",
+      "y": "0",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "27",
+      "stop_code": "95027",
+      "stop_name": "CHATHAM",
+      "x": "23",
+      "y": "26",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "28",
+      "stop_code": "95028",
+      "stop_name": "CHERRY HILL",
+      "x": "67",
+      "y": "43",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "29",
+      "stop_code": "95029",
+      "stop_name": "CLIFTON",
+      "x": "38",
+      "y": "19",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "30",
+      "stop_code": "95030",
+      "stop_name": "CONVENT",
+      "x": "21",
+      "y": "24",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "31",
+      "stop_code": "95031",
+      "stop_name": "ROSELLE PARK",
+      "x": "25",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "32",
+      "stop_code": "95032",
+      "stop_name": "CRANFORD",
+      "x": "24",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "33",
+      "stop_code": "95033",
+      "stop_name": "DELAWANNA",
+      "x": "40",
+      "y": "21",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "34",
+      "stop_code": "95034",
+      "stop_name": "DENVILLE",
+      "x": "6",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "35",
+      "stop_code": "95035",
+      "stop_name": "DOVER",
+      "x": "5",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "36",
+      "stop_code": "95036",
+      "stop_name": "DUNELLEN",
+      "x": "18",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "37",
+      "stop_code": "95037",
+      "stop_name": "EAST ORANGE",
+      "x": "34",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "38",
+      "stop_code": "95038",
+      "stop_name": "EDISON STATION",
+      "x": "36",
+      "y": "38",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "39",
+      "stop_code": "95039",
+      "stop_name": "EGG HARBOR",
+      "x": "71",
+      "y": "43",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "40",
+      "stop_code": "95040",
+      "stop_name": "ELBERON",
+      "x": "56",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "41",
+      "stop_code": "95041",
+      "stop_name": "ELIZABETH",
+      "x": "42",
+      "y": "32",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "42",
+      "stop_code": "95042",
+      "stop_name": "EMERSON",
+      "x": "50",
+      "y": "8",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "43",
+      "stop_code": "95043",
+      "stop_name": "ESSEX STREET",
+      "x": "50",
+      "y": "13",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "44",
+      "stop_code": "95044",
+      "stop_name": "FANWOOD",
+      "x": "21",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "45",
+      "stop_code": "95045",
+      "stop_name": "FAR HILLS",
+      "x": "14",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "46",
+      "stop_code": "95046",
+      "stop_name": "GARFIELD",
+      "x": "40",
+      "y": "17",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "47",
+      "stop_code": "95047",
+      "stop_name": "GARWOOD",
+      "x": "23",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "48",
+      "stop_code": "95048",
+      "stop_name": "GILLETTE",
+      "x": "20",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "49",
+      "stop_code": "95049",
+      "stop_name": "GLADSTONE",
+      "x": "12",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "50",
+      "stop_code": "95050",
+      "stop_name": "GLEN RIDGE",
+      "x": "22",
+      "y": "14",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "51",
+      "stop_code": "95051",
+      "stop_name": "GLEN ROCK BORO HALL",
+      "x": "36",
+      "y": "13",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "52",
+      "stop_code": "95052",
+      "stop_name": "GLEN ROCK MAIN LINE",
+      "x": "35",
+      "y": "16",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "54",
+      "stop_code": "95054",
+      "stop_name": "HACKETTSTOWN",
+      "x": "0",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "55",
+      "stop_code": "95055",
+      "stop_name": "HAMMONTON",
+      "x": "70",
+      "y": "43",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "57",
+      "stop_code": "95057",
+      "stop_name": "HARRIMAN",
+      "x": "35",
+      "y": "1",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "58",
+      "stop_code": "95058",
+      "stop_name": "HAWTHORNE",
+      "x": "36",
+      "y": "17",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "59",
+      "stop_code": "95059",
+      "stop_name": "HAZLET",
+      "x": "50",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "60",
+      "stop_code": "95060",
+      "stop_name": "HIGH BRIDGE",
+      "x": "9",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "61",
+      "stop_code": "95061",
+      "stop_name": "HIGHLAND AVENUE",
+      "x": "31",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "62",
+      "stop_code": "95062",
+      "stop_name": "HILLSDALE",
+      "x": "50",
+      "y": "6",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "63",
+      "stop_code": "95063",
+      "stop_name": "HOBOKEN",
+      "x": "53",
+      "y": "27",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "64",
+      "stop_code": "95064",
+      "stop_name": "HOHOKUS",
+      "x": "35",
+      "y": "10",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "66",
+      "stop_code": "95066",
+      "stop_name": "KINGSLAND",
+      "x": "42",
+      "y": "23",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "67",
+      "stop_code": "95067",
+      "stop_name": "LAKE HOPATCONG",
+      "x": "3",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "68",
+      "stop_code": "95068",
+      "stop_name": "LEBANON",
+      "x": "11",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "69",
+      "stop_code": "95069",
+      "stop_name": "LINCOLN PARK",
+      "x": "11",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "70",
+      "stop_code": "95070",
+      "stop_name": "LINDEN",
+      "x": "41",
+      "y": "33",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "71",
+      "stop_code": "95071",
+      "stop_name": "LINDENWOLD",
+      "x": "68",
+      "y": "43",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "72",
+      "stop_code": "95072",
+      "stop_name": "LITTLE FALLS",
+      "x": "14",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "73",
+      "stop_code": "95073",
+      "stop_name": "LITTLE SILVER",
+      "x": "53",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "74",
+      "stop_code": "95074",
+      "stop_name": "LONG BRANCH",
+      "x": "55",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "75",
+      "stop_code": "95075",
+      "stop_name": "LYNDHURST",
+      "x": "41",
+      "y": "22",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "76",
+      "stop_code": "95076",
+      "stop_name": "LYONS",
+      "x": "17",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "77",
+      "stop_code": "95077",
+      "stop_name": "MADISON",
+      "x": "22",
+      "y": "25",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "78",
+      "stop_code": "95078",
+      "stop_name": "MAHWAH",
+      "x": "35",
+      "y": "5",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "79",
+      "stop_code": "95079",
+      "stop_name": "MANASQUAN",
+      "x": "62",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "81",
+      "stop_code": "95081",
+      "stop_name": "MAPLEWOOD",
+      "x": "28",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "83",
+      "stop_code": "95083",
+      "stop_name": "METROPARK",
+      "x": "38",
+      "y": "36",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "84",
+      "stop_code": "95084",
+      "stop_name": "METUCHEN",
+      "x": "37",
+      "y": "37",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "85",
+      "stop_code": "95085",
+      "stop_name": "MIDDLETOWN NJ",
+      "x": "51",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "86",
+      "stop_code": "95086",
+      "stop_name": "MIDDLETOWN NY",
+      "x": "32",
+      "y": "0",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "87",
+      "stop_code": "95087",
+      "stop_name": "MILLBURN",
+      "x": "27",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "88",
+      "stop_code": "95088",
+      "stop_name": "MILLINGTON",
+      "x": "18",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "89",
+      "stop_code": "95089",
+      "stop_name": "MONTCLAIR HEIGHTS",
+      "x": "16",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "90",
+      "stop_code": "95090",
+      "stop_name": "MONTVALE",
+      "x": "50",
+      "y": "3",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "91",
+      "stop_code": "95091",
+      "stop_name": "MORRIS PLAINS",
+      "x": "19",
+      "y": "22",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "92",
+      "stop_code": "95092",
+      "stop_name": "MORRISTOWN",
+      "x": "20",
+      "y": "23",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "93",
+      "stop_code": "95093",
+      "stop_name": "MOUNT OLIVE",
+      "x": "1",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "94",
+      "stop_code": "95094",
+      "stop_name": "MOUNT TABOR",
+      "x": "18",
+      "y": "21",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "95",
+      "stop_code": "95095",
+      "stop_name": "MOUNTAIN AVENUE",
+      "x": "17",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "96",
+      "stop_code": "95096",
+      "stop_name": "MOUNTAIN LAKES",
+      "x": "8",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "97",
+      "stop_code": "95097",
+      "stop_name": "MOUNTAIN STATION",
+      "x": "30",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "98",
+      "stop_code": "95098",
+      "stop_name": "MOUNTAIN VIEW",
+      "x": "12",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "99",
+      "stop_code": "95099",
+      "stop_name": "MURRAY HILL",
+      "x": "22",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "100",
+      "stop_code": "95100",
+      "stop_name": "NANUET",
+      "x": "50",
+      "y": "1",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "101",
+      "stop_code": "95101",
+      "stop_name": "NETCONG",
+      "x": "2",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "102",
+      "stop_code": "95102",
+      "stop_name": "NETHERWOOD",
+      "x": "20",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "103",
+      "stop_code": "95103",
+      "stop_name": "NEW BRUNSWICK",
+      "x": "35",
+      "y": "39",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "104",
+      "stop_code": "95104",
+      "stop_name": "NEW PROVIDENCE",
+      "x": "23",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "105",
+      "stop_code": "95105",
+      "stop_name": "NEW YORK PENN STATION",
+      "x": "55",
+      "y": "24",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "106",
+      "stop_code": "95106",
+      "stop_name": "NEWARK BROAD ST",
+      "x": "36",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "107",
+      "stop_code": "95107",
+      "stop_name": "NEWARK PENN STATION",
+      "x": "46",
+      "y": "28",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "108",
+      "stop_code": "95108",
+      "stop_name": "NORTH BRANCH",
+      "x": "13",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "109",
+      "stop_code": "95109",
+      "stop_name": "NORTH ELIZABETH",
+      "x": "43",
+      "y": "31",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "110",
+      "stop_code": "95110",
+      "stop_name": "NEW BRIDGE LANDING",
+      "x": "50",
+      "y": "11",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "111",
+      "stop_code": "95111",
+      "stop_name": "ORADELL",
+      "x": "50",
+      "y": "9",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "112",
+      "stop_code": "95112",
+      "stop_name": "ORANGE",
+      "x": "32",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "113",
+      "stop_code": "95113",
+      "stop_name": "OTISVILLE",
+      "x": "31",
+      "y": "0",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "114",
+      "stop_code": "95114",
+      "stop_name": "PARK RIDGE",
+      "x": "50",
+      "y": "4",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "115",
+      "stop_code": "95115",
+      "stop_name": "PASSAIC",
+      "x": "39",
+      "y": "20",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "116",
+      "stop_code": "95116",
+      "stop_name": "PATERSON",
+      "x": "37",
+      "y": "18",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "117",
+      "stop_code": "95117",
+      "stop_name": "PEAPACK",
+      "x": "13",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "118",
+      "stop_code": "95118",
+      "stop_name": "PEARL RIVER",
+      "x": "50",
+      "y": "2",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "119",
+      "stop_code": "95119",
+      "stop_name": "PERTH AMBOY",
+      "x": "47",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "120",
+      "stop_code": "95120",
+      "stop_name": "PLAINFIELD",
+      "x": "19",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "121",
+      "stop_code": "95121",
+      "stop_name": "PLAUDERVILLE",
+      "x": "39",
+      "y": "16",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "122",
+      "stop_code": "95122",
+      "stop_name": "POINT PLEASANT",
+      "x": "63",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "123",
+      "stop_code": "95123",
+      "stop_name": "PORT JERVIS",
+      "x": "30",
+      "y": "1",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "124",
+      "stop_code": "95124",
+      "stop_name": "PRINCETON",
+      "x": "32",
+      "y": "40",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "125",
+      "stop_code": "95125",
+      "stop_name": "PRINCETON JCT.",
+      "x": "33",
+      "y": "41",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "126",
+      "stop_code": "95126",
+      "stop_name": "RADBURN",
+      "x": "37",
+      "y": "14",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "127",
+      "stop_code": "95127",
+      "stop_name": "RAHWAY",
+      "x": "40",
+      "y": "34",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "128",
+      "stop_code": "95128",
+      "stop_name": "RAMSEY",
+      "x": "35",
+      "y": "7",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "129",
+      "stop_code": "95129",
+      "stop_name": "RARITAN",
+      "x": "14",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "130",
+      "stop_code": "95130",
+      "stop_name": "RED BANK",
+      "x": "52",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "131",
+      "stop_code": "95131",
+      "stop_name": "RIDGEWOOD",
+      "x": "35",
+      "y": "11",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "132",
+      "stop_code": "95132",
+      "stop_name": "RIVER EDGE",
+      "x": "50",
+      "y": "10",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "134",
+      "stop_code": "95134",
+      "stop_name": "RUTHERFORD",
+      "x": "42",
+      "y": "19",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "135",
+      "stop_code": "95135",
+      "stop_name": "SALISBURY MILLS-CORNWALL",
+      "x": "34",
+      "y": "0",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "136",
+      "stop_code": "95136",
+      "stop_name": "SHORT HILLS",
+      "x": "26",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "137",
+      "stop_code": "95137",
+      "stop_name": "SLOATSBURG",
+      "x": "35",
+      "y": "3",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "138",
+      "stop_code": "95138",
+      "stop_name": "SOMERVILLE",
+      "x": "15",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "139",
+      "stop_code": "95139",
+      "stop_name": "SOUTH AMBOY",
+      "x": "48",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "140",
+      "stop_code": "95140",
+      "stop_name": "SOUTH ORANGE",
+      "x": "29",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "141",
+      "stop_code": "95141",
+      "stop_name": "SPRING LAKE",
+      "x": "61",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "142",
+      "stop_code": "95142",
+      "stop_name": "SPRING VALLEY",
+      "x": "50",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "143",
+      "stop_code": "95143",
+      "stop_name": "STIRLING",
+      "x": "19",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "144",
+      "stop_code": "95144",
+      "stop_name": "SUFFERN",
+      "x": "35",
+      "y": "4",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "145",
+      "stop_code": "95145",
+      "stop_name": "SUMMIT",
+      "x": "25",
+      "y": "27",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "146",
+      "stop_code": "95146",
+      "stop_name": "TETERBORO",
+      "x": "50",
+      "y": "14",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "147",
+      "stop_code": "95147",
+      "stop_name": "TOWACO",
+      "x": "10",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "148",
+      "stop_code": "95148",
+      "stop_name": "TRENTON TRANSIT CENTER",
+      "x": "31",
+      "y": "43",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "149",
+      "stop_code": "95149",
+      "stop_name": "TUXEDO",
+      "x": "35",
+      "y": "2",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "150",
+      "stop_code": "95150",
+      "stop_name": "UPPER MONTCLAIR",
+      "x": "18",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "151",
+      "stop_code": "95151",
+      "stop_name": "WALDWICK",
+      "x": "35",
+      "y": "9",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "152",
+      "stop_code": "95152",
+      "stop_name": "WALNUT STREET",
+      "x": "20",
+      "y": "12",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "153",
+      "stop_code": "95153",
+      "stop_name": "WATCHUNG AVENUE",
+      "x": "19",
+      "y": "11",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "154",
+      "stop_code": "95154",
+      "stop_name": "WATSESSING AVENUE",
+      "x": "24",
+      "y": "16",
+      "location": "left",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "155",
+      "stop_code": "95155",
+      "stop_name": "WESTFIELD",
+      "x": "22",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "156",
+      "stop_code": "95156",
+      "stop_name": "WESTWOOD",
+      "x": "50",
+      "y": "7",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "157",
+      "stop_code": "95157",
+      "stop_name": "WHITE HOUSE",
+      "x": "12",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "158",
+      "stop_code": "95158",
+      "stop_name": "WOODBRIDGE",
+      "x": "46",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "159",
+      "stop_code": "95159",
+      "stop_name": "WOODCLIFF LAKE",
+      "x": "50",
+      "y": "5",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "160",
+      "stop_code": "95160",
+      "stop_name": "WOOD-RIDGE",
+      "x": "50",
+      "y": "15",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "31696",
+      "stop_code": "95162",
+      "stop_name": "MONMOUTH PARK",
+      "x": "54",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "32905",
+      "stop_code": "95163",
+      "stop_name": "HAMILTON",
+      "x": "32",
+      "y": "42",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "32906",
+      "stop_code": "95065",
+      "stop_name": "JERSEY AVE.",
+      "x": "34",
+      "y": "40",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "37169",
+      "stop_code": "95082",
+      "stop_name": "ABERDEEN-MATAWAN",
+      "x": "49",
+      "y": "35",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "38081",
+      "stop_code": "95165",
+      "stop_name": "MSU",
+      "x": "15",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "38105",
+      "stop_code": "95166",
+      "stop_name": "UNION",
+      "x": "26",
+      "y": "37",
+      "location": "down",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "38174",
+      "stop_code": "95167",
+      "stop_name": "FRANK R LAUTENBERG SECAUCUS LOWER LEVEL",
+      "x": "51",
+      "y": "23",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "38187",
+      "stop_code": "95168",
+      "stop_name": "FRANK R LAUTENBERG SECAUCUS UPPER LEVEL",
+      "x": "51",
+      "y": "22",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "38417",
+      "stop_code": "95170",
+      "stop_name": "RAMSEY ROUTE 17 STATION",
+      "x": "35",
+      "y": "6",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "39472",
+      "stop_code": "95171",
+      "stop_name": "MOUNT ARLINGTON",
+      "x": "4",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "39635",
+      "stop_code": "95172",
+      "stop_name": "WAYNE/ROUTE 23 TRANSIT CENTER [RR]",
+      "x": "13",
+      "y": "10",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "40570",
+      "stop_code": "95174",
+      "stop_name": "MEADOWLANDS SPORTS COMPLEX STATION",
+      "x": "51",
+      "y": "21",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "43298",
+      "stop_code": "95183",
+      "stop_name": "PENNSAUKEN TRANSIT CENTER",
+      "x": "66",
+      "y": "43",
+      "location": "up",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "43599",
+      "stop_code": "95184",
+      "stop_name": "WESMONT",
+      "x": "41",
+      "y": "18",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "1",
+      "stop_code": "ATLC",
+      "stop_name": "Atlantic City Rail Line",
+      "x": "74",
+      "y": "43",
+      "location": "up",
+      "color": "#075AAA"
+    },
+    {
+      "stop_id": "2",
+      "stop_code": "BMGM",
+      "stop_name": "BetMGM Meadowlands Rail Line",
+      "x": "52",
+      "y": "20",
+      "location": "right",
+      "color": "#000000"
+    },
+    {
+      "stop_id": "9",
+      "stop_code": "MNEG",
+      "stop_name": "Gladstone Branch",
+      "x": "11",
+      "y": "27",
+      "location": "left",
+      "color": "#A4C9AA"
+    },
+    {
+      "stop_id": "8",
+      "stop_code": "MNE",
+      "stop_name": "Morris & Essex Line",
+      "x": "16",
+      "y": "20",
+      "location": "left",
+      "color": "#08A652"
+    },
+    {
+      "stop_id": "3",
+      "stop_code": "BNTN",
+      "stop_name": "Montclair-Boonton Line",
+      "x": "0",
+      "y": "11",
+      "location": "left",
+      "color": "#E66859"
+    },
+    {
+      "stop_id": "6",
+      "stop_code": "MNBN",
+      "stop_name": "Main/Bergen County Line",
+      "x": "43",
+      "y": "24",
+      "location": "left",
+      "color": "#FFD411"
+    },
+    {
+      "stop_id": "14",
+      "stop_code": "PASC",
+      "stop_name": "Pascack Valley Line",
+      "x": "49",
+      "y": "0",
+      "location": "left",
+      "color": "#94219A"
+    },
+    {
+      "stop_id": "11",
+      "stop_code": "NJCL",
+      "stop_name": "North Jersey Coast Line",
+      "x": "52",
+      "y": "34",
+      "location": "right",
+      "color": "#03A3DF"
+    },
+    {
+      "stop_id": "7",
+      "stop_code": "MNBNP",
+      "stop_name": "Port Jervis Line",
+      "x": "30",
+      "y": "0",
+      "location": "left",
+      "color": "#FFD411"
+    },
+    {
+      "stop_id": "10",
+      "stop_code": "NEC",
+      "stop_name": "Northeast Corridor",
+      "x": "54",
+      "y": "25",
+      "location": "right",
+      "color": "#DD3439"
+    },
+    {
+      "stop_id": "15",
+      "stop_code": "PRIN",
+      "stop_name": "Princeton Shuttle",
+      "x": "33",
+      "y": "39",
+      "location": "left",
+      "color": "#DD3439"
+    },
+    {
+      "stop_id": "16",
+      "stop_code": "RARV",
+      "stop_name": "Raritan Valley Line",
+      "x": "8",
+      "y": "37",
+      "location": "left",
+      "color": "#F2A537"
+    },
+    {
+      "stop_id": "a",
+      "stop_code": "a",
+      "stop_name": "Data provided by NJ TRANSIT,",
+      "x": "-8",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF"
+    },
+    {
+      "stop_id": "a",
+      "stop_code": "a",
+      "stop_name": "which is the sole owner of the Data.",
+      "x": "-8",
+      "y": "1",
+      "location": "right",
+      "color": "#FFFFFF"
+    }
+  ]
+}

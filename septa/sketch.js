@@ -141,7 +141,7 @@ function buttonGenerator() {
 
 
       div.addEventListener("click", function () {
-        displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, stationList, reformated, false), currentStop.stop_name, routes, stationList, reformated);
+        displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, stationList, reformated, false), currentStop.stop_name, routes, stationList, reformated);
       }, false);
 
 
@@ -150,21 +150,21 @@ function buttonGenerator() {
       let div = document.createElement("div");
       div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 15}px; border: solid; border-color: ${bordercolor};`);
       div.addEventListener("click", function () {
-        displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, stationList, reformated, false), currentStop.stop_name, routes, stationList, reformated);
+        displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, stationList, reformated, false), currentStop.stop_name, routes, stationList, reformated);
       }, false);
       document.body.appendChild(div);
     } else if (currentStop.location == "up") {
       let div = document.createElement("div");
       div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3}px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
       div.addEventListener("click", function () {
-        displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, stationList, reformated, false), currentStop.stop_name, routes, stationList, reformated);
+        displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, stationList, reformated, false), currentStop.stop_name, routes, stationList, reformated);
       }, false);
       document.body.appendChild(div);
     } else if (currentStop.location == "down") {
       let div = document.createElement("div");
       div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3}px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
       div.addEventListener("click", function () {
-        displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_name, stationList, reformated, false), currentStop.stop_name, routes, stationList, reformated);
+        displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, stationList, reformated, false), currentStop.stop_name, routes, stationList, reformated);
       }, false);
       document.body.appendChild(div);
     }
@@ -209,12 +209,10 @@ function getServices(calendarthis) {
 }
 
 function getTrains(listOfServices, tripsthis) {
-
   listOfTrains = [];
-  for (row of listOfServices) {
-    listOfTrains = listOfTrains.concat(tripsthis.findRows(row[0].obj.service_id, 'service_id'));
+  for (row of listOfServices[0]) {
+      listOfTrains = listOfTrains.concat(tripsthis.findRows(row.obj.service_id, 'service_id'));
   }
-  //console.log(listOfTrains);
   return listOfTrains;
 }
 
@@ -233,19 +231,7 @@ function reformat(listOfTrains, stop_timesthis) {
   return reformat;
 }
 
-function getStopingTrainsAtStop(station, stationListThis, reformatedthis, asNumber) {
-
-  if (asNumber == false) {
-    stop_num = stationListThis.findRow(station, 'stop_name')
-    if (stop_num == null)
-      return 'Error'
-    else {
-      stop_num = stationListThis.findRow(station, 'stop_name').obj.stop_id;
-    }
-  } else {
-    stop_num = station
-  }
-
+function getStopingTrainsAtStop(stop_num, stationListThis, reformatedthis, asNumber) {
   allTrains = []
   count = 0
   for (let train of reformatedthis) {
@@ -258,7 +244,6 @@ function getStopingTrainsAtStop(station, stationListThis, reformatedthis, asNumb
       }
     }
   }
-
   allTrains.sort((a, b) => {
     let timeA = a[1].obj.arrival_time;
     if (timeA.search("[0-9]:") == 0)
