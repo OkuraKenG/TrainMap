@@ -64,11 +64,11 @@ function buttonGeneratorB() {
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset + 5 - 16}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 16}px; border: solid; border-color: ${bordercolor};`);
             if (currentStop.agency == 0)
                 div.addEventListener("click", function () {
-                    displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, reformated), currentStop.stop_name,routes,stationList,reformated);
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, reformated), currentStop,routes,stationList,reformated);
                 }, false);
             else
                 div.addEventListener("click", function () {
-                    displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, reformatedHF), currentStop.stop_name,routesHF,stationListHF,reformatedHF);
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, reformatedHF), currentStop,routesHF,stationListHF,reformatedHF);
                 }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "left") {
@@ -76,11 +76,11 @@ function buttonGeneratorB() {
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 15}px; border: solid; border-color: ${bordercolor};`);
             if (currentStop.agency == 0)
                 div.addEventListener("click", function () {
-                    displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, reformated), currentStop.stop_name,routes,stationList,reformated);
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, reformated), currentStop,routes,stationList,reformated);
                 }, false);
             else
                 div.addEventListener("click", function () {
-                    displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, reformatedHF), currentStop.stop_name,routesHF,stationListHF,reformatedHF);
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, reformatedHF), currentStop,routesHF,stationListHF,reformatedHF);
                 }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "up") {
@@ -88,11 +88,11 @@ function buttonGeneratorB() {
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3}px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             if (currentStop.agency == 0)
                 div.addEventListener("click", function () {
-                    displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, reformated), currentStop.stop_name,routes,stationList,reformated);
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, reformated), currentStop,routes,stationList,reformated);
                 }, false);
             else
                 div.addEventListener("click", function () {
-                    displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, reformatedHF), currentStop.stop_name,routesHF,stationListHF,reformatedHF);
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, reformatedHF), currentStop,routesHF,stationListHF,reformatedHF);
                 }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "down") {
@@ -100,11 +100,11 @@ function buttonGeneratorB() {
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3}px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             if (currentStop.agency == 0)
                 div.addEventListener("click", function () {
-                    displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, reformated), currentStop.stop_name,routes,stationList,reformated);
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, reformated), currentStop,routes,stationList,reformated);
                 }, false);
             else
                 div.addEventListener("click", function () {
-                    displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, reformatedHF), currentStop.stop_name,routesHF,stationListHF,reformatedHF);
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, reformatedHF), currentStop,routesHF,stationListHF,reformatedHF);
                 }, false);
             document.body.appendChild(div);
         }
