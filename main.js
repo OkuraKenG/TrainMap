@@ -94,6 +94,7 @@ function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
     // draws the buttons
     for (let i = 0; i < gridmap.stops.length; i++) {
         let currentStop = gridmap.stops[i];
+        
         let x = parseInt(currentStop.x);
         let y = parseInt(currentStop.y);
 
@@ -106,32 +107,32 @@ function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset + 5 - 16}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.display_name) + 16}px; border: solid; border-color: ${bordercolor};`);
             div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, thisReformated), currentStop.stop_name, thisRoutes, thisStationList, thisReformated);
-                console.log(thisReformated, thisRoutes, thisStationList);
+                displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
+                //console.log(thisReformated, thisRoutes, thisStationList);
             }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "left") {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - textWidth(currentStop.display_name) - 15}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.display_name) + 15}px; border: solid; border-color: ${bordercolor};`);
             div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, thisReformated), currentStop.stop_name, thisRoutes, thisStationList, thisReformated);
-                console.log(thisReformated, thisRoutes, thisStationList);
+                displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
+                //console.log(thisReformated, thisRoutes, thisStationList);
             }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "up") {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3}px; height: ${textWidth(currentStop.display_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, thisReformated), currentStop.stop_name, thisRoutes, thisStationList, thisReformated);
-                console.log(thisReformated, thisRoutes, thisStationList);
+                displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
+                //console.log(thisReformated, thisRoutes, thisStationList);
             }, false);
             document.body.appendChild(div);
         } else if (currentStop.location == "down") {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3}px; height: ${textWidth(currentStop.display_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, thisReformated), currentStop.stop_name, thisRoutes, thisStationList, thisReformated);
-                console.log(thisReformated, thisRoutes, thisStationList);
+                displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
+                //console.log(thisReformated, thisRoutes, thisStationList);
             }, false);
 
             document.body.appendChild(div);
@@ -234,10 +235,13 @@ function reformat(listOfTrains, thisStopTimes) {
     return reformat;
 }
 
-function getStopingTrainsAtStop(stop_num, thisReformatted) {
-    //console.log(thisReformatted);
+// returns array of all stopping trains at stop
+function getStopingTrainsAtStop(currentStop, thisReformatted) {
+    let stop_num = currentStop.stop_id;
     let allTrains = []
     count = 0
+
+    // stores all of the trains that stop at the stop
     for (let train of thisReformatted) {
         stopsArr = train.stops;
         for (let stop of stopsArr) {
@@ -245,6 +249,22 @@ function getStopingTrainsAtStop(stop_num, thisReformatted) {
             if (stopStats.stop_id == stop_num) {
                 allTrains.push([train, stop]);
                 count++;
+            }
+        }
+    }
+    
+    // finds stopping trains if other stop_ids are associated with stop
+    if ((typeof currentStop.otherNames !== 'undefined') && currentStop.otherNames.length > 0) {
+        for (otherName of currentStop.otherNames) {
+            for (let train of thisReformatted) {
+                stopsArr = train.stops;
+                for (let stop of stopsArr) {
+                    stopStats = stop.obj;
+                    if (stopStats.stop_id == otherName) {
+                        allTrains.push([train, stop]);
+                        count++;
+                    }
+                }
             }
         }
     }
@@ -263,7 +283,8 @@ function getStopingTrainsAtStop(stop_num, thisReformatted) {
     return allTrains;
 }
 
-function displayStoppingTrains(allTrains, stationName, thisRoutes, thisStationList) {
+// handles the HTML display of array
+function displayStoppingTrains(allTrains, currentStop, thisRoutes, thisStationList) {
     let tablecontainer = document.getElementById('tablecontainer');
     tablecontainer.innerHTML = '';
     let overlayinner = document.getElementById('overlayinner');
@@ -272,8 +293,9 @@ function displayStoppingTrains(allTrains, stationName, thisRoutes, thisStationLi
 
     let htmlTable = document.createElement('table');
     htmlTable.setAttribute('id', 'thetable');
-    let dontmissthetrain = []
 
+    // converts array to table-array
+    let dontmissthetrain = []
     for (train of allTrains) {
         let arrival_time = train[1].obj.arrival_time;
 
@@ -293,6 +315,7 @@ function displayStoppingTrains(allTrains, stationName, thisRoutes, thisStationLi
         dontmissthetrain.push([arrival_time, line, origin, headsign, track, direction, shortname]);
     }
 
+    // converts array-table to table
     let head = ['Arrival/Depature Time', 'Line', 'Origin', 'Terminus', 'Track', 'Direction', 'Train Number']
     let headerRow = document.createElement('thead');
     let headerTr = document.createElement('tr');
@@ -304,7 +327,6 @@ function displayStoppingTrains(allTrains, stationName, thisRoutes, thisStationLi
     headerRow.appendChild(headerTr);
 
     htmlTable.appendChild(headerRow);
-
 
     for (let [index0, row] of dontmissthetrain.entries()) {
         let r = document.createElement('tr');
@@ -326,7 +348,7 @@ function displayStoppingTrains(allTrains, stationName, thisRoutes, thisStationLi
             if (head[index] == 'Train Number') {
                 r.setAttribute('stopsVisible', 'false');
                 c.addEventListener('click', () => {
-                    displayTrains(allTrains[index0][0], stationName, thisStationList);
+                    displayTrains(allTrains[index0][0], currentStop, thisStationList);
                 });
             }
 
@@ -342,7 +364,7 @@ function displayStoppingTrains(allTrains, stationName, thisRoutes, thisStationLi
     overlay.style.display = 'grid';
 
     let station = document.createElement('h1');
-    station.innerText = `${stationName} (${dontmissthetrain.length} trains)`;
+    station.innerText = `${currentStop.display_name} (${dontmissthetrain.length} trains)`;
     overlayinner.appendChild(station);
     overlayinner.appendChild(htmlTable);
 
@@ -392,8 +414,9 @@ function findByTrainBlockNumber(num, thisReformatted) {
     return 'None Found...';
 }
 
-// displays stops 
-function displayTrains(train, stationName, thisStationList) {
+// displays stops of train
+function displayTrains(train, currentStop, thisStationList) {
+    // console.log(train, currentStop, thisStationList);
     let stops = train.stops;
     let trip_short_name = train.overallTrainInfo.obj.trip_short_name;
     if (typeof trip_short_name === "undefined")
@@ -401,6 +424,7 @@ function displayTrains(train, stationName, thisStationList) {
 
     let mainRowBool = document.getElementById(trip_short_name).getAttribute('stopsvisible')
 
+    // hides if shown
     if (mainRowBool != 'false') {
         let rowToKill = document.getElementsByClassName(`RandomPickels${trip_short_name}`);
         for (let i = rowToKill.length - 1; i >= 0; i--) {
@@ -438,21 +462,30 @@ function displayTrains(train, stationName, thisStationList) {
     document.getElementById('thetable').insertBefore(newTableHeader, document.getElementById(trip_short_name).nextSibling);
 
     let temp = newTableHeader;
-    for (let row of convertedToTable) {
+    for (let [index_i,row] of convertedToTable.entries()) {
         let r = document.createElement('tr');
         // r.setAttribute('id',row[row.length-1]);
 
-        for (let [index, col] of row.entries()) {
+        if (train.stops[index_i].obj.stop_id == currentStop.stop_id) {
+            r.style.background = 'black';
+            r.style.color = 'white';
+        }
+
+        if ((typeof currentStop.otherNames !== 'undefined') && currentStop.otherNames.length > 0) {
+            for (otherName of currentStop.otherNames) {
+                if (train.stops[index_i].obj.stop_id == currentStop.stop_id) {
+                    r.style.background = 'black';
+                    r.style.color = 'white';
+                }
+            }
+        }
+
+        for (let [index_j, col] of row.entries()) {
             let c = document.createElement('td');
             c.innerText = col;
-            if (index == 0) {
+            if (index_j == 0) {
                 c.setAttribute('align', 'right');
                 c.setAttribute('style', 'font-weight: bold;');
-
-            }
-            if (col == stationName) {
-                r.style.background = 'black';
-                r.style.color = 'white';
             }
 
             r.appendChild(c);

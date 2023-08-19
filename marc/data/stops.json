@@ -8,7 +8,8 @@
       "y": "1",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Martinsburg W Va Marc"
+      "display_name": "Martinsburg",
+      "otherNames": []
     },
     {
       "stop_id": "11941",
@@ -18,7 +19,10 @@
       "y": "2",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Duffields W Va Marc Eb"
+      "display_name": "Duffields",
+      "otherNames": [
+        "11975"
+      ]
     },
     {
       "stop_id": "11942",
@@ -28,7 +32,10 @@
       "y": "3",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Harpers Ferry W Va Marc Eb"
+      "display_name": "Harpers Ferry",
+      "otherNames": [
+        "11974"
+      ]
     },
     {
       "stop_id": "11943",
@@ -38,7 +45,10 @@
       "y": "4",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Brunswick Md Marc Eb"
+      "display_name": "Brunswick",
+      "otherNames": [
+        "11973"
+      ]
     },
     {
       "stop_id": "11944",
@@ -48,7 +58,10 @@
       "y": "5",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Frederick Marc Eb"
+      "display_name": "Frederick",
+      "otherNames": [
+        "11972"
+      ]
     },
     {
       "stop_id": "11945",
@@ -58,7 +71,10 @@
       "y": "4",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Monocacy Marc Eb"
+      "display_name": "Monocacy",
+      "otherNames": [
+        "11971"
+      ]
     },
     {
       "stop_id": "11946",
@@ -68,7 +84,10 @@
       "y": "5",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Point Of Rocks Marc Eb"
+      "display_name": "Point Of Rocks",
+      "otherNames": [
+        "11970"
+      ]
     },
     {
       "stop_id": "11947",
@@ -78,7 +97,10 @@
       "y": "7",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Dickerson Marc Eb"
+      "display_name": "Dickerson",
+      "otherNames": [
+        "11969"
+      ]
     },
     {
       "stop_id": "11948",
@@ -88,7 +110,10 @@
       "y": "8",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Barnesville Marc Eb"
+      "display_name": "Barnesville",
+      "otherNames": [
+        "11968"
+      ]
     },
     {
       "stop_id": "11949",
@@ -98,7 +123,10 @@
       "y": "9",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Boyds Marc Eb"
+      "display_name": "Boyds",
+      "otherNames": [
+        "11967"
+      ]
     },
     {
       "stop_id": "11950",
@@ -108,7 +136,10 @@
       "y": "10",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Germantown Marc Eb"
+      "display_name": "Germantown",
+      "otherNames": [
+        "11966"
+      ]
     },
     {
       "stop_id": "11951",
@@ -118,7 +149,10 @@
       "y": "11",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Metropolitan Grove Marc Eb"
+      "display_name": "Metropolitan Grove",
+      "otherNames": [
+        "11965"
+      ]
     },
     {
       "stop_id": "11952",
@@ -128,7 +162,10 @@
       "y": "12",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Gaithersburg Marc Eb"
+      "display_name": "Gaithersburg",
+      "otherNames": [
+        "11964"
+      ]
     },
     {
       "stop_id": "11953",
@@ -138,7 +175,10 @@
       "y": "13",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Washington Grove Marc Eb"
+      "display_name": "Washington Grove",
+      "otherNames": [
+        "11963"
+      ]
     },
     {
       "stop_id": "11954",
@@ -148,7 +188,10 @@
       "y": "14",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Rockville Marc Eb"
+      "display_name": "Rockville",
+      "otherNames": [
+        "11962"
+      ]
     },
     {
       "stop_id": "11955",
@@ -158,7 +201,10 @@
       "y": "15",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Garrett Park Marc Eb"
+      "display_name": "Garrett Park",
+      "otherNames": [
+        "11961"
+      ]
     },
     {
       "stop_id": "11956",
@@ -168,7 +214,10 @@
       "y": "16",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Kensington Marc Eb"
+      "display_name": "Kensington",
+      "otherNames": [
+        "11960"
+      ]
     },
     {
       "stop_id": "11957",
@@ -178,617 +227,316 @@
       "y": "17",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Silver Spring Marc Eb"
+      "display_name": "Silver Spring",
+      "otherNames": [
+        "11959"
+      ]
     },
     {
       "stop_id": "11958",
       "stop_code": "11958",
       "stop_name": "UNION STATION MARC Washington",
-      "x": "17",
-      "y": "22",
+      "x": "21",
+      "y": "23",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Union Station Marc Washington"
-    },
-    {
-      "stop_id": "11959",
-      "stop_code": "11959",
-      "stop_name": "SILVER SPRING MARC wb",
-      "x": "16",
-      "y": "17",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Silver Spring Marc Wb"
-    },
-    {
-      "stop_id": "11960",
-      "stop_code": "11960",
-      "stop_name": "KENSINGTON MARC wb",
-      "x": "15",
-      "y": "16",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Kensington Marc Wb"
-    },
-    {
-      "stop_id": "11961",
-      "stop_code": "11961",
-      "stop_name": "GARRETT PARK MARC wb",
-      "x": "14",
-      "y": "15",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Garrett Park Marc Wb"
-    },
-    {
-      "stop_id": "11962",
-      "stop_code": "11962",
-      "stop_name": "ROCKVILLE MARC wb",
-      "x": "13",
-      "y": "14",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Rockville Marc Wb"
-    },
-    {
-      "stop_id": "11963",
-      "stop_code": "11963",
-      "stop_name": "WASHINGTON GROVE MARC wb",
-      "x": "12",
-      "y": "13",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Washington Grove Marc Wb"
-    },
-    {
-      "stop_id": "11964",
-      "stop_code": "11964",
-      "stop_name": "GAITHERSBURG MARC wb",
-      "x": "11",
-      "y": "12",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Gaithersburg Marc Wb"
-    },
-    {
-      "stop_id": "11965",
-      "stop_code": "11965",
-      "stop_name": "METROPOLITAN GROVE MARC wb",
-      "x": "10",
-      "y": "11",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Metropolitan Grove Marc Wb"
-    },
-    {
-      "stop_id": "11966",
-      "stop_code": "11966",
-      "stop_name": "GERMANTOWN MARC wb",
-      "x": "9",
-      "y": "10",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Germantown Marc Wb"
-    },
-    {
-      "stop_id": "11967",
-      "stop_code": "11967",
-      "stop_name": "BOYDS MARC wb",
-      "x": "8",
-      "y": "9",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Boyds Marc Wb"
-    },
-    {
-      "stop_id": "11968",
-      "stop_code": "11968",
-      "stop_name": "BARNESVILLE MARC wb",
-      "x": "7",
-      "y": "8",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Barnesville Marc Wb"
-    },
-    {
-      "stop_id": "11969",
-      "stop_code": "11969",
-      "stop_name": "DICKERSON MARC wb",
-      "x": "6",
-      "y": "7",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Dickerson Marc Wb"
-    },
-    {
-      "stop_id": "11970",
-      "stop_code": "11970",
-      "stop_name": "POINT OF ROCKS MARC wb",
-      "x": "4",
-      "y": "5",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Point Of Rocks Marc Wb"
-    },
-    {
-      "stop_id": "11971",
-      "stop_code": "11971",
-      "stop_name": "MONOCACY MARC wb",
-      "x": "7",
-      "y": "4",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Monocacy Marc Wb"
-    },
-    {
-      "stop_id": "11972",
-      "stop_code": "11972",
-      "stop_name": "FREDERICK MARC wb",
-      "x": "6",
-      "y": "5",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Frederick Marc Wb"
-    },
-    {
-      "stop_id": "11973",
-      "stop_code": "11973",
-      "stop_name": "BRUNSWICK MD MARC wb",
-      "x": "3",
-      "y": "4",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Brunswick Md Marc Wb"
-    },
-    {
-      "stop_id": "11974",
-      "stop_code": "11974",
-      "stop_name": "HARPERS FERRY W VA MARC wb",
-      "x": "2",
-      "y": "3",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Harpers Ferry W Va Marc Wb"
-    },
-    {
-      "stop_id": "11975",
-      "stop_code": "11975",
-      "stop_name": "DUFFIELFS W VA MARC wb",
-      "x": "1",
-      "y": "2",
-      "location": "right",
-      "color": "#FFFFFF",
-      "display_name": "Duffielfs W Va Marc Wb"
+      "display_name": "Union Station",
+      "otherNames": []
     },
     {
       "stop_id": "11976",
       "stop_code": "11976",
       "stop_name": "PERRYVILLE MARC",
-      "x": "50",
+      "x": "40",
       "y": "0",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Perryville Marc"
+      "display_name": "Perryville",
+      "otherNames": []
     },
     {
       "stop_id": "11977",
       "stop_code": "11977",
       "stop_name": "ABERDEEN MARC sb",
-      "x": "49",
+      "x": "39",
       "y": "1",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Aberdeen Marc Sb"
+      "display_name": "Aberdeen",
+      "otherNames": [
+        "12005"
+      ]
     },
     {
       "stop_id": "11978",
       "stop_code": "11978",
       "stop_name": "EDGEWOOD MARC sb",
-      "x": "48",
+      "x": "38",
       "y": "2",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Edgewood Marc Sb"
+      "display_name": "Edgewood",
+      "otherNames": [
+        "12004"
+      ]
     },
     {
       "stop_id": "11979",
       "stop_code": "11979",
       "stop_name": "MARTIN AIRPORT MARC sb",
-      "x": "47",
+      "x": "37",
       "y": "3",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Martin Airport Marc Sb"
+      "display_name": "Martin Airport",
+      "otherNames": [
+        "12003"
+      ]
     },
     {
       "stop_id": "11980",
       "stop_code": "11980",
       "stop_name": "PENN STATION MARC sb",
-      "x": "46",
+      "x": "36",
       "y": "4",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Penn Station Marc Sb"
+      "display_name": "Penn Station",
+      "otherNames": [
+        "12002"
+      ]
     },
     {
       "stop_id": "11981",
       "stop_code": "11981",
       "stop_name": "WEST BALTIMORE MARC sb",
-      "x": "45",
+      "x": "35",
       "y": "5",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "West Baltimore Marc Sb"
+      "display_name": "West Baltimore",
+      "otherNames": [
+        "11995"
+      ]
     },
     {
       "stop_id": "11982",
       "stop_code": "11982",
       "stop_name": "HALETHORPE MARC sb",
-      "x": "44",
+      "x": "34",
       "y": "6",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Halethorpe Marc Sb"
+      "display_name": "Halethorpe",
+      "otherNames": [
+        "11994"
+      ]
     },
     {
       "stop_id": "11984",
       "stop_code": "11984",
       "stop_name": "BWI RAIL STATION MARC sb",
-      "x": "43",
-      "y": "7",
+      "x": "32",
+      "y": "8",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Bwi Rail Station Marc Sb"
+      "display_name": "BWI Rail Station",
+      "otherNames": [
+        "11993"
+      ]
     },
     {
       "stop_id": "11985",
       "stop_code": "11985",
       "stop_name": "ODENTON MARC sb",
-      "x": "42",
-      "y": "8",
+      "x": "31",
+      "y": "9",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Odenton Marc Sb"
+      "display_name": "Odenton",
+      "otherNames": [
+        "11992"
+      ]
     },
     {
       "stop_id": "11986",
       "stop_code": "11986",
       "stop_name": "BOWIE STATE MARC sb",
-      "x": "41",
-      "y": "9",
+      "x": "30",
+      "y": "10",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Bowie State Marc Sb"
+      "display_name": "Bowie State",
+      "otherNames": [
+        "11991"
+      ]
     },
     {
       "stop_id": "11987",
       "stop_code": "11987",
       "stop_name": "SEABROOK MARC sb",
-      "x": "40",
-      "y": "10",
+      "x": "29",
+      "y": "11",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Seabrook Marc Sb"
+      "display_name": "Seabrook",
+      "otherNames": [
+        "11990"
+      ]
     },
     {
       "stop_id": "11988",
       "stop_code": "11988",
       "stop_name": "NEW CARROLLTON MARC sb",
-      "x": "39",
-      "y": "11",
+      "x": "28",
+      "y": "12",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "New Carrollton Marc Sb"
-    },
-    {
-      "stop_id": "11989",
-      "stop_code": "11989",
-      "stop_name": "NEW CARROLLTON MARC nb",
-      "x": "39",
-      "y": "11",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "New Carrollton Marc Nb"
-    },
-    {
-      "stop_id": "11990",
-      "stop_code": "11990",
-      "stop_name": "SEABROOK MARC nb",
-      "x": "40",
-      "y": "10",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Seabrook Marc Nb"
-    },
-    {
-      "stop_id": "11991",
-      "stop_code": "11991",
-      "stop_name": "BOWIE STATE MARC nb",
-      "x": "41",
-      "y": "9",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Bowie State Marc Nb"
-    },
-    {
-      "stop_id": "11992",
-      "stop_code": "11992",
-      "stop_name": "ODENTON MARC nb",
-      "x": "42",
-      "y": "8",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Odenton Marc Nb"
-    },
-    {
-      "stop_id": "11993",
-      "stop_code": "11993",
-      "stop_name": "BWI RAIL STATION MARC nb",
-      "x": "43",
-      "y": "7",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Bwi Rail Station Marc Nb"
-    },
-    {
-      "stop_id": "11994",
-      "stop_code": "11994",
-      "stop_name": "HALETHORPE MARC nb",
-      "x": "44",
-      "y": "6",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Halethorpe Marc Nb"
-    },
-    {
-      "stop_id": "11995",
-      "stop_code": "11995",
-      "stop_name": "WEST BALTIMORE MARC nb",
-      "x": "45",
-      "y": "5",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "West Baltimore Marc Nb"
-    },
-    {
-      "stop_id": "12002",
-      "stop_code": "12002",
-      "stop_name": "PENN STATION MARC nb",
-      "x": "46",
-      "y": "4",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Penn Station Marc Nb"
-    },
-    {
-      "stop_id": "12003",
-      "stop_code": "12003",
-      "stop_name": "MARTIN AIRPORT MARC nb",
-      "x": "47",
-      "y": "3",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Martin Airport Marc Nb"
-    },
-    {
-      "stop_id": "12004",
-      "stop_code": "12004",
-      "stop_name": "EDGEWOOD MARC nb",
-      "x": "48",
-      "y": "2",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Edgewood Marc Nb"
-    },
-    {
-      "stop_id": "12005",
-      "stop_code": "12005",
-      "stop_name": "ABERDEEN MARC nb",
-      "x": "49",
-      "y": "1",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Aberdeen Marc Nb"
+      "display_name": "New Carrollton",
+      "otherNames": [
+        "11989"
+      ]
     },
     {
       "stop_id": "12006",
       "stop_code": "12006",
       "stop_name": "CAMDEN STATION MARC",
-      "x": "0",
-      "y": "0",
-      "location": "left",
+      "x": "40",
+      "y": "7",
+      "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Camden Station Marc"
+      "display_name": "Camden Station",
+      "otherNames": []
     },
     {
       "stop_id": "12007",
       "stop_code": "12007",
       "stop_name": "ST DENIS MARC sb",
-      "x": "0",
-      "y": "0",
+      "x": "30",
+      "y": "7",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "St Denis Marc Sb"
+      "display_name": "St Denis Marc",
+      "otherNames": [
+        "12026"
+      ]
     },
     {
       "stop_id": "12008",
       "stop_code": "12008",
       "stop_name": "DORSEY MARC sb",
-      "x": "0",
-      "y": "0",
+      "x": "29",
+      "y": "8",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Dorsey Marc Sb"
+      "display_name": "Dorsey",
+      "otherNames": [
+        "12025"
+      ]
     },
     {
       "stop_id": "12009",
       "stop_code": "12009",
       "stop_name": "JESSUP MARC sb",
-      "x": "0",
-      "y": "0",
+      "x": "28",
+      "y": "9",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Jessup Marc Sb"
+      "display_name": "Jessup",
+      "otherNames": [
+        "12024"
+      ]
     },
     {
       "stop_id": "12010",
       "stop_code": "12010",
       "stop_name": "SAVAGE MARC sb",
-      "x": "0",
-      "y": "0",
+      "x": "27",
+      "y": "10",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Savage Marc Sb"
+      "display_name": "Savage",
+      "otherNames": [
+        "12023"
+      ]
     },
     {
       "stop_id": "12011",
       "stop_code": "12011",
       "stop_name": "LAUREL RACETRACK MARC sb",
-      "x": "0",
-      "y": "0",
+      "x": "26",
+      "y": "11",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Laurel Racetrack Marc Sb"
+      "display_name": "Laurel Racetrack",
+      "otherNames": [
+        "12022"
+      ]
     },
     {
       "stop_id": "12012",
       "stop_code": "12012",
       "stop_name": "LAUREL MARC sb",
-      "x": "0",
-      "y": "0",
+      "x": "25",
+      "y": "12",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Laurel Marc Sb"
+      "display_name": "Laurel",
+      "otherNames": [
+        "12021"
+      ]
     },
     {
       "stop_id": "12013",
       "stop_code": "12013",
       "stop_name": "MUIRKIRK MARC sb",
-      "x": "0",
-      "y": "0",
+      "x": "24",
+      "y": "13",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Muirkirk Marc Sb"
+      "display_name": "Muirkirk",
+      "otherNames": [
+        "12020"
+      ]
     },
     {
       "stop_id": "12014",
       "stop_code": "12014",
       "stop_name": "GREENBELT MARC sb",
-      "x": "0",
-      "y": "0",
+      "x": "23",
+      "y": "14",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Greenbelt Marc Sb"
+      "display_name": "Greenbelt",
+      "otherNames": [
+        "12019"
+      ]
     },
     {
       "stop_id": "12015",
       "stop_code": "12015",
       "stop_name": "COLLEGE PARK MARC sb",
-      "x": "0",
-      "y": "0",
+      "x": "22",
+      "y": "15",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "College Park Marc Sb"
+      "display_name": "College Park",
+      "otherNames": [
+        "12018"
+      ]
     },
     {
       "stop_id": "12016",
       "stop_code": "12016",
       "stop_name": "RIVERDALE MARC sb",
-      "x": "0",
-      "y": "0",
+      "x": "21",
+      "y": "16",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Riverdale Marc Sb"
-    },
-    {
-      "stop_id": "12017",
-      "stop_code": "12017",
-      "stop_name": "RIVERDALE MARC nb",
-      "x": "0",
-      "y": "0",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Riverdale Marc Nb"
-    },
-    {
-      "stop_id": "12018",
-      "stop_code": "12018",
-      "stop_name": "COLLEGE PARK MARC nb",
-      "x": "0",
-      "y": "0",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "College Park Marc Nb"
-    },
-    {
-      "stop_id": "12019",
-      "stop_code": "12019",
-      "stop_name": "GREENBELT MARC nb",
-      "x": "0",
-      "y": "0",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Greenbelt Marc Nb"
-    },
-    {
-      "stop_id": "12020",
-      "stop_code": "12020",
-      "stop_name": "MUIRKIRK MARC nb",
-      "x": "0",
-      "y": "0",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Muirkirk Marc Nb"
-    },
-    {
-      "stop_id": "12021",
-      "stop_code": "12021",
-      "stop_name": "LAUREL MARC nb",
-      "x": "0",
-      "y": "0",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Laurel Marc Nb"
-    },
-    {
-      "stop_id": "12023",
-      "stop_code": "12023",
-      "stop_name": "SAVAGE MARC nb",
-      "x": "0",
-      "y": "0",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Savage Marc Nb"
-    },
-    {
-      "stop_id": "12024",
-      "stop_code": "12024",
-      "stop_name": "JESSUP MARC nb",
-      "x": "0",
-      "y": "0",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Jessup Marc Nb"
-    },
-    {
-      "stop_id": "12025",
-      "stop_code": "12025",
-      "stop_name": "DORSEY MARC nb",
-      "x": "0",
-      "y": "0",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "Dorsey Marc Nb"
-    },
-    {
-      "stop_id": "12026",
-      "stop_code": "12026",
-      "stop_name": "ST DENIS MARC nb",
-      "x": "0",
-      "y": "0",
-      "location": "left",
-      "color": "#FFFFFF",
-      "display_name": "St Denis Marc Nb"
+      "display_name": "Riverdale",
+      "otherNames": [
+        "12017"
+      ]
     }
   ]
 }
