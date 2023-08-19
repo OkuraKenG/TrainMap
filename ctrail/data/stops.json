@@ -9,7 +9,9 @@
       "location": "down",
       "color": "#FFFFFF",
       "agency": "0",
-      "display_name": "New Haven Union Station (SLE)"
+      "div_display_name": "New Haven Union Station (SLE)",
+      "map_display_name": "New Haven Union Station (SLE)",
+      "otherNames": []
     },
     {
       "stop_id": "ST",
@@ -20,7 +22,9 @@
       "location": "down",
       "color": "#FFFFFF",
       "agency": "0",
-      "display_name": "New Haven State Street Station (SLE)"
+      "div_display_name": "New Haven State Street Station (SLE)",
+      "map_display_name": "New Haven State Street Station (SLE)",
+      "otherNames": []
     },
     {
       "stop_id": "BRN",
@@ -31,7 +35,9 @@
       "location": "down",
       "color": "#FFFFFF",
       "agency": "0",
-      "display_name": "Branford"
+      "div_display_name": "Branford",
+      "map_display_name": "Branford",
+      "otherNames": []
     },
     {
       "stop_id": "GUIL",
@@ -42,7 +48,9 @@
       "location": "down",
       "color": "#FFFFFF",
       "agency": "0",
-      "display_name": "Guilford"
+      "div_display_name": "Guilford",
+      "map_display_name": "Guilford",
+      "otherNames": []
     },
     {
       "stop_id": "MAD",
@@ -53,7 +61,9 @@
       "location": "down",
       "color": "#FFFFFF",
       "agency": "0",
-      "display_name": "Madison"
+      "div_display_name": "Madison",
+      "map_display_name": "Madison",
+      "otherNames": []
     },
     {
       "stop_id": "CLIN",
@@ -64,7 +74,9 @@
       "location": "down",
       "color": "#FFFFFF",
       "agency": "0",
-      "display_name": "Clinton"
+      "div_display_name": "Clinton",
+      "map_display_name": "Clinton",
+      "otherNames": []
     },
     {
       "stop_id": "WES",
@@ -75,7 +87,9 @@
       "location": "down",
       "color": "#FFFFFF",
       "agency": "0",
-      "display_name": "Westbrook"
+      "div_display_name": "Westbrook",
+      "map_display_name": "Westbrook",
+      "otherNames": []
     },
     {
       "stop_id": "OSB",
@@ -86,7 +100,9 @@
       "location": "down",
       "color": "#FFFFFF",
       "agency": "0",
-      "display_name": "Old Saybrook"
+      "div_display_name": "Old Saybrook",
+      "map_display_name": "Old Saybrook",
+      "otherNames": []
     },
     {
       "stop_id": "NLC",
@@ -97,7 +113,9 @@
       "location": "down",
       "color": "#FFFFFF",
       "agency": "0",
-      "display_name": "New London"
+      "div_display_name": "New London",
+      "map_display_name": "New London",
+      "otherNames": []
     },
     {
       "stop_id": "1",
@@ -108,7 +126,9 @@
       "location": "up",
       "color": "#FFFFFF",
       "agency": "1",
-      "display_name": "New Haven Union Station (Hartford)"
+      "div_display_name": "New Haven Union Station (Hartford)",
+      "map_display_name": "New Haven Union Station (Hartford)",
+      "otherNames": []
     },
     {
       "stop_id": "2",
@@ -119,7 +139,9 @@
       "location": "up",
       "color": "#FFFFFF",
       "agency": "1",
-      "display_name": "State Street Station (Hartford)"
+      "div_display_name": "State Street Station (Hartford)",
+      "map_display_name": "State Street Station (Hartford)",
+      "otherNames": []
     },
     {
       "stop_id": "3",
@@ -130,7 +152,9 @@
       "location": "right",
       "color": "#FFFFFF",
       "agency": "1",
-      "display_name": "Wallingford"
+      "div_display_name": "Wallingford",
+      "map_display_name": "Wallingford",
+      "otherNames": []
     },
     {
       "stop_id": "4",
@@ -141,7 +165,9 @@
       "location": "right",
       "color": "#FFFFFF",
       "agency": "1",
-      "display_name": "Meriden"
+      "div_display_name": "Meriden",
+      "map_display_name": "Meriden",
+      "otherNames": []
     },
     {
       "stop_id": "5",
@@ -152,7 +178,9 @@
       "location": "right",
       "color": "#FFFFFF",
       "agency": "1",
-      "display_name": "Berlin"
+      "div_display_name": "Berlin",
+      "map_display_name": "Berlin",
+      "otherNames": []
     },
     {
       "stop_id": "6",
@@ -163,7 +191,9 @@
       "location": "right",
       "color": "#FFFFFF",
       "agency": "1",
-      "display_name": "Hartford"
+      "div_display_name": "Hartford",
+      "map_display_name": "Hartford",
+      "otherNames": []
     },
     {
       "stop_id": "7",
@@ -174,7 +204,9 @@
       "location": "right",
       "color": "#FFFFFF",
       "agency": "1",
-      "display_name": "Windsor"
+      "div_display_name": "Windsor",
+      "map_display_name": "Windsor",
+      "otherNames": []
     },
     {
       "stop_id": "8",
@@ -185,7 +217,9 @@
       "location": "right",
       "color": "#FFFFFF",
       "agency": "1",
-      "display_name": "Windsor Locks"
+      "div_display_name": "Windsor Locks",
+      "map_display_name": "Windsor Locks",
+      "otherNames": []
     },
     {
       "stop_id": "9",
@@ -196,7 +230,9 @@
       "location": "right",
       "color": "#FFFFFF",
       "agency": "1",
-      "display_name": "Springfield"
+      "div_display_name": "Springfield",
+      "map_display_name": "Springfield",
+      "otherNames": []
     },
     {
       "stop_id": "LINE",
@@ -207,7 +243,9 @@
       "location": "right",
       "color": "#EF3E42",
       "agency": "2",
-      "display_name": "Shore Line East"
+      "div_display_name": "Shore Line East",
+      "map_display_name": "Shore Line East",
+      "otherNames": []
     },
     {
       "stop_id": "LINE",
@@ -218,7 +256,9 @@
       "location": "right",
       "color": "#ea0d2a",
       "agency": "2",
-      "display_name": "Hartford Line"
+      "div_display_name": "Hartford Line",
+      "map_display_name": "Hartford Line",
+      "otherNames": []
     }
   ]
 }

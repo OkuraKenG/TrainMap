@@ -7,9 +7,20 @@
       "route_color": "#FF8000",
       "route_text_color": "#FFFFFF",
       "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
+      "y1": "1",
+      "x2": "21",
+      "y2": "22"
+    },
+    {
+      "line_id": "11704",
+      "route_id": "1",
+      "route_long_name": "BRUNSWICK - WASHINGTON",
+      "route_color": "#FF8000",
+      "route_text_color": "#FFFFFF",
+      "x1": "7",
+      "y1": "4",
+      "x2": "5",
+      "y2": "6"
     },
     {
       "line_id": "11705",
@@ -17,10 +28,10 @@
       "route_long_name": "PENN - WASHINGTON",
       "route_color": "#FF8000",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
+      "x1": "40",
       "y1": "0",
-      "x2": "0",
-      "y2": "0"
+      "x2": "21",
+      "y2": "19"
     },
     {
       "line_id": "11706",
@@ -28,10 +39,32 @@
       "route_long_name": "CAMDEN - WASHINGTON",
       "route_color": "#FF8000",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "0",
-      "x2": "0",
-      "y2": "0"
+      "x1": "40",
+      "y1": "7",
+      "x2": "30",
+      "y2": "7"
+    },
+    {
+      "line_id": "11706",
+      "route_id": "1",
+      "route_long_name": "CAMDEN - WASHINGTON",
+      "route_color": "#FF8000",
+      "route_text_color": "#FFFFFF",
+      "x1": "30",
+      "y1": "7",
+      "x2": "21",
+      "y2": "16"
+    },
+    {
+      "line_id": "11706",
+      "route_id": "1",
+      "route_long_name": "CAMDEN - WASHINGTON",
+      "route_color": "#FF8000",
+      "route_text_color": "#FFFFFF",
+      "x1": "21",
+      "y1": "16",
+      "x2": "21",
+      "y2": "23"
     }
   ]
 }
