@@ -8,7 +8,8 @@
       "y": "1",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Martinsburg",
+      "div_display_name": "Martinsburg",
+      "map_display_name": "Martinsburg",
       "otherNames": []
     },
     {
@@ -19,7 +20,8 @@
       "y": "2",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Duffields",
+      "div_display_name": "Duffields",
+      "map_display_name": "Duffields",
       "otherNames": [
         "11975"
       ]
@@ -32,7 +34,8 @@
       "y": "3",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Harpers Ferry",
+      "div_display_name": "Harpers Ferry",
+      "map_display_name": "Harpers Ferry",
       "otherNames": [
         "11974"
       ]
@@ -45,7 +48,8 @@
       "y": "4",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Brunswick",
+      "div_display_name": "Brunswick",
+      "map_display_name": "Brunswick",
       "otherNames": [
         "11973"
       ]
@@ -58,7 +62,8 @@
       "y": "5",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Frederick",
+      "div_display_name": "Frederick",
+      "map_display_name": "Frederick",
       "otherNames": [
         "11972"
       ]
@@ -71,7 +76,8 @@
       "y": "4",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Monocacy",
+      "div_display_name": "Monocacy",
+      "map_display_name": "Monocacy",
       "otherNames": [
         "11971"
       ]
@@ -84,7 +90,8 @@
       "y": "5",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Point Of Rocks",
+      "div_display_name": "Point Of Rocks",
+      "map_display_name": "Point Of Rocks",
       "otherNames": [
         "11970"
       ]
@@ -97,7 +104,8 @@
       "y": "7",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Dickerson",
+      "div_display_name": "Dickerson",
+      "map_display_name": "Dickerson",
       "otherNames": [
         "11969"
       ]
@@ -110,7 +118,8 @@
       "y": "8",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Barnesville",
+      "div_display_name": "Barnesville",
+      "map_display_name": "Barnesville",
       "otherNames": [
         "11968"
       ]
@@ -123,7 +132,8 @@
       "y": "9",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Boyds",
+      "div_display_name": "Boyds",
+      "map_display_name": "Boyds",
       "otherNames": [
         "11967"
       ]
@@ -136,7 +146,8 @@
       "y": "10",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Germantown",
+      "div_display_name": "Germantown",
+      "map_display_name": "Germantown",
       "otherNames": [
         "11966"
       ]
@@ -149,7 +160,8 @@
       "y": "11",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Metropolitan Grove",
+      "div_display_name": "Metropolitan Grove",
+      "map_display_name": "Metropolitan Grove",
       "otherNames": [
         "11965"
       ]
@@ -162,7 +174,8 @@
       "y": "12",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Gaithersburg",
+      "div_display_name": "Gaithersburg",
+      "map_display_name": "Gaithersburg",
       "otherNames": [
         "11964"
       ]
@@ -175,7 +188,8 @@
       "y": "13",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Washington Grove",
+      "div_display_name": "Washington Grove",
+      "map_display_name": "Washington Grove",
       "otherNames": [
         "11963"
       ]
@@ -188,7 +202,8 @@
       "y": "14",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Rockville",
+      "div_display_name": "Rockville",
+      "map_display_name": "Rockville",
       "otherNames": [
         "11962"
       ]
@@ -201,7 +216,8 @@
       "y": "15",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Garrett Park",
+      "div_display_name": "Garrett Park",
+      "map_display_name": "Garrett Park",
       "otherNames": [
         "11961"
       ]
@@ -214,7 +230,8 @@
       "y": "16",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Kensington",
+      "div_display_name": "Kensington",
+      "map_display_name": "Kensington",
       "otherNames": [
         "11960"
       ]
@@ -227,7 +244,8 @@
       "y": "17",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Silver Spring",
+      "div_display_name": "Silver Spring",
+      "map_display_name": "Silver Spring",
       "otherNames": [
         "11959"
       ]
@@ -240,7 +258,8 @@
       "y": "23",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Union Station",
+      "div_display_name": "Union Station",
+      "map_display_name": "Union Station",
       "otherNames": []
     },
     {
@@ -251,7 +270,8 @@
       "y": "0",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Perryville",
+      "div_display_name": "Perryville",
+      "map_display_name": "Perryville",
       "otherNames": []
     },
     {
@@ -262,7 +282,8 @@
       "y": "1",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Aberdeen",
+      "div_display_name": "Aberdeen",
+      "map_display_name": "Aberdeen",
       "otherNames": [
         "12005"
       ]
@@ -275,7 +296,8 @@
       "y": "2",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Edgewood",
+      "div_display_name": "Edgewood",
+      "map_display_name": "Edgewood",
       "otherNames": [
         "12004"
       ]
@@ -288,7 +310,8 @@
       "y": "3",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Martin Airport",
+      "div_display_name": "Martin Airport",
+      "map_display_name": "Martin Airport",
       "otherNames": [
         "12003"
       ]
@@ -301,7 +324,8 @@
       "y": "4",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Penn Station",
+      "div_display_name": "Penn Station",
+      "map_display_name": "Penn Station",
       "otherNames": [
         "12002"
       ]
@@ -314,7 +338,8 @@
       "y": "5",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "West Baltimore",
+      "div_display_name": "West Baltimore",
+      "map_display_name": "West Baltimore",
       "otherNames": [
         "11995"
       ]
@@ -327,7 +352,8 @@
       "y": "6",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Halethorpe",
+      "div_display_name": "Halethorpe",
+      "map_display_name": "Halethorpe",
       "otherNames": [
         "11994"
       ]
@@ -340,7 +366,8 @@
       "y": "8",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "BWI Rail Station",
+      "div_display_name": "BWI Rail Station",
+      "map_display_name": "BWI Rail Station",
       "otherNames": [
         "11993"
       ]
@@ -353,7 +380,8 @@
       "y": "9",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Odenton",
+      "div_display_name": "Odenton",
+      "map_display_name": "Odenton",
       "otherNames": [
         "11992"
       ]
@@ -366,7 +394,8 @@
       "y": "10",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Bowie State",
+      "div_display_name": "Bowie State",
+      "map_display_name": "Bowie State",
       "otherNames": [
         "11991"
       ]
@@ -379,7 +408,8 @@
       "y": "11",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Seabrook",
+      "div_display_name": "Seabrook",
+      "map_display_name": "Seabrook",
       "otherNames": [
         "11990"
       ]
@@ -392,7 +422,8 @@
       "y": "12",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "New Carrollton",
+      "div_display_name": "New Carrollton",
+      "map_display_name": "New Carrollton",
       "otherNames": [
         "11989"
       ]
@@ -405,7 +436,8 @@
       "y": "7",
       "location": "right",
       "color": "#FFFFFF",
-      "display_name": "Camden Station",
+      "div_display_name": "Camden Station",
+      "map_display_name": "Camden Station",
       "otherNames": []
     },
     {
@@ -416,7 +448,8 @@
       "y": "7",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "St Denis Marc",
+      "div_display_name": "St Denis Marc",
+      "map_display_name": "St Denis Marc",
       "otherNames": [
         "12026"
       ]
@@ -429,7 +462,8 @@
       "y": "8",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Dorsey",
+      "div_display_name": "Dorsey",
+      "map_display_name": "Dorsey",
       "otherNames": [
         "12025"
       ]
@@ -442,7 +476,8 @@
       "y": "9",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Jessup",
+      "div_display_name": "Jessup",
+      "map_display_name": "Jessup",
       "otherNames": [
         "12024"
       ]
@@ -455,7 +490,8 @@
       "y": "10",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Savage",
+      "div_display_name": "Savage",
+      "map_display_name": "Savage",
       "otherNames": [
         "12023"
       ]
@@ -468,7 +504,8 @@
       "y": "11",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Laurel Racetrack",
+      "div_display_name": "Laurel Racetrack",
+      "map_display_name": "Laurel Racetrack",
       "otherNames": [
         "12022"
       ]
@@ -481,7 +518,8 @@
       "y": "12",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Laurel",
+      "div_display_name": "Laurel",
+      "map_display_name": "Laurel",
       "otherNames": [
         "12021"
       ]
@@ -494,7 +532,8 @@
       "y": "13",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Muirkirk",
+      "div_display_name": "Muirkirk",
+      "map_display_name": "Muirkirk",
       "otherNames": [
         "12020"
       ]
@@ -507,7 +546,8 @@
       "y": "14",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Greenbelt",
+      "div_display_name": "Greenbelt",
+      "map_display_name": "Greenbelt",
       "otherNames": [
         "12019"
       ]
@@ -520,7 +560,8 @@
       "y": "15",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "College Park",
+      "div_display_name": "College Park",
+      "map_display_name": "College Park",
       "otherNames": [
         "12018"
       ]
@@ -533,7 +574,8 @@
       "y": "16",
       "location": "left",
       "color": "#FFFFFF",
-      "display_name": "Riverdale",
+      "div_display_name": "Riverdale",
+      "map_display_name": "Riverdale",
       "otherNames": [
         "12017"
       ]
