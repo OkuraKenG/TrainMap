@@ -6,7 +6,8 @@
       "x": "23",
       "y": "19",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Cynwyd"
     },
     {
       "stop_id": "90002",
@@ -14,7 +15,8 @@
       "x": "23",
       "y": "20",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bala"
     },
     {
       "stop_id": "90003",
@@ -22,7 +24,8 @@
       "x": "23",
       "y": "21",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wynnefield Avenue"
     },
     {
       "stop_id": "90004",
@@ -30,7 +33,8 @@
       "x": "60",
       "y": "26",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Gray 30th Street"
     },
     {
       "stop_id": "90005",
@@ -38,7 +42,8 @@
       "x": "60",
       "y": "23",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Suburban Station"
     },
     {
       "stop_id": "90006",
@@ -46,7 +51,8 @@
       "x": "62",
       "y": "22",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Jefferson Station"
     },
     {
       "stop_id": "90007",
@@ -54,7 +60,8 @@
       "x": "63",
       "y": "20",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Temple University"
     },
     {
       "stop_id": "90008",
@@ -62,7 +69,8 @@
       "x": "62",
       "y": "19",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Broad"
     },
     {
       "stop_id": "90009",
@@ -70,7 +78,8 @@
       "x": "51",
       "y": "16",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wayne Junction"
     },
     {
       "stop_id": "90201",
@@ -78,7 +87,8 @@
       "x": "39",
       "y": "43",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Newark"
     },
     {
       "stop_id": "90202",
@@ -86,7 +96,8 @@
       "x": "40",
       "y": "42",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Churchman's Crossing"
     },
     {
       "stop_id": "90203",
@@ -94,7 +105,8 @@
       "x": "41",
       "y": "41",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wilmington"
     },
     {
       "stop_id": "90204",
@@ -102,7 +114,8 @@
       "x": "42",
       "y": "40",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Claymont"
     },
     {
       "stop_id": "90205",
@@ -110,7 +123,8 @@
       "x": "43",
       "y": "39",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Marcus Hook"
     },
     {
       "stop_id": "90206",
@@ -118,7 +132,8 @@
       "x": "44",
       "y": "38",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Highland Avenue"
     },
     {
       "stop_id": "90207",
@@ -126,7 +141,8 @@
       "x": "45",
       "y": "37",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Chester"
     },
     {
       "stop_id": "90208",
@@ -134,7 +150,8 @@
       "x": "46",
       "y": "36",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Eddystone"
     },
     {
       "stop_id": "90209",
@@ -142,7 +159,8 @@
       "x": "47",
       "y": "35",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Crum Lynne"
     },
     {
       "stop_id": "90210",
@@ -150,7 +168,8 @@
       "x": "48",
       "y": "34",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ridley Park"
     },
     {
       "stop_id": "90211",
@@ -158,7 +177,8 @@
       "x": "49",
       "y": "33",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Prospect Park - Moore"
     },
     {
       "stop_id": "90212",
@@ -166,7 +186,8 @@
       "x": "50",
       "y": "32",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Norwood"
     },
     {
       "stop_id": "90213",
@@ -174,7 +195,8 @@
       "x": "51",
       "y": "31",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Glenolden"
     },
     {
       "stop_id": "90214",
@@ -182,7 +204,8 @@
       "x": "52",
       "y": "30",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Folcroft"
     },
     {
       "stop_id": "90215",
@@ -190,7 +213,8 @@
       "x": "53",
       "y": "29",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Sharon Hill"
     },
     {
       "stop_id": "90216",
@@ -198,7 +222,8 @@
       "x": "54",
       "y": "28",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Curtis Park"
     },
     {
       "stop_id": "90217",
@@ -206,7 +231,8 @@
       "x": "55",
       "y": "27",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Darby"
     },
     {
       "stop_id": "90218",
@@ -214,7 +240,8 @@
       "x": "28",
       "y": "18",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Allegheny"
     },
     {
       "stop_id": "90219",
@@ -222,7 +249,8 @@
       "x": "27",
       "y": "17",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "East Falls"
     },
     {
       "stop_id": "90220",
@@ -230,7 +258,8 @@
       "x": "26",
       "y": "16",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wissahickon"
     },
     {
       "stop_id": "90221",
@@ -238,7 +267,8 @@
       "x": "25",
       "y": "15",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Manayunk"
     },
     {
       "stop_id": "90222",
@@ -246,7 +276,8 @@
       "x": "24",
       "y": "14",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ivy Ridge"
     },
     {
       "stop_id": "90223",
@@ -254,7 +285,8 @@
       "x": "23",
       "y": "13",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Miquon"
     },
     {
       "stop_id": "90224",
@@ -262,7 +294,8 @@
       "x": "22",
       "y": "12",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Spring Mill"
     },
     {
       "stop_id": "90225",
@@ -270,7 +303,8 @@
       "x": "21",
       "y": "11",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Conshohocken"
     },
     {
       "stop_id": "90226",
@@ -278,7 +312,8 @@
       "x": "20",
       "y": "10",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Norristown T.C."
     },
     {
       "stop_id": "90227",
@@ -286,7 +321,8 @@
       "x": "19",
       "y": "9",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Main Street"
     },
     {
       "stop_id": "90228",
@@ -294,7 +330,8 @@
       "x": "18",
       "y": "8",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Norristown - Elm Street"
     },
     {
       "stop_id": "90300",
@@ -302,7 +339,8 @@
       "x": "29",
       "y": "41",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wawa"
     },
     {
       "stop_id": "90301",
@@ -310,7 +348,8 @@
       "x": "30",
       "y": "40",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Elwyn"
     },
     {
       "stop_id": "90302",
@@ -318,7 +357,8 @@
       "x": "31",
       "y": "39",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Media"
     },
     {
       "stop_id": "90303",
@@ -326,7 +366,8 @@
       "x": "32",
       "y": "38",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Moylan-Rose Valley"
     },
     {
       "stop_id": "90304",
@@ -334,7 +375,8 @@
       "x": "33",
       "y": "37",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wallingford"
     },
     {
       "stop_id": "90305",
@@ -342,7 +384,8 @@
       "x": "34",
       "y": "36",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Swarthmore"
     },
     {
       "stop_id": "90306",
@@ -350,7 +393,8 @@
       "x": "35",
       "y": "35",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Morton"
     },
     {
       "stop_id": "90307",
@@ -358,7 +402,8 @@
       "x": "36",
       "y": "34",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Secane"
     },
     {
       "stop_id": "90308",
@@ -366,7 +411,8 @@
       "x": "37",
       "y": "33",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Primos"
     },
     {
       "stop_id": "90309",
@@ -374,7 +420,8 @@
       "x": "38",
       "y": "32",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Clifton-Aldan"
     },
     {
       "stop_id": "90310",
@@ -382,7 +429,8 @@
       "x": "39",
       "y": "31",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Gladstone"
     },
     {
       "stop_id": "90311",
@@ -390,7 +438,8 @@
       "x": "40",
       "y": "30",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lansdowne"
     },
     {
       "stop_id": "90312",
@@ -398,7 +447,8 @@
       "x": "41",
       "y": "29",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Fernwood-Yeadon"
     },
     {
       "stop_id": "90313",
@@ -406,7 +456,8 @@
       "x": "42",
       "y": "28",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Angora"
     },
     {
       "stop_id": "90314",
@@ -414,7 +465,8 @@
       "x": "43",
       "y": "27",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "49th Street"
     },
     {
       "stop_id": "90315",
@@ -422,7 +474,8 @@
       "x": "53",
       "y": "9",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Noble"
     },
     {
       "stop_id": "90316",
@@ -430,7 +483,8 @@
       "x": "54",
       "y": "8",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Rydal"
     },
     {
       "stop_id": "90317",
@@ -438,7 +492,8 @@
       "x": "55",
       "y": "7",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Meadowbrook"
     },
     {
       "stop_id": "90318",
@@ -446,7 +501,8 @@
       "x": "56",
       "y": "6",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bethayres"
     },
     {
       "stop_id": "90319",
@@ -454,7 +510,8 @@
       "x": "57",
       "y": "5",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Philmont"
     },
     {
       "stop_id": "90320",
@@ -462,7 +519,8 @@
       "x": "58",
       "y": "4",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Forest Hills"
     },
     {
       "stop_id": "90321",
@@ -470,7 +528,8 @@
       "x": "59",
       "y": "3",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Somerton"
     },
     {
       "stop_id": "90322",
@@ -478,7 +537,8 @@
       "x": "60",
       "y": "2",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Trevose"
     },
     {
       "stop_id": "90323",
@@ -486,7 +546,8 @@
       "x": "61",
       "y": "1",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Neshaminy"
     },
     {
       "stop_id": "90324",
@@ -494,7 +555,8 @@
       "x": "62",
       "y": "0",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Langhorne"
     },
     {
       "stop_id": "90325",
@@ -502,7 +564,8 @@
       "x": "68",
       "y": "2",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Woodbourne"
     },
     {
       "stop_id": "90326",
@@ -510,7 +573,8 @@
       "x": "69",
       "y": "1",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Yardley"
     },
     {
       "stop_id": "90327",
@@ -518,7 +582,8 @@
       "x": "70",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Trenton"
     },
     {
       "stop_id": "90401",
@@ -526,7 +591,8 @@
       "x": "56",
       "y": "34",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Airport Terminal E F"
     },
     {
       "stop_id": "90402",
@@ -534,7 +600,8 @@
       "x": "56",
       "y": "33",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Airport Terminal C D"
     },
     {
       "stop_id": "90403",
@@ -542,7 +609,8 @@
       "x": "56",
       "y": "32",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Airport Terminal B"
     },
     {
       "stop_id": "90404",
@@ -550,7 +618,8 @@
       "x": "56",
       "y": "31",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Airport Terminal A"
     },
     {
       "stop_id": "90405",
@@ -558,7 +627,8 @@
       "x": "56",
       "y": "30",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Eastwick"
     },
     {
       "stop_id": "90406",
@@ -566,7 +636,8 @@
       "x": "56",
       "y": "24",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Penn Medicine Station"
     },
     {
       "stop_id": "90407",
@@ -574,7 +645,8 @@
       "x": "52",
       "y": "14",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Fern Rock T C"
     },
     {
       "stop_id": "90408",
@@ -582,7 +654,8 @@
       "x": "52",
       "y": "13",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Melrose Park"
     },
     {
       "stop_id": "90409",
@@ -590,7 +663,8 @@
       "x": "52",
       "y": "12",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Elkins Park"
     },
     {
       "stop_id": "90410",
@@ -598,7 +672,8 @@
       "x": "52",
       "y": "11",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Jenkintown Wyncote"
     },
     {
       "stop_id": "90411",
@@ -606,7 +681,8 @@
       "x": "51",
       "y": "9",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Glenside"
     },
     {
       "stop_id": "90412",
@@ -614,7 +690,8 @@
       "x": "50",
       "y": "7",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ardsley"
     },
     {
       "stop_id": "90413",
@@ -622,7 +699,8 @@
       "x": "50",
       "y": "6",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Roslyn"
     },
     {
       "stop_id": "90414",
@@ -630,7 +708,8 @@
       "x": "50",
       "y": "5",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Crestmont"
     },
     {
       "stop_id": "90415",
@@ -638,7 +717,8 @@
       "x": "50",
       "y": "4",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Willow Grove"
     },
     {
       "stop_id": "90416",
@@ -646,7 +726,8 @@
       "x": "50",
       "y": "3",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hatboro"
     },
     {
       "stop_id": "90417",
@@ -654,7 +735,8 @@
       "x": "50",
       "y": "2",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Warminster"
     },
     {
       "stop_id": "90501",
@@ -662,7 +744,8 @@
       "x": "1",
       "y": "1",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Thorndale"
     },
     {
       "stop_id": "90502",
@@ -670,7 +753,8 @@
       "x": "2",
       "y": "2",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Downingtown"
     },
     {
       "stop_id": "90503",
@@ -678,7 +762,8 @@
       "x": "3",
       "y": "3",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Whitford"
     },
     {
       "stop_id": "90504",
@@ -686,7 +771,8 @@
       "x": "4",
       "y": "4",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Exton"
     },
     {
       "stop_id": "90505",
@@ -694,7 +780,8 @@
       "x": "5",
       "y": "5",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Malvern"
     },
     {
       "stop_id": "90506",
@@ -702,7 +789,8 @@
       "x": "6",
       "y": "6",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Paoli"
     },
     {
       "stop_id": "90507",
@@ -710,7 +798,8 @@
       "x": "7",
       "y": "7",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Daylesford"
     },
     {
       "stop_id": "90508",
@@ -718,7 +807,8 @@
       "x": "8",
       "y": "8",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Berwyn"
     },
     {
       "stop_id": "90509",
@@ -726,7 +816,8 @@
       "x": "9",
       "y": "9",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Devon"
     },
     {
       "stop_id": "90510",
@@ -734,7 +825,8 @@
       "x": "10",
       "y": "10",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Strafford"
     },
     {
       "stop_id": "90511",
@@ -742,7 +834,8 @@
       "x": "11",
       "y": "11",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wayne"
     },
     {
       "stop_id": "90512",
@@ -750,7 +843,8 @@
       "x": "12",
       "y": "12",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "St. Davids"
     },
     {
       "stop_id": "90513",
@@ -758,7 +852,8 @@
       "x": "13",
       "y": "13",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Radnor"
     },
     {
       "stop_id": "90514",
@@ -766,7 +861,8 @@
       "x": "14",
       "y": "14",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Villanova"
     },
     {
       "stop_id": "90515",
@@ -774,7 +870,8 @@
       "x": "15",
       "y": "15",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Rosemont"
     },
     {
       "stop_id": "90516",
@@ -782,7 +879,8 @@
       "x": "16",
       "y": "16",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bryn Mawr"
     },
     {
       "stop_id": "90517",
@@ -790,7 +888,8 @@
       "x": "17",
       "y": "17",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Haverford"
     },
     {
       "stop_id": "90518",
@@ -798,7 +897,8 @@
       "x": "18",
       "y": "18",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ardmore"
     },
     {
       "stop_id": "90519",
@@ -806,7 +906,8 @@
       "x": "19",
       "y": "19",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wynnewood"
     },
     {
       "stop_id": "90520",
@@ -814,7 +915,8 @@
       "x": "20",
       "y": "20",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Narberth"
     },
     {
       "stop_id": "90521",
@@ -822,7 +924,8 @@
       "x": "21",
       "y": "21",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Merion"
     },
     {
       "stop_id": "90522",
@@ -830,7 +933,8 @@
       "x": "22",
       "y": "22",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Overbrook"
     },
     {
       "stop_id": "90523",
@@ -838,7 +942,8 @@
       "x": "49",
       "y": "7",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Hills"
     },
     {
       "stop_id": "90524",
@@ -846,7 +951,8 @@
       "x": "48",
       "y": "6",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Oreland"
     },
     {
       "stop_id": "90525",
@@ -854,7 +960,8 @@
       "x": "47",
       "y": "5",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Fort Washington"
     },
     {
       "stop_id": "90526",
@@ -862,7 +969,8 @@
       "x": "46",
       "y": "4",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ambler"
     },
     {
       "stop_id": "90527",
@@ -870,7 +978,8 @@
       "x": "45",
       "y": "3",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Penllyn"
     },
     {
       "stop_id": "90528",
@@ -878,7 +987,8 @@
       "x": "44",
       "y": "2",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Gwynedd Valley"
     },
     {
       "stop_id": "90529",
@@ -886,7 +996,8 @@
       "x": "43",
       "y": "1",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Wales"
     },
     {
       "stop_id": "90530",
@@ -894,7 +1005,8 @@
       "x": "42",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Pennbrook"
     },
     {
       "stop_id": "90531",
@@ -902,7 +1014,8 @@
       "x": "36",
       "y": "4",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lansdale"
     },
     {
       "stop_id": "90539",
@@ -910,7 +1023,8 @@
       "x": "35",
       "y": "7",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "9th Street Lansdale"
     },
     {
       "stop_id": "90532",
@@ -918,7 +1032,8 @@
       "x": "34",
       "y": "6",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Fortuna"
     },
     {
       "stop_id": "90533",
@@ -926,7 +1041,8 @@
       "x": "33",
       "y": "5",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Colmar"
     },
     {
       "stop_id": "90534",
@@ -934,7 +1050,8 @@
       "x": "32",
       "y": "4",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Link Belt"
     },
     {
       "stop_id": "90535",
@@ -942,7 +1059,8 @@
       "x": "31",
       "y": "3",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Chalfont"
     },
     {
       "stop_id": "90536",
@@ -950,7 +1068,8 @@
       "x": "30",
       "y": "2",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "New Britain"
     },
     {
       "stop_id": "90537",
@@ -958,7 +1077,8 @@
       "x": "29",
       "y": "1",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Delaware Valley College"
     },
     {
       "stop_id": "90538",
@@ -966,7 +1086,8 @@
       "x": "28",
       "y": "0",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Doylestown"
     },
     {
       "stop_id": "90701",
@@ -974,7 +1095,8 @@
       "x": "66",
       "y": "7",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Trenton"
     },
     {
       "stop_id": "90702",
@@ -982,7 +1104,8 @@
       "x": "65",
       "y": "8",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Levittown"
     },
     {
       "stop_id": "90703",
@@ -990,7 +1113,8 @@
       "x": "64",
       "y": "9",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bristol"
     },
     {
       "stop_id": "90704",
@@ -998,7 +1122,8 @@
       "x": "63",
       "y": "10",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Croydon"
     },
     {
       "stop_id": "90705",
@@ -1006,7 +1131,8 @@
       "x": "62",
       "y": "11",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Eddington"
     },
     {
       "stop_id": "90706",
@@ -1014,7 +1140,8 @@
       "x": "61",
       "y": "12",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Cornwells Heights"
     },
     {
       "stop_id": "90707",
@@ -1022,7 +1149,8 @@
       "x": "60",
       "y": "13",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Torresdale"
     },
     {
       "stop_id": "90708",
@@ -1030,7 +1158,8 @@
       "x": "59",
       "y": "14",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Holmesburg Jct"
     },
     {
       "stop_id": "90709",
@@ -1038,7 +1167,8 @@
       "x": "58",
       "y": "15",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Tacony"
     },
     {
       "stop_id": "90710",
@@ -1046,7 +1176,8 @@
       "x": "57",
       "y": "16",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bridesburg"
     },
     {
       "stop_id": "90711",
@@ -1054,7 +1185,8 @@
       "x": "56",
       "y": "17",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Philadelphia Amtrak"
     },
     {
       "stop_id": "90712",
@@ -1062,7 +1194,8 @@
       "x": "45",
       "y": "14",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wister"
     },
     {
       "stop_id": "90713",
@@ -1070,7 +1203,8 @@
       "x": "44",
       "y": "13",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Germantown"
     },
     {
       "stop_id": "90714",
@@ -1078,7 +1212,8 @@
       "x": "43",
       "y": "12",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Washington Lane"
     },
     {
       "stop_id": "90715",
@@ -1086,7 +1221,8 @@
       "x": "42",
       "y": "11",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Stenton"
     },
     {
       "stop_id": "90716",
@@ -1094,7 +1230,8 @@
       "x": "41",
       "y": "10",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Sedgwick"
     },
     {
       "stop_id": "90717",
@@ -1102,7 +1239,8 @@
       "x": "40",
       "y": "9",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mount Airy"
     },
     {
       "stop_id": "90718",
@@ -1110,7 +1248,8 @@
       "x": "39",
       "y": "8",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wyndmoor"
     },
     {
       "stop_id": "90719",
@@ -1118,7 +1257,8 @@
       "x": "38",
       "y": "7",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Gravers"
     },
     {
       "stop_id": "90720",
@@ -1126,7 +1266,8 @@
       "x": "37",
       "y": "6",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Chestnut Hill East"
     },
     {
       "stop_id": "90801",
@@ -1134,7 +1275,8 @@
       "x": "21",
       "y": "8",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Chestnut Hill West"
     },
     {
       "stop_id": "90802",
@@ -1142,7 +1284,8 @@
       "x": "22",
       "y": "9",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Highland"
     },
     {
       "stop_id": "90803",
@@ -1150,7 +1293,8 @@
       "x": "23",
       "y": "10",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "St. Martins"
     },
     {
       "stop_id": "90804",
@@ -1158,7 +1302,8 @@
       "x": "24",
       "y": "11",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Richard Allen Lane"
     },
     {
       "stop_id": "90805",
@@ -1166,7 +1311,8 @@
       "x": "25",
       "y": "12",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Carpenter"
     },
     {
       "stop_id": "90806",
@@ -1174,7 +1320,8 @@
       "x": "26",
       "y": "13",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Upsal"
     },
     {
       "stop_id": "90807",
@@ -1182,7 +1329,8 @@
       "x": "27",
       "y": "14",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Tulpehocken"
     },
     {
       "stop_id": "90808",
@@ -1190,7 +1338,8 @@
       "x": "28",
       "y": "15",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Chelten Avenue"
     },
     {
       "stop_id": "90809",
@@ -1198,7 +1347,8 @@
       "x": "29",
       "y": "16",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Queen Lane"
     },
     {
       "stop_id": "90810",
@@ -1206,7 +1356,8 @@
       "x": "54",
       "y": "18",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Philadelphia"
     },
     {
       "stop_id": "90811",
@@ -1214,7 +1365,8 @@
       "x": "53",
       "y": "14",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Olney"
     },
     {
       "stop_id": "90812",
@@ -1222,7 +1374,8 @@
       "x": "54",
       "y": "13",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lawndale"
     },
     {
       "stop_id": "90813",
@@ -1230,7 +1383,8 @@
       "x": "55",
       "y": "12",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Cheltenham"
     },
     {
       "stop_id": "90814",
@@ -1238,7 +1392,8 @@
       "x": "56",
       "y": "11",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ryers"
     },
     {
       "stop_id": "90815",
@@ -1246,7 +1401,8 @@
       "x": "57",
       "y": "10",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Fox Chase"
     },
     {
       "stop_id": "91004",
@@ -1254,7 +1410,8 @@
       "x": "60",
       "y": "25",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "30th St Lower Level"
     }
   ]
 }

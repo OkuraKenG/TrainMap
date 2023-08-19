@@ -67,16 +67,16 @@ function canvasDrawer() {
         // draws the text 
         fill(255);
         if (currentStop.location == "right") { // handles the side text is displayed on
-            text(currentStop.stop_name, x * fsize + fsize + overallXOffset + 5, y * fsize + fsize + overallYOffset);
+            text(currentStop.display_name, x * fsize + fsize + overallXOffset + 5, y * fsize + fsize + overallYOffset);
         } else if (currentStop.location == "left") {
-            text(currentStop.stop_name, x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15, y * fsize + fsize + overallYOffset);
+            text(currentStop.display_name, x * fsize + fsize + overallXOffset - textWidth(currentStop.display_name) - 15, y * fsize + fsize + overallYOffset);
         } else if (currentStop.location == "up") {
             rotate(-(PI / 2.0));
-            text(currentStop.stop_name, -1 * (y * fsize + fsize + overallYOffset - 15), (x * fsize + fsize + overallXOffset));
+            text(currentStop.display_name, -1 * (y * fsize + fsize + overallYOffset - 15), (x * fsize + fsize + overallXOffset));
             rotate((PI / 2.0));
         } else if (currentStop.location == "down") {
             rotate(-(PI / 2.0));
-            text(currentStop.stop_name, -1 * (y * fsize + fsize + overallYOffset + textWidth(currentStop.stop_name) + 5), (x * fsize + fsize + overallXOffset - 2));
+            text(currentStop.display_name, -1 * (y * fsize + fsize + overallYOffset + textWidth(currentStop.display_name) + 5), (x * fsize + fsize + overallXOffset - 2));
             rotate((PI / 2.0));
         }
 
@@ -86,7 +86,6 @@ function canvasDrawer() {
 }
 
 function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
-    console.log(thisReformated, thisRoutes, thisStationList);
     // setup
     let overallXOffset = 125;
     let overallYOffset = 15;
@@ -105,7 +104,7 @@ function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
         let bordercolor = "transparent";
         if (currentStop.location == "right") { // handles the side text is displayed on
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset + 5 - 16}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 16}px; border: solid; border-color: ${bordercolor};`);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset + 5 - 16}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.display_name) + 16}px; border: solid; border-color: ${bordercolor};`);
             div.addEventListener("click", function () {
                 displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, thisReformated), currentStop.stop_name, thisRoutes, thisStationList, thisReformated);
                 console.log(thisReformated, thisRoutes, thisStationList);
@@ -113,7 +112,7 @@ function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
             document.body.appendChild(div);
         } else if (currentStop.location == "left") {
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - textWidth(currentStop.stop_name) - 15}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.stop_name) + 15}px; border: solid; border-color: ${bordercolor};`);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - textWidth(currentStop.display_name) - 15}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.display_name) + 15}px; border: solid; border-color: ${bordercolor};`);
             div.addEventListener("click", function () {
                 displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, thisReformated), currentStop.stop_name, thisRoutes, thisStationList, thisReformated);
                 console.log(thisReformated, thisRoutes, thisStationList);
@@ -121,7 +120,7 @@ function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
             document.body.appendChild(div);
         } else if (currentStop.location == "up") {
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3}px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3}px; height: ${textWidth(currentStop.display_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             div.addEventListener("click", function () {
                 displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, thisReformated), currentStop.stop_name, thisRoutes, thisStationList, thisReformated);
                 console.log(thisReformated, thisRoutes, thisStationList);
@@ -129,7 +128,7 @@ function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
             document.body.appendChild(div);
         } else if (currentStop.location == "down") {
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3}px; height: ${textWidth(currentStop.stop_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3}px; height: ${textWidth(currentStop.display_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             div.addEventListener("click", function () {
                 displayStoppingTrains(getStopingTrainsAtStop(currentStop.stop_id, thisReformated), currentStop.stop_name, thisRoutes, thisStationList, thisReformated);
                 console.log(thisReformated, thisRoutes, thisStationList);

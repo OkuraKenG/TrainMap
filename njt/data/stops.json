@@ -7,7 +7,8 @@
       "x": "65",
       "y": "43",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "30TH St. Phl."
     },
     {
       "stop_id": "2",
@@ -16,7 +17,8 @@
       "x": "72",
       "y": "43",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Absecon"
     },
     {
       "stop_id": "3",
@@ -25,7 +27,8 @@
       "x": "35",
       "y": "8",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Allendale"
     },
     {
       "stop_id": "4",
@@ -34,7 +37,8 @@
       "x": "57",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Allenhurst"
     },
     {
       "stop_id": "5",
@@ -43,7 +47,8 @@
       "x": "50",
       "y": "12",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Anderson Street"
     },
     {
       "stop_id": "6",
@@ -52,7 +57,8 @@
       "x": "10",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Annandale"
     },
     {
       "stop_id": "8",
@@ -61,7 +67,8 @@
       "x": "58",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Asbury Park"
     },
     {
       "stop_id": "9",
@@ -70,7 +77,8 @@
       "x": "69",
       "y": "43",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Atco"
     },
     {
       "stop_id": "10",
@@ -79,7 +87,8 @@
       "x": "73",
       "y": "43",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Atlantic City"
     },
     {
       "stop_id": "11",
@@ -88,7 +97,8 @@
       "x": "45",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Avenel"
     },
     {
       "stop_id": "12",
@@ -97,7 +107,8 @@
       "x": "16",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Basking Ridge"
     },
     {
       "stop_id": "13",
@@ -106,7 +117,8 @@
       "x": "64",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bay Head"
     },
     {
       "stop_id": "14",
@@ -115,7 +127,8 @@
       "x": "21",
       "y": "13",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bay Street"
     },
     {
       "stop_id": "15",
@@ -124,7 +137,8 @@
       "x": "60",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Belmar"
     },
     {
       "stop_id": "17",
@@ -133,7 +147,8 @@
       "x": "21",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Berkeley Heights"
     },
     {
       "stop_id": "18",
@@ -142,7 +157,8 @@
       "x": "15",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bernardsville"
     },
     {
       "stop_id": "19",
@@ -151,7 +167,8 @@
       "x": "23",
       "y": "15",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bloomfield"
     },
     {
       "stop_id": "20",
@@ -160,7 +177,8 @@
       "x": "9",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Boonton"
     },
     {
       "stop_id": "21",
@@ -169,7 +187,8 @@
       "x": "17",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bound Brook"
     },
     {
       "stop_id": "22",
@@ -178,7 +197,8 @@
       "x": "59",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bradley Beach"
     },
     {
       "stop_id": "23",
@@ -187,7 +207,8 @@
       "x": "33",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Brick Church"
     },
     {
       "stop_id": "24",
@@ -196,7 +217,8 @@
       "x": "16",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bridgewater"
     },
     {
       "stop_id": "25",
@@ -205,7 +227,8 @@
       "x": "38",
       "y": "15",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Broadway"
     },
     {
       "stop_id": "26",
@@ -214,7 +237,8 @@
       "x": "33",
       "y": "0",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Campbell Hall"
     },
     {
       "stop_id": "27",
@@ -223,7 +247,8 @@
       "x": "23",
       "y": "26",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Chatham"
     },
     {
       "stop_id": "28",
@@ -232,7 +257,8 @@
       "x": "67",
       "y": "43",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Cherry Hill"
     },
     {
       "stop_id": "29",
@@ -241,7 +267,8 @@
       "x": "38",
       "y": "19",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Clifton"
     },
     {
       "stop_id": "30",
@@ -250,7 +277,8 @@
       "x": "21",
       "y": "24",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Convent"
     },
     {
       "stop_id": "31",
@@ -259,7 +287,8 @@
       "x": "25",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Roselle Park"
     },
     {
       "stop_id": "32",
@@ -268,7 +297,8 @@
       "x": "24",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Cranford"
     },
     {
       "stop_id": "33",
@@ -277,7 +307,8 @@
       "x": "40",
       "y": "21",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Delawanna"
     },
     {
       "stop_id": "34",
@@ -286,7 +317,8 @@
       "x": "6",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Denville"
     },
     {
       "stop_id": "35",
@@ -295,7 +327,8 @@
       "x": "5",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Dover"
     },
     {
       "stop_id": "36",
@@ -304,7 +337,8 @@
       "x": "18",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Dunellen"
     },
     {
       "stop_id": "37",
@@ -313,7 +347,8 @@
       "x": "34",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "East Orange"
     },
     {
       "stop_id": "38",
@@ -322,7 +357,8 @@
       "x": "36",
       "y": "38",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Edison Station"
     },
     {
       "stop_id": "39",
@@ -331,7 +367,8 @@
       "x": "71",
       "y": "43",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Egg Harbor"
     },
     {
       "stop_id": "40",
@@ -340,7 +377,8 @@
       "x": "56",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Elberon"
     },
     {
       "stop_id": "41",
@@ -349,7 +387,8 @@
       "x": "42",
       "y": "32",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Elizabeth"
     },
     {
       "stop_id": "42",
@@ -358,7 +397,8 @@
       "x": "50",
       "y": "8",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Emerson"
     },
     {
       "stop_id": "43",
@@ -367,7 +407,8 @@
       "x": "50",
       "y": "13",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Essex Street"
     },
     {
       "stop_id": "44",
@@ -376,7 +417,8 @@
       "x": "21",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Fanwood"
     },
     {
       "stop_id": "45",
@@ -385,7 +427,8 @@
       "x": "14",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Far Hills"
     },
     {
       "stop_id": "46",
@@ -394,7 +437,8 @@
       "x": "40",
       "y": "17",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Garfield"
     },
     {
       "stop_id": "47",
@@ -403,7 +447,8 @@
       "x": "23",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Garwood"
     },
     {
       "stop_id": "48",
@@ -412,7 +457,8 @@
       "x": "20",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Gillette"
     },
     {
       "stop_id": "49",
@@ -421,7 +467,8 @@
       "x": "12",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Gladstone"
     },
     {
       "stop_id": "50",
@@ -430,7 +477,8 @@
       "x": "22",
       "y": "14",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Glen Ridge"
     },
     {
       "stop_id": "51",
@@ -439,7 +487,8 @@
       "x": "36",
       "y": "13",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Glen Rock Boro Hall"
     },
     {
       "stop_id": "52",
@@ -448,7 +497,8 @@
       "x": "35",
       "y": "16",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Glen Rock Main Line"
     },
     {
       "stop_id": "54",
@@ -457,7 +507,8 @@
       "x": "0",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hackettstown"
     },
     {
       "stop_id": "55",
@@ -466,7 +517,8 @@
       "x": "70",
       "y": "43",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hammonton"
     },
     {
       "stop_id": "57",
@@ -475,7 +527,8 @@
       "x": "35",
       "y": "1",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Harriman"
     },
     {
       "stop_id": "58",
@@ -484,7 +537,8 @@
       "x": "36",
       "y": "17",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hawthorne"
     },
     {
       "stop_id": "59",
@@ -493,7 +547,8 @@
       "x": "50",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hazlet"
     },
     {
       "stop_id": "60",
@@ -502,7 +557,8 @@
       "x": "9",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "High Bridge"
     },
     {
       "stop_id": "61",
@@ -511,7 +567,8 @@
       "x": "31",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Highland Avenue"
     },
     {
       "stop_id": "62",
@@ -520,7 +577,8 @@
       "x": "50",
       "y": "6",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hillsdale"
     },
     {
       "stop_id": "63",
@@ -529,7 +587,8 @@
       "x": "53",
       "y": "27",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hoboken"
     },
     {
       "stop_id": "64",
@@ -538,7 +597,8 @@
       "x": "35",
       "y": "10",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hohokus"
     },
     {
       "stop_id": "66",
@@ -547,7 +607,8 @@
       "x": "42",
       "y": "23",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Kingsland"
     },
     {
       "stop_id": "67",
@@ -556,7 +617,8 @@
       "x": "3",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lake Hopatcong"
     },
     {
       "stop_id": "68",
@@ -565,7 +627,8 @@
       "x": "11",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lebanon"
     },
     {
       "stop_id": "69",
@@ -574,7 +637,8 @@
       "x": "11",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lincoln Park"
     },
     {
       "stop_id": "70",
@@ -583,7 +647,8 @@
       "x": "41",
       "y": "33",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Linden"
     },
     {
       "stop_id": "71",
@@ -592,7 +657,8 @@
       "x": "68",
       "y": "43",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lindenwold"
     },
     {
       "stop_id": "72",
@@ -601,7 +667,8 @@
       "x": "14",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Little Falls"
     },
     {
       "stop_id": "73",
@@ -610,7 +677,8 @@
       "x": "53",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Little Silver"
     },
     {
       "stop_id": "74",
@@ -619,7 +687,8 @@
       "x": "55",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Long Branch"
     },
     {
       "stop_id": "75",
@@ -628,7 +697,8 @@
       "x": "41",
       "y": "22",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lyndhurst"
     },
     {
       "stop_id": "76",
@@ -637,7 +707,8 @@
       "x": "17",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lyons"
     },
     {
       "stop_id": "77",
@@ -646,7 +717,8 @@
       "x": "22",
       "y": "25",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Madison"
     },
     {
       "stop_id": "78",
@@ -655,7 +727,8 @@
       "x": "35",
       "y": "5",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mahwah"
     },
     {
       "stop_id": "79",
@@ -664,7 +737,8 @@
       "x": "62",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Manasquan"
     },
     {
       "stop_id": "81",
@@ -673,7 +747,8 @@
       "x": "28",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Maplewood"
     },
     {
       "stop_id": "83",
@@ -682,7 +757,8 @@
       "x": "38",
       "y": "36",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Metropark"
     },
     {
       "stop_id": "84",
@@ -691,7 +767,8 @@
       "x": "37",
       "y": "37",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Metuchen"
     },
     {
       "stop_id": "85",
@@ -700,7 +777,8 @@
       "x": "51",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Middletown Nj"
     },
     {
       "stop_id": "86",
@@ -709,7 +787,8 @@
       "x": "32",
       "y": "0",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Middletown Ny"
     },
     {
       "stop_id": "87",
@@ -718,7 +797,8 @@
       "x": "27",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Millburn"
     },
     {
       "stop_id": "88",
@@ -727,7 +807,8 @@
       "x": "18",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Millington"
     },
     {
       "stop_id": "89",
@@ -736,7 +817,8 @@
       "x": "16",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Montclair Heights"
     },
     {
       "stop_id": "90",
@@ -745,7 +827,8 @@
       "x": "50",
       "y": "3",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Montvale"
     },
     {
       "stop_id": "91",
@@ -754,7 +837,8 @@
       "x": "19",
       "y": "22",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Morris Plains"
     },
     {
       "stop_id": "92",
@@ -763,7 +847,8 @@
       "x": "20",
       "y": "23",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Morristown"
     },
     {
       "stop_id": "93",
@@ -772,7 +857,8 @@
       "x": "1",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mount Olive"
     },
     {
       "stop_id": "94",
@@ -781,7 +867,8 @@
       "x": "18",
       "y": "21",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mount Tabor"
     },
     {
       "stop_id": "95",
@@ -790,7 +877,8 @@
       "x": "17",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mountain Avenue"
     },
     {
       "stop_id": "96",
@@ -799,7 +887,8 @@
       "x": "8",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mountain Lakes"
     },
     {
       "stop_id": "97",
@@ -808,7 +897,8 @@
       "x": "30",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mountain Station"
     },
     {
       "stop_id": "98",
@@ -817,7 +907,8 @@
       "x": "12",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mountain View"
     },
     {
       "stop_id": "99",
@@ -826,7 +917,8 @@
       "x": "22",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Murray Hill"
     },
     {
       "stop_id": "100",
@@ -835,7 +927,8 @@
       "x": "50",
       "y": "1",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Nanuet"
     },
     {
       "stop_id": "101",
@@ -844,7 +937,8 @@
       "x": "2",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Netcong"
     },
     {
       "stop_id": "102",
@@ -853,7 +947,8 @@
       "x": "20",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Netherwood"
     },
     {
       "stop_id": "103",
@@ -862,7 +957,8 @@
       "x": "35",
       "y": "39",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "New Brunswick"
     },
     {
       "stop_id": "104",
@@ -871,7 +967,8 @@
       "x": "23",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "New Providence"
     },
     {
       "stop_id": "105",
@@ -880,7 +977,8 @@
       "x": "55",
       "y": "24",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "New York Penn Station"
     },
     {
       "stop_id": "106",
@@ -889,7 +987,8 @@
       "x": "36",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Newark Broad St"
     },
     {
       "stop_id": "107",
@@ -898,7 +997,8 @@
       "x": "46",
       "y": "28",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Newark Penn Station"
     },
     {
       "stop_id": "108",
@@ -907,7 +1007,8 @@
       "x": "13",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Branch"
     },
     {
       "stop_id": "109",
@@ -916,7 +1017,8 @@
       "x": "43",
       "y": "31",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Elizabeth"
     },
     {
       "stop_id": "110",
@@ -925,7 +1027,8 @@
       "x": "50",
       "y": "11",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "New Bridge Landing"
     },
     {
       "stop_id": "111",
@@ -934,7 +1037,8 @@
       "x": "50",
       "y": "9",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Oradell"
     },
     {
       "stop_id": "112",
@@ -943,7 +1047,8 @@
       "x": "32",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Orange"
     },
     {
       "stop_id": "113",
@@ -952,7 +1057,8 @@
       "x": "31",
       "y": "0",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Otisville"
     },
     {
       "stop_id": "114",
@@ -961,7 +1067,8 @@
       "x": "50",
       "y": "4",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Park Ridge"
     },
     {
       "stop_id": "115",
@@ -970,7 +1077,8 @@
       "x": "39",
       "y": "20",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Passaic"
     },
     {
       "stop_id": "116",
@@ -979,7 +1087,8 @@
       "x": "37",
       "y": "18",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Paterson"
     },
     {
       "stop_id": "117",
@@ -988,7 +1097,8 @@
       "x": "13",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Peapack"
     },
     {
       "stop_id": "118",
@@ -997,7 +1107,8 @@
       "x": "50",
       "y": "2",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Pearl River"
     },
     {
       "stop_id": "119",
@@ -1006,7 +1117,8 @@
       "x": "47",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Perth Amboy"
     },
     {
       "stop_id": "120",
@@ -1015,7 +1127,8 @@
       "x": "19",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Plainfield"
     },
     {
       "stop_id": "121",
@@ -1024,7 +1137,8 @@
       "x": "39",
       "y": "16",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Plauderville"
     },
     {
       "stop_id": "122",
@@ -1033,7 +1147,8 @@
       "x": "63",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Point Pleasant"
     },
     {
       "stop_id": "123",
@@ -1042,7 +1157,8 @@
       "x": "30",
       "y": "1",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Port Jervis"
     },
     {
       "stop_id": "124",
@@ -1051,7 +1167,8 @@
       "x": "32",
       "y": "40",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Princeton"
     },
     {
       "stop_id": "125",
@@ -1060,7 +1177,8 @@
       "x": "33",
       "y": "41",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Princeton Jct."
     },
     {
       "stop_id": "126",
@@ -1069,7 +1187,8 @@
       "x": "37",
       "y": "14",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Radburn"
     },
     {
       "stop_id": "127",
@@ -1078,7 +1197,8 @@
       "x": "40",
       "y": "34",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Rahway"
     },
     {
       "stop_id": "128",
@@ -1087,7 +1207,8 @@
       "x": "35",
       "y": "7",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ramsey"
     },
     {
       "stop_id": "129",
@@ -1096,7 +1217,8 @@
       "x": "14",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Raritan"
     },
     {
       "stop_id": "130",
@@ -1105,7 +1227,8 @@
       "x": "52",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Red Bank"
     },
     {
       "stop_id": "131",
@@ -1114,7 +1237,8 @@
       "x": "35",
       "y": "11",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ridgewood"
     },
     {
       "stop_id": "132",
@@ -1123,7 +1247,8 @@
       "x": "50",
       "y": "10",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "River Edge"
     },
     {
       "stop_id": "134",
@@ -1132,7 +1257,8 @@
       "x": "42",
       "y": "19",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Rutherford"
     },
     {
       "stop_id": "135",
@@ -1141,7 +1267,8 @@
       "x": "34",
       "y": "0",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Salisbury Mills-Cornwall"
     },
     {
       "stop_id": "136",
@@ -1150,7 +1277,8 @@
       "x": "26",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Short Hills"
     },
     {
       "stop_id": "137",
@@ -1159,7 +1287,8 @@
       "x": "35",
       "y": "3",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Sloatsburg"
     },
     {
       "stop_id": "138",
@@ -1168,7 +1297,8 @@
       "x": "15",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Somerville"
     },
     {
       "stop_id": "139",
@@ -1177,7 +1307,8 @@
       "x": "48",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Amboy"
     },
     {
       "stop_id": "140",
@@ -1186,7 +1317,8 @@
       "x": "29",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Orange"
     },
     {
       "stop_id": "141",
@@ -1195,7 +1327,8 @@
       "x": "61",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Spring Lake"
     },
     {
       "stop_id": "142",
@@ -1204,7 +1337,8 @@
       "x": "50",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Spring Valley"
     },
     {
       "stop_id": "143",
@@ -1213,7 +1347,8 @@
       "x": "19",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Stirling"
     },
     {
       "stop_id": "144",
@@ -1222,7 +1357,8 @@
       "x": "35",
       "y": "4",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Suffern"
     },
     {
       "stop_id": "145",
@@ -1231,7 +1367,8 @@
       "x": "25",
       "y": "27",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Summit"
     },
     {
       "stop_id": "146",
@@ -1240,7 +1377,8 @@
       "x": "50",
       "y": "14",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Teterboro"
     },
     {
       "stop_id": "147",
@@ -1249,7 +1387,8 @@
       "x": "10",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Towaco"
     },
     {
       "stop_id": "148",
@@ -1258,7 +1397,8 @@
       "x": "31",
       "y": "43",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Trenton Transit Center"
     },
     {
       "stop_id": "149",
@@ -1267,7 +1407,8 @@
       "x": "35",
       "y": "2",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Tuxedo"
     },
     {
       "stop_id": "150",
@@ -1276,7 +1417,8 @@
       "x": "18",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Upper Montclair"
     },
     {
       "stop_id": "151",
@@ -1285,7 +1427,8 @@
       "x": "35",
       "y": "9",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Waldwick"
     },
     {
       "stop_id": "152",
@@ -1294,7 +1437,8 @@
       "x": "20",
       "y": "12",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Walnut Street"
     },
     {
       "stop_id": "153",
@@ -1303,7 +1447,8 @@
       "x": "19",
       "y": "11",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Watchung Avenue"
     },
     {
       "stop_id": "154",
@@ -1312,7 +1457,8 @@
       "x": "24",
       "y": "16",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Watsessing Avenue"
     },
     {
       "stop_id": "155",
@@ -1321,7 +1467,8 @@
       "x": "22",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Westfield"
     },
     {
       "stop_id": "156",
@@ -1330,7 +1477,8 @@
       "x": "50",
       "y": "7",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Westwood"
     },
     {
       "stop_id": "157",
@@ -1339,7 +1487,8 @@
       "x": "12",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "White House"
     },
     {
       "stop_id": "158",
@@ -1348,7 +1497,8 @@
       "x": "46",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Woodbridge"
     },
     {
       "stop_id": "159",
@@ -1357,7 +1507,8 @@
       "x": "50",
       "y": "5",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Woodcliff Lake"
     },
     {
       "stop_id": "160",
@@ -1366,7 +1517,8 @@
       "x": "50",
       "y": "15",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wood-Ridge"
     },
     {
       "stop_id": "31696",
@@ -1375,7 +1527,8 @@
       "x": "54",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Monmouth Park"
     },
     {
       "stop_id": "32905",
@@ -1384,7 +1537,8 @@
       "x": "32",
       "y": "42",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hamilton"
     },
     {
       "stop_id": "32906",
@@ -1393,7 +1547,8 @@
       "x": "34",
       "y": "40",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Jersey Ave."
     },
     {
       "stop_id": "37169",
@@ -1402,7 +1557,8 @@
       "x": "49",
       "y": "35",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Aberdeen-Matawan"
     },
     {
       "stop_id": "38081",
@@ -1411,7 +1567,8 @@
       "x": "15",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "MSU"
     },
     {
       "stop_id": "38105",
@@ -1420,7 +1577,8 @@
       "x": "26",
       "y": "37",
       "location": "down",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Union"
     },
     {
       "stop_id": "38174",
@@ -1429,7 +1587,8 @@
       "x": "51",
       "y": "23",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Secaucus Lower Level"
     },
     {
       "stop_id": "38187",
@@ -1438,7 +1597,8 @@
       "x": "51",
       "y": "22",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Secaucus Upper Level"
     },
     {
       "stop_id": "38417",
@@ -1447,7 +1607,8 @@
       "x": "35",
       "y": "6",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ramsey Route 17 Station"
     },
     {
       "stop_id": "39472",
@@ -1456,7 +1617,8 @@
       "x": "4",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mount Arlington"
     },
     {
       "stop_id": "39635",
@@ -1465,7 +1627,8 @@
       "x": "13",
       "y": "10",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wayne/Route 23 TC"
     },
     {
       "stop_id": "40570",
@@ -1474,7 +1637,8 @@
       "x": "51",
       "y": "21",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Meadowlands Sports Complex Station"
     },
     {
       "stop_id": "43298",
@@ -1483,7 +1647,8 @@
       "x": "66",
       "y": "43",
       "location": "up",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Pennsauken Transit Center"
     },
     {
       "stop_id": "43599",
@@ -1492,7 +1657,8 @@
       "x": "41",
       "y": "18",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wesmont"
     },
     {
       "stop_id": "1",
@@ -1501,7 +1667,8 @@
       "x": "74",
       "y": "43",
       "location": "up",
-      "color": "#075AAA"
+      "color": "#075AAA",
+      "display_name": "Atlantic City Rail Line"
     },
     {
       "stop_id": "2",
@@ -1510,7 +1677,8 @@
       "x": "52",
       "y": "20",
       "location": "right",
-      "color": "#000000"
+      "color": "#000000",
+      "display_name": "Betmgm Meadowlands Rail Line"
     },
     {
       "stop_id": "9",
@@ -1519,7 +1687,8 @@
       "x": "11",
       "y": "27",
       "location": "left",
-      "color": "#A4C9AA"
+      "color": "#A4C9AA",
+      "display_name": "Gladstone Branch"
     },
     {
       "stop_id": "8",
@@ -1528,7 +1697,8 @@
       "x": "16",
       "y": "20",
       "location": "left",
-      "color": "#08A652"
+      "color": "#08A652",
+      "display_name": "Morris & Essex Line"
     },
     {
       "stop_id": "3",
@@ -1537,7 +1707,8 @@
       "x": "0",
       "y": "11",
       "location": "left",
-      "color": "#E66859"
+      "color": "#E66859",
+      "display_name": "Montclair-Boonton Line"
     },
     {
       "stop_id": "6",
@@ -1546,7 +1717,8 @@
       "x": "43",
       "y": "24",
       "location": "left",
-      "color": "#FFD411"
+      "color": "#FFD411",
+      "display_name": "Main/Bergen County Line"
     },
     {
       "stop_id": "14",
@@ -1555,7 +1727,8 @@
       "x": "49",
       "y": "0",
       "location": "left",
-      "color": "#94219A"
+      "color": "#94219A",
+      "display_name": "Pascack Valley Line"
     },
     {
       "stop_id": "11",
@@ -1564,7 +1737,8 @@
       "x": "52",
       "y": "34",
       "location": "right",
-      "color": "#03A3DF"
+      "color": "#03A3DF",
+      "display_name": "North Jersey Coast Line"
     },
     {
       "stop_id": "7",
@@ -1573,7 +1747,8 @@
       "x": "30",
       "y": "0",
       "location": "left",
-      "color": "#FFD411"
+      "color": "#FFD411",
+      "display_name": "Port Jervis Line"
     },
     {
       "stop_id": "10",
@@ -1582,7 +1757,8 @@
       "x": "54",
       "y": "25",
       "location": "right",
-      "color": "#DD3439"
+      "color": "#DD3439",
+      "display_name": "Northeast Corridor"
     },
     {
       "stop_id": "15",
@@ -1591,7 +1767,8 @@
       "x": "33",
       "y": "39",
       "location": "left",
-      "color": "#DD3439"
+      "color": "#DD3439",
+      "display_name": "Princeton Shuttle"
     },
     {
       "stop_id": "16",
@@ -1600,7 +1777,8 @@
       "x": "8",
       "y": "37",
       "location": "left",
-      "color": "#F2A537"
+      "color": "#F2A537",
+      "display_name": "Raritan Valley Line"
     },
     {
       "stop_id": "a",
@@ -1609,7 +1787,8 @@
       "x": "-8",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Data provided by NJ TRANSIT,"
     },
     {
       "stop_id": "a",
@@ -1618,7 +1797,8 @@
       "x": "-8",
       "y": "1",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "which is the sole owner of the Data."
     }
   ]
 }

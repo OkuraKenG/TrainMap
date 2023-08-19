@@ -6,7 +6,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Readville - Commuter Rail"
     },
     {
       "stop_id": "FB-0095-04",
@@ -14,7 +15,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Readville - Commuter Rail - Track 4"
     },
     {
       "stop_id": "FB-0095-05",
@@ -22,7 +24,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Readville - Commuter Rail - Track 5"
     },
     {
       "stop_id": "NEC-2192-02",
@@ -30,7 +33,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Readville - Commuter Rail - Track 2"
     },
     {
       "stop_id": "NEC-2192-03",
@@ -38,7 +42,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Readville - Commuter Rail - Track 3"
     },
     {
       "stop_id": "DB-2205",
@@ -46,7 +51,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Fairmount - Commuter Rail"
     },
     {
       "stop_id": "DB-2205-01",
@@ -54,7 +60,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Fairmount - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "DB-2205-02",
@@ -62,7 +69,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Fairmount - Commuter Rail - Track 2 (South Station)"
     },
     {
       "stop_id": "DB-2222",
@@ -70,7 +78,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Blue Hill Avenue - Commuter Rail"
     },
     {
       "stop_id": "DB-2222-01",
@@ -78,7 +87,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Blue Hill Avenue - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "DB-2222-02",
@@ -86,7 +96,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Blue Hill Avenue - Commuter Rail - Track 2 (South Station)"
     },
     {
       "stop_id": "DB-2230",
@@ -94,7 +105,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Morton Street - Commuter Rail"
     },
     {
       "stop_id": "DB-2230-01",
@@ -102,7 +114,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Morton Street - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "DB-2230-02",
@@ -110,7 +123,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Morton Street - Commuter Rail - Track 2 (South Station)"
     },
     {
       "stop_id": "DB-2240",
@@ -118,7 +132,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Talbot Avenue - Commuter Rail"
     },
     {
       "stop_id": "DB-2240-01",
@@ -126,7 +141,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Talbot Avenue - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "DB-2240-02",
@@ -134,7 +150,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Talbot Avenue - Commuter Rail - Track 2 (South Station)"
     },
     {
       "stop_id": "DB-2249",
@@ -142,7 +159,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Four Corners/Geneva - Commuter Rail"
     },
     {
       "stop_id": "DB-2249-01",
@@ -150,7 +168,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Four Corners/Geneva - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "DB-2249-02",
@@ -158,7 +177,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Four Corners/Geneva - Commuter Rail - Track 2 (South Station)"
     },
     {
       "stop_id": "DB-2258",
@@ -166,7 +186,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Uphams Corner - Commuter Rail"
     },
     {
       "stop_id": "DB-2258-01",
@@ -174,7 +195,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Uphams Corner - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "DB-2258-02",
@@ -182,7 +204,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Uphams Corner - Commuter Rail - Track 2 (South Station)"
     },
     {
       "stop_id": "DB-2265",
@@ -190,7 +213,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Newmarket - Commuter Rail"
     },
     {
       "stop_id": "DB-2265-01",
@@ -198,7 +222,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Newmarket - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "DB-2265-02",
@@ -206,7 +231,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Newmarket - Commuter Rail - Track 2 (South Station)"
     },
     {
       "stop_id": "ER-0099",
@@ -214,7 +240,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "River Works (GE Employees only) - Commuter Rail"
     },
     {
       "stop_id": "ER-0099-01",
@@ -222,7 +249,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "River Works (GE Employees only) - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "ER-0099-02",
@@ -230,7 +258,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "River Works (GE Employees only) - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "ER-0115",
@@ -238,7 +267,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lynn - Commuter Rail"
     },
     {
       "stop_id": "ER-0115-01",
@@ -246,7 +276,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lynn - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "ER-0115-02",
@@ -254,7 +285,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lynn - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "ER-0128",
@@ -262,7 +294,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Swampscott - Commuter Rail"
     },
     {
       "stop_id": "ER-0128-01",
@@ -270,7 +303,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Swampscott - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "ER-0128-02",
@@ -278,7 +312,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Swampscott - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "ER-0128-B1",
@@ -286,7 +321,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Swampscott - Commuter Rail Shuttle - Railroad Ave @ Burrill St"
     },
     {
       "stop_id": "ER-0168-S",
@@ -294,7 +330,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Salem - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "ER-0183",
@@ -302,7 +339,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Beverly - Commuter Rail"
     },
     {
       "stop_id": "ER-0183-01",
@@ -310,7 +348,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Beverly - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "ER-0183-02",
@@ -318,7 +357,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Beverly - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "ER-0208",
@@ -326,7 +366,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Beverly - Commuter Rail"
     },
     {
       "stop_id": "ER-0208-01",
@@ -334,7 +375,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Beverly - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "ER-0208-02",
@@ -342,7 +384,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Beverly - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "ER-0227-S",
@@ -350,7 +393,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hamilton/Wenham - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "ER-0276-S",
@@ -358,7 +402,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ipswich - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "ER-0312-S",
@@ -366,7 +411,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Rowley - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "ER-0362",
@@ -374,7 +420,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Newburyport - Commuter Rail"
     },
     {
       "stop_id": "ER-0362-01",
@@ -382,7 +429,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Newburyport - Commuter Rail - Track 1"
     },
     {
       "stop_id": "ER-0362-02",
@@ -390,7 +438,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Newburyport - Commuter Rail - Track 2"
     },
     {
       "stop_id": "FB-0109",
@@ -398,7 +447,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Endicott - Commuter Rail"
     },
     {
       "stop_id": "FB-0109-01",
@@ -406,7 +456,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Endicott - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FB-0109-02",
@@ -414,7 +465,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Endicott - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FB-0118",
@@ -422,7 +474,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Dedham Corporate Center - Commuter Rail"
     },
     {
       "stop_id": "FB-0118-01",
@@ -430,7 +483,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Dedham Corporate Center - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FB-0118-02",
@@ -438,7 +492,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Dedham Corporate Center - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FB-0125",
@@ -446,7 +501,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Islington - Commuter Rail"
     },
     {
       "stop_id": "FB-0125-01",
@@ -454,7 +510,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Islington - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FB-0125-02",
@@ -462,7 +519,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Islington - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FB-0143",
@@ -470,7 +528,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Norwood Depot - Commuter Rail"
     },
     {
       "stop_id": "FB-0143-01",
@@ -478,7 +537,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Norwood Depot - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FB-0143-02",
@@ -486,7 +546,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Norwood Depot - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FB-0148",
@@ -494,7 +555,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Norwood Central - Commuter Rail"
     },
     {
       "stop_id": "FB-0148-01",
@@ -502,7 +564,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Norwood Central - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FB-0148-02",
@@ -510,7 +573,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Norwood Central - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FB-0166-S",
@@ -518,7 +582,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Windsor Gardens - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "FB-0177-S",
@@ -526,7 +591,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Plimptonville - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "FB-0191-S",
@@ -534,7 +600,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Walpole - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "FB-0230-S",
@@ -542,7 +609,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Norfolk - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "FB-0275-S",
@@ -550,7 +618,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Franklin - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "FB-0303-S",
@@ -558,7 +627,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Forge Park/495 - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "FR-0064",
@@ -566,7 +636,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Belmont - Commuter Rail"
     },
     {
       "stop_id": "FR-0064-01",
@@ -574,7 +645,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Belmont - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0064-02",
@@ -582,7 +654,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Belmont - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FR-0074",
@@ -590,7 +663,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Waverley - Commuter Rail"
     },
     {
       "stop_id": "FR-0074-01",
@@ -598,7 +672,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Waverley - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0074-02",
@@ -606,7 +681,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Waverley - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FR-0098",
@@ -614,7 +690,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Waltham - Commuter Rail"
     },
     {
       "stop_id": "FR-0098-01",
@@ -622,7 +699,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Waltham - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0098-S",
@@ -630,7 +708,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Waltham - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FR-0115",
@@ -638,7 +717,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Brandeis/Roberts - Commuter Rail"
     },
     {
       "stop_id": "FR-0115-01",
@@ -646,7 +726,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Brandeis/Roberts - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0115-02",
@@ -654,7 +735,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Brandeis/Roberts - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FR-0132",
@@ -662,7 +744,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Kendal Green - Commuter Rail"
     },
     {
       "stop_id": "FR-0132-01",
@@ -670,7 +753,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Kendal Green - Commuter Rail - Track 1"
     },
     {
       "stop_id": "FR-0132-02",
@@ -678,7 +762,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Kendal Green - Commuter Rail - Track 2"
     },
     {
       "stop_id": "FR-0137",
@@ -686,7 +771,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hastings - Commuter Rail"
     },
     {
       "stop_id": "FR-0137-01",
@@ -694,7 +780,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hastings - Commuter Rail - Track 1"
     },
     {
       "stop_id": "FR-0137-02",
@@ -702,7 +789,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hastings - Commuter Rail - Track 2"
     },
     {
       "stop_id": "FR-0147",
@@ -710,7 +798,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Silver Hill - Commuter Rail"
     },
     {
       "stop_id": "FR-0147-01",
@@ -718,7 +807,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Silver Hill - Commuter Rail - Track 1"
     },
     {
       "stop_id": "FR-0147-02",
@@ -726,7 +816,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Silver Hill - Commuter Rail - Track 2"
     },
     {
       "stop_id": "FR-0167",
@@ -734,7 +825,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lincoln - Commuter Rail"
     },
     {
       "stop_id": "FR-0167-01",
@@ -742,7 +834,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lincoln - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0167-02",
@@ -750,7 +843,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lincoln - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FR-0201",
@@ -758,7 +852,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Concord - Commuter Rail"
     },
     {
       "stop_id": "FR-0201-01",
@@ -766,7 +861,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Concord - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0201-02",
@@ -774,7 +870,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Concord - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FR-0219",
@@ -782,7 +879,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Concord - Commuter Rail"
     },
     {
       "stop_id": "FR-0219-01",
@@ -790,7 +888,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Concord - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0219-02",
@@ -798,7 +897,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Concord - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FR-0253",
@@ -806,7 +906,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Acton - Commuter Rail"
     },
     {
       "stop_id": "FR-0253-01",
@@ -814,7 +915,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Acton - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0253-02",
@@ -822,7 +924,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Acton - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FR-0301",
@@ -830,7 +933,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Littleton/Route 495 - Commuter Rail"
     },
     {
       "stop_id": "FR-0301-01",
@@ -838,7 +942,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Littleton/Route 495 - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0301-02",
@@ -846,7 +951,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Littleton/Route 495 - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FR-0361",
@@ -854,7 +960,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ayer - Commuter Rail"
     },
     {
       "stop_id": "FR-0361-01",
@@ -862,7 +969,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ayer - Commuter Rail - Track 1"
     },
     {
       "stop_id": "FR-0361-02",
@@ -870,7 +978,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ayer - Commuter Rail - Track 2"
     },
     {
       "stop_id": "FR-0394",
@@ -878,7 +987,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Shirley - Commuter Rail"
     },
     {
       "stop_id": "FR-0394-01",
@@ -886,7 +996,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Shirley - Commuter Rail - Track 1"
     },
     {
       "stop_id": "FR-0394-02",
@@ -894,7 +1005,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Shirley - Commuter Rail - Track 2"
     },
     {
       "stop_id": "FR-0451",
@@ -902,7 +1014,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Leominster - Commuter Rail"
     },
     {
       "stop_id": "FR-0451-01",
@@ -910,7 +1023,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Leominster - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0451-02",
@@ -918,7 +1032,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Leominster - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "FR-0494-CS",
@@ -926,7 +1041,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Fitchburg - Commuter Rail - Track 3 (All Trains)"
     },
     {
       "stop_id": "FR-3338-CS",
@@ -934,7 +1050,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wachusett - Commuter Rail - Track 3 (All Trains)"
     },
     {
       "stop_id": "FS-0049-S",
@@ -942,7 +1059,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Foxboro - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "GB-0198",
@@ -950,7 +1068,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Montserrat - Commuter Rail"
     },
     {
       "stop_id": "GB-0198-01",
@@ -958,7 +1077,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Montserrat - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "GB-0198-02",
@@ -966,7 +1086,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Montserrat - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "GB-0222",
@@ -974,7 +1095,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Prides Crossing - Commuter Rail"
     },
     {
       "stop_id": "GB-0222-01",
@@ -982,7 +1104,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Prides Crossing - Commuter Rail - Track 1"
     },
     {
       "stop_id": "GB-0222-02",
@@ -990,7 +1113,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Prides Crossing - Commuter Rail - Track 2"
     },
     {
       "stop_id": "GB-0229",
@@ -998,7 +1122,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Beverly Farms - Commuter Rail"
     },
     {
       "stop_id": "GB-0229-01",
@@ -1006,7 +1131,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Beverly Farms - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "GB-0229-02",
@@ -1014,7 +1140,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Beverly Farms - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "GB-0254",
@@ -1022,7 +1149,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Manchester - Commuter Rail"
     },
     {
       "stop_id": "GB-0254-01",
@@ -1030,7 +1158,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Manchester - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "GB-0254-02",
@@ -1038,7 +1167,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Manchester - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "GB-0296",
@@ -1046,7 +1176,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Gloucester - Commuter Rail"
     },
     {
       "stop_id": "GB-0296-01",
@@ -1054,7 +1185,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Gloucester - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "GB-0296-02",
@@ -1062,7 +1194,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Gloucester - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "GB-0316-S",
@@ -1070,7 +1203,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Gloucester - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "GB-0353-S",
@@ -1078,7 +1212,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Rockport - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "GRB-0118-S",
@@ -1086,7 +1221,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Weymouth Landing/East Braintree - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "GRB-0146-S",
@@ -1094,7 +1230,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "East Weymouth - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "GRB-0162-S",
@@ -1102,7 +1239,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Hingham - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "GRB-0183-S",
@@ -1110,7 +1248,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Nantasket Junction - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "GRB-0199-S",
@@ -1118,7 +1257,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Cohasset - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "GRB-0233-S",
@@ -1126,7 +1266,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Scituate - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "GRB-0276-S",
@@ -1134,7 +1275,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Greenbush - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "KB-0351-S",
@@ -1142,7 +1284,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Kingston - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "MM-0150-S",
@@ -1150,7 +1293,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Holbrook/Randolph - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "MM-0186",
@@ -1158,7 +1302,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Montello - Commuter Rail"
     },
     {
       "stop_id": "MM-0186-CS",
@@ -1166,7 +1311,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Montello - Commuter Rail - Track 2"
     },
     {
       "stop_id": "MM-0186-S",
@@ -1174,7 +1320,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Montello - Commuter Rail - Track 1"
     },
     {
       "stop_id": "MM-0200",
@@ -1182,7 +1329,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Brockton - Commuter Rail"
     },
     {
       "stop_id": "MM-0200-CS",
@@ -1190,7 +1338,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Brockton - Commuter Rail - Track 2"
     },
     {
       "stop_id": "MM-0200-S",
@@ -1198,7 +1347,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Brockton - Commuter Rail - Track 1"
     },
     {
       "stop_id": "MM-0219-S",
@@ -1206,7 +1356,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Campello - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "MM-0277-S",
@@ -1214,7 +1365,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bridgewater - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "MM-0356-S",
@@ -1222,7 +1374,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Middleborough/Lakeville - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "NB-0064-S",
@@ -1230,7 +1383,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Roslindale Village - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "NB-0072-S",
@@ -1238,7 +1392,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bellevue - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "NB-0076-S",
@@ -1246,7 +1401,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Highland - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "NB-0080-S",
@@ -1254,7 +1410,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Roxbury - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "NB-0109-S",
@@ -1262,7 +1419,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hersey - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "NB-0120-S",
@@ -1270,7 +1428,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Needham Junction - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "NB-0127-S",
@@ -1278,7 +1437,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Needham Center - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "NB-0137-S",
@@ -1286,7 +1446,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Needham Heights - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "NEC-1659-03",
@@ -1294,7 +1455,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wickford Junction - Commuter Rail - Track 3 (All Trains)"
     },
     {
       "stop_id": "NEC-1768-03",
@@ -1302,7 +1464,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "TF Green Airport - Commuter Rail - Track 3 (All Trains)"
     },
     {
       "stop_id": "NEC-1851",
@@ -1310,7 +1473,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Providence - Commuter Rail"
     },
     {
       "stop_id": "NEC-1851-01",
@@ -1318,7 +1482,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Providence - Commuter Rail - Track 1"
     },
     {
       "stop_id": "NEC-1851-02",
@@ -1326,7 +1491,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Providence - Commuter Rail - Track 2"
     },
     {
       "stop_id": "NEC-1851-03",
@@ -1334,7 +1500,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Providence - Commuter Rail - Track 3"
     },
     {
       "stop_id": "NEC-1851-05",
@@ -1342,7 +1509,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Providence - Commuter Rail - Track 5"
     },
     {
       "stop_id": "NEC-1891",
@@ -1350,7 +1518,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Pawtucket/Central Falls - Commuter Rail"
     },
     {
       "stop_id": "NEC-1891-01",
@@ -1358,7 +1527,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Pawtucket/Central Falls - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NEC-1891-02",
@@ -1366,7 +1536,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Pawtucket/Central Falls - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NEC-1919",
@@ -1374,7 +1545,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Attleboro - Commuter Rail"
     },
     {
       "stop_id": "NEC-1919-01",
@@ -1382,7 +1554,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Attleboro - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NEC-1919-02",
@@ -1390,7 +1563,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Attleboro - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NEC-1969",
@@ -1398,7 +1572,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Attleboro - Commuter Rail"
     },
     {
       "stop_id": "NEC-1969-03",
@@ -1406,7 +1581,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Attleboro - Commuter Rail - Track 3 (Outbound)"
     },
     {
       "stop_id": "NEC-1969-04",
@@ -1414,7 +1590,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Attleboro - Commuter Rail - Track 4 (Boston)"
     },
     {
       "stop_id": "NEC-2040",
@@ -1422,7 +1599,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mansfield - Commuter Rail"
     },
     {
       "stop_id": "NEC-2040-01",
@@ -1430,7 +1608,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mansfield - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NEC-2040-02",
@@ -1438,7 +1617,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mansfield - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NEC-2108",
@@ -1446,7 +1626,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Sharon - Commuter Rail"
     },
     {
       "stop_id": "NEC-2108-01",
@@ -1454,7 +1635,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Sharon - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NEC-2108-02",
@@ -1462,7 +1644,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Sharon - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NEC-2139",
@@ -1470,7 +1653,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Canton Junction - Commuter Rail"
     },
     {
       "stop_id": "NEC-2139-01",
@@ -1478,7 +1662,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Canton Junction - Commuter Rail - Track 1"
     },
     {
       "stop_id": "NEC-2139-02",
@@ -1486,7 +1671,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Canton Junction - Commuter Rail - Track 2"
     },
     {
       "stop_id": "SB-0150-04",
@@ -1494,7 +1680,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Canton Junction - Commuter Rail - Track 4"
     },
     {
       "stop_id": "SB-0150-06",
@@ -1502,7 +1689,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Canton Junction - Commuter Rail - Track 6"
     },
     {
       "stop_id": "NEC-2173",
@@ -1510,7 +1698,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Route 128 - Commuter Rail"
     },
     {
       "stop_id": "NEC-2173-01",
@@ -1518,7 +1707,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Route 128 - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NEC-2173-02",
@@ -1526,7 +1716,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Route 128 - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NEC-2203",
@@ -1534,7 +1725,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hyde Park - Commuter Rail"
     },
     {
       "stop_id": "NEC-2203-02",
@@ -1542,7 +1734,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hyde Park - Commuter Rail - Track 2 (South Station)"
     },
     {
       "stop_id": "NEC-2203-03",
@@ -1550,7 +1743,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hyde Park - Commuter Rail - Track 3 (Outbound)"
     },
     {
       "stop_id": "NHRML-0055",
@@ -1558,7 +1752,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Medford - Commuter Rail"
     },
     {
       "stop_id": "NHRML-0055-01",
@@ -1566,7 +1761,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Medford - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NHRML-0055-02",
@@ -1574,7 +1770,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Medford - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NHRML-0073",
@@ -1582,7 +1779,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wedgemere - Commuter Rail"
     },
     {
       "stop_id": "NHRML-0073-01",
@@ -1590,7 +1788,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wedgemere - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NHRML-0073-02",
@@ -1598,7 +1797,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wedgemere - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NHRML-0078",
@@ -1606,7 +1806,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Winchester Center - Commuter Rail"
     },
     {
       "stop_id": "NHRML-0078-01",
@@ -1614,7 +1815,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Winchester Center - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NHRML-0078-02",
@@ -1622,7 +1824,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Winchester Center - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NHRML-0116",
@@ -1630,7 +1833,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mishawum - Commuter Rail"
     },
     {
       "stop_id": "NHRML-0116-01",
@@ -1638,7 +1842,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mishawum - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NHRML-0116-02",
@@ -1646,7 +1851,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Mishawum - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NHRML-0127",
@@ -1654,7 +1860,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Anderson/Woburn - Commuter Rail"
     },
     {
       "stop_id": "NHRML-0127-01",
@@ -1662,7 +1869,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Anderson/Woburn - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NHRML-0127-02",
@@ -1670,7 +1878,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Anderson/Woburn - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NHRML-0152",
@@ -1678,7 +1887,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wilmington - Commuter Rail"
     },
     {
       "stop_id": "NHRML-0152-01",
@@ -1686,7 +1896,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wilmington - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NHRML-0152-02",
@@ -1694,7 +1905,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wilmington - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NHRML-0152-B",
@@ -1702,7 +1914,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wilmington - Commuter Rail Shuttle - Parking Lot"
     },
     {
       "stop_id": "NHRML-0218",
@@ -1710,7 +1923,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Billerica - Commuter Rail"
     },
     {
       "stop_id": "NHRML-0218-01",
@@ -1718,7 +1932,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Billerica - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "NHRML-0218-02",
@@ -1726,7 +1941,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Billerica - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NHRML-0218-B2",
@@ -1734,7 +1950,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Billerica - Commuter Rail Shuttle - Station St @ West Parking Lot"
     },
     {
       "stop_id": "NHRML-0254",
@@ -1742,7 +1959,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lowell - Commuter Rail"
     },
     {
       "stop_id": "NHRML-0254-03",
@@ -1750,7 +1968,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lowell - Commuter Rail - Track 3"
     },
     {
       "stop_id": "NHRML-0254-04",
@@ -1758,7 +1977,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lowell - Commuter Rail - Track 4"
     },
     {
       "stop_id": "NHRML-0254-B",
@@ -1766,7 +1986,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lowell - Commuter Rail Shuttle - Busway"
     },
     {
       "stop_id": "PB-0158-S",
@@ -1774,7 +1995,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Weymouth - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "PB-0194-S",
@@ -1782,7 +2004,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Abington - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "PB-0212-S",
@@ -1790,7 +2013,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Whitman - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "PB-0245-S",
@@ -1798,7 +2022,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Hanson - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "PB-0281",
@@ -1806,7 +2031,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Halifax - Commuter Rail"
     },
     {
       "stop_id": "PB-0281-CS",
@@ -1814,7 +2040,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Halifax - Commuter Rail - Track 2"
     },
     {
       "stop_id": "PB-0281-S",
@@ -1822,7 +2049,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Halifax - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "PB-0356-S",
@@ -1830,7 +2058,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Plymouth - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "SB-0156-S",
@@ -1838,7 +2067,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Canton Center - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "SB-0189-S",
@@ -1846,7 +2076,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Stoughton - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "WML-0025",
@@ -1854,7 +2085,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lansdowne - Commuter Rail"
     },
     {
       "stop_id": "WML-0025-05",
@@ -1862,7 +2094,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lansdowne - Commuter Rail - Track 5"
     },
     {
       "stop_id": "WML-0025-07",
@@ -1870,7 +2103,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lansdowne - Commuter Rail - Track 7"
     },
     {
       "stop_id": "WML-0035",
@@ -1878,7 +2112,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Boston Landing - Commuter Rail"
     },
     {
       "stop_id": "WML-0035-01",
@@ -1886,7 +2121,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Boston Landing - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WML-0035-02",
@@ -1894,7 +2130,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Boston Landing - Commuter Rail - Track 2 (South Station)"
     },
     {
       "stop_id": "WML-0081-02",
@@ -1902,7 +2139,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Newtonville - Commuter Rail - Track 2 (All Trains)"
     },
     {
       "stop_id": "WML-0091-02",
@@ -1910,7 +2148,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Newton - Commuter Rail - Track 2 (All Trains)"
     },
     {
       "stop_id": "WML-0102-02",
@@ -1918,7 +2157,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Auburndale - Commuter Rail - Track 2 (All Trains)"
     },
     {
       "stop_id": "WML-0125",
@@ -1926,7 +2166,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wellesley Farms - Commuter Rail"
     },
     {
       "stop_id": "WML-0125-01",
@@ -1934,7 +2175,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wellesley Farms - Commuter Rail - Track 1"
     },
     {
       "stop_id": "WML-0125-02",
@@ -1942,7 +2184,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wellesley Farms - Commuter Rail - Track 2"
     },
     {
       "stop_id": "WML-0135",
@@ -1950,7 +2193,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wellesley Hills - Commuter Rail"
     },
     {
       "stop_id": "WML-0135-01",
@@ -1958,7 +2202,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wellesley Hills - Commuter Rail - Track 1"
     },
     {
       "stop_id": "WML-0135-02",
@@ -1966,7 +2211,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wellesley Hills - Commuter Rail - Track 2"
     },
     {
       "stop_id": "WML-0147",
@@ -1974,7 +2220,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wellesley Square - Commuter Rail"
     },
     {
       "stop_id": "WML-0147-01",
@@ -1982,7 +2229,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wellesley Square - Commuter Rail - Track 1"
     },
     {
       "stop_id": "WML-0147-02",
@@ -1990,7 +2238,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wellesley Square - Commuter Rail - Track 2"
     },
     {
       "stop_id": "WML-0177",
@@ -1998,7 +2247,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Natick Center - Commuter Rail"
     },
     {
       "stop_id": "WML-0177-01",
@@ -2006,7 +2256,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Natick Center - Commuter Rail - Track 1"
     },
     {
       "stop_id": "WML-0177-02",
@@ -2014,7 +2265,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Natick Center - Commuter Rail - Track 2"
     },
     {
       "stop_id": "WML-0199",
@@ -2022,7 +2274,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Natick - Commuter Rail"
     },
     {
       "stop_id": "WML-0199-01",
@@ -2030,7 +2283,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Natick - Commuter Rail - Track 1"
     },
     {
       "stop_id": "WML-0199-02",
@@ -2038,7 +2292,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "West Natick - Commuter Rail - Track 2"
     },
     {
       "stop_id": "WML-0214",
@@ -2046,7 +2301,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Framingham - Commuter Rail"
     },
     {
       "stop_id": "WML-0214-01",
@@ -2054,7 +2310,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Framingham - Commuter Rail - Track 1"
     },
     {
       "stop_id": "WML-0214-02",
@@ -2062,7 +2319,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Framingham - Commuter Rail - Track 2"
     },
     {
       "stop_id": "WML-0252",
@@ -2070,7 +2328,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ashland - Commuter Rail"
     },
     {
       "stop_id": "WML-0252-01",
@@ -2078,7 +2337,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ashland - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WML-0252-02",
@@ -2086,7 +2346,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ashland - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "WML-0274",
@@ -2094,7 +2355,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Southborough - Commuter Rail"
     },
     {
       "stop_id": "WML-0274-01",
@@ -2102,7 +2364,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Southborough - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WML-0274-02",
@@ -2110,7 +2373,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Southborough - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "WML-0340",
@@ -2118,7 +2382,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Westborough - Commuter Rail"
     },
     {
       "stop_id": "WML-0340-01",
@@ -2126,7 +2391,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Westborough - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WML-0340-02",
@@ -2134,7 +2400,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Westborough - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "WML-0364",
@@ -2142,7 +2409,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Grafton - Commuter Rail"
     },
     {
       "stop_id": "WML-0364-01",
@@ -2150,7 +2418,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Grafton - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WML-0364-02",
@@ -2158,7 +2427,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Grafton - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "WML-0442-CS",
@@ -2166,7 +2436,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Worcester - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "WR-0062",
@@ -2174,7 +2445,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wyoming Hill - Commuter Rail"
     },
     {
       "stop_id": "WR-0062-01",
@@ -2182,7 +2454,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wyoming Hill - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WR-0062-02",
@@ -2190,7 +2463,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wyoming Hill - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "WR-0067",
@@ -2198,7 +2472,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Melrose/Cedar Park - Commuter Rail"
     },
     {
       "stop_id": "WR-0067-01",
@@ -2206,7 +2481,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Melrose/Cedar Park - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WR-0067-02",
@@ -2214,7 +2490,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Melrose/Cedar Park - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "WR-0075",
@@ -2222,7 +2499,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Melrose Highlands - Commuter Rail"
     },
     {
       "stop_id": "WR-0075-01",
@@ -2230,7 +2508,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Melrose Highlands - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WR-0075-02",
@@ -2238,7 +2517,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Melrose Highlands - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "WR-0085",
@@ -2246,7 +2526,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Greenwood - Commuter Rail"
     },
     {
       "stop_id": "WR-0085-01",
@@ -2254,7 +2535,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Greenwood - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WR-0085-02",
@@ -2262,7 +2544,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Greenwood - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "WR-0099",
@@ -2270,7 +2553,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wakefield - Commuter Rail"
     },
     {
       "stop_id": "WR-0099-01",
@@ -2278,7 +2562,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wakefield - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WR-0099-02",
@@ -2286,7 +2571,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Wakefield - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "WR-0120-S",
@@ -2294,7 +2580,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Reading - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "WR-0163-S",
@@ -2302,7 +2589,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Wilmington - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "WR-0205-02",
@@ -2310,7 +2598,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ballardvale - Commuter Rail - Track 2 (All Trains)"
     },
     {
       "stop_id": "WR-0228-02",
@@ -2318,7 +2607,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Andover - Commuter Rail - Track 2 (All Trains)"
     },
     {
       "stop_id": "WR-0264-02",
@@ -2326,7 +2616,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Lawrence - Commuter Rail - Track 2 (All Trains)"
     },
     {
       "stop_id": "WR-0325",
@@ -2334,7 +2625,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bradford - Commuter Rail"
     },
     {
       "stop_id": "WR-0325-01",
@@ -2342,7 +2634,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bradford - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "WR-0325-02",
@@ -2350,7 +2643,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Bradford - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "WR-0329",
@@ -2358,7 +2652,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Haverhill - Commuter Rail"
     },
     {
       "stop_id": "WR-0329-01",
@@ -2366,7 +2661,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Haverhill - Commuter Rail - Track 1"
     },
     {
       "stop_id": "WR-0329-02",
@@ -2374,7 +2670,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Haverhill - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NEC-2276",
@@ -2382,7 +2679,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Back Bay - Commuter Rail"
     },
     {
       "stop_id": "NEC-2276-01",
@@ -2390,7 +2688,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Back Bay - Commuter Rail - Track 1"
     },
     {
       "stop_id": "NEC-2276-02",
@@ -2398,7 +2697,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Back Bay - Commuter Rail - Track 2"
     },
     {
       "stop_id": "NEC-2276-03",
@@ -2406,7 +2706,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Back Bay - Commuter Rail - Track 3"
     },
     {
       "stop_id": "WML-0012-05",
@@ -2414,7 +2715,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Back Bay - Commuter Rail - Track 5"
     },
     {
       "stop_id": "WML-0012-07",
@@ -2422,7 +2724,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Back Bay - Commuter Rail - Track 7"
     },
     {
       "stop_id": "MM-0109",
@@ -2430,7 +2733,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Braintree - Commuter Rail"
     },
     {
       "stop_id": "MM-0109-CS",
@@ -2438,7 +2742,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Braintree - Commuter Rail - Track 2"
     },
     {
       "stop_id": "MM-0109-S",
@@ -2446,7 +2751,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Braintree - Commuter Rail - Track 1"
     },
     {
       "stop_id": "ER-0042",
@@ -2454,7 +2760,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Chelsea - Commuter Rail"
     },
     {
       "stop_id": "ER-0042-01",
@@ -2462,7 +2769,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Chelsea - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "ER-0042-02",
@@ -2470,7 +2778,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Chelsea - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "NEC-2237",
@@ -2478,7 +2787,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Forest Hills - Commuter Rail"
     },
     {
       "stop_id": "NEC-2237-03",
@@ -2486,7 +2796,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Forest Hills - Commuter Rail - Track 3"
     },
     {
       "stop_id": "NEC-2237-05",
@@ -2494,7 +2805,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Forest Hills - Commuter Rail - Track 5"
     },
     {
       "stop_id": "MM-0023-S",
@@ -2502,7 +2814,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "JFK/UMass - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "WR-0045-S",
@@ -2510,7 +2823,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Malden Center - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "BNT-0000",
@@ -2518,7 +2832,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail"
     },
     {
       "stop_id": "BNT-0000-01",
@@ -2526,7 +2841,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail - Track 1"
     },
     {
       "stop_id": "BNT-0000-02",
@@ -2534,7 +2850,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail - Track 2"
     },
     {
       "stop_id": "BNT-0000-03",
@@ -2542,7 +2859,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail - Track 3"
     },
     {
       "stop_id": "BNT-0000-04",
@@ -2550,7 +2868,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail - Track 4"
     },
     {
       "stop_id": "BNT-0000-05",
@@ -2558,7 +2877,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail - Track 5"
     },
     {
       "stop_id": "BNT-0000-06",
@@ -2566,7 +2886,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail - Track 6"
     },
     {
       "stop_id": "BNT-0000-07",
@@ -2574,7 +2895,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail - Track 7"
     },
     {
       "stop_id": "BNT-0000-08",
@@ -2582,7 +2904,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail - Track 8"
     },
     {
       "stop_id": "BNT-0000-09",
@@ -2590,7 +2913,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail - Track 9"
     },
     {
       "stop_id": "BNT-0000-10",
@@ -2598,7 +2922,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "North Station - Commuter Rail - Track 10"
     },
     {
       "stop_id": "WR-0053-S",
@@ -2606,7 +2931,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Oak Grove - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "FR-0034",
@@ -2614,7 +2940,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Porter - Commuter Rail"
     },
     {
       "stop_id": "FR-0034-01",
@@ -2622,7 +2949,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Porter - Commuter Rail - Track 1 (Outbound)"
     },
     {
       "stop_id": "FR-0034-02",
@@ -2630,7 +2958,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Porter - Commuter Rail - Track 2 (Boston)"
     },
     {
       "stop_id": "MM-0079-S",
@@ -2638,7 +2967,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Quincy Center - Commuter Rail - Track 1 (All Trains)"
     },
     {
       "stop_id": "NEC-2265",
@@ -2646,7 +2976,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ruggles - Commuter Rail"
     },
     {
       "stop_id": "NEC-2265-01",
@@ -2654,7 +2985,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ruggles - Commuter Rail - Track 1"
     },
     {
       "stop_id": "NEC-2265-02",
@@ -2662,7 +2994,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ruggles - Commuter Rail - Track 2"
     },
     {
       "stop_id": "NEC-2265-03",
@@ -2670,7 +3003,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Ruggles - Commuter Rail - Track 3"
     },
     {
       "stop_id": "NEC-2287-01",
@@ -2678,7 +3012,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 1"
     },
     {
       "stop_id": "NEC-2287-02",
@@ -2686,7 +3021,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 2"
     },
     {
       "stop_id": "NEC-2287-03",
@@ -2694,7 +3030,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 3"
     },
     {
       "stop_id": "NEC-2287-04",
@@ -2702,7 +3039,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 4"
     },
     {
       "stop_id": "NEC-2287-05",
@@ -2710,7 +3048,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 5"
     },
     {
       "stop_id": "NEC-2287-06",
@@ -2718,7 +3057,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 6"
     },
     {
       "stop_id": "NEC-2287-07",
@@ -2726,7 +3066,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 7"
     },
     {
       "stop_id": "NEC-2287-08",
@@ -2734,7 +3075,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 8"
     },
     {
       "stop_id": "NEC-2287-09",
@@ -2742,7 +3084,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 9"
     },
     {
       "stop_id": "NEC-2287-10",
@@ -2750,7 +3093,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 10"
     },
     {
       "stop_id": "NEC-2287-11",
@@ -2758,7 +3102,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 11"
     },
     {
       "stop_id": "NEC-2287-12",
@@ -2766,7 +3111,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 12"
     },
     {
       "stop_id": "NEC-2287-13",
@@ -2774,7 +3120,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail - Track 13"
     },
     {
       "stop_id": "NEC-2287",
@@ -2782,7 +3129,8 @@
       "x": "0",
       "y": "0",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "South Station - Commuter Rail"
     }
   ]
 }

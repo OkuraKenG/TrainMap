@@ -16,7 +16,7 @@ function preload() {
 function setup() {
   noLoop();
   pixelDensity(3); // keep it low or else slower browsers may struggle
-  createCanvas(840, 690);
+  createCanvas(1300, 690);
   SET_SEARCH_MODE('DATE');
   canvasDrawer();
   reformated = reformat(getTrains(getServices(null, calendar_dates), trips), stop_times);

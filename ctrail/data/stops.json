@@ -8,7 +8,8 @@
       "y": "20",
       "location": "down",
       "color": "#FFFFFF",
-      "agency": "0"
+      "agency": "0",
+      "display_name": "New Haven Union Station (SLE)"
     },
     {
       "stop_id": "ST",
@@ -18,7 +19,8 @@
       "y": "20",
       "location": "down",
       "color": "#FFFFFF",
-      "agency": "0"
+      "agency": "0",
+      "display_name": "New Haven State Street Station (SLE)"
     },
     {
       "stop_id": "BRN",
@@ -28,7 +30,8 @@
       "y": "20",
       "location": "down",
       "color": "#FFFFFF",
-      "agency": "0"
+      "agency": "0",
+      "display_name": "Branford"
     },
     {
       "stop_id": "GUIL",
@@ -38,7 +41,8 @@
       "y": "20",
       "location": "down",
       "color": "#FFFFFF",
-      "agency": "0"
+      "agency": "0",
+      "display_name": "Guilford"
     },
     {
       "stop_id": "MAD",
@@ -48,7 +52,8 @@
       "y": "20",
       "location": "down",
       "color": "#FFFFFF",
-      "agency": "0"
+      "agency": "0",
+      "display_name": "Madison"
     },
     {
       "stop_id": "CLIN",
@@ -58,7 +63,8 @@
       "y": "20",
       "location": "down",
       "color": "#FFFFFF",
-      "agency": "0"
+      "agency": "0",
+      "display_name": "Clinton"
     },
     {
       "stop_id": "WES",
@@ -68,7 +74,8 @@
       "y": "20",
       "location": "down",
       "color": "#FFFFFF",
-      "agency": "0"
+      "agency": "0",
+      "display_name": "Westbrook"
     },
     {
       "stop_id": "OSB",
@@ -78,7 +85,8 @@
       "y": "20",
       "location": "down",
       "color": "#FFFFFF",
-      "agency": "0"
+      "agency": "0",
+      "display_name": "Old Saybrook"
     },
     {
       "stop_id": "NLC",
@@ -88,7 +96,8 @@
       "y": "20",
       "location": "down",
       "color": "#FFFFFF",
-      "agency": "0"
+      "agency": "0",
+      "display_name": "New London"
     },
     {
       "stop_id": "1",
@@ -98,7 +107,8 @@
       "y": "20",
       "location": "up",
       "color": "#FFFFFF",
-      "agency": "1"
+      "agency": "1",
+      "display_name": "New Haven Union Station (Hartford)"
     },
     {
       "stop_id": "2",
@@ -108,7 +118,8 @@
       "y": "20",
       "location": "up",
       "color": "#FFFFFF",
-      "agency": "1"
+      "agency": "1",
+      "display_name": "State Street Station (Hartford)"
     },
     {
       "stop_id": "3",
@@ -118,7 +129,8 @@
       "y": "19",
       "location": "right",
       "color": "#FFFFFF",
-      "agency": "1"
+      "agency": "1",
+      "display_name": "Wallingford"
     },
     {
       "stop_id": "4",
@@ -128,7 +140,8 @@
       "y": "18",
       "location": "right",
       "color": "#FFFFFF",
-      "agency": "1"
+      "agency": "1",
+      "display_name": "Meriden"
     },
     {
       "stop_id": "5",
@@ -138,7 +151,8 @@
       "y": "17",
       "location": "right",
       "color": "#FFFFFF",
-      "agency": "1"
+      "agency": "1",
+      "display_name": "Berlin"
     },
     {
       "stop_id": "6",
@@ -148,7 +162,8 @@
       "y": "16",
       "location": "right",
       "color": "#FFFFFF",
-      "agency": "1"
+      "agency": "1",
+      "display_name": "Hartford"
     },
     {
       "stop_id": "7",
@@ -158,7 +173,8 @@
       "y": "15",
       "location": "right",
       "color": "#FFFFFF",
-      "agency": "1"
+      "agency": "1",
+      "display_name": "Windsor"
     },
     {
       "stop_id": "8",
@@ -168,7 +184,8 @@
       "y": "14",
       "location": "right",
       "color": "#FFFFFF",
-      "agency": "1"
+      "agency": "1",
+      "display_name": "Windsor Locks"
     },
     {
       "stop_id": "9",
@@ -178,7 +195,8 @@
       "y": "13",
       "location": "right",
       "color": "#FFFFFF",
-      "agency": "1"
+      "agency": "1",
+      "display_name": "Springfield"
     },
     {
       "stop_id": "LINE",
@@ -188,7 +206,8 @@
       "y": "20",
       "location": "right",
       "color": "#EF3E42",
-      "agency": "2"
+      "agency": "2",
+      "display_name": "Shore Line East"
     },
     {
       "stop_id": "LINE",
@@ -198,7 +217,8 @@
       "y": "12",
       "location": "right",
       "color": "#ea0d2a",
-      "agency": "2"
+      "agency": "2",
+      "display_name": "Hartford Line"
     }
   ]
 }
