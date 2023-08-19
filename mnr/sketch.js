@@ -19,7 +19,7 @@ function setup() {
   createCanvas(840, 690);
   SET_SEARCH_MODE('DATE');
   canvasDrawer();
-  reformated = reformat(getTrains(getServices(calendar, null), trips), stop_times);
+  reformated = reformat(getTrains(getServices(null, calendar_dates), trips), stop_times);
   buttonGenerator(reformated, routes, stationList);
   console.log('Ready');
 }

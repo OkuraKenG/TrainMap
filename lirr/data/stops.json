@@ -7,7 +7,8 @@
       "x": "37",
       "y": "10",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Albertson"
     },
     {
       "stop_id": "100",
@@ -16,7 +17,8 @@
       "x": "49",
       "y": "29",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Islip"
     },
     {
       "stop_id": "101",
@@ -25,7 +27,8 @@
       "x": "23",
       "y": "36",
       "location": "left",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Inwood"
     },
     {
       "stop_id": "102",
@@ -34,7 +37,8 @@
       "x": "11",
       "y": "14",
       "location": "right",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "display_name": "Jamaica"
     },
     {
       "stop_id": "107",
