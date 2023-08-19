@@ -1,18 +1,11 @@
-let table, stationList, calendar_dates, routes, stop_times, trips;
+let stationList, calendar_dates, routes, stop_times, trips;
 let reformated;
-let railroad;
-let allTrains;
-let allLatLongs;
-let abc;
 let gridmap;
 let linesmap;
 
 function preload() {
-  abc = loadJSON('./setup.json');
-  railroad = 'MNR';
   calendar_dates = loadTable(`./data/LIRR/calendar_dates.txt`, "csv", "header");
   routes = loadTable(`./data/LIRR/routes.txt`, "csv", "header");
-  table = loadTable(`./data/LIRR/shapes.txt`, "csv", "header");
   stop_times = loadTable(`./data/LIRR/stop_times.txt`, "csv", "header");
   stationList = loadTable(`./data/LIRR/stops.txt`, "csv", "header");
   trips = loadTable(`./data/LIRR/trips.txt`, "csv", "header");
@@ -21,14 +14,13 @@ function preload() {
 }
 
 function setup() {
+  noLoop();
   pixelDensity(3); // keep it low or else slower browsers may struggle
   createCanvas(1300, 690);
+  SET_SEARCH_MODE('DATE');
   canvasDrawer();
-  buttonGenerator();
-  //frameRate(1);
-  noLoop();
-  // ~ setup ~ //
-  reformated = reformat(getTrains(getServices()));
+  reformated = reformat(getTrains(getServices(calendar, null), trips), stop_times);
+  buttonGenerator(reformated, routes, stationList);
   console.log('Ready');
 }
 

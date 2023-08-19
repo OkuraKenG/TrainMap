@@ -1,18 +1,11 @@
 let table, stationList, calendar_dates, routes, stop_times, trips;
 let reformated;
-let railroad;
-let allTrains;
-let allLatLongs;
-let abc;
 let gridmap;
 let linesmap;
 
 function preload() {
-  abc = loadJSON('./setup.json');
-  railroad = 'MNR';
   calendar_dates = loadTable(`./data/MNR/calendar_dates.txt`, "csv", "header");
   routes = loadTable(`./data/MNR/routes.txt`, "csv", "header");
-  table = loadTable(`./data/MNR/shapes.txt`, "csv", "header");
   stop_times = loadTable(`./data/MNR/stop_times.txt`, "csv", "header");
   stationList = loadTable(`./data/MNR/stops.txt`, "csv", "header");
   trips = loadTable(`./data/MNR/trips.txt`, "csv", "header");
@@ -20,16 +13,14 @@ function preload() {
   linesmap = loadJSON(`./data/lines.json`);
 }
 
-// https://traintime.mta.info/map?trainId=MNR_9699&code=2NR
-
 function setup() {
+  noLoop();
   pixelDensity(3); // keep it low or else slower browsers may struggle
   createCanvas(840, 690);
+  SET_SEARCH_MODE('DATE');
   canvasDrawer();
-  buttonGenerator();
-  frameRate(1);
-  // ~ setup ~ //
-  reformated = reformat(getTrains(getServices()));
+  reformated = reformat(getTrains(getServices(calendar, null), trips), stop_times);
+  buttonGenerator(reformated, routes, stationList);
   console.log('Ready');
 }
 
