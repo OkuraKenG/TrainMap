@@ -4,34 +4,34 @@
       "line_id": "11704",
       "route_id": "1",
       "route_long_name": "BRUNSWICK - WASHINGTON",
-      "route_color": "#FF8000",
+      "route_color": "#FFCC00",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
-      "y1": "1",
-      "x2": "21",
-      "y2": "22"
+      "x1": "1",
+      "y1": "2",
+      "x2": "22",
+      "y2": "23"
     },
     {
       "line_id": "11704",
       "route_id": "1",
       "route_long_name": "BRUNSWICK - WASHINGTON",
-      "route_color": "#FF8000",
+      "route_color": "#FFCC00",
       "route_text_color": "#FFFFFF",
-      "x1": "7",
-      "y1": "4",
-      "x2": "5",
-      "y2": "6"
+      "x1": "8",
+      "y1": "5",
+      "x2": "6",
+      "y2": "7"
     },
     {
       "line_id": "11705",
       "route_id": "1",
       "route_long_name": "PENN - WASHINGTON",
-      "route_color": "#FF8000",
+      "route_color": "#FF3200",
       "route_text_color": "#FFFFFF",
-      "x1": "40",
-      "y1": "0",
-      "x2": "21",
-      "y2": "19"
+      "x1": "41",
+      "y1": "1",
+      "x2": "22",
+      "y2": "20"
     },
     {
       "line_id": "11706",
@@ -39,10 +39,10 @@
       "route_long_name": "CAMDEN - WASHINGTON",
       "route_color": "#FF8000",
       "route_text_color": "#FFFFFF",
-      "x1": "40",
-      "y1": "7",
-      "x2": "30",
-      "y2": "7"
+      "x1": "41",
+      "y1": "8",
+      "x2": "31",
+      "y2": "8"
     },
     {
       "line_id": "11706",
@@ -50,10 +50,10 @@
       "route_long_name": "CAMDEN - WASHINGTON",
       "route_color": "#FF8000",
       "route_text_color": "#FFFFFF",
-      "x1": "30",
-      "y1": "7",
-      "x2": "21",
-      "y2": "16"
+      "x1": "31",
+      "y1": "8",
+      "x2": "22",
+      "y2": "17"
     },
     {
       "line_id": "11706",
@@ -61,10 +61,10 @@
       "route_long_name": "CAMDEN - WASHINGTON",
       "route_color": "#FF8000",
       "route_text_color": "#FFFFFF",
-      "x1": "21",
-      "y1": "16",
-      "x2": "21",
-      "y2": "23"
+      "x1": "22",
+      "y1": "17",
+      "x2": "22",
+      "y2": "24"
     }
   ]
 }
