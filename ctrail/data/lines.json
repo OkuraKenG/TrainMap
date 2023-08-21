@@ -6,10 +6,10 @@
       "route_long_name": "Shore Line East Train",
       "route_color": "#EF3E42",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
+      "x1": "6",
       "y1": "20",
-      "x2": "9",
-      "y2": "20"
+      "x2": "15",
+      "y2": "11"
     },
     {
       "line_id": "HART",
@@ -17,10 +17,10 @@
       "route_long_name": "Hartford Line",
       "route_color": "#ea0d2a",
       "route_text_color": "#ffffff",
-      "x1": "2",
-      "y1": "20",
-      "x2": "2",
-      "y2": "13"
+      "x1": "8",
+      "y1": "18",
+      "x2": "8",
+      "y2": "11"
     }
   ]
 }
