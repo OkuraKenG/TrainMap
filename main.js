@@ -86,6 +86,10 @@ function canvasDrawer() {
 }
 
 function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
+    button = createButton('click me');
+    button.position(0, 0);
+    button.mousePressed(allTrainsButton);
+    
     // setup
     let overallXOffset = 125;
     let overallYOffset = 15;
@@ -94,7 +98,7 @@ function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
     // draws the buttons
     for (let i = 0; i < gridmap.stops.length; i++) {
         let currentStop = gridmap.stops[i];
-        
+
         let x = parseInt(currentStop.x);
         let y = parseInt(currentStop.y);
 
@@ -252,7 +256,7 @@ function getStopingTrainsAtStop(currentStop, thisReformatted) {
             }
         }
     }
-    
+
     // finds stopping trains if other stop_ids are associated with stop
     if ((typeof currentStop.otherNames !== 'undefined') && currentStop.otherNames.length > 0) {
         for (let otherName of currentStop.otherNames) {
@@ -462,7 +466,7 @@ function displayTrains(train, currentStop, thisStationList) {
     document.getElementById('thetable').insertBefore(newTableHeader, document.getElementById(trip_short_name).nextSibling);
 
     let temp = newTableHeader;
-    for (let [index_i,row] of convertedToTable.entries()) {
+    for (let [index_i, row] of convertedToTable.entries()) {
         let r = document.createElement('tr');
         // r.setAttribute('id',row[row.length-1]);
 
@@ -472,12 +476,12 @@ function displayTrains(train, currentStop, thisStationList) {
         }
 
         if ((typeof currentStop.otherNames !== 'undefined') && currentStop.otherNames.length > 0) {
-            console.log('Start Loop',index_i);
+            console.log('Start Loop', index_i);
             console.log(currentStop.stop_id);
             console.log(currentStop.otherNames);
             console.log(train.stops[index_i].obj.stop_id);
             for (let otherName of currentStop.otherNames) {
-                console.log(train.stops[index_i].obj.stop_id,otherName,train.stops[index_i].obj.stop_id == otherName.stop_id);
+                console.log(train.stops[index_i].obj.stop_id, otherName, train.stops[index_i].obj.stop_id == otherName.stop_id);
                 if (train.stops[index_i].obj.stop_id == otherName) {
                     r.style.background = 'black';
                     r.style.color = 'white';
@@ -500,4 +504,70 @@ function displayTrains(train, currentStop, thisStationList) {
         temp = r;
     }
     document.getElementById(trip_short_name).setAttribute('stopsvisible', 'true');
+}
+
+function allTrainsButton() {
+    allTrainsTest(reformated);
+}
+
+function allTrainsTest(thisReformated) {
+    let xyz = "";
+    if (typeof thisReformated[0].overallTrainInfo.obj.trip_short_name === "undefined") {
+        thisReformated.sort((a, b) => {
+            let trainA = Number.parseInt(a.overallTrainInfo.obj.block_id);
+            let trainB = Number.parseInt(b.overallTrainInfo.obj.block_id);
+            return trainA - (trainB);
+        });
+
+        for (let ele of thisReformated) {
+            let trainNum = ele.overallTrainInfo.obj.block_id;
+            let stops = ele.stops;
+            lineOfText = `${lineNumToStr(ele.overallTrainInfo.obj.block_id, routes)} Line Train #${trainNum} - From ${stopnumToStr(stops[0].obj.stop_id, stationList)} to ${stopnumToStr(stops[stops.length - 1].obj.stop_id, stationList)} making ${stops.length} stops. (`
+            
+            for (let stop of stops) {
+                lineOfText+=`${stopnumToStr(stop.obj.stop_id, stationList)}, `
+            }
+
+            lineOfText += ")";
+
+            xyz += "\n"+lineOfText;
+        }
+    } else {
+
+        thisReformated.sort((a, b) => {
+            let trainA = a.overallTrainInfo.obj.trip_short_name;
+            let trainB = b.overallTrainInfo.obj.trip_short_name;
+            if (trainA.charAt(0) == 'B') {
+                trainA = trainA.substring(1, 5);
+            }
+            if (trainB.charAt(0) == 'B') {
+                trainB = trainB.substring(1, 5);
+            }
+
+            trainA = Number.parseInt(trainA);
+            trainB = Number.parseInt(trainB);
+            return trainA - (trainB);
+        });
+
+        for (let ele of thisReformated) {
+            let trainNum = ele.overallTrainInfo.obj.trip_short_name;
+            let stops = ele.stops;
+
+            lineOfText = `${lineNumToStr(ele.overallTrainInfo.obj.route_id, routes)} Line Train #${trainNum} - From ${stopnumToStr(stops[0].obj.stop_id, stationList)} to ${stopnumToStr(stops[stops.length - 1].obj.stop_id, stationList)} making ${stops.length} stops. (`
+            
+            for (let stop of stops) {
+                lineOfText+=`${stopnumToStr(stop.obj.stop_id, stationList)}, `
+            }
+
+            lineOfText += ")";
+            
+            xyz += "\n\n"+lineOfText;
+
+        }
+    }
+    let temp = document.createElement("div");
+    temp.innerText = xyz;
+    document.getElementById("tablecontainer").append(temp);
+    return xyz;
+
 }
