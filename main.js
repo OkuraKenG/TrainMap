@@ -302,6 +302,7 @@ function displayStoppingTrains(allTrains, currentStop, thisRoutes, thisStationLi
     let dontmissthetrain = []
     for (train of allTrains) {
         let arrival_time = train[1].obj.arrival_time;
+        //let trip_id =  train[0].overallTrainInfo.obj.trip_id;
 
         let line = lineNumToStr(train[0].overallTrainInfo.obj.route_id, thisRoutes);
         let headsign = train[0].overallTrainInfo.obj.trip_headsign;
@@ -331,11 +332,12 @@ function displayStoppingTrains(allTrains, currentStop, thisRoutes, thisStationLi
     headerRow.appendChild(headerTr);
 
     htmlTable.appendChild(headerRow);
-
+    console.log(dontmissthetrain);
     for (let [index0, row] of dontmissthetrain.entries()) {
         let r = document.createElement('tr');
-        r.setAttribute('id', row[row.length - 1]);
-
+      //  r.setAttribute('id', row[row.length - 1]);
+        r.setAttribute('id',allTrains[index0][0].overallTrainInfo.obj.trip_id)
+       // console.log(row[row.length - 1]);
         for (let [index, col] of row.entries()) {
             let c = document.createElement('td');
             c.innerText = col;
@@ -350,6 +352,7 @@ function displayStoppingTrains(allTrains, currentStop, thisRoutes, thisStationLi
             }
 
             if (head[index] == 'Train Number') {
+                //console.log(, allTrains[index0][0]);
                 r.setAttribute('stopsVisible', 'false');
                 c.addEventListener('click', () => {
                     displayTrains(allTrains[index0][0], currentStop, thisStationList);
@@ -358,7 +361,7 @@ function displayStoppingTrains(allTrains, currentStop, thisRoutes, thisStationLi
 
 
 
-
+            //if ()
             r.appendChild(c);
         }
         htmlTable.appendChild(r);
@@ -426,15 +429,18 @@ function displayTrains(train, currentStop, thisStationList) {
     if (typeof trip_short_name === "undefined")
         trip_short_name = train.overallTrainInfo.obj.block_id
 
-    let mainRowBool = document.getElementById(trip_short_name).getAttribute('stopsvisible')
+    let trip_id = train.overallTrainInfo.obj.trip_id;
+    let mainRowBool = document.getElementById(trip_id).getAttribute('stopsvisible')
+    // let mainRowBool = document.getElementById(trip_short_name).getAttribute('stopsvisible')
 
+    
     // hides if shown
     if (mainRowBool != 'false') {
         let rowToKill = document.getElementsByClassName(`RandomPickels${trip_short_name}`);
         for (let i = rowToKill.length - 1; i >= 0; i--) {
             document.getElementById('thetable').removeChild(rowToKill[i]);
         }
-        document.getElementById(trip_short_name).setAttribute('stopsvisible', 'false');
+        document.getElementById(trip_id).setAttribute('stopsvisible', 'false');
         return;
     }
 
@@ -463,7 +469,7 @@ function displayTrains(train, currentStop, thisStationList) {
     }
     newTableHeader.setAttribute('class', `RandomPickels${trip_short_name}`);
 
-    document.getElementById('thetable').insertBefore(newTableHeader, document.getElementById(trip_short_name).nextSibling);
+    document.getElementById('thetable').insertBefore(newTableHeader, document.getElementById(trip_id).nextSibling);
 
     let temp = newTableHeader;
     for (let [index_i, row] of convertedToTable.entries()) {
@@ -503,7 +509,7 @@ function displayTrains(train, currentStop, thisStationList) {
         document.getElementById('thetable').insertBefore(r, temp.nextSibling);
         temp = r;
     }
-    document.getElementById(trip_short_name).setAttribute('stopsvisible', 'true');
+    document.getElementById(trip_id).setAttribute('stopsvisible', 'true');
 }
 
 function allTrainsButton() {
@@ -522,15 +528,21 @@ function allTrainsTest(thisReformated) {
         for (let ele of thisReformated) {
             let trainNum = ele.overallTrainInfo.obj.block_id;
             let stops = ele.stops;
-            lineOfText = `${lineNumToStr(ele.overallTrainInfo.obj.block_id, routes)} Line Train #${trainNum} - From ${stopnumToStr(stops[0].obj.stop_id, stationList)} to ${stopnumToStr(stops[stops.length - 1].obj.stop_id, stationList)} making ${stops.length} stops. (`
+
+            let x = lineNumToStr(ele.overallTrainInfo.obj.route_id, routes)+"";
+            if (x.endsWith("Light Rail"))
+                continue;
+
+            lineOfText = `${lineNumToStr(ele.overallTrainInfo.obj.route_id, routes)} Line Train #${trainNum} - From ${stopnumToStr(stops[0].obj.stop_id, stationList)} to ${stopnumToStr(stops[stops.length - 1].obj.stop_id, stationList)} making ${stops.length} stops. (`
             
+
             for (let stop of stops) {
                 lineOfText+=`${stopnumToStr(stop.obj.stop_id, stationList)}, `
             }
 
             lineOfText += ")";
 
-            xyz += "\n"+lineOfText;
+            xyz += "\n\n"+lineOfText;
         }
     } else {
 
