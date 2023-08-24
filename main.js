@@ -89,7 +89,7 @@ function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
     button = createButton('click me');
     button.position(0, 0);
     button.mousePressed(allTrainsButton);
-    
+
     // setup
     let overallXOffset = 125;
     let overallYOffset = 15;
@@ -299,7 +299,7 @@ function displayStoppingTrains(allTrains, currentStop, thisRoutes, thisStationLi
     htmlTable.setAttribute('id', 'thetable');
 
     // converts array to table-array
-    let dontmissthetrain = []
+    let dontmissthetrain = [];
     for (train of allTrains) {
         let arrival_time = train[1].obj.arrival_time;
         //let trip_id =  train[0].overallTrainInfo.obj.trip_id;
@@ -335,9 +335,9 @@ function displayStoppingTrains(allTrains, currentStop, thisRoutes, thisStationLi
     console.log(dontmissthetrain);
     for (let [index0, row] of dontmissthetrain.entries()) {
         let r = document.createElement('tr');
-      //  r.setAttribute('id', row[row.length - 1]);
-        r.setAttribute('id',allTrains[index0][0].overallTrainInfo.obj.trip_id)
-       // console.log(row[row.length - 1]);
+        //  r.setAttribute('id', row[row.length - 1]);
+        r.setAttribute('id', allTrains[index0][0].overallTrainInfo.obj.trip_id)
+        // console.log(row[row.length - 1]);
         for (let [index, col] of row.entries()) {
             let c = document.createElement('td');
             c.innerText = col;
@@ -433,7 +433,7 @@ function displayTrains(train, currentStop, thisStationList) {
     let mainRowBool = document.getElementById(trip_id).getAttribute('stopsvisible')
     // let mainRowBool = document.getElementById(trip_short_name).getAttribute('stopsvisible')
 
-    
+
     // hides if shown
     if (mainRowBool != 'false') {
         let rowToKill = document.getElementsByClassName(`RandomPickels${trip_short_name}`);
@@ -513,73 +513,228 @@ function displayTrains(train, currentStop, thisStationList) {
 }
 
 function allTrainsButton() {
-    allTrainsTest(reformated);
+    if (typeof reformated[0].overallTrainInfo.obj.trip_short_name === "undefined")
+        displayAllStoppingTrain(reformated, routes, stationList, 3);
+    else 
+        displayAllStoppingTrain(reformated, routes, stationList, 2);
 }
 
-function allTrainsTest(thisReformated) {
-    let xyz = "";
-    if (typeof thisReformated[0].overallTrainInfo.obj.trip_short_name === "undefined") {
-        thisReformated.sort((a, b) => {
-            let trainA = Number.parseInt(a.overallTrainInfo.obj.block_id);
-            let trainB = Number.parseInt(b.overallTrainInfo.obj.block_id);
-            return trainA - (trainB);
+function sorter(allTrains, sort) {
+    if (sort == 0) { // route
+        allTrains.sort((a, b) => {
+            let route_idA = a.overallTrainInfo.obj.route_id;
+            let route_idB = b.overallTrainInfo.obj.route_id;
+
+            return route_idA.localeCompare(route_idB);
         });
+    } else if (sort == 1) { // trip_headsign
+        allTrains.sort((a, b) => {
+            let trip_headsignA = a.overallTrainInfo.obj.trip_headsign;
+            let trip_headsignB = b.overallTrainInfo.obj.trip_headsign;
 
-        for (let ele of thisReformated) {
-            let trainNum = ele.overallTrainInfo.obj.block_id;
-            let stops = ele.stops;
-
-            let x = lineNumToStr(ele.overallTrainInfo.obj.route_id, routes)+"";
-            if (x.endsWith("Light Rail"))
-                continue;
-
-            lineOfText = `${lineNumToStr(ele.overallTrainInfo.obj.route_id, routes)} Line Train #${trainNum} - From ${stopnumToStr(stops[0].obj.stop_id, stationList)} to ${stopnumToStr(stops[stops.length - 1].obj.stop_id, stationList)} making ${stops.length} stops. (`
-            
-
-            for (let stop of stops) {
-                lineOfText+=`${stopnumToStr(stop.obj.stop_id, stationList)}, `
-            }
-
-            lineOfText += ")";
-
-            xyz += "\n\n"+lineOfText;
-        }
-    } else {
-
-        thisReformated.sort((a, b) => {
-            let trainA = a.overallTrainInfo.obj.trip_short_name;
-            let trainB = b.overallTrainInfo.obj.trip_short_name;
-            if (trainA.charAt(0) == 'B') {
-                trainA = trainA.substring(1, 5);
-            }
-            if (trainB.charAt(0) == 'B') {
-                trainB = trainB.substring(1, 5);
-            }
-
-            trainA = Number.parseInt(trainA);
-            trainB = Number.parseInt(trainB);
-            return trainA - (trainB);
+            return trip_headsignA.localeCompare(trip_headsignB);
         });
-
-        for (let ele of thisReformated) {
-            let trainNum = ele.overallTrainInfo.obj.trip_short_name;
-            let stops = ele.stops;
-
-            lineOfText = `${lineNumToStr(ele.overallTrainInfo.obj.route_id, routes)} Line Train #${trainNum} - From ${stopnumToStr(stops[0].obj.stop_id, stationList)} to ${stopnumToStr(stops[stops.length - 1].obj.stop_id, stationList)} making ${stops.length} stops. (`
-            
-            for (let stop of stops) {
-                lineOfText+=`${stopnumToStr(stop.obj.stop_id, stationList)}, `
+    } else if (sort == 2) { // short_name/block_id
+        allTrains.sort((a, b) => {
+            let trip_short_nameA = a.overallTrainInfo.obj.trip_short_name;
+            let trip_short_nameB = b.overallTrainInfo.obj.trip_short_name;
+            if (isNaN(Number.parseInt(trip_short_nameA))) {
+                trip_short_nameA = trip_short_nameA.replace(new RegExp("[A-Za-z]*"), "");
             }
 
-            lineOfText += ")";
-            
-            xyz += "\n\n"+lineOfText;
+            if (isNaN(Number.parseInt(trip_short_nameB))) {
+                trip_short_nameB = trip_short_nameB.replace(new RegExp("[A-Za-z]*"), "");
+            }
+            trip_short_nameA = Number.parseInt(trip_short_nameA);
+            trip_short_nameB = Number.parseInt(trip_short_nameB);
+            return trip_short_nameA - trip_short_nameB;
+        });
+    } else if (sort == 3) { // short_name/block_id
+        allTrains = allTrains.filter((train) => !train.overallTrainInfo.obj.block_id.includes("NK"));
+        allTrains = allTrains.filter((train) => !train.overallTrainInfo.obj.block_id.includes("JC"));
+        allTrains = allTrains.filter((train) => !train.overallTrainInfo.obj.block_id.includes("RL"));
 
+        allTrains.sort((a, b) => {
+            let block_idA = a.overallTrainInfo.obj.block_id;
+            let block_idB = b.overallTrainInfo.obj.block_id;
+            if (isNaN(Number.parseInt(block_idA))) {
+                block_idA = block_idA.replace(new RegExp("[A-Za-z]*"), "");
+            }
+
+            if (isNaN(Number.parseInt(block_idB))) {
+                block_idB = block_idB.replace(new RegExp("[A-Za-z]*"), "");
+            }
+            block_idB = Number.parseInt(block_idB);
+            block_idB = Number.parseInt(block_idB);
+            return block_idA - block_idB;
+        });
+    } 
+    return allTrains;
+}
+
+// handles the HTML display of array
+function displayAllStoppingTrain(allTrains, thisRoutes, thisStationList, sort) {
+    allTrains = sorter(allTrains, sort);
+
+    let tablecontainer = document.getElementById('tablecontainer');
+    tablecontainer.innerHTML = '';
+    let overlayinner = document.getElementById('overlayinner');
+    overlayinner.innerHTML = '';
+    let overlay = document.getElementById('overlay');
+
+    let htmlTable = document.createElement('table');
+    htmlTable.setAttribute('id', 'thetable');
+
+    // converts array to table-array
+    let dontmissthetrain = [];
+    // console.log(allTrains);
+    for (let [index, train] of allTrains.entries()) {
+        let arrival_time = train.stops[0].obj.departure_time;
+        //let trip_id =  train[0].overallTrainInfo.obj.trip_id;
+
+        let line = lineNumToStr(train.overallTrainInfo.obj.route_id, thisRoutes);
+        let headsign = train.overallTrainInfo.obj.trip_headsign;
+        let track = undefined;
+        if (typeof track === 'undefined')
+            track = "N/A";
+        let direction = "N/A";
+
+        let shortname = train.overallTrainInfo.obj.trip_short_name;
+        if (typeof shortname === "undefined") {
+            shortname = train.overallTrainInfo.obj.block_id;
         }
+        let origin = stopnumToStr(train.stops[0].obj.stop_id, thisStationList);
+
+        dontmissthetrain.push([arrival_time, line, origin, headsign, track, direction, shortname]);
     }
-    let temp = document.createElement("div");
-    temp.innerText = xyz;
-    document.getElementById("tablecontainer").append(temp);
-    return xyz;
 
+    // converts array-table to table
+    let head = ['Arrival/Depature Time', 'Line', 'Origin', 'Terminus', 'Track', 'Direction', 'Train Number']
+    let headerRow = document.createElement('thead');
+    let headerTr = document.createElement('tr');
+    for (let h of head) {
+        let th = document.createElement('th');
+        th.innerText = h;
+        headerTr.appendChild(th);
+    }
+    headerRow.appendChild(headerTr);
+
+    htmlTable.appendChild(headerRow);
+    // console.log(dontmissthetrain);
+    for (let [index0, row] of dontmissthetrain.entries()) {
+        let r = document.createElement('tr');
+        //  r.setAttribute('id', row[row.length - 1]);
+        r.setAttribute('id', allTrains[index0].overallTrainInfo.obj.trip_id)
+        // console.log(row[row.length - 1]);
+        for (let [index, col] of row.entries()) {
+            let c = document.createElement('td');
+            c.innerText = col;
+
+            if (head[index] == 'Line') {
+                c.style.background = "#" + lineNameToColor(col, thisRoutes);
+                if (typeof lineNameToTextColor(col, thisRoutes) !== "undefined")
+                    c.style.color = "#" + lineNameToTextColor(col, thisRoutes);
+                else
+                    c.style.color = "white";
+
+            }
+
+            if (head[index] == 'Train Number') {
+                //console.log(, allTrains[index0][0]);
+                r.setAttribute('stopsVisible', 'false');
+                c.addEventListener('click', () => {
+                    displayTrainsB(allTrains[index0], thisStationList);
+                });
+            }
+
+
+
+            //if ()
+            r.appendChild(c);
+        }
+        htmlTable.appendChild(r);
+    }
+
+    tablecontainer.appendChild(htmlTable);
+    overlay.style.display = 'grid';
+
+    overlayinner.appendChild(htmlTable);
+
+    let newButton = document.createElement('button');
+    newButton.setAttribute('class', 'buttonExit');
+    newButton.addEventListener('click', close);
+    newButton.innerText = 'Exit';
+    overlayinner.appendChild(newButton);
+}
+
+// displays stops of train
+function displayTrainsB(train, thisStationList) {
+    // console.log(train, currentStop, thisStationList);
+    let stops = train.stops;
+    let trip_short_name = train.overallTrainInfo.obj.trip_short_name;
+    if (typeof trip_short_name === "undefined")
+        trip_short_name = train.overallTrainInfo.obj.block_id
+
+    let trip_id = train.overallTrainInfo.obj.trip_id;
+    let mainRowBool = document.getElementById(trip_id).getAttribute('stopsvisible')
+    // let mainRowBool = document.getElementById(trip_short_name).getAttribute('stopsvisible')
+
+
+    // hides if shown
+    if (mainRowBool != 'false') {
+        let rowToKill = document.getElementsByClassName(`RandomPickels${trip_short_name}`);
+        for (let i = rowToKill.length - 1; i >= 0; i--) {
+            document.getElementById('thetable').removeChild(rowToKill[i]);
+        }
+        document.getElementById(trip_id).setAttribute('stopsvisible', 'false');
+        return;
+    }
+
+    let header = [`Train ${trip_short_name} Stops`, '#', 'Stop Name', 'Time', 'Tk'];
+    let convertedToTable = [];
+    for (let [index, stop] of stops.entries()) {
+        let number = index + 1;
+        let stopName = stopnumToStr(stop.obj.stop_id, thisStationList);
+        let time = stop.obj.arrival_time;
+        let track = stop.obj.track;
+        if (typeof track === 'undefined')
+            track = "N/A";
+        convertedToTable.push(['', number, stopName, time, track]);
+    }
+
+    convertedToTable[0][0] = 'Origin Station: ';
+    convertedToTable[convertedToTable.length - 1][0] = 'Terminus Station: ';
+    // console.log(convertedToTable);
+
+    let newTableHeader = document.createElement('tr');
+
+    for (let h of header) {
+        let th = document.createElement('th');
+        th.innerText = h;
+        newTableHeader.appendChild(th);
+    }
+    newTableHeader.setAttribute('class', `RandomPickels${trip_short_name}`);
+
+    document.getElementById('thetable').insertBefore(newTableHeader, document.getElementById(trip_id).nextSibling);
+
+    let temp = newTableHeader;
+    for (let [index_i, row] of convertedToTable.entries()) {
+        let r = document.createElement('tr');
+        // r.setAttribute('id',row[row.length-1]);
+
+        for (let [index_j, col] of row.entries()) {
+            let c = document.createElement('td');
+            c.innerText = col;
+            if (index_j == 0) {
+                c.setAttribute('align', 'right');
+                c.setAttribute('style', 'font-weight: bold;');
+            }
+
+            r.appendChild(c);
+        }
+        r.setAttribute('class', `RandomPickels${trip_short_name}`);
+        document.getElementById('thetable').insertBefore(r, temp.nextSibling);
+        temp = r;
+    }
+    document.getElementById(trip_id).setAttribute('stopsvisible', 'true');
 }
