@@ -86,7 +86,7 @@ function canvasDrawer() {
 }
 
 function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
-    button = createButton('click me');
+    button = createButton('All trains');
     button.position(0, 0);
     button.mousePressed(allTrainsButton);
 
@@ -110,35 +110,56 @@ function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
         if (currentStop.location == "right") { // handles the side text is displayed on
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset + 5 - 16}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.map_display_name) + 16}px; border: solid; border-color: ${bordercolor};`);
-            div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
-                //console.log(thisReformated, thisRoutes, thisStationList);
-            }, false);
+            
+            if (currentStop.stop_id == "LINE") {
+                div.addEventListener("click", function () {
+                    displayAllTrainsOnRoutes(thisReformated, thisRoutes, stationList, currentStop.stop_name, 2)    
+                }, false);
+            } else {
+                div.addEventListener("click", function () {
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
+                }, false);
+            }
+
             document.body.appendChild(div);
         } else if (currentStop.location == "left") {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - textWidth(currentStop.map_display_name) - 15}px; top: ${y * fsize + overallYOffset + 5}px; height: 9px; width: ${textWidth(currentStop.map_display_name) + 15}px; border: solid; border-color: ${bordercolor};`);
-            div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
-                //console.log(thisReformated, thisRoutes, thisStationList);
-            }, false);
+            if (currentStop.stop_id == "LINE") {
+                div.addEventListener("click", function () {
+                    displayAllTrainsOnRoutes(thisReformated, thisRoutes, stationList, currentStop.stop_name, 2)    
+                }, false);
+            } else {
+                div.addEventListener("click", function () {
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
+                }, false);
+            }
             document.body.appendChild(div);
         } else if (currentStop.location == "up") {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3}px; height: ${textWidth(currentStop.map_display_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
-            div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
-                //console.log(thisReformated, thisRoutes, thisStationList);
-            }, false);
+            if (currentStop.stop_id == "LINE") {
+                div.addEventListener("click", function () {
+                    displayAllTrainsOnRoutes(thisReformated, thisRoutes, stationList, currentStop.stop_name, 2)    
+                }, false);
+            } else {
+                div.addEventListener("click", function () {
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
+                }, false);
+            }
             document.body.appendChild(div);
         } else if (currentStop.location == "down") {
             let div = document.createElement("div");
             div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 12}px; top: ${y * fsize + overallYOffset + 3}px; height: ${textWidth(currentStop.map_display_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
-            div.addEventListener("click", function () {
-                displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
-                //console.log(thisReformated, thisRoutes, thisStationList);
-            }, false);
-
+            if (currentStop.stop_id == "LINE") {
+                div.addEventListener("click", function () {
+                    displayAllTrainsOnRoutes(thisReformated, thisRoutes, stationList, currentStop.stop_name, 2)    
+                }, false);
+            } else {
+                div.addEventListener("click", function () {
+                    displayStoppingTrains(getStopingTrainsAtStop(currentStop, thisReformated), currentStop, thisRoutes, thisStationList, thisReformated);
+                }, false);
+            }
             document.body.appendChild(div);
         }
         // reset style
@@ -332,7 +353,7 @@ function displayStoppingTrains(allTrains, currentStop, thisRoutes, thisStationLi
     headerRow.appendChild(headerTr);
 
     htmlTable.appendChild(headerRow);
-    console.log(dontmissthetrain);
+    // console.log(dontmissthetrain);
     for (let [index0, row] of dontmissthetrain.entries()) {
         let r = document.createElement('tr');
         //  r.setAttribute('id', row[row.length - 1]);
@@ -520,6 +541,8 @@ function allTrainsButton() {
 }
 
 function sorter(allTrains, sort) {
+    if (typeof allTrains[0].overallTrainInfo.obj.trip_short_name === "undefined")
+        sort = 3;
     if (sort == 0) { // route
         allTrains.sort((a, b) => {
             let route_idA = a.overallTrainInfo.obj.route_id;
@@ -737,4 +760,100 @@ function displayTrainsB(train, thisStationList) {
         temp = r;
     }
     document.getElementById(trip_id).setAttribute('stopsvisible', 'true');
+}
+
+// handles the HTML display of array
+function displayAllTrainsOnRoutes(allTrains, thisRoutes, thisStationList, route_id, sort) {
+    console.log(route_id, sort)
+    allTrains = sorter(allTrains, sort);
+    allTrains = allTrains.filter((train) => train.overallTrainInfo.obj.route_id.includes(route_id));
+    let tablecontainer = document.getElementById('tablecontainer');
+    tablecontainer.innerHTML = '';
+    let overlayinner = document.getElementById('overlayinner');
+    overlayinner.innerHTML = '';
+    let overlay = document.getElementById('overlay');
+
+    let htmlTable = document.createElement('table');
+    htmlTable.setAttribute('id', 'thetable');
+
+    // converts array to table-array
+    let dontmissthetrain = [];
+    // console.log(allTrains);
+    for (let [index, train] of allTrains.entries()) {
+        let arrival_time = train.stops[0].obj.departure_time;
+        //let trip_id =  train[0].overallTrainInfo.obj.trip_id;
+
+        let line = lineNumToStr(train.overallTrainInfo.obj.route_id, thisRoutes);
+        let headsign = train.overallTrainInfo.obj.trip_headsign;
+        let track = undefined;
+        if (typeof track === 'undefined')
+            track = "N/A";
+        let direction = "N/A";
+
+        let shortname = train.overallTrainInfo.obj.trip_short_name;
+        if (typeof shortname === "undefined") {
+            shortname = train.overallTrainInfo.obj.block_id;
+        }
+        let origin = stopnumToStr(train.stops[0].obj.stop_id, thisStationList);
+
+        dontmissthetrain.push([arrival_time, line, origin, headsign, track, direction, shortname]);
+    }
+
+    // converts array-table to table
+    let head = ['Arrival/Depature Time', 'Line', 'Origin', 'Terminus', 'Track', 'Direction', 'Train Number']
+    let headerRow = document.createElement('thead');
+    let headerTr = document.createElement('tr');
+    for (let h of head) {
+        let th = document.createElement('th');
+        th.innerText = h;
+        headerTr.appendChild(th);
+    }
+    headerRow.appendChild(headerTr);
+
+    htmlTable.appendChild(headerRow);
+    // console.log(dontmissthetrain);
+    for (let [index0, row] of dontmissthetrain.entries()) {
+        let r = document.createElement('tr');
+        //  r.setAttribute('id', row[row.length - 1]);
+        r.setAttribute('id', allTrains[index0].overallTrainInfo.obj.trip_id)
+        // console.log(row[row.length - 1]);
+        for (let [index, col] of row.entries()) {
+            let c = document.createElement('td');
+            c.innerText = col;
+
+            if (head[index] == 'Line') {
+                c.style.background = "#" + lineNameToColor(col, thisRoutes);
+                if (typeof lineNameToTextColor(col, thisRoutes) !== "undefined")
+                    c.style.color = "#" + lineNameToTextColor(col, thisRoutes);
+                else
+                    c.style.color = "white";
+
+            }
+
+            if (head[index] == 'Train Number') {
+                //console.log(, allTrains[index0][0]);
+                r.setAttribute('stopsVisible', 'false');
+                c.addEventListener('click', () => {
+                    displayTrainsB(allTrains[index0], thisStationList);
+                });
+            }
+
+
+
+            //if ()
+            r.appendChild(c);
+        }
+        htmlTable.appendChild(r);
+    }
+
+    tablecontainer.appendChild(htmlTable);
+    overlay.style.display = 'grid';
+
+    overlayinner.appendChild(htmlTable);
+
+    let newButton = document.createElement('button');
+    newButton.setAttribute('class', 'buttonExit');
+    newButton.addEventListener('click', close);
+    newButton.innerText = 'Exit';
+    overlayinner.appendChild(newButton);
 }

@@ -3463,7 +3463,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Fairmount Line",
+      "stop_name": "CR-Fairmount",
       "x": "24",
       "y": "29",
       "location": "left",
@@ -3486,7 +3486,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Fitchburg Line",
+      "stop_name": "CR-Fitchburg",
       "x": "0",
       "y": "14",
       "location": "left",
@@ -3509,7 +3509,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Worcester Line",
+      "stop_name": "CR-Worcester",
       "x": "-1",
       "y": "20",
       "location": "left",
@@ -3532,7 +3532,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Franklin Line",
+      "stop_name": "CR-Franklin",
       "x": "4",
       "y": "43",
       "location": "right",
@@ -3555,7 +3555,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Greenbush Line",
+      "stop_name": "CR-Greenbush",
       "x": "46",
       "y": "31",
       "location": "right",
@@ -3578,7 +3578,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Haverhill Line",
+      "stop_name": "CR-Haverhill",
       "x": "34",
       "y": "0",
       "location": "right",
@@ -3601,7 +3601,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Kingston Line",
+      "stop_name": "CR-Kingston",
       "x": "43",
       "y": "36",
       "location": "right",
@@ -3624,7 +3624,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Lowell Line",
+      "stop_name": "CR-Lowell",
       "x": "25",
       "y": "5",
       "location": "left",
@@ -3647,7 +3647,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Middleborough Line",
+      "stop_name": "CR-Middleborough",
       "x": "36",
       "y": "36",
       "location": "left",
@@ -3670,7 +3670,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Needham Line",
+      "stop_name": "CR-Needham",
       "x": "0",
       "y": "27",
       "location": "left",
@@ -3693,7 +3693,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Newburyport Line",
+      "stop_name": "CR-Newburyport",
       "x": "46",
       "y": "1",
       "location": "left",
@@ -3716,7 +3716,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Providence Line",
+      "stop_name": "CR-Providence",
       "x": "15",
       "y": "43",
       "location": "right",

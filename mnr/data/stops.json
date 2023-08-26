@@ -1431,7 +1431,7 @@
     {
       "stop_id": "LINE",
       "stop_code": "LINE",
-      "stop_name": "Hudson Line",
+      "stop_name": "1",
       "x": "0",
       "y": "12",
       "location": "left",
@@ -1443,7 +1443,7 @@
     {
       "stop_id": "LINE",
       "stop_code": "LINE",
-      "stop_name": "Harlem Line",
+      "stop_name": "2",
       "x": "5",
       "y": "3",
       "location": "left",
@@ -1455,7 +1455,7 @@
     {
       "stop_id": "LINE",
       "stop_code": "LINE",
-      "stop_name": "New Canaan Branch",
+      "stop_name": "4",
       "x": "19",
       "y": "15",
       "location": "left",
@@ -1467,7 +1467,7 @@
     {
       "stop_id": "LINE",
       "stop_code": "LINE",
-      "stop_name": "Danbury Branch",
+      "stop_name": "5",
       "x": "24",
       "y": "7",
       "location": "left",
@@ -1479,7 +1479,7 @@
     {
       "stop_id": "LINE",
       "stop_code": "LINE",
-      "stop_name": "Waterbury Branch",
+      "stop_name": "6",
       "x": "33",
       "y": "-1",
       "location": "left",
@@ -1491,7 +1491,7 @@
     {
       "stop_id": "LINE",
       "stop_code": "LINE",
-      "stop_name": "New Haven Line",
+      "stop_name": "3",
       "x": "38",
       "y": "1",
       "location": "right",

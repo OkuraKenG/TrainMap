@@ -211,7 +211,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Fredericksburg Line",
+      "stop_name": "2",
       "x": "10",
       "y": "14",
       "location": "right",
@@ -222,7 +222,7 @@
     },
     {
       "stop_id": "LINE",
-      "stop_name": "Manassas Line",
+      "stop_name": "4",
       "x": "3",
       "y": "11",
       "location": "left",
