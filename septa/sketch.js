@@ -4,11 +4,11 @@ let gridmap;
 let linesmap;
 
 function preload() {
-  calendar = loadTable(`./data/SEPTA/calendar.txt`, "csv", "header");
-  routes = loadTable(`./data/SEPTA/routes.txt`, "csv", "header");
-  stop_times = loadTable(`./data/SEPTA/stop_times.txt`, "csv", "header");
-  stationList = loadTable(`./data/SEPTA/stops.txt`, "csv", "header");
-  trips = loadTable(`./data/SEPTA/trips.txt`, "csv", "header");
+  calendar = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/septa/calendar.txt`, "csv", "header");
+  routes = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/septa/routes.txt`, "csv", "header");
+  stop_times = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/septa/stop_times.txt`, "csv", "header");
+  stationList = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/septa/stops.txt`, "csv", "header");
+  trips = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/septa/trips.txt`, "csv", "header");
   gridmap = loadJSON(`./data/stops.json`);
   linesmap = loadJSON(`./data/lines.json`);
 }
