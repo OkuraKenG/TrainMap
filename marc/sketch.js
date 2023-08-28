@@ -4,11 +4,11 @@ let gridmap;
 let linesmap;
 
 function preload() {
-  calendar = loadTable(`./data/MARC/calendar.txt`, "csv", "header");
-  routes = loadTable(`./data/MARC/routes.txt`, "csv", "header");
-  stop_times = loadTable(`./data/MARC/stop_times.txt`, "csv", "header");
-  stationList = loadTable(`./data/MARC/stops.txt`, "csv", "header");
-  trips = loadTable(`./data/MARC/trips.txt`, "csv", "header");
+  calendar = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/marc/calendar.txt`, "csv", "header");
+  routes = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/marc/routes.txt`, "csv", "header");
+  stop_times = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/marc/stop_times.txt`, "csv", "header");
+  stationList = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/marc/stops.txt`, "csv", "header");
+  trips = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/marc/trips.txt`, "csv", "header");
   gridmap = loadJSON(`./data/stops.json`);
   linesmap = loadJSON(`./data/lines.json`);
 }

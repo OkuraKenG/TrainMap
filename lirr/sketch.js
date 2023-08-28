@@ -4,11 +4,11 @@ let gridmap;
 let linesmap;
 
 function preload() {
-  calendar_dates = loadTable(`./data/LIRR/calendar_dates.txt`, "csv", "header");
-  routes = loadTable(`./data/LIRR/routes.txt`, "csv", "header");
-  stop_times = loadTable(`./data/LIRR/stop_times.txt`, "csv", "header");
-  stationList = loadTable(`./data/LIRR/stops.txt`, "csv", "header");
-  trips = loadTable(`./data/LIRR/trips.txt`, "csv", "header");
+  calendar_dates = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/lirr/calendar_dates.txt`, "csv", "header");
+  routes = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/lirr/routes.txt`, "csv", "header");
+  stop_times = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/lirr/stop_times.txt`, "csv", "header");
+  stationList = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/lirr/stops.txt`, "csv", "header");
+  trips = loadTable(`https://okurakeng-gtfs-data.pages.dev/GTFSData/lirr/trips.txt`, "csv", "header");
   gridmap = loadJSON(`./data/stops.json`);
   linesmap = loadJSON(`./data/lines.json`);
 }
