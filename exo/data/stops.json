@@ -1,0 +1,735 @@
+{
+  "stops": [
+    {
+      "stop_id": "MTL5D",
+      "stop_name": "Gare Centrale",
+      "x": "23",
+      "y": "23",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Centrale",
+      "map_display_name": "Centrale",
+      "otherNames": [
+        "MTL5B"
+      ]
+    },
+    {
+      "stop_id": "MTL3A",
+      "stop_name": "Gare Lucien-L'Allier",
+      "x": "22",
+      "y": "22",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Lucien-L'Allier",
+      "map_display_name": "Lucien-L'Allier",
+      "otherNames": [
+        "MTL3C"
+      ]
+    },
+    {
+      "stop_id": "MTL2A",
+      "stop_name": "Gare Vendôme",
+      "x": "21",
+      "y": "26",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Vendôme",
+      "map_display_name": "Vendôme",
+      "otherNames": [
+        "MTL2C"
+      ]
+    },
+    {
+      "stop_id": "MTL1A",
+      "stop_name": "Gare Montréal-Ouest",
+      "x": "19",
+      "y": "27",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Montréal-Ouest",
+      "map_display_name": "Montréal-Ouest",
+      "otherNames": [
+        "MTL1C"
+      ]
+    },
+    {
+      "stop_id": "LCH1D",
+      "stop_name": "Gare Lachine",
+      "x": "16",
+      "y": "21",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Lachine",
+      "map_display_name": "Lachine",
+      "otherNames": [
+        "LCH1B"
+      ]
+    },
+    {
+      "stop_id": "DVL2D",
+      "stop_name": "Gare Dorval",
+      "x": "15",
+      "y": "22",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Dorval",
+      "map_display_name": "Dorval",
+      "otherNames": [
+        "DVL2B"
+      ]
+    },
+    {
+      "stop_id": "DVL1D",
+      "stop_name": "Gare Pine Beach",
+      "x": "14",
+      "y": "28",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Pine Beach",
+      "map_display_name": "Pine Beach",
+      "otherNames": [
+        "DVL1B"
+      ]
+    },
+    {
+      "stop_id": "PCL3D",
+      "stop_name": "Gare Valois",
+      "x": "13",
+      "y": "27",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Valois",
+      "map_display_name": "Valois",
+      "otherNames": [
+        "PCL3B"
+      ]
+    },
+    {
+      "stop_id": "PCL2D",
+      "stop_name": "Gare Pointe-Claire",
+      "x": "12",
+      "y": "26",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Pointe-Claire",
+      "map_display_name": "Pointe-Claire",
+      "otherNames": [
+        "PCL2B"
+      ]
+    },
+    {
+      "stop_id": "PCL1D",
+      "stop_name": "Gare Cedar Park",
+      "x": "11",
+      "y": "25",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Cedar Park",
+      "map_display_name": "Cedar Park",
+      "otherNames": [
+        "PCL1B"
+      ]
+    },
+    {
+      "stop_id": "BEA2D",
+      "stop_name": "Gare Beaconsfield",
+      "x": "10",
+      "y": "24",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Beaconsfield",
+      "map_display_name": "Beaconsfield",
+      "otherNames": [
+        "BEA2B"
+      ]
+    },
+    {
+      "stop_id": "BEA1D",
+      "stop_name": "Gare Beaurepaire",
+      "x": "9",
+      "y": "15",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Beaurepaire",
+      "map_display_name": "Beaurepaire",
+      "otherNames": [
+        "BEA1B"
+      ]
+    },
+    {
+      "stop_id": "BUR1D",
+      "stop_name": "Gare Baie-d'Urfé",
+      "x": "8",
+      "y": "16",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Baie-d'Urfé",
+      "map_display_name": "Baie-d'Urfé",
+      "otherNames": [
+        "BUR1B"
+      ]
+    },
+    {
+      "stop_id": "SAB1D",
+      "stop_name": "Gare Sainte-Anne-de-Bellevue",
+      "x": "7",
+      "y": "17",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Sainte-Anne-de-Bellevue",
+      "map_display_name": "Sainte-Anne-de-Bellevue",
+      "otherNames": [
+        "SAB1B"
+      ]
+    },
+    {
+      "stop_id": "LIP1D",
+      "stop_name": "Gare Île-Perrot",
+      "x": "6",
+      "y": "18",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Île-Perrot",
+      "map_display_name": "Île-Perrot",
+      "otherNames": [
+        "LIP1B"
+      ]
+    },
+    {
+      "stop_id": "TVA1D",
+      "stop_name": "Gare Pincourt",
+      "x": "5",
+      "y": "19",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Pincourt",
+      "map_display_name": "Pincourt",
+      "otherNames": [
+        "TVA1B"
+      ]
+    },
+    {
+      "stop_id": "VAU1D",
+      "stop_name": "Gare Dorion",
+      "x": "3",
+      "y": "22",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Dorion",
+      "map_display_name": "Dorion",
+      "otherNames": [
+        "VAU1B"
+      ]
+    },
+    {
+      "stop_id": "VAU8D",
+      "stop_name": "Gare Vaudreuil",
+      "x": "2",
+      "y": "21",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Vaudreuil",
+      "map_display_name": "Vaudreuil",
+      "otherNames": [
+        "VAU8B"
+      ]
+    },
+    {
+      "stop_id": "HUD1D",
+      "stop_name": "Gare Hudson",
+      "x": "1",
+      "y": "20",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Hudson",
+      "map_display_name": "Hudson",
+      "otherNames": [
+        "HUD1B"
+      ]
+    },
+    {
+      "stop_id": "MTL8D",
+      "stop_name": "Gare Parc",
+      "x": "18",
+      "y": "21",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Parc",
+      "map_display_name": "Parc",
+      "otherNames": [
+        "MTL8B"
+      ]
+    },
+    {
+      "stop_id": "MTL37C",
+      "stop_name": "Gare Chabanel",
+      "x": "18",
+      "y": "20",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Chabanel",
+      "map_display_name": "Chabanel",
+      "otherNames": [
+        "MTL37A"
+      ]
+    },
+    {
+      "stop_id": "MTL7D",
+      "stop_name": "Gare Bois-de-Boulogne",
+      "x": "17",
+      "y": "18",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Bois-de-Boulogne",
+      "map_display_name": "Bois-de-Boulogne",
+      "otherNames": [
+        "MTL7B"
+      ]
+    },
+    {
+      "stop_id": "LVL24C",
+      "stop_name": "Gare De la Concorde",
+      "x": "16",
+      "y": "16",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "De la Concorde",
+      "map_display_name": "De la Concorde",
+      "otherNames": [
+        "LVL24A"
+      ]
+    },
+    {
+      "stop_id": "LVL22C",
+      "stop_name": "Gare Vimont",
+      "x": "16",
+      "y": "15",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Vimont",
+      "map_display_name": "Vimont",
+      "otherNames": [
+        "LVL22A"
+      ]
+    },
+    {
+      "stop_id": "LVL4C",
+      "stop_name": "Gare Sainte-Rose",
+      "x": "16",
+      "y": "14",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Sainte-Rose",
+      "map_display_name": "Sainte-Rose",
+      "otherNames": [
+        "LVL4A"
+      ]
+    },
+    {
+      "stop_id": "ROS2C",
+      "stop_name": "Gare Rosemère",
+      "x": "15",
+      "y": "12",
+      "location": "rigleftht",
+      "color": "#FFFFFF",
+      "div_display_name": "Rosemère",
+      "map_display_name": "Rosemère",
+      "otherNames": [
+        "ROS2A"
+      ]
+    },
+    {
+      "stop_id": "STR4D",
+      "stop_name": "Gare Sainte-Thérèse",
+      "x": "14",
+      "y": "11",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Sainte-Thérèse",
+      "map_display_name": "Sainte-Thérèse",
+      "otherNames": [
+        "STR4B"
+      ]
+    },
+    {
+      "stop_id": "BLA1C",
+      "stop_name": "Gare Blainville",
+      "x": "13",
+      "y": "10",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Blainville",
+      "map_display_name": "Blainville",
+      "otherNames": [
+        "BLA1A"
+      ]
+    },
+    {
+      "stop_id": "MIR1C",
+      "stop_name": "Gare Mirabel",
+      "x": "12",
+      "y": "9",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Mirabel",
+      "map_display_name": "Mirabel",
+      "otherNames": [
+        "MIR1A"
+      ]
+    },
+    {
+      "stop_id": "SJM1C",
+      "stop_name": "Gare Saint-Jérôme",
+      "x": "11",
+      "y": "8",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Saint-Jérôme",
+      "map_display_name": "Saint-Jérôme",
+      "otherNames": [
+        "SJM1A"
+      ]
+    },
+    {
+      "stop_id": "STL1B",
+      "stop_name": "Gare Saint-Lambert",
+      "x": "28",
+      "y": "25",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Saint-Lambert",
+      "map_display_name": "Saint-Lambert",
+      "otherNames": [
+        "STL1D"
+      ]
+    },
+    {
+      "stop_id": "STH3B",
+      "stop_name": "Gare Longueuil-Saint-Hubert",
+      "x": "29",
+      "y": "24",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Longueuil-Saint-Hubert",
+      "map_display_name": "Longueuil-Saint-Hubert",
+      "otherNames": [
+        "STH3D"
+      ]
+    },
+    {
+      "stop_id": "STB2B",
+      "stop_name": "Gare Saint-Bruno",
+      "x": "30",
+      "y": "23",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Saint-Bruno",
+      "map_display_name": "Saint-Bruno",
+      "otherNames": [
+        "STB2D"
+      ]
+    },
+    {
+      "stop_id": "SBA2B",
+      "stop_name": "Gare Saint-Basile-le-Grand",
+      "x": "31",
+      "y": "22",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Saint-Basile-le-Grand",
+      "map_display_name": "Saint-Basile-le-Grand",
+      "otherNames": [
+        "SBA2D"
+      ]
+    },
+    {
+      "stop_id": "MMS1B",
+      "stop_name": "Gare McMasterville",
+      "x": "32",
+      "y": "21",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "McMasterville",
+      "map_display_name": "McMasterville",
+      "otherNames": [
+        "MMS1D"
+      ]
+    },
+    {
+      "stop_id": "MSH1C",
+      "stop_name": "Gare Mont-Saint-Hilaire",
+      "x": "33",
+      "y": "20",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Mont-Saint-Hilaire",
+      "map_display_name": "Mont-Saint-Hilaire",
+      "otherNames": [
+        "MSH1A"
+      ]
+    },
+    {
+      "stop_id": "LCH4A",
+      "stop_name": "Gare Du Canal",
+      "x": "18",
+      "y": "29",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Du Canal",
+      "map_display_name": "Du Canal",
+      "otherNames": [
+        "LCH4C"
+      ]
+    },
+    {
+      "stop_id": "LSL1A",
+      "stop_name": "Gare LaSalle",
+      "x": "18",
+      "y": "30",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "LaSalle",
+      "map_display_name": "LaSalle",
+      "otherNames": [
+        "LSL1C"
+      ]
+    },
+    {
+      "stop_id": "SCS2A",
+      "stop_name": "Gare Sainte-Catherine",
+      "x": "19",
+      "y": "32",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Sainte-Catherine",
+      "map_display_name": "Sainte-Catherine",
+      "otherNames": [
+        "SCS2C"
+      ]
+    },
+    {
+      "stop_id": "SCS1A",
+      "stop_name": "Gare Saint-Constant",
+      "x": "20",
+      "y": "33",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Saint-Constant",
+      "map_display_name": "Saint-Constant",
+      "otherNames": [
+        "SCS1C"
+      ]
+    },
+    {
+      "stop_id": "DEL1A",
+      "stop_name": "Gare Delson",
+      "x": "21",
+      "y": "34",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Delson",
+      "map_display_name": "Delson",
+      "otherNames": [
+        "DEL1C"
+      ]
+    },
+    {
+      "stop_id": "CAN1A",
+      "stop_name": "Gare Candiac",
+      "x": "22",
+      "y": "35",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Candiac",
+      "map_display_name": "Candiac",
+      "otherNames": [
+        "CAN1C"
+      ]
+    },
+    {
+      "stop_id": "MTL59C",
+      "stop_name": "Gare Ahuntsic",
+      "x": "17",
+      "y": "20",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Ahuntsic",
+      "map_display_name": "Ahuntsic",
+      "otherNames": [
+        "MTL59A"
+      ]
+    },
+    {
+      "stop_id": "MTL58C",
+      "stop_name": "Gare Sauvé",
+      "x": "19",
+      "y": "17",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Sauvé",
+      "map_display_name": "Sauvé",
+      "otherNames": [
+        "MTL58A"
+      ]
+    },
+    {
+      "stop_id": "MTL57C",
+      "stop_name": "Gare Saint-Michel-Montréal-Nord",
+      "x": "20",
+      "y": "16",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Saint-Michel-Montréal-Nord",
+      "map_display_name": "Saint-Michel-Montréal-Nord",
+      "otherNames": [
+        "MTL57A"
+      ]
+    },
+    {
+      "stop_id": "MTL56C",
+      "stop_name": "Gare Saint-Léonard-Montréal-Nord",
+      "x": "21",
+      "y": "15",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Saint-Léonard-Montréal-Nord",
+      "map_display_name": "Saint-Léonard-Montréal-Nord",
+      "otherNames": [
+        "MTL56A"
+      ]
+    },
+    {
+      "stop_id": "MTL55C",
+      "stop_name": "Gare Anjou",
+      "x": "23",
+      "y": "13",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Anjou",
+      "map_display_name": "Anjou",
+      "otherNames": [
+        "MTL55A"
+      ]
+    },
+    {
+      "stop_id": "MTL54C",
+      "stop_name": "Gare Rivière-des-Prairies",
+      "x": "25",
+      "y": "13",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Rivière-des-Prairies",
+      "map_display_name": "Rivière-des-Prairies",
+      "otherNames": [
+        "MTL54A"
+      ]
+    },
+    {
+      "stop_id": "MTL53C",
+      "stop_name": "Gare Pointe-aux-Trembles",
+      "x": "27",
+      "y": "11",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Pointe-aux-Trembles",
+      "map_display_name": "Pointe-aux-Trembles",
+      "otherNames": [
+        "MTL53A"
+      ]
+    },
+    {
+      "stop_id": "LEG1C",
+      "stop_name": "Gare Repentigny",
+      "x": "29",
+      "y": "5",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Repentigny",
+      "map_display_name": "Repentigny",
+      "otherNames": [
+        "LEG1A"
+      ]
+    },
+    {
+      "stop_id": "LCN1C",
+      "stop_name": "Gare Terrebonne",
+      "x": "28",
+      "y": "6",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Terrebonne",
+      "map_display_name": "Terrebonne",
+      "otherNames": [
+        "LCN1A"
+      ]
+    },
+    {
+      "stop_id": "MAS1C",
+      "stop_name": "Gare Mascouche",
+      "x": "27",
+      "y": "7",
+      "location": "left",
+      "color": "#FFFFFF",
+      "div_display_name": "Mascouche",
+      "map_display_name": "Mascouche",
+      "otherNames": [
+        "MAS1A"
+      ]
+    },
+    {
+      "stop_id": "LINE",
+      "stop_name": "1",
+      "x": "0",
+      "y": "19",
+      "location": "left",
+      "color": "#F16179",
+      "div_display_name": "Vaudreuil–Hudson",
+      "map_display_name": "Vaudreuil–Hudson",
+      "otherNames": []
+    },
+    {
+      "stop_id": "LINE",
+      "stop_name": "3",
+      "x": "34",
+      "y": "19",
+      "location": "right",
+      "color": "#999AC6",
+      "div_display_name": "Mont-Saint-Hilaire",
+      "map_display_name": "Mont-Saint-Hilaire",
+      "otherNames": []
+    },
+    {
+      "stop_id": "LINE",
+      "stop_name": "4",
+      "x": "10",
+      "y": "7",
+      "location": "left",
+      "color": "#FBD06C",
+      "div_display_name": "Saint-Jérôme",
+      "map_display_name": "Saint-Jérôme",
+      "otherNames": []
+    },
+    {
+      "stop_id": "LINE",
+      "stop_name": "5",
+      "x": "23",
+      "y": "36",
+      "location": "right",
+      "color": "#5AB6B2",
+      "div_display_name": "Candiac",
+      "map_display_name": "Candiac",
+      "otherNames": []
+    },
+    {
+      "stop_id": "LINE",
+      "stop_name": "6",
+      "x": "27",
+      "y": "8",
+      "location": "left",
+      "color": "#CA5898",
+      "div_display_name": "Mascouche",
+      "map_display_name": "Mascouche",
+      "otherNames": []
+    }
+  ]
+}

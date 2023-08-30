@@ -1,0 +1,8 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+TRAIN-A23-Blocks-Semaine-03,1,1,1,1,1,0,0,20230821,20240107
+TRAIN-E23-Blocks-Jeu-Ven-02,0,0,0,1,1,0,0,20230817,20230820
+TRAIN-A23-Blocks-Samedi-01,0,0,0,0,0,1,0,20230821,20240107
+TRAIN-E23-Blocks-Samedi-01,0,0,0,0,0,1,0,20230817,20230820
+TRAIN-A23-Blocks-Dimanche-01,0,0,0,0,0,0,1,20230821,20240107
+TRAIN-E23-Blocks-Dimanche-01,0,0,0,0,0,0,1,20230817,20230820
+TRAIN-A23-Blocks-Fête-1-01,0,0,0,0,0,0,0,20230821,20240107
