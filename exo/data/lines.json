@@ -1,0 +1,454 @@
+{
+  "lines": [
+    {
+      "line_id": "5",
+      "route_long_name": "Candiac",
+      "route_color": "#5AB6B2",
+      "route_text_color": "#000000",
+      "x1": "19",
+      "y1": "23",
+      "x2": "18",
+      "y2": "24"
+    },
+    {
+      "line_id": "5",
+      "route_long_name": "Candiac",
+      "route_color": "#5AB6B2",
+      "route_text_color": "#000000",
+      "x1": "18",
+      "y1": "24",
+      "x2": "18",
+      "y2": "31"
+    },
+    {
+      "line_id": "5",
+      "route_long_name": "Candiac",
+      "route_color": "#5AB6B2",
+      "route_text_color": "#000000",
+      "x1": "18",
+      "y1": "31",
+      "x2": "22",
+      "y2": "35"
+    },
+    {
+      "line_id": "4",
+      "route_long_name": "Saint-Jérôme",
+      "route_color": "#FBD06C",
+      "route_text_color": "#000000",
+      "x1": "19",
+      "y1": "23",
+      "x2": "18",
+      "y2": "22"
+    },
+    {
+      "line_id": "4",
+      "route_long_name": "Saint-Jérôme",
+      "route_color": "#FBD06C",
+      "route_text_color": "#000000",
+      "x1": "18",
+      "y1": "22",
+      "x2": "18",
+      "y2": "19"
+    },
+    {
+      "line_id": "4",
+      "route_long_name": "Saint-Jérôme",
+      "route_color": "#FBD06C",
+      "route_text_color": "#000000",
+      "x1": "18",
+      "y1": "19",
+      "x2": "16",
+      "y2": "17"
+    },
+    {
+      "line_id": "4",
+      "route_long_name": "Saint-Jérôme",
+      "route_color": "#FBD06C",
+      "route_text_color": "#000000",
+      "x1": "16",
+      "y1": "17",
+      "x2": "16",
+      "y2": "13"
+    },
+    {
+      "line_id": "4",
+      "route_long_name": "Saint-Jérôme",
+      "route_color": "#FBD06C",
+      "route_text_color": "#000000",
+      "x1": "16",
+      "y1": "13",
+      "x2": "11",
+      "y2": "8"
+    },
+    {
+      "line_id": "1",
+      "route_long_name": "Vaudreuil–Hudson",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "1",
+      "y1": "20",
+      "x2": "4",
+      "y2": "23"
+    },
+    {
+      "line_id": "1",
+      "route_long_name": "Vaudreuil–Hudson",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "4",
+      "y1": "23",
+      "x2": "22",
+      "y2": "23"
+    },
+    {
+      "line_id": "3",
+      "route_long_name": "Mont-Saint-Hilaire",
+      "route_color": "#999AC6",
+      "route_text_color": "#000000",
+      "x1": "26",
+      "y1": "26",
+      "x2": "27",
+      "y2": "26"
+    },
+    {
+      "line_id": "3",
+      "route_long_name": "Mont-Saint-Hilaire",
+      "route_color": "#999AC6",
+      "route_text_color": "#000000",
+      "x1": "27",
+      "y1": "26",
+      "x2": "33",
+      "y2": "20"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "23",
+      "y1": "23",
+      "x2": "26",
+      "y2": "26"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "26",
+      "y1": "26",
+      "x2": "26",
+      "y2": "27"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "26",
+      "y1": "27",
+      "x2": "23",
+      "y2": "30"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "23",
+      "y1": "30",
+      "x2": "20",
+      "y2": "30"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "20",
+      "y1": "30",
+      "x2": "17",
+      "y2": "27"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "17",
+      "y1": "27",
+      "x2": "17",
+      "y2": "19"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "17",
+      "y1": "19",
+      "x2": "22",
+      "y2": "14"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "22",
+      "y1": "14",
+      "x2": "24",
+      "y2": "14"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "24",
+      "y1": "14",
+      "x2": "26",
+      "y2": "12"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "26",
+      "y1": "12",
+      "x2": "28",
+      "y2": "12"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "28",
+      "y1": "12",
+      "x2": "31",
+      "y2": "9"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "31",
+      "y1": "9",
+      "x2": "31",
+      "y2": "8"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "31",
+      "y1": "8",
+      "x2": "30",
+      "y2": "7"
+    },
+    {
+      "line_id": "6",
+      "route_long_name": "Mascouche",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "30",
+      "y1": "7",
+      "x2": "27",
+      "y2": "7"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Montréal-Ouest",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "20",
+      "y1": "23",
+      "x2": "19",
+      "y2": "27"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Vendôme",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "21",
+      "y1": "23",
+      "x2": "21",
+      "y2": "26"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Lucien-L'Allier",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "22",
+      "y1": "23",
+      "x2": "22",
+      "y2": "22"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Anjou",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "23",
+      "y1": "14",
+      "x2": "23",
+      "y2": "13"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Pointe-aux-Trembles",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "27",
+      "y1": "12",
+      "x2": "27",
+      "y2": "11"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Terrebonne",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "28",
+      "y1": "7",
+      "x2": "28",
+      "y2": "6"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Repentigny",
+      "route_color": "#CA5898",
+      "route_text_color": "#000000",
+      "x1": "29",
+      "y1": "7",
+      "x2": "29",
+      "y2": "5"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Pincourt",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "5",
+      "y1": "23",
+      "x2": "5",
+      "y2": "19"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Île-Perrot",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "6",
+      "y1": "23",
+      "x2": "6",
+      "y2": "18"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Sainte-Anne-de-Bellevue",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "7",
+      "y1": "23",
+      "x2": "7",
+      "y2": "17"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Baie-d'Urfé",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "8",
+      "y1": "23",
+      "x2": "8",
+      "y2": "16"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Beaurepaire",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "9",
+      "y1": "23",
+      "x2": "9",
+      "y2": "15"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Beaconsfield",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "10",
+      "y1": "23",
+      "x2": "10",
+      "y2": "24"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Cedar Park",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "11",
+      "y1": "23",
+      "x2": "11",
+      "y2": "25"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Pointe-Claire",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "12",
+      "y1": "23",
+      "x2": "12",
+      "y2": "26"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Valois",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "13",
+      "y1": "23",
+      "x2": "13",
+      "y2": "27"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Pine Beach",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "14",
+      "y1": "23",
+      "x2": "14",
+      "y2": "28"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Dorval",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "15",
+      "y1": "23",
+      "x2": "15",
+      "y2": "22"
+    },
+    {
+      "line_id": "ARROW",
+      "route_long_name": "Lachine",
+      "route_color": "#F16179",
+      "route_text_color": "#000000",
+      "x1": "16",
+      "y1": "23",
+      "x2": "16",
+      "y2": "21"
+    }
+  ]
+}
