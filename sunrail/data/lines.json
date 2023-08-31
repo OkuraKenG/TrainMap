@@ -1,0 +1,14 @@
+{
+  "lines": [
+    {
+      "line_id": "1",
+      "route_long_name": "1",
+      "route_color": "#FFA500",
+      "route_text_color": "#FFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "15"
+    }
+  ]
+}

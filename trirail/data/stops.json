@@ -1,0 +1,213 @@
+{
+  "stops": [
+    {
+      "stop_id": "1",
+      "stop_name": "Mangonia Park Station",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Mangonia Park",
+      "map_display_name": "Mangonia Park",
+      "otherNames": []
+    },
+    {
+      "stop_id": "2",
+      "stop_name": "West Palm Beach Station",
+      "x": "0",
+      "y": "1",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "West Palm Beach",
+      "map_display_name": "West Palm Beach",
+      "otherNames": []
+    },
+    {
+      "stop_id": "3",
+      "stop_name": "Lake Worth Station",
+      "x": "0",
+      "y": "2",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Lake Worth",
+      "map_display_name": "Lake Worth",
+      "otherNames": []
+    },
+    {
+      "stop_id": "4",
+      "stop_name": "Boynton Beach Station",
+      "x": "0",
+      "y": "3",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Boynton Beach",
+      "map_display_name": "Boynton Beach",
+      "otherNames": []
+    },
+    {
+      "stop_id": "5",
+      "stop_name": "Delray Beach Station",
+      "x": "0",
+      "y": "4",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Delray Beach",
+      "map_display_name": "Delray Beach",
+      "otherNames": []
+    },
+    {
+      "stop_id": "6",
+      "stop_name": "Boca Raton Station",
+      "x": "0",
+      "y": "5",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Boca Raton",
+      "map_display_name": "Boca Raton",
+      "otherNames": []
+    },
+    {
+      "stop_id": "7",
+      "stop_name": "Deerfield Beach Station",
+      "x": "0",
+      "y": "6",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Deerfield Beach",
+      "map_display_name": "Deerfield Beach",
+      "otherNames": []
+    },
+    {
+      "stop_id": "8",
+      "stop_name": "Pompano Beach Station",
+      "x": "0",
+      "y": "7",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Pompano Beach",
+      "map_display_name": "Pompano Beach",
+      "otherNames": []
+    },
+    {
+      "stop_id": "9",
+      "stop_name": "Cypress Creek Station",
+      "x": "0",
+      "y": "8",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Cypress Creek",
+      "map_display_name": "Cypress Creek",
+      "otherNames": []
+    },
+    {
+      "stop_id": "10",
+      "stop_name": "Fort Lauderdale Station",
+      "x": "0",
+      "y": "9",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Fort Lauderdale",
+      "map_display_name": "Fort Lauderdale",
+      "otherNames": []
+    },
+    {
+      "stop_id": "11",
+      "stop_name": "Ft Lauderdale Airport Station",
+      "x": "0",
+      "y": "10",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Ft Lauderdale Airport",
+      "map_display_name": "Ft Lauderdale Airport",
+      "otherNames": []
+    },
+    {
+      "stop_id": "12",
+      "stop_name": "Sheridan Street Station",
+      "x": "0",
+      "y": "11",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Sheridan Street",
+      "map_display_name": "Sheridan Street",
+      "otherNames": []
+    },
+    {
+      "stop_id": "13",
+      "stop_name": "Hollywood Station",
+      "x": "0",
+      "y": "12",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Hollywood",
+      "map_display_name": "Hollywood",
+      "otherNames": []
+    },
+    {
+      "stop_id": "14",
+      "stop_name": "Golden Glades Station",
+      "x": "0",
+      "y": "13",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Golden Glades",
+      "map_display_name": "Golden Glades",
+      "otherNames": []
+    },
+    {
+      "stop_id": "15",
+      "stop_name": "Opa-Locka Station",
+      "x": "0",
+      "y": "14",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Opa-Locka",
+      "map_display_name": "Opa-Locka",
+      "otherNames": []
+    },
+    {
+      "stop_id": "16",
+      "stop_name": "Metrorail Transfer Station",
+      "x": "0",
+      "y": "15",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Metrorail Transfer Station",
+      "map_display_name": "Metrorail Transfer Station",
+      "otherNames": []
+    },
+    {
+      "stop_id": "17",
+      "stop_name": "Hialeah Market Station",
+      "x": "0",
+      "y": "16",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Hialeah Market",
+      "map_display_name": "Hialeah Market",
+      "otherNames": []
+    },
+    {
+      "stop_id": "18",
+      "stop_name": "Miami Airport Station",
+      "x": "0",
+      "y": "17",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Miami Airport",
+      "map_display_name": "Miami Airport",
+      "otherNames": []
+    },
+    {
+      "stop_id": "LINE",
+      "stop_name": "1",
+      "x": "0",
+      "y": "18",
+      "location": "right",
+      "color": "#006c86",
+      "div_display_name": "Tri-Rail",
+      "map_display_name": "Tri-Rail",
+      "otherNames": []
+    }
+  ]
+}

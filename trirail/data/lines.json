@@ -1,0 +1,14 @@
+{
+  "lines": [
+    {
+      "line_id": "1",
+      "route_long_name": "Tri-Rail",
+      "route_color": "#006c86",
+      "route_text_color": "EFFFFFF",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "17"
+    }
+  ]
+}

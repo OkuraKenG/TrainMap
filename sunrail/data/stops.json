@@ -1,0 +1,191 @@
+{
+  "stops": [
+    {
+      "stop_id": "2",
+      "stop_name": "Sanford",
+      "x": "0",
+      "y": "1",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Sanford",
+      "map_display_name": "Sanford",
+      "otherNames": []
+    },
+    {
+      "stop_id": "3",
+      "stop_name": "Lake Mary",
+      "x": "0",
+      "y": "2",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Lake Mary",
+      "map_display_name": "Lake Mary",
+      "otherNames": []
+    },
+    {
+      "stop_id": "4",
+      "stop_name": "Altamonte Springs",
+      "x": "0",
+      "y": "4",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Altamonte Springs",
+      "map_display_name": "Altamonte Springs",
+      "otherNames": []
+    },
+    {
+      "stop_id": "5",
+      "stop_name": "Winter Park",
+      "x": "0",
+      "y": "6",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Winter Park",
+      "map_display_name": "Winter Park",
+      "otherNames": []
+    },
+    {
+      "stop_id": "6",
+      "stop_name": "AdventHealth",
+      "x": "0",
+      "y": "7",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "AdventHealth",
+      "map_display_name": "AdventHealth",
+      "otherNames": []
+    },
+    {
+      "stop_id": "7",
+      "stop_name": "LYNX Central",
+      "x": "0",
+      "y": "8",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "LYNX Central",
+      "map_display_name": "LYNX Central",
+      "otherNames": []
+    },
+    {
+      "stop_id": "8",
+      "stop_name": "Orlando Health/Amtrak",
+      "x": "0",
+      "y": "10",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Orlando Health/Amtrak",
+      "map_display_name": "Orlando Health/Amtrak",
+      "otherNames": []
+    },
+    {
+      "stop_id": "9",
+      "stop_name": "Sand Lake Road",
+      "x": "0",
+      "y": "11",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Sand Lake Road",
+      "map_display_name": "Sand Lake Road",
+      "otherNames": []
+    },
+    {
+      "stop_id": "14",
+      "stop_name": "Church Street",
+      "x": "0",
+      "y": "9",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Church Street",
+      "map_display_name": "Church Street",
+      "otherNames": []
+    },
+    {
+      "stop_id": "15",
+      "stop_name": "Longwood",
+      "x": "0",
+      "y": "3",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Longwood",
+      "map_display_name": "Longwood",
+      "otherNames": []
+    },
+    {
+      "stop_id": "16",
+      "stop_name": "Maitland",
+      "x": "0",
+      "y": "5",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Maitland",
+      "map_display_name": "Maitland",
+      "otherNames": []
+    },
+    {
+      "stop_id": "17",
+      "stop_name": "DeBary",
+      "x": "0",
+      "y": "0",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "DeBary",
+      "map_display_name": "DeBary",
+      "otherNames": []
+    },
+    {
+      "stop_id": "21",
+      "stop_name": "Meadow Woods",
+      "x": "0",
+      "y": "12",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Meadow Woods",
+      "map_display_name": "Meadow Woods",
+      "otherNames": []
+    },
+    {
+      "stop_id": "22",
+      "stop_name": "Tupperware",
+      "x": "0",
+      "y": "13",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Tupperware",
+      "map_display_name": "Tupperware",
+      "otherNames": []
+    },
+    {
+      "stop_id": "23",
+      "stop_name": "Kissimmee",
+      "x": "0",
+      "y": "14",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Kissimmee",
+      "map_display_name": "Kissimmee",
+      "otherNames": []
+    },
+    {
+      "stop_id": "24",
+      "stop_name": "Poinciana",
+      "x": "0",
+      "y": "15",
+      "location": "right",
+      "color": "#FFFFFF",
+      "div_display_name": "Poinciana",
+      "map_display_name": "Poinciana",
+      "otherNames": []
+    },
+    {
+      "stop_id": "LINE",
+      "stop_name": "1",
+      "x": "0",
+      "y": "16",
+      "location": "right",
+      "color": "#FFA500",
+      "div_display_name": "SunRail",
+      "map_display_name": "SunRail",
+      "otherNames": []
+    }
+  ]
+}
