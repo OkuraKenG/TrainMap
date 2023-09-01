@@ -1,0 +1,45 @@
+stop_lat,wheelchair_boarding,stop_code,stop_lon,stop_timezone,stop_url,parent_station,stop_desc,stop_name,location_type,stop_id,zone_id
+39.773673,1,34558,-104.996885,,,34548,Vehicles Travelling North,41st & Fox Station Track 1,0,34558,A
+39.773021,1,34559,-104.996992,,,34548,Vehicles Travelling South,41st & Fox Station Track 2,0,34559,A
+39.805346,1,34544,-105.005393,,,34508,Vehicles Travelling North,Pecos Junction Station Track 1,0,34544,A
+39.804019,1,34530,-105.023739,,,34507,Vehicles Travelling West,Clear Creek - Federal Station Track 1,0,34530,B
+39.788077,1,34510,-105.132658,,,34504,Vehicles Travelling East,Wheat Ridge - Ward Station Track 1,0,34510,B
+39.792694,1,34519,-105.110879,,,34505,Vehicles Travelling East,Arvada Ridge Station Track 2,0,34519,B
+39.858431,1,35250,-104.953371,,,35364,Vehicles Travelling South,Original Thornton - 88th Station Track 1,0,35250,B
+39.859205,1,35251,-104.952835,,,35364,Vehicles Travelling North,Original Thornton - 88th Station Track 2,0,35251,B
+39.881832,1,35252,-104.942045,,,35365,Vehicles Travelling South,Thornton Crossroads - 104th Station Track 1,0,35252,B
+39.882482,1,35253,-104.942763,,,35365,Vehicles Travelling North,Thornton Crossroads - 104th Station Track 2,0,35253,B
+39.902133,1,35254,-104.960231,,,35366,Vehicles Travelling South,Northglenn - 112th Station Track 1,0,35254,C
+39.903194,1,35255,-104.960028,,,35366,Vehicles Travelling North,Northglenn - 112th Station Track 2,0,35255,C
+39.923443,1,35257,-104.962282,,,35367,Vehicles Travelling North,Eastlake - 124th Station Track 2,0,35257,C
+39.753772,1,34781,-105.000812,,,33727,Vehicles Travelling East,Union Station Track 7,0,34781,A
+39.753838,1,34782,-105.000962,,,33727,Vehicles Travelling East,Union Station Track 8,0,34782,A
+39.807307,1,34605,-104.783939,,,34685,Vehicles Travelling East,61st & Pena Station Track 1,0,34605,C
+39.806553,1,34606,-104.784076,,,34685,Vehicles Travelling West,61st & Pena Station Track 2,0,34606,C
+39.753269,1,34668,-105.00108,,,33727,Vehicles Travelling East,Union Station Track 2,0,34668,A
+39.753698,1,34667,-105.0002,,,33727,Vehicles Travelling West,Union Station Track 1,0,34667,A
+39.84657,1,34476,-104.673988,,,34503,Vehicles Travelling West,Denver Airport Station,0,34476,Airport
+39.846725,1,34475,-104.673986,,,34503,Vehicles Travelling East,Denver Airport Station,0,34475,Airport
+39.769435,1,34474,-104.787769,,,33740,Vehicles Travelling West,40th Ave & Airport Blvd - Gateway Park Station Track 2,0,34474,C
+39.770316,1,34473,-104.787626,,,33740,Vehicles Travelling East,40th Ave & Airport Blvd - Gateway Park Station Track 1,0,34473,C
+39.767654,1,34472,-104.850903,,,34502,Vehicles Travelling West,Peoria Station Track 2,0,34472,B
+39.767483,1,34471,-104.849974,,,34502,Vehicles Travelling East,Peoria Station Track 1,0,34471,B
+39.770753,1,34470,-104.892193,,,34501,Vehicles Travelling West,Central Park Station Track 2,0,34470,B
+39.823078,1,34561,-105.029428,,,34549,Vehicles Travelling North,Westminster Station N-Bound,0,34561,B
+39.82239,1,34560,-105.028733,,,34549,Vehicles Travelling South,Westminster Station S-Bound,0,34560,B
+39.798843,1,34542,-105.080742,,,33833,Vehicles Travelling West,Olde Town Arvada W-Bound,0,34542,B
+39.803879,1,34529,-105.022902,,,34507,Vehicles Travelling East,Clear Creek - Federal Station Track 2,0,34529,B
+39.792562,1,34520,-105.111727,,,34505,Vehicles Travelling West,Arvada Ridge Station Track 1,0,34520,B
+39.803714,1,34525,-105.048802,,,34506,Vehicles Travelling East,60th & Sheridan - Arvada Gold Strike Station Track 2,0,34525,B
+39.80364,1,34526,-105.049564,,,34506,Vehicles Travelling West,60th & Sheridan - Arvada Gold Strike Station Track 1,0,34526,B
+39.770931,1,34465,-104.973337,,,34684,Vehicles Travelling East,38th & Blake Station Track 1,0,34465,A
+39.785151,1,35247,-104.96781,,,35362,Vehicles Travelling North,48th & Brighton-National Western Station Track 1,0,35247,A
+39.784458,1,35246,-104.968958,,,35362,Vehicles Travelling South,48th & Brighton-National Western Station Track 1,0,35246,A
+39.826773,1,35249,-104.943129,,,35363,Vehicles Travelling North,Commerce City - 72nd Station Track 2,0,35249,B
+39.825899,1,35248,-104.942995,,,35363,Vehicles Travelling South,Commerce City - 72nd Station Track 1,0,35248,B
+39.776143,1,34468,-104.943434,,,34500,Vehicles Travelling West,40th & Colorado Station Track 2,0,34468,A
+39.770555,1,34469,-104.891099,,,34501,Vehicles Travelling East,Central Park Station Track 1,0,34469,B
+39.770355,1,34466,-104.974267,,,34684,Vehicles Travelling West,38th & Blake Station Track 2,0,34466,A
+39.776071,1,34467,-104.942045,,,34500,Vehicles Travelling East,40th & Colorado Station Track 1,0,34467,A
+39.805,1,34543,-105.004814,,,34508,Vehicles Travelling South,Pecos Junction Station Track 2,0,34543,A
+39.799041,1,34541,-105.079948,,,33833,Vehicles Travelling East,Olde Town Arvada E-Bound,0,34541,B

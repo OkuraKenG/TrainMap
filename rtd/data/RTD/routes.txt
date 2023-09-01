@@ -1,0 +1,5 @@
+route_long_name,route_type,route_text_color,route_color,agency_id,route_id,route_url,route_desc,route_short_name
+Union Station to Westminster Station,2,FFFFFF,4E9D2D,RTD,113B,http://www.rtd-denver.com/Schedules.shtml,This Route Travels Eastbound & Westbound,B
+Union Station to Wheat Ridge Ward Station,2,FFFFFF,F6B221,RTD,113G,http://www.rtd-denver.com/Schedules.shtml,This Route Travels Eastbound & Westbound,G
+Union Station to Eastlake & 124th Station,2,FFFFFF,9F26B5,RTD,117N,http://www.rtd-denver.com/Schedules.shtml,This Route Travels Northbound & Southbound,N
+Union Station to Denver Airport Station,2,FFFFFF,57C1E9,RTD,A,http://www.rtd-denver.com/Schedules.shtml,This Route Travels Eastbound & Westbound,A

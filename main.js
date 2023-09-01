@@ -137,7 +137,7 @@ function buttonGenerator(thisReformated, thisRoutes, thisStationList) {
             document.body.appendChild(div);
         } else if (currentStop.location == "up") {
             let div = document.createElement("div");
-            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.stop_name) - 3}px; height: ${textWidth(currentStop.map_display_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
+            div.setAttribute("style", `position: absolute; left: ${x * fsize + fsize + overallXOffset - 10}px; top: ${y * fsize + overallYOffset - textWidth(currentStop.map_display_name) - 3}px; height: ${textWidth(currentStop.map_display_name) + 16}px; width: 9px; border: solid; border-color: ${bordercolor};  `);
             if (currentStop.stop_id == "LINE") {
                 div.addEventListener("click", function () {
                     displayAllTrainsOnRoutes(thisReformated, thisRoutes, stationList, currentStop.stop_name, 2)    
@@ -190,6 +190,11 @@ function getTodayDay() {
     return day;
 }
 
+function makeDay(givenday) {
+    //console.log('#',givenday);
+    return new Date(`${givenday.substring(0,4)}-${givenday.substring(4,6)}-${givenday.substring(6)}`);
+}
+
 // gets all services run today
 function getServices(currentCalander, currentCaladerDates) {
     let allServices = [];
@@ -219,7 +224,22 @@ function getServices(currentCalander, currentCaladerDates) {
         if (day == '6') {
             allServices.push(currentCalander.findRows('1', 'saturday'));
         }
+        console.log(allServices[0].length);
+        // make sure find service dates that are valid
+        let xyz = [[]];
+        for (let i = allServices[0].length - 1 ; i >= 0; i-- ) {
+         //   console.log(allServices[0][i].obj.start_date,getTodayDateStr(),allServices[0][i].obj.end_date,(((makeDay(allServices[0][i].obj.start_date) < makeDay(getTodayDateStr())) && (makeDay(getTodayDateStr()) < makeDay(allServices[0][i].obj.end_date)))) );
+            if (!((makeDay(allServices[0][i].obj.start_date) < makeDay(getTodayDateStr())) && (makeDay(getTodayDateStr()) < makeDay(allServices[0][i].obj.end_date)))) {
+             // allServices[0][i] = [];
+            } else {
+                xyz[0].push(allServices[0][i]);
+            }
+        }
+        allServices = xyz;
+        console.log(allServices[0].length);
     }
+    
+
     return allServices;
 }
 
@@ -534,14 +554,15 @@ function displayTrains(train, currentStop, thisStationList) {
 }
 
 function allTrainsButton() {
-    if (typeof reformated[0].overallTrainInfo.obj.trip_short_name === "undefined")
-        displayAllStoppingTrain(reformated, routes, stationList, 3);
-    else 
-        displayAllStoppingTrain(reformated, routes, stationList, 2);
+    displayAllStoppingTrain(reformated, routes, stationList, 0);
+    // if (typeof reformated[0].overallTrainInfo.obj.trip_short_name === "undefined")
+    //     displayAllStoppingTrain(reformated, routes, stationList, 3);
+    // else 
+    //     displayAllStoppingTrain(reformated, routes, stationList, 2);
 }
 
 function sorter(allTrains, sort) {
-    if (typeof allTrains[0].overallTrainInfo.obj.trip_short_name === "undefined")
+    if (typeof allTrains[0].overallTrainInfo.obj.trip_short_name === "undefined" && sort==2)
         sort = 3;
     if (sort == 0) { // route
         allTrains.sort((a, b) => {
