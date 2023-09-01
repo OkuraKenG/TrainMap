@@ -554,11 +554,11 @@ function displayTrains(train, currentStop, thisStationList) {
 }
 
 function allTrainsButton() {
-    displayAllStoppingTrain(reformated, routes, stationList, 0);
-    // if (typeof reformated[0].overallTrainInfo.obj.trip_short_name === "undefined")
-    //     displayAllStoppingTrain(reformated, routes, stationList, 3);
-    // else 
-    //     displayAllStoppingTrain(reformated, routes, stationList, 2);
+    //displayAllStoppingTrain(reformated, routes, stationList, 0);
+    if (typeof reformated[0].overallTrainInfo.obj.trip_short_name === "undefined")
+        displayAllStoppingTrain(reformated, routes, stationList, 3);
+    else 
+        displayAllStoppingTrain(reformated, routes, stationList, 2);
 }
 
 function sorter(allTrains, sort) {

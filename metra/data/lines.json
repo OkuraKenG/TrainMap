@@ -1,0 +1,114 @@
+{
+  "lines": [
+    {
+      "line_id": "BNSF",
+      "route_long_name": "Burlington Northern",
+      "route_color": "#29C233",
+      "route_text_color": "#000000",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "HC",
+      "route_long_name": "Heritage Corridor",
+      "route_color": "#550E0C",
+      "route_text_color": "#ffffff",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "MD-N",
+      "route_long_name": "Milwaukee North",
+      "route_color": "#CC5500",
+      "route_text_color": "#ffffff",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "MD-W",
+      "route_long_name": "Milwaukee West",
+      "route_color": "#F1AD0E",
+      "route_text_color": "#000000",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "ME",
+      "route_long_name": "Metra Electric",
+      "route_color": "#EB5C00",
+      "route_text_color": "#ffffff",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "NCS",
+      "route_long_name": "North Central Service",
+      "route_color": "#9785BC",
+      "route_text_color": "#ffffff",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "RI",
+      "route_long_name": "Rock Island",
+      "route_color": "#E02400",
+      "route_text_color": "#ffffff",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "SWS",
+      "route_long_name": "Southwest Service",
+      "route_color": "#0042A8",
+      "route_text_color": "#ffffff",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "UP-N",
+      "route_long_name": "Union Pacific North",
+      "route_color": "#008000",
+      "route_text_color": "#ffffff",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "UP-NW",
+      "route_long_name": "Union Pacific Northwest",
+      "route_color": "#FFE600",
+      "route_text_color": "#000000",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    },
+    {
+      "line_id": "UP-W",
+      "route_long_name": "Union Pacific West",
+      "route_color": "#FE8D81",
+      "route_text_color": "#000000",
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "0"
+    }
+  ]
+}

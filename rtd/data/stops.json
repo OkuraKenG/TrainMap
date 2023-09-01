@@ -3,7 +3,7 @@
     {
       "stop_id": "34558",
       "stop_name": "41st & Fox Station Track 1",
-      "x": "6",
+      "x": "7",
       "y": "23",
       "location": "left",
       "color": "#FFFFFF",
@@ -18,7 +18,7 @@
     {
       "stop_id": "34544",
       "stop_name": "Pecos Junction Station Track 1",
-      "x": "6",
+      "x": "7",
       "y": "22",
       "location": "left",
       "color": "#FFFFFF",
@@ -33,7 +33,7 @@
     {
       "stop_id": "34465",
       "stop_name": "38th & Blake Station Track 1",
-      "x": "7",
+      "x": "8",
       "y": "24",
       "location": "down",
       "color": "#FFFFFF",
@@ -48,7 +48,7 @@
     {
       "stop_id": "34467",
       "stop_name": "40th & Colorado Station Track 1",
-      "x": "8",
+      "x": "9",
       "y": "24",
       "location": "down",
       "color": "#FFFFFF",
@@ -63,7 +63,7 @@
     {
       "stop_id": "34473",
       "stop_name": "40th Ave & Airport Blvd - Gateway Park Station Track 1",
-      "x": "11",
+      "x": "12",
       "y": "24",
       "location": "down",
       "color": "#FFFFFF",
@@ -78,7 +78,7 @@
     {
       "stop_id": "35247",
       "stop_name": "48th & Brighton-National Western Station Track 1",
-      "x": "8",
+      "x": "9",
       "y": "21",
       "location": "right",
       "color": "#FFFFFF",
@@ -93,7 +93,7 @@
     {
       "stop_id": "34526",
       "stop_name": "60th & Sheridan - Arvada Gold Strike Station Track 1",
-      "x": "3",
+      "x": "4",
       "y": "20",
       "location": "up",
       "color": "#FFFFFF",
@@ -108,7 +108,7 @@
     {
       "stop_id": "34605",
       "stop_name": "61st & Pena Station Track 1",
-      "x": "12",
+      "x": "13",
       "y": "24",
       "location": "down",
       "color": "#FFFFFF",
@@ -123,7 +123,7 @@
     {
       "stop_id": "34520",
       "stop_name": "Arvada Ridge Station Track 1",
-      "x": "1",
+      "x": "2",
       "y": "20",
       "location": "up",
       "color": "#FFFFFF",
@@ -138,7 +138,7 @@
     {
       "stop_id": "34469",
       "stop_name": "Central Park Station Track 1",
-      "x": "9",
+      "x": "10",
       "y": "24",
       "location": "down",
       "color": "#FFFFFF",
@@ -153,7 +153,7 @@
     {
       "stop_id": "34530",
       "stop_name": "Clear Creek - Federal Station Track 1",
-      "x": "4",
+      "x": "5",
       "y": "20",
       "location": "up",
       "color": "#FFFFFF",
@@ -168,7 +168,7 @@
     {
       "stop_id": "35248",
       "stop_name": "Commerce City - 72nd Station Track 1",
-      "x": "8",
+      "x": "9",
       "y": "20",
       "location": "right",
       "color": "#FFFFFF",
@@ -183,7 +183,7 @@
     {
       "stop_id": "34476",
       "stop_name": "Denver Airport Station",
-      "x": "13",
+      "x": "14",
       "y": "24",
       "location": "right",
       "color": "#FFFFFF",
@@ -198,7 +198,7 @@
     {
       "stop_id": "35257",
       "stop_name": "Eastlake - 124th Station Track 2",
-      "x": "8",
+      "x": "9",
       "y": "16",
       "location": "right",
       "color": "#FFFFFF",
@@ -211,7 +211,7 @@
     {
       "stop_id": "35254",
       "stop_name": "Northglenn - 112th Station Track 1",
-      "x": "8",
+      "x": "9",
       "y": "17",
       "location": "right",
       "color": "#FFFFFF",
@@ -226,7 +226,7 @@
     {
       "stop_id": "34541",
       "stop_name": "Olde Town Arvada E-Bound",
-      "x": "2",
+      "x": "3",
       "y": "20",
       "location": "up",
       "color": "#FFFFFF",
@@ -241,7 +241,7 @@
     {
       "stop_id": "35250",
       "stop_name": "Original Thornton - 88th Station Track 1",
-      "x": "8",
+      "x": "9",
       "y": "19",
       "location": "right",
       "color": "#FFFFFF",
@@ -256,7 +256,7 @@
     {
       "stop_id": "34471",
       "stop_name": "Peoria Station Track 1",
-      "x": "10",
+      "x": "11",
       "y": "24",
       "location": "down",
       "color": "#FFFFFF",
@@ -271,7 +271,7 @@
     {
       "stop_id": "35252",
       "stop_name": "Thornton Crossroads - 104th Station Track 1",
-      "x": "8",
+      "x": "9",
       "y": "18",
       "location": "right",
       "color": "#FFFFFF",
@@ -286,7 +286,7 @@
     {
       "stop_id": "34667",
       "stop_name": "Union Station Track 1",
-      "x": "5",
+      "x": "6",
       "y": "25",
       "location": "left",
       "color": "#FFFFFF",
@@ -301,7 +301,7 @@
     {
       "stop_id": "34561",
       "stop_name": "Westminster Station N-Bound",
-      "x": "6",
+      "x": "7",
       "y": "19",
       "location": "up",
       "color": "#FFFFFF",
@@ -316,7 +316,7 @@
     {
       "stop_id": "34510",
       "stop_name": "Wheat Ridge - Ward Station Track 1",
-      "x": "0",
+      "x": "1",
       "y": "20",
       "location": "up",
       "color": "#FFFFFF",

@@ -5,9 +5,9 @@
       "route_long_name": "N",
       "route_color": "#9F26B5",
       "route_text_color": "#FFFFFF",
-      "x1": "6",
+      "x1": "7",
       "y1": "24",
-      "x2": "8",
+      "x2": "9",
       "y2": "22"
     },
     {
@@ -15,9 +15,9 @@
       "route_long_name": "N",
       "route_color": "#9F26B5",
       "route_text_color": "#FFFFFF",
-      "x1": "8",
+      "x1": "9",
       "y1": "22",
-      "x2": "8",
+      "x2": "9",
       "y2": "16"
     },
     {
@@ -25,9 +25,9 @@
       "route_long_name": "G",
       "route_color": "#F6B221",
       "route_text_color": "#FFFFFF",
-      "x1": "0",
+      "x1": "1",
       "y1": "20",
-      "x2": "5",
+      "x2": "6",
       "y2": "20"
     },
     {
@@ -35,9 +35,9 @@
       "route_long_name": "G",
       "route_color": "#F6B221",
       "route_text_color": "#FFFFFF",
-      "x1": "5",
+      "x1": "6",
       "y1": "20",
-      "x2": "6",
+      "x2": "7",
       "y2": "21"
     },
     {
@@ -45,9 +45,9 @@
       "route_long_name": "A",
       "route_color": "#57C1E9",
       "route_text_color": "#FFFFFF",
-      "x1": "6",
+      "x1": "7",
       "y1": "24",
-      "x2": "13",
+      "x2": "14",
       "y2": "24"
     },
     {
@@ -55,9 +55,9 @@
       "route_long_name": "B",
       "route_color": "#4E9D2D",
       "route_text_color": "#FFFFFF",
-      "x1": "6",
+      "x1": "7",
       "y1": "24",
-      "x2": "6",
+      "x2": "7",
       "y2": "19"
     },
     {
@@ -65,9 +65,9 @@
       "route_long_name": "B",
       "route_color": "#4E9D2D",
       "route_text_color": "#FFFFFF",
-      "x1": "6",
+      "x1": "7",
       "y1": "24",
-      "x2": "5",
+      "x2": "6",
       "y2": "25"
     }
   ]
