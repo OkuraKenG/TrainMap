@@ -1,8 +1,6 @@
 stop_id,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_code,wheelchair_boarding
 MTL5D,Gare Centrale,,  45.500002, -73.566668,1,11010,1
 MTL5B,Gare Centrale,,  45.500002, -73.566668,1,11010,1
-MTL3A,Gare Lucien-L'Allier,,  45.494771, -73.570807,1,11150,0
-MTL3C,Gare Lucien-L'Allier,,  45.494771, -73.570807,1,11150,0
 MTL2A,Gare Vendôme,,  45.473771, -73.603101,1,11160,0
 MTL2C,Gare Vendôme,,  45.473771, -73.603101,1,11160,0
 MTL1A,Gare Montréal-Ouest,,  45.453681, -73.641740,1,11170,0
@@ -69,8 +67,8 @@ SBA2B,Gare Saint-Basile-le-Grand,,  45.523306, -73.305923,5,11470,0
 SBA2D,Gare Saint-Basile-le-Grand,,  45.523306, -73.305923,5,11470,0
 MMS1B,Gare McMasterville,,  45.546052, -73.229775,5,11480,0
 MMS1D,Gare McMasterville,,  45.546052, -73.229775,5,11480,0
-MSH1C,Gare Mont-Saint-Hilaire,,  45.577198, -73.178501,5,11490,0
-MSH1A,Gare Mont-Saint-Hilaire,,  45.577198, -73.178501,5,11490,0
+MSH1C,Gare Mont-Saint-Hilaire,,  45.577198, -73.178501,6,11490,0
+MSH1A,Gare Mont-Saint-Hilaire,,  45.577198, -73.178501,6,11490,0
 LCH4A,Gare Du Canal,,  45.437645, -73.655887,1,11495,0
 LCH4C,Gare Du Canal,,  45.437645, -73.655887,1,11495,0
 LSL1A,Gare LaSalle,,  45.425218, -73.656978,1,11500,0
@@ -81,8 +79,8 @@ SCS1A,Gare Saint-Constant,,  45.373948, -73.570299,5,11520,0
 SCS1C,Gare Saint-Constant,,  45.373948, -73.570299,5,11520,0
 DEL1A,Gare Delson,,  45.366844, -73.540801,5,11530,0
 DEL1C,Gare Delson,,  45.366844, -73.540801,5,11530,0
-CAN1A,Gare Candiac,,  45.360660, -73.514795,5,11540,0
-CAN1C,Gare Candiac,,  45.360660, -73.514795,5,11540,0
+CAN1A,Gare Candiac,,  45.360923, -73.514848,5,11540,0
+CAN1C,Gare Candiac,,  45.360923, -73.514848,5,11540,0
 MTL59C,Gare Ahuntsic,,  45.535026, -73.662662,1,11550,1
 MTL59A,Gare Ahuntsic,,  45.535026, -73.662662,1,11550,1
 MTL58C,Gare Sauvé,,  45.549408, -73.654339,1,11560,1
@@ -103,3 +101,19 @@ LCN1C,Gare Terrebonne,,  45.728495, -73.521187,5,11640,1
 LCN1A,Gare Terrebonne,,  45.728495, -73.521187,5,11640,1
 MAS1C,Gare Mascouche,,  45.729587, -73.598495,5,11650,1
 MAS1A,Gare Mascouche,,  45.729587, -73.598495,5,11650,1
+_BALLAN,Ballantyne,,  45.447867, -73.680770,,99916,0
+_BALLANT,Ballantyne,,  45.452500, -73.686638,,FA0002,0
+_Josy,Josy Receving,,  45.487885, -73.676139,,FA0003,0
+_PAT_Sud,Début Sud de la voie d'évitement Pointes-aux-Trembles,,  45.677631, -73.495249,,FA0004,0
+_PAT_Nord,Fin Nord voie de contournement Pointe-aux-Trembles,,  45.694456, -73.488690,,FA0005,0
+_Hibernia,Hibernia,,  45.478019, -73.564211,,FA0006,0
+_Chlemagne,Faux arrêt Voie de contournement Charlemagne,,  45.731546, -73.486611,,FA0020,0
+_RDP_Sud,Rivières-des-Prairies Sud,,  45.628154, -73.583037,,FA0021,0
+_RDP_Nord,Rivière-des-Prairies Nord,,  45.642338, -73.564132,,FA0022,0
+Turcot,Turcot Ouest,,  45.451478, -73.633384,,FA0023,0
+_ST_Henri,Saint-Henri,,  45.473696, -73.591113,,FA0024,0
+_Lachine,Canal Lachine,,  45.476887, -73.581406,,FA0025,0
+_Bridge_N,Bridge Nord,,  45.489205, -73.556482,,FA0026,0
+Wellington,Wellington,,  45.492605, -73.555951,,FA0027,0
+_Paco,Paco,,  45.494674, -73.556294,,FA0028,0
+Montreal,Montréal,,  45.498368, -73.563151,,FA0029,0

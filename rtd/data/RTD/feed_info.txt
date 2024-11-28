@@ -1,2 +1,2 @@
 feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
-RTD,http://rtd-denver.com,en,20230528,20240106,Merged-32286M32271-20230830-040251-May23 and Sep23
+RTD,http://rtd-denver.com,en,20240929,20250118,Sep24-34235-17-21-20241127-030134

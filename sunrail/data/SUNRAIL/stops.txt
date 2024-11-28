@@ -15,3 +15,4 @@ stop_id,stop_name,stop_lat,stop_lon,zone_id,stop_url,wheelchair_boarding
 22,Tupperware,28.343098,-81.390023,4,http://sunrail.com/station/tupperware/,1
 23,Kissimmee,28.293801,-81.404142,4,http://sunrail.com/station/kissimmee-amtrak/,1
 24,Poinciana,28.258907,-81.484367,4,http://sunrail.com/station/poinciana/,1
+25,DeLand,29.01783,-81.35266,1,http://sunrail.com/station/deland/,1
